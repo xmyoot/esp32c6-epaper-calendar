@@ -1,0 +1,66 @@
+{
+  "datasheets/SSW-sockets.pdf": {
+    "bytes": 471452,
+    "sha256": "6d89f5c186a49e0f52f37d7bf7b5095081aff8f98e5ba18a85b0811caaf6f509"
+  },
+  "datasheets/SGM6029.pdf": {
+    "bytes": 1989485,
+    "sha256": "79d7e25abc3acfd18ab9c394e082663e07dc169151b4bfe0314c13510ced63e0"
+  },
+  "datasheets/C859932.pdf": {
+    "bytes": 816220,
+    "sha256": "55677caab9486bb0e06118fbf970ee21503374353536f987e2ba57a293641b05"
+  },
+  "datasheets/Vishay-PTN-SIL-029-2026.pdf": {
+    "bytes": 197600,
+    "sha256": "23d0f215190085e4bc5807424ec553eefd192129f70af225b9e74e087f937851"
+  },
+  "datasheets/FH12.pdf": {
+    "bytes": 864037,
+    "sha256": "b952992e6b8051669139e2f57df482dd89120953379e21148ebc85d00c6c078e"
+  },
+  "datasheets/C77083.pdf": {
+    "bytes": 10764016,
+    "sha256": "9a8a89cd730ba1b1b678b51bad5ab28083f45ed6a8d1ee61fcf7180834feebb5"
+  },
+  "datasheets/C77336.pdf": {
+    "bytes": 919526,
+    "sha256": "424cd3922d59cd8bc0c1ce7abac1b1487b4277026431db9a805ba74d2731a554"
+  },
+  "datasheets/C3289597.pdf": {
+    "bytes": 260342,
+    "sha256": "10f636a424217a0de1e061a43efdd12b2410f1c13ae30602ecc1a69886cc8c71"
+  },
+  "datasheets/C25105.pdf": {
+    "bytes": 467557,
+    "sha256": "11cd644d5d8a34a6d12775afb80bf58d8fc11f0c3b700dbd0f7a59942ceaa5ef"
+  },
+  "datasheets/C202112.pdf": {
+    "bytes": 708437,
+    "sha256": "9f056f58ff000739633cc3cb7697ba185967083dcf1429b7ab10783b3f55bac5"
+  },
+  "datasheets/C77102.pdf": {
+    "bytes": 10764016,
+    "sha256": "9a8a89cd730ba1b1b678b51bad5ab28083f45ed6a8d1ee61fcf7180834feebb5"
+  },
+  "datasheets/C132170.pdf": {
+    "bytes": 1131214,
+    "sha256": "61a606825ab314ea318cfb5362848a62fdffb851efa9818d642e9a541c56a648"
+  },
+  "datasheets/C327076.pdf": {
+    "bytes": 816220,
+    "sha256": "f13c939f4b358d4e08ef82c92df8196f1e238a517190323102ed1bdcbf434f69"
+  },
+  "datasheets/SRN4018.pdf": {
+    "bytes": 478164,
+    "sha256": "3733a494f0443726e01072217fd8d58c7a0e7dad152ae121815edf4a8a8e741e"
+  },
+  "datasheets/C1525.pdf": {
+    "bytes": 7856403,
+    "sha256": "96baebe4bd0ce363e87be28b5b003f511f1502e084a6fc4f02333ded56c808f6"
+  },
+  "datasheets/Si1308EDL.pdf": {
+    "bytes": 259741,
+    "sha256": "a86d6f766f259d8b170a01081f577055f37b527257a0f9af497c8f2c33625c9a"
+  }
+}

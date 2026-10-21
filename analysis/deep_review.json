@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "produced_for_run_id": "reva-final",
+  "produced_at": "2026-10-20T14:46:28.086538+00:00",
+  "findings": [
+    {
+      "detector": "deep_review",
+      "category": "hardware",
+      "severity": "info",
+      "confidence": "high",
+      "summary": "All declared connector and component pin mappings agree with native files",
+      "description": "Independent critical source table, exported native schematic netlist, and native PCB pad data compared. Physical flex mating still requires dry-fit.",
+      "evidence": {
+        "components": [
+          "J1",
+          "J2",
+          "J3",
+          "Q1",
+          "D1",
+          "D2",
+          "D3"
+        ],
+        "computation": {
+          "description": "Independent critical source table, exported native schematic netlist, and native PCB pad data compared. Physical flex mating still requires dry-fit.",
+          "script": "scripts/audit_design.py",
+          "result": "PASS: 37 critical pin checks; 94 declared pin checks; 40 footprints."
+        }
+      },
+      "evidence_checked": "full",
+      "components": [
+        "J1",
+        "J2",
+        "J3",
+        "Q1",
+        "D1",
+        "D2",
+        "D3"
+      ],
+      "finding_id": "deep_review:27a55f752a95"
+    },
+    {
+      "detector": "deep_review",
+      "category": "hardware",
+      "severity": "warning",
+      "confidence": "high",
+      "summary": "Switching losses require measured RMS current",
+      "description": "At the 0.5A RMS bring-up target, calculate resistive losses using 0.185R MOSFET, 0.47R shunt and 0.18R inductor. Switching loss and actual thermal resistance excluded.",
+      "evidence": {
+        "components": [
+          "Q1",
+          "R7",
+          "L1"
+        ],
+        "computation": {
+          "description": "At the 0.5A RMS bring-up target, calculate resistive losses using 0.185R MOSFET, 0.47R shunt and 0.18R inductor. Switching loss and actual thermal resistance excluded.",
+          "script": "analysis/helpers/power_budget.py",
+          "result": "Q1 conduction 0.04625W; R7 0.1175W; L1 copper 0.045W."
+        }
+      },
+      "evidence_checked": "full",
+      "components": [
+        "Q1",
+        "R7",
+        "L1"
+      ],
+      "finding_id": "deep_review:5860e7363033"
+    },
+    {
+      "detector": "deep_review",
+      "category": "hardware",
+      "severity": "warning",
+      "confidence": "high",
+      "summary": "Shared supply budget retains 50mA planned margin",
+      "description": "Planning allocations 0.50A module + 0.15A carrier against 0.70A conservative shared budget; actual peaks not measured.",
+      "evidence": {
+        "components": [
+          "J2",
+          "R1",
+          "C1",
+          "C12"
+        ],
+        "computation": {
+          "description": "Planning allocations 0.50A module + 0.15A carrier against 0.70A conservative shared budget; actual peaks not measured.",
+          "script": "analysis/helpers/power_budget.py",
+          "result": "0.05A margin; 15.8uF nominal local 3V3 capacitance."
+        }
+      },
+      "evidence_checked": "full",
+      "components": [
+        "J2",
+        "R1",
+        "C1",
+        "C12"
+      ],
+      "finding_id": "deep_review:dc615afcb9ec"
+    }
+  ],
+  "quarantined": []
+}

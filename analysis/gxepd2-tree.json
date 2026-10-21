@@ -1,0 +1,3990 @@
+{
+  "sha": "de82887e77a78528ea386e68bba2cb0291d2c319",
+  "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/de82887e77a78528ea386e68bba2cb0291d2c319",
+  "tree": [
+    {
+      "path": "CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "022fe9aea5e27d48076494e25f877a86ed1f0ad8",
+      "size": 919,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/022fe9aea5e27d48076494e25f877a86ed1f0ad8"
+    },
+    {
+      "path": "ConnectingHardware.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd5e79107ddaf6093a9e69641aa24b9a44028f28",
+      "size": 5975,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/dd5e79107ddaf6093a9e69641aa24b9a44028f28"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94a9ed024d3859793618152ea559a168bbcbb5e2",
+      "size": 35147,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/94a9ed024d3859793618152ea559a168bbcbb5e2"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7287a9bf31ffdf83d72ed794c8b2d4ad46515d66",
+      "size": 36036,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/7287a9bf31ffdf83d72ed794c8b2d4ad46515d66"
+    },
+    {
+      "path": "examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "374f5c613201044b7694198c3a4c8510709556bc",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/374f5c613201044b7694198c3a4c8510709556bc"
+    },
+    {
+      "path": "examples/GxEPD2_Example",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "94276a2b6cf1ae2bd5971ccdea491e7fa07e2a8e",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/94276a2b6cf1ae2bd5971ccdea491e7fa07e2a8e"
+    },
+    {
+      "path": "examples/GxEPD2_Example/GxEPD2_Example.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4dbd89c8f3ac39ab109ca82586a32e3287b2a0f",
+      "size": 80037,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/b4dbd89c8f3ac39ab109ca82586a32e3287b2a0f"
+    },
+    {
+      "path": "examples/GxEPD2_Example/GxEPD2_display_selection.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5dbc449f941dca16b29345e9bc3df29af1163e2",
+      "size": 126772,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/b5dbc449f941dca16b29345e9bc3df29af1163e2"
+    },
+    {
+      "path": "examples/GxEPD2_Example/GxEPD2_display_selection_added.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca11f71edb92ea0ca871081703f43c322319e5a9",
+      "size": 91189,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/ca11f71edb92ea0ca871081703f43c322319e5a9"
+    },
+    {
+      "path": "examples/GxEPD2_Example/GxEPD2_display_selection_new_style.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b40be250b625eb9cd85498ef7595b45884159470",
+      "size": 28892,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/b40be250b625eb9cd85498ef7595b45884159470"
+    },
+    {
+      "path": "examples/GxEPD2_Example/GxEPD2_selection_check.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bc4267d77323154b06b26504cf60f306c14569b",
+      "size": 6685,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/2bc4267d77323154b06b26504cf60f306c14569b"
+    },
+    {
+      "path": "examples/GxEPD2_Example/GxEPD2_wiring_examples.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b077d50123decf3e0bbcbc5e7224949ed144d41",
+      "size": 7051,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/7b077d50123decf3e0bbcbc5e7224949ed144d41"
+    },
+    {
+      "path": "examples/GxEPD2_GFX_Example",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "32105b8e172e8c67d876df230ea66819d2208819",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/32105b8e172e8c67d876df230ea66819d2208819"
+    },
+    {
+      "path": "examples/GxEPD2_GFX_Example/BitmapDisplay.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0640fcec32b4ffadf68f8676a1d0e432fd6a1d07",
+      "size": 22629,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/0640fcec32b4ffadf68f8676a1d0e432fd6a1d07"
+    },
+    {
+      "path": "examples/GxEPD2_GFX_Example/BitmapDisplay.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "434193243bd5fe8d526bd12df84865a5eb8d54cc",
+      "size": 1397,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/434193243bd5fe8d526bd12df84865a5eb8d54cc"
+    },
+    {
+      "path": "examples/GxEPD2_GFX_Example/GxEPD2_GFX_Example.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13644b01d29b050ed0f2b48c8ea7c820d82133a5",
+      "size": 8575,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/13644b01d29b050ed0f2b48c8ea7c820d82133a5"
+    },
+    {
+      "path": "examples/GxEPD2_GFX_Example/GxEPD2_display_selection.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5dbc449f941dca16b29345e9bc3df29af1163e2",
+      "size": 126772,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/b5dbc449f941dca16b29345e9bc3df29af1163e2"
+    },
+    {
+      "path": "examples/GxEPD2_GFX_Example/GxEPD2_display_selection_added.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca11f71edb92ea0ca871081703f43c322319e5a9",
+      "size": 91189,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/ca11f71edb92ea0ca871081703f43c322319e5a9"
+    },
+    {
+      "path": "examples/GxEPD2_GFX_Example/GxEPD2_display_selection_new_style.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b40be250b625eb9cd85498ef7595b45884159470",
+      "size": 28892,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/b40be250b625eb9cd85498ef7595b45884159470"
+    },
+    {
+      "path": "examples/GxEPD2_GFX_Example/GxEPD2_selection_check.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bc4267d77323154b06b26504cf60f306c14569b",
+      "size": 6685,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/2bc4267d77323154b06b26504cf60f306c14569b"
+    },
+    {
+      "path": "examples/GxEPD2_GFX_Example/GxEPD2_wiring_examples.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b077d50123decf3e0bbcbc5e7224949ed144d41",
+      "size": 7051,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/7b077d50123decf3e0bbcbc5e7224949ed144d41"
+    },
+    {
+      "path": "examples/GxEPD2_GFX_Example/TextDisplay.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8ae0dc4773cea2f02910df5bde85e4b276439f6",
+      "size": 11346,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/e8ae0dc4773cea2f02910df5bde85e4b276439f6"
+    },
+    {
+      "path": "examples/GxEPD2_GFX_Example/TextDisplay.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "669a719a5b285eb0c6ef48be175dd32d1b313d63",
+      "size": 1113,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/669a719a5b285eb0c6ef48be175dd32d1b313d63"
+    },
+    {
+      "path": "examples/GxEPD2_HelloWorld",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "afaee0007329839cab9410f62cc2f997286405aa",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/afaee0007329839cab9410f62cc2f997286405aa"
+    },
+    {
+      "path": "examples/GxEPD2_HelloWorld/GxEPD2_HelloWorld.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a97cacf28905bfb1a7c036b5ea45946fa091abce",
+      "size": 2832,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/a97cacf28905bfb1a7c036b5ea45946fa091abce"
+    },
+    {
+      "path": "examples/GxEPD2_HelloWorld/GxEPD2_display_selection.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5dbc449f941dca16b29345e9bc3df29af1163e2",
+      "size": 126772,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/b5dbc449f941dca16b29345e9bc3df29af1163e2"
+    },
+    {
+      "path": "examples/GxEPD2_HelloWorld/GxEPD2_display_selection_added.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca11f71edb92ea0ca871081703f43c322319e5a9",
+      "size": 91189,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/ca11f71edb92ea0ca871081703f43c322319e5a9"
+    },
+    {
+      "path": "examples/GxEPD2_HelloWorld/GxEPD2_display_selection_new_style.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b40be250b625eb9cd85498ef7595b45884159470",
+      "size": 28892,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/b40be250b625eb9cd85498ef7595b45884159470"
+    },
+    {
+      "path": "examples/GxEPD2_HelloWorld/GxEPD2_selection_check.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bc4267d77323154b06b26504cf60f306c14569b",
+      "size": 6685,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/2bc4267d77323154b06b26504cf60f306c14569b"
+    },
+    {
+      "path": "examples/GxEPD2_HelloWorld/GxEPD2_wiring_examples.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b077d50123decf3e0bbcbc5e7224949ed144d41",
+      "size": 7051,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/7b077d50123decf3e0bbcbc5e7224949ed144d41"
+    },
+    {
+      "path": "examples/GxEPD2_MultiDisplayExample",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d19363b04370a728e74389bbe6422209c7571baa",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/d19363b04370a728e74389bbe6422209c7571baa"
+    },
+    {
+      "path": "examples/GxEPD2_MultiDisplayExample/GxEPD2_MultiDisplayExample.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ff49536dcd0e1e8414e1758eda9e51074f80813",
+      "size": 37453,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/7ff49536dcd0e1e8414e1758eda9e51074f80813"
+    },
+    {
+      "path": "examples/GxEPD2_NotPagedExample",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "56b95e0f97a26b6d5ae0688cabbdc4cf09ee7d84",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/56b95e0f97a26b6d5ae0688cabbdc4cf09ee7d84"
+    },
+    {
+      "path": "examples/GxEPD2_NotPagedExample/GxEPD2_NotPagedExample.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8f7f3183b265af3fb52617b589c64914ffaa758",
+      "size": 81016,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/b8f7f3183b265af3fb52617b589c64914ffaa758"
+    },
+    {
+      "path": "examples/GxEPD2_NotPagedExample/GxEPD2_display_selection_new_style.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b40be250b625eb9cd85498ef7595b45884159470",
+      "size": 28892,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/b40be250b625eb9cd85498ef7595b45884159470"
+    },
+    {
+      "path": "examples/GxEPD2_NotPagedExample/GxEPD2_selection_check.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bc4267d77323154b06b26504cf60f306c14569b",
+      "size": 6685,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/2bc4267d77323154b06b26504cf60f306c14569b"
+    },
+    {
+      "path": "examples/GxEPD2_NotPagedExample/GxEPD2_wiring_examples.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b077d50123decf3e0bbcbc5e7224949ed144d41",
+      "size": 7051,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/7b077d50123decf3e0bbcbc5e7224949ed144d41"
+    },
+    {
+      "path": "examples/GxEPD2_PagedDisplayUsingCallback",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6f8d6ee358bff53b1da825ff745514e74e627b52",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/6f8d6ee358bff53b1da825ff745514e74e627b52"
+    },
+    {
+      "path": "examples/GxEPD2_PagedDisplayUsingCallback/GxEPD2_PagedDisplayUsingCallback.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79757f0c20f00958c9a5ff3804ec50b768575d99",
+      "size": 27510,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/79757f0c20f00958c9a5ff3804ec50b768575d99"
+    },
+    {
+      "path": "examples/GxEPD2_PagedDisplayUsingCallback/GxEPD2_display_selection_new_style.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b40be250b625eb9cd85498ef7595b45884159470",
+      "size": 28892,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/b40be250b625eb9cd85498ef7595b45884159470"
+    },
+    {
+      "path": "examples/GxEPD2_PagedDisplayUsingCallback/GxEPD2_selection_check.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bc4267d77323154b06b26504cf60f306c14569b",
+      "size": 6685,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/2bc4267d77323154b06b26504cf60f306c14569b"
+    },
+    {
+      "path": "examples/GxEPD2_PagedDisplayUsingCallback/GxEPD2_wiring_examples.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b077d50123decf3e0bbcbc5e7224949ed144d41",
+      "size": 7051,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/7b077d50123decf3e0bbcbc5e7224949ed144d41"
+    },
+    {
+      "path": "examples/GxEPD2_RotaryUsingBusyCallback",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2144277655a5e10fa03aa6660543c0bb0004c1c8",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/2144277655a5e10fa03aa6660543c0bb0004c1c8"
+    },
+    {
+      "path": "examples/GxEPD2_RotaryUsingBusyCallback/BasicEncoder.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c74567866255850cf9f32ae5a855183fba0c2586",
+      "size": 4672,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/c74567866255850cf9f32ae5a855183fba0c2586"
+    },
+    {
+      "path": "examples/GxEPD2_RotaryUsingBusyCallback/GxEPD2_RotaryUsingBusyCallback.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "931e4e9a6f93954c3f68873c199e0c1efa52c697",
+      "size": 5484,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/931e4e9a6f93954c3f68873c199e0c1efa52c697"
+    },
+    {
+      "path": "examples/GxEPD2_RotaryUsingBusyCallback/GxEPD2_display_selection_new_style.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b40be250b625eb9cd85498ef7595b45884159470",
+      "size": 28892,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/b40be250b625eb9cd85498ef7595b45884159470"
+    },
+    {
+      "path": "examples/GxEPD2_RotaryUsingBusyCallback/GxEPD2_selection_check.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bc4267d77323154b06b26504cf60f306c14569b",
+      "size": 6685,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/2bc4267d77323154b06b26504cf60f306c14569b"
+    },
+    {
+      "path": "examples/GxEPD2_RotaryUsingBusyCallback/GxEPD2_wiring_examples.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b077d50123decf3e0bbcbc5e7224949ed144d41",
+      "size": 7051,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/7b077d50123decf3e0bbcbc5e7224949ed144d41"
+    },
+    {
+      "path": "examples/GxEPD2_SD_AVR_Example",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e004fd868152aef32b6ba243b49b4a55cc2741f5",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/e004fd868152aef32b6ba243b49b4a55cc2741f5"
+    },
+    {
+      "path": "examples/GxEPD2_SD_AVR_Example/GxEPD2_SD_AVR_Example.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a92e3a3b1edcecc8ba93c0d0cf68c1e07ae66db",
+      "size": 22056,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/1a92e3a3b1edcecc8ba93c0d0cf68c1e07ae66db"
+    },
+    {
+      "path": "examples/GxEPD2_SD_AVR_Example/GxEPD2_SD_AVR_boards_added.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24b118cf0bcb4673e1eea820d85f503b6f746953",
+      "size": 1714,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/24b118cf0bcb4673e1eea820d85f503b6f746953"
+    },
+    {
+      "path": "examples/GxEPD2_SD_AVR_Example/GxEPD2_wiring_examples.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b077d50123decf3e0bbcbc5e7224949ed144d41",
+      "size": 7051,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/7b077d50123decf3e0bbcbc5e7224949ed144d41"
+    },
+    {
+      "path": "examples/GxEPD2_SD_Example",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a76cc02d338cb037fe59037586f73bf966f7f9b9",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/a76cc02d338cb037fe59037586f73bf966f7f9b9"
+    },
+    {
+      "path": "examples/GxEPD2_SD_Example/GxEPD2_SD_Example.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "817b35e02fd22e8301b085f8aaf93d7ab84994be",
+      "size": 32782,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/817b35e02fd22e8301b085f8aaf93d7ab84994be"
+    },
+    {
+      "path": "examples/GxEPD2_SD_Example/GxEPD2_display_selection_new_style.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b40be250b625eb9cd85498ef7595b45884159470",
+      "size": 28892,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/b40be250b625eb9cd85498ef7595b45884159470"
+    },
+    {
+      "path": "examples/GxEPD2_SD_Example/GxEPD2_selection_check.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bc4267d77323154b06b26504cf60f306c14569b",
+      "size": 6685,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/2bc4267d77323154b06b26504cf60f306c14569b"
+    },
+    {
+      "path": "examples/GxEPD2_SD_Example/GxEPD2_wiring_examples.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b077d50123decf3e0bbcbc5e7224949ed144d41",
+      "size": 7051,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/7b077d50123decf3e0bbcbc5e7224949ed144d41"
+    },
+    {
+      "path": "examples/GxEPD2_SD_Example/bitmaps",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5141df9abac9e6673e5ffb114b85a9c0ff459df0",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/5141df9abac9e6673e5ffb114b85a9c0ff459df0"
+    },
+    {
+      "path": "examples/GxEPD2_SD_Example/bitmaps/5in65f3.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11c0fd65219fad8f563ac68adea312b1e2ba0410",
+      "size": 806454,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/11c0fd65219fad8f563ac68adea312b1e2ba0410"
+    },
+    {
+      "path": "examples/GxEPD2_SD_Example/bitmaps/Bitmap640x384_1.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81434885d9afd7ec652855d2a0bc60dd6742d689",
+      "size": 30782,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/81434885d9afd7ec652855d2a0bc60dd6742d689"
+    },
+    {
+      "path": "examples/GxEPD2_SD_Example/bitmaps/Bitmap640x384_2.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb430535b7e7e1827964eb293558d4e76f0830af",
+      "size": 30782,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/bb430535b7e7e1827964eb293558d4e76f0830af"
+    },
+    {
+      "path": "examples/GxEPD2_SD_Example/bitmaps/LOGO.BMP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1abba7d7fa40ca5d22e9498023066bc4c48a034f",
+      "size": 25214,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/1abba7d7fa40ca5d22e9498023066bc4c48a034f"
+    },
+    {
+      "path": "examples/GxEPD2_SD_Example/bitmaps/bb4.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0631d9e0462bd5cc0bf352d9c7bd4312a6e66679",
+      "size": 206,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/0631d9e0462bd5cc0bf352d9c7bd4312a6e66679"
+    },
+    {
+      "path": "examples/GxEPD2_SD_Example/bitmaps/betty_1.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc9df3b4a4e8ee6232c72d130b389314c54898cb",
+      "size": 9022,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/dc9df3b4a4e8ee6232c72d130b389314c54898cb"
+    },
+    {
+      "path": "examples/GxEPD2_SD_Example/bitmaps/eighth200x200.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "589eef88c1ee938a1cb297f3fbc13abfc599f539",
+      "size": 5662,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/589eef88c1ee938a1cb297f3fbc13abfc599f539"
+    },
+    {
+      "path": "examples/GxEPD2_SD_Example/bitmaps/fifth200x200.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4439b9f522a21016154ef2557d951e579215f5ec",
+      "size": 5662,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/4439b9f522a21016154ef2557d951e579215f5ec"
+    },
+    {
+      "path": "examples/GxEPD2_SD_Example/bitmaps/first200x200.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5a7d2b459e80fd12a5a6ad1c7cf2e84ff4693ee",
+      "size": 5662,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/c5a7d2b459e80fd12a5a6ad1c7cf2e84ff4693ee"
+    },
+    {
+      "path": "examples/GxEPD2_SD_Example/bitmaps/fourth200x200.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86e474f4a762ebdc91a37a5b77f16c3686859f51",
+      "size": 5662,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/86e474f4a762ebdc91a37a5b77f16c3686859f51"
+    },
+    {
+      "path": "examples/GxEPD2_SD_Example/bitmaps/logo200x200.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af4e9ea1ecff0d02f4b6555e5a83f213bda3237d",
+      "size": 5662,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/af4e9ea1ecff0d02f4b6555e5a83f213bda3237d"
+    },
+    {
+      "path": "examples/GxEPD2_SD_Example/bitmaps/parrot.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a98c4eb2542eb4374c02719d281f96069747df12",
+      "size": 61496,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/a98c4eb2542eb4374c02719d281f96069747df12"
+    },
+    {
+      "path": "examples/GxEPD2_SD_Example/bitmaps/rgb32.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d57eaaea8a503668a94d43dcb62a9c840b5ca39",
+      "size": 32566,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/5d57eaaea8a503668a94d43dcb62a9c840b5ca39"
+    },
+    {
+      "path": "examples/GxEPD2_SD_Example/bitmaps/second200x200.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ed021469c3e9b4cc0f0029b901451a76039016e",
+      "size": 5662,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/5ed021469c3e9b4cc0f0029b901451a76039016e"
+    },
+    {
+      "path": "examples/GxEPD2_SD_Example/bitmaps/seventh200x200.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10e1d4acf133c73e4cb6724619c2bec7b561fc95",
+      "size": 5662,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/10e1d4acf133c73e4cb6724619c2bec7b561fc95"
+    },
+    {
+      "path": "examples/GxEPD2_SD_Example/bitmaps/sixth200x200.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9a803aabff2bee38f5c42facf9e56ec3e1eaa65",
+      "size": 5662,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/e9a803aabff2bee38f5c42facf9e56ec3e1eaa65"
+    },
+    {
+      "path": "examples/GxEPD2_SD_Example/bitmaps/third200x200.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92e35941e44bfe7ea8f1126ac7621e50300fe525",
+      "size": 5662,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/92e35941e44bfe7ea8f1126ac7621e50300fe525"
+    },
+    {
+      "path": "examples/GxEPD2_SD_WriteBitmap",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7aed03c12a50a37a78231792c730f8a9ee7713ce",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/7aed03c12a50a37a78231792c730f8a9ee7713ce"
+    },
+    {
+      "path": "examples/GxEPD2_SD_WriteBitmap/GxEPD2_SD_WriteBitmap.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2b981bb2498b7d99657356e12d30952990a4f12",
+      "size": 8312,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/b2b981bb2498b7d99657356e12d30952990a4f12"
+    },
+    {
+      "path": "examples/GxEPD2_SerialFlash_Example",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "85fd9e8d3e487e318599a27236963763530a1c46",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/85fd9e8d3e487e318599a27236963763530a1c46"
+    },
+    {
+      "path": "examples/GxEPD2_SerialFlash_Example/GxEPD2_SerialFlash_Example.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52cd281cd7aac02bca87ba9ebe9980dcaf1c290b",
+      "size": 28018,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/52cd281cd7aac02bca87ba9ebe9980dcaf1c290b"
+    },
+    {
+      "path": "examples/GxEPD2_SerialFlash_Example/GxEPD2_display_selection_new_style.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b40be250b625eb9cd85498ef7595b45884159470",
+      "size": 28892,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/b40be250b625eb9cd85498ef7595b45884159470"
+    },
+    {
+      "path": "examples/GxEPD2_SerialFlash_Example/GxEPD2_selection_check.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bc4267d77323154b06b26504cf60f306c14569b",
+      "size": 6685,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/2bc4267d77323154b06b26504cf60f306c14569b"
+    },
+    {
+      "path": "examples/GxEPD2_SerialFlash_Example/GxEPD2_wiring_examples.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b077d50123decf3e0bbcbc5e7224949ed144d41",
+      "size": 7051,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/7b077d50123decf3e0bbcbc5e7224949ed144d41"
+    },
+    {
+      "path": "examples/GxEPD2_SerialFlash_Loader",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1d6ec71dd5b5cf87622694de7d41e680b9af53da",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/1d6ec71dd5b5cf87622694de7d41e680b9af53da"
+    },
+    {
+      "path": "examples/GxEPD2_SerialFlash_Loader/GxEPD2_SerialFlash_Loader.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31bf24c890b4a7c8a1630d4c7bbeb2899bdebd1d",
+      "size": 16232,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/31bf24c890b4a7c8a1630d4c7bbeb2899bdebd1d"
+    },
+    {
+      "path": "examples/GxEPD2_SerialFlash_Loader/GxEPD2_github_raw_certs.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2657719266667378814576e9b489704e392651a5",
+      "size": 8602,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/2657719266667378814576e9b489704e392651a5"
+    },
+    {
+      "path": "examples/GxEPD2_Spiffs_Example",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d737791dfde5c932cabfe417361b137c6e871259",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/d737791dfde5c932cabfe417361b137c6e871259"
+    },
+    {
+      "path": "examples/GxEPD2_Spiffs_Example/GxEPD2_Spiffs_Example.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb53aff121c308dc26fad90ce1ff558d69c63d33",
+      "size": 25626,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/cb53aff121c308dc26fad90ce1ff558d69c63d33"
+    },
+    {
+      "path": "examples/GxEPD2_Spiffs_Example/GxEPD2_display_selection_new_style.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b40be250b625eb9cd85498ef7595b45884159470",
+      "size": 28892,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/b40be250b625eb9cd85498ef7595b45884159470"
+    },
+    {
+      "path": "examples/GxEPD2_Spiffs_Example/GxEPD2_selection_check.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bc4267d77323154b06b26504cf60f306c14569b",
+      "size": 6685,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/2bc4267d77323154b06b26504cf60f306c14569b"
+    },
+    {
+      "path": "examples/GxEPD2_Spiffs_Example/GxEPD2_wiring_examples.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b077d50123decf3e0bbcbc5e7224949ed144d41",
+      "size": 7051,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/7b077d50123decf3e0bbcbc5e7224949ed144d41"
+    },
+    {
+      "path": "examples/GxEPD2_Spiffs_Example/SPIFFS_Support.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df4d251506d9d0f3e6a90406722a963c0277a6a3",
+      "size": 2481,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/df4d251506d9d0f3e6a90406722a963c0277a6a3"
+    },
+    {
+      "path": "examples/GxEPD2_Spiffs_Loader",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8032ff97267759ece1abbd2066f3c9861cbeafb5",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/8032ff97267759ece1abbd2066f3c9861cbeafb5"
+    },
+    {
+      "path": "examples/GxEPD2_Spiffs_Loader/GxEPD2_Spiffs_Loader.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07df4aa7de2de8f17c3745529679f1bfba741096",
+      "size": 14609,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/07df4aa7de2de8f17c3745529679f1bfba741096"
+    },
+    {
+      "path": "examples/GxEPD2_Spiffs_Loader/GxEPD2_github_raw_certs.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75ad6981045c6aa8d215f0fa3283c4a33c2f7579",
+      "size": 11202,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/75ad6981045c6aa8d215f0fa3283c4a33c2f7579"
+    },
+    {
+      "path": "examples/GxEPD2_Spiffs_Loader/SPIFFS_Support.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df4d251506d9d0f3e6a90406722a963c0277a6a3",
+      "size": 2481,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/df4d251506d9d0f3e6a90406722a963c0277a6a3"
+    },
+    {
+      "path": "examples/GxEPD2_U8G2_Fonts_Example",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "78b7ba7b8636eb7fc74d8aad8192fd5ade3d1b16",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/78b7ba7b8636eb7fc74d8aad8192fd5ade3d1b16"
+    },
+    {
+      "path": "examples/GxEPD2_U8G2_Fonts_Example/GxEPD2_U8G2_Fonts_Example.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a64a8429166e66ab35290ea19c5f6334e379e9b",
+      "size": 7820,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/5a64a8429166e66ab35290ea19c5f6334e379e9b"
+    },
+    {
+      "path": "examples/GxEPD2_U8G2_Fonts_Example/GxEPD2_display_selection_new_style.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b40be250b625eb9cd85498ef7595b45884159470",
+      "size": 28892,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/b40be250b625eb9cd85498ef7595b45884159470"
+    },
+    {
+      "path": "examples/GxEPD2_U8G2_Fonts_Example/GxEPD2_selection_check.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bc4267d77323154b06b26504cf60f306c14569b",
+      "size": 6685,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/2bc4267d77323154b06b26504cf60f306c14569b"
+    },
+    {
+      "path": "examples/GxEPD2_U8G2_Fonts_Example/GxEPD2_wiring_examples.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b077d50123decf3e0bbcbc5e7224949ed144d41",
+      "size": 7051,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/7b077d50123decf3e0bbcbc5e7224949ed144d41"
+    },
+    {
+      "path": "examples/GxEPD2_WS_ESP32_Driver",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "69c182681c92a16dd5c5fd46c6d42a26cfd40dac",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/69c182681c92a16dd5c5fd46c6d42a26cfd40dac"
+    },
+    {
+      "path": "examples/GxEPD2_WS_ESP32_Driver/GxEPD2_WS_ESP32_Driver.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd70dde0b2e1c77c8c1381fcbccd9356bf10fc78",
+      "size": 43743,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/fd70dde0b2e1c77c8c1381fcbccd9356bf10fc78"
+    },
+    {
+      "path": "examples/GxEPD2_WiFi_CertStore_Example",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "21f9eabe3b7230799daee8d9df631e8a995af6f3",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/21f9eabe3b7230799daee8d9df631e8a995af6f3"
+    },
+    {
+      "path": "examples/GxEPD2_WiFi_CertStore_Example/GxEPD2_WiFi_CertStore_Example.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1da122989b49b925225c483806bc6832c26b70e9",
+      "size": 76571,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/1da122989b49b925225c483806bc6832c26b70e9"
+    },
+    {
+      "path": "examples/GxEPD2_WiFi_CertStore_Example/GxEPD2_github_raw_certs.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75ad6981045c6aa8d215f0fa3283c4a33c2f7579",
+      "size": 11202,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/75ad6981045c6aa8d215f0fa3283c4a33c2f7579"
+    },
+    {
+      "path": "examples/GxEPD2_WiFi_CertStore_Example/GxEPD2_wiring_examples.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b077d50123decf3e0bbcbc5e7224949ed144d41",
+      "size": 7051,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/7b077d50123decf3e0bbcbc5e7224949ed144d41"
+    },
+    {
+      "path": "examples/GxEPD2_WiFi_CertStore_Loader",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c8cb8f8f1ad6f4e44166ad73ef41704bd45d250f",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/c8cb8f8f1ad6f4e44166ad73ef41704bd45d250f"
+    },
+    {
+      "path": "examples/GxEPD2_WiFi_CertStore_Loader/GxEPD2_WiFi_CertStore_Loader.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80bc3329c86f8f0e1ef483e080fa2b92f1667a6e",
+      "size": 10030,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/80bc3329c86f8f0e1ef483e080fa2b92f1667a6e"
+    },
+    {
+      "path": "examples/GxEPD2_WiFi_CertStore_Loader/SPIFFS_Support.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df4d251506d9d0f3e6a90406722a963c0277a6a3",
+      "size": 2481,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/df4d251506d9d0f3e6a90406722a963c0277a6a3"
+    },
+    {
+      "path": "examples/GxEPD2_WiFi_CertStore_Loader/certs.ar",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c31f81020771ca6748b31c6a2ddb249647a620ee",
+      "size": 191920,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/c31f81020771ca6748b31c6a2ddb249647a620ee"
+    },
+    {
+      "path": "examples/GxEPD2_WiFi_CertStore_Loader/certs_list.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58aec6aa0394b3b592ca8b6ace21a9879c5d074f",
+      "size": 12605,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/58aec6aa0394b3b592ca8b6ace21a9879c5d074f"
+    },
+    {
+      "path": "examples/GxEPD2_WiFi_CertStore_Loader/update_certs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3fde8dd8f2487dde6b5ceff0e14ee54a06c07d82",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/3fde8dd8f2487dde6b5ceff0e14ee54a06c07d82"
+    },
+    {
+      "path": "examples/GxEPD2_WiFi_CertStore_Loader/update_certs/certs-from-mozilla.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b110a0a8525a87d12f5f0bf65c9a75214daf5ebb",
+      "size": 2759,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/b110a0a8525a87d12f5f0bf65c9a75214daf5ebb"
+    },
+    {
+      "path": "examples/GxEPD2_WiFi_CertStore_Loader/update_certs/update_certs.cmd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f28557fd7978cdbcad07b8a0d1ccb01587090796",
+      "size": 730,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/f28557fd7978cdbcad07b8a0d1ccb01587090796"
+    },
+    {
+      "path": "examples/GxEPD2_WiFi_Example",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fcbd1e359ed933affbaf149acd3c78e07e03e752",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/fcbd1e359ed933affbaf149acd3c78e07e03e752"
+    },
+    {
+      "path": "examples/GxEPD2_WiFi_Example/GxEPD2_WiFi_Buffered.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "830deb297b92549c4228784b8ac635c2e8870843",
+      "size": 21769,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/830deb297b92549c4228784b8ac635c2e8870843"
+    },
+    {
+      "path": "examples/GxEPD2_WiFi_Example/GxEPD2_WiFi_DisplaySelection.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35bc24e469387232a247fea98053a0c44b27db19",
+      "size": 17553,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/35bc24e469387232a247fea98053a0c44b27db19"
+    },
+    {
+      "path": "examples/GxEPD2_WiFi_Example/GxEPD2_WiFi_Example.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8347551e05788a244992cbbca35041386ad57ec3",
+      "size": 44210,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/8347551e05788a244992cbbca35041386ad57ec3"
+    },
+    {
+      "path": "examples/GxEPD2_WiFi_Example/GxEPD2_WiFi_Native4c.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56ee6725d72dde0dfa86a2d551815a7b0fa5b67f",
+      "size": 17943,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/56ee6725d72dde0dfa86a2d551815a7b0fa5b67f"
+    },
+    {
+      "path": "examples/GxEPD2_WiFi_Example/GxEPD2_WiFi_Native7c.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9f9a840db4a5fea9ddf71da2045eba38b3df229",
+      "size": 18655,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/d9f9a840db4a5fea9ddf71da2045eba38b3df229"
+    },
+    {
+      "path": "examples/GxEPD2_WiFi_Example/GxEPD2_github_raw_certs.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75ad6981045c6aa8d215f0fa3283c4a33c2f7579",
+      "size": 11202,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/75ad6981045c6aa8d215f0fa3283c4a33c2f7579"
+    },
+    {
+      "path": "examples/GxEPD2x_FastBlackWhiteOnColor",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "80dd4c55f9110f410632168df80a8c9e1849ea48",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/80dd4c55f9110f410632168df80a8c9e1849ea48"
+    },
+    {
+      "path": "examples/GxEPD2x_FastBlackWhiteOnColor/GxEPD2x_FastBlackWhiteOnColor.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a72965c1a9db6ada5831fea32e7573ffcb8b7b43",
+      "size": 5009,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/a72965c1a9db6ada5831fea32e7573ffcb8b7b43"
+    },
+    {
+      "path": "examples/GxEPD2x_MixedTest",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "83e8a2365b2404369ae21f6502eef0d61b2bcf80",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/83e8a2365b2404369ae21f6502eef0d61b2bcf80"
+    },
+    {
+      "path": "examples/GxEPD2x_MixedTest/GxEPD2x_MixedTest.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "880af897611baad60083e512937ed3c565a281e9",
+      "size": 4802,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/880af897611baad60083e512937ed3c565a281e9"
+    },
+    {
+      "path": "extras",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "15f1231759e54980b7386992255d0f5d2df5f544",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/15f1231759e54980b7386992255d0f5d2df5f544"
+    },
+    {
+      "path": "extras/Particle",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e10cbd0c8290898c884ee4e3f8cdc0045890e666",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/e10cbd0c8290898c884ee4e3f8cdc0045890e666"
+    },
+    {
+      "path": "extras/Particle/examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a1ed1d3a4a654b46b86dfe8c77fce61a44550a30",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/a1ed1d3a4a654b46b86dfe8c77fce61a44550a30"
+    },
+    {
+      "path": "extras/Particle/examples/GxEPD2_ParticleExample",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "52f353565cc7b428306ba3736f541b6377735145",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/52f353565cc7b428306ba3736f541b6377735145"
+    },
+    {
+      "path": "extras/Particle/examples/GxEPD2_ParticleExample/project.properties",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "398e2d1f7fcfa5615319637fb3262f44d3ef3a3e",
+      "size": 53,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/398e2d1f7fcfa5615319637fb3262f44d3ef3a3e"
+    },
+    {
+      "path": "extras/Particle/examples/GxEPD2_ParticleExample/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f82307f2c21151c9752d6075bf8a9e83721c3203",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/f82307f2c21151c9752d6075bf8a9e83721c3203"
+    },
+    {
+      "path": "extras/Particle/examples/GxEPD2_ParticleExample/src/GxEPD2_ParticleExample.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb0371c4fdf5eab5c34a49e77f18b9a7a3a8fcf4",
+      "size": 38108,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/bb0371c4fdf5eab5c34a49e77f18b9a7a3a8fcf4"
+    },
+    {
+      "path": "extras/Particle/examples/GxEPD2_WiFi_ParticleExample",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7bed531c746f969e764e39e7dcf7ed878965ed86",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/7bed531c746f969e764e39e7dcf7ed878965ed86"
+    },
+    {
+      "path": "extras/Particle/examples/GxEPD2_WiFi_ParticleExample/project.properties",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88105968b93698cf8f2cdc8b912cacb9815066d7",
+      "size": 58,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/88105968b93698cf8f2cdc8b912cacb9815066d7"
+    },
+    {
+      "path": "extras/Particle/examples/GxEPD2_WiFi_ParticleExample/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d5b9c4bad7be90977d09bb40f970ea8e60cde747",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/d5b9c4bad7be90977d09bb40f970ea8e60cde747"
+    },
+    {
+      "path": "extras/Particle/examples/GxEPD2_WiFi_ParticleExample/src/GxEPD2_WiFi_ParticleExample.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "197bb2e0048e84714ca1eaadfdc1697db220fdc3",
+      "size": 53510,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/197bb2e0048e84714ca1eaadfdc1697db220fdc3"
+    },
+    {
+      "path": "extras/bitmaps",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "aa7df2c752cb210954a1b0cd37b4fa7ed890832e",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/aa7df2c752cb210954a1b0cd37b4fa7ed890832e"
+    },
+    {
+      "path": "extras/bitmaps/Bitmap640x384_1.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81434885d9afd7ec652855d2a0bc60dd6742d689",
+      "size": 30782,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/81434885d9afd7ec652855d2a0bc60dd6742d689"
+    },
+    {
+      "path": "extras/bitmaps/Bitmap640x384_2.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb430535b7e7e1827964eb293558d4e76f0830af",
+      "size": 30782,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/bb430535b7e7e1827964eb293558d4e76f0830af"
+    },
+    {
+      "path": "extras/bitmaps/bb4.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0631d9e0462bd5cc0bf352d9c7bd4312a6e66679",
+      "size": 206,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/0631d9e0462bd5cc0bf352d9c7bd4312a6e66679"
+    },
+    {
+      "path": "extras/bitmaps/betty_1.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc9df3b4a4e8ee6232c72d130b389314c54898cb",
+      "size": 9022,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/dc9df3b4a4e8ee6232c72d130b389314c54898cb"
+    },
+    {
+      "path": "extras/bitmaps/betty_4.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2d1e8cfed529a7987f0ab54b9131037bb7e865d",
+      "size": 26326,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/b2d1e8cfed529a7987f0ab54b9131037bb7e865d"
+    },
+    {
+      "path": "extras/bitmaps/displayed_bmp_large.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e49324caed6e817032dc9d1052cb4be4ff41117e",
+      "size": 192118,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/e49324caed6e817032dc9d1052cb4be4ff41117e"
+    },
+    {
+      "path": "extras/bitmaps/displayed_bmp_small_but_padded.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e8e690b00cc2ebcace1d4bf5381d56f6e9692af",
+      "size": 192118,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/7e8e690b00cc2ebcace1d4bf5381d56f6e9692af"
+    },
+    {
+      "path": "extras/bitmaps/eighth200x200.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "589eef88c1ee938a1cb297f3fbc13abfc599f539",
+      "size": 5662,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/589eef88c1ee938a1cb297f3fbc13abfc599f539"
+    },
+    {
+      "path": "extras/bitmaps/fifth200x200.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4439b9f522a21016154ef2557d951e579215f5ec",
+      "size": 5662,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/4439b9f522a21016154ef2557d951e579215f5ec"
+    },
+    {
+      "path": "extras/bitmaps/first200x200.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5a7d2b459e80fd12a5a6ad1c7cf2e84ff4693ee",
+      "size": 5662,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/c5a7d2b459e80fd12a5a6ad1c7cf2e84ff4693ee"
+    },
+    {
+      "path": "extras/bitmaps/fourth200x200.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86e474f4a762ebdc91a37a5b77f16c3686859f51",
+      "size": 5662,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/86e474f4a762ebdc91a37a5b77f16c3686859f51"
+    },
+    {
+      "path": "extras/bitmaps/liberato640x384.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8a6d75425c2240b9a53e837f2ad737cc015630d",
+      "size": 30782,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/b8a6d75425c2240b9a53e837f2ad737cc015630d"
+    },
+    {
+      "path": "extras/bitmaps/logo.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af4e9ea1ecff0d02f4b6555e5a83f213bda3237d",
+      "size": 5662,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/af4e9ea1ecff0d02f4b6555e5a83f213bda3237d"
+    },
+    {
+      "path": "extras/bitmaps/logo200x200.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af4e9ea1ecff0d02f4b6555e5a83f213bda3237d",
+      "size": 5662,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/af4e9ea1ecff0d02f4b6555e5a83f213bda3237d"
+    },
+    {
+      "path": "extras/bitmaps/marilyn_240x240x8.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "331b230c59122a8e3344c033095e785291548b7a",
+      "size": 58678,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/331b230c59122a8e3344c033095e785291548b7a"
+    },
+    {
+      "path": "extras/bitmaps/miniwoof.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5045d5a03c7aba2df6499a910f6cb60d67b1405",
+      "size": 57654,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/d5045d5a03c7aba2df6499a910f6cb60d67b1405"
+    },
+    {
+      "path": "extras/bitmaps/output5.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da15aa7fa8d80c62454737d0d1b37e04272f1116",
+      "size": 6466,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/da15aa7fa8d80c62454737d0d1b37e04272f1116"
+    },
+    {
+      "path": "extras/bitmaps/output6.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d69274fc1e46cdcebf3660cf87753174c4bb5113",
+      "size": 6398,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/d69274fc1e46cdcebf3660cf87753174c4bb5113"
+    },
+    {
+      "path": "extras/bitmaps/parrot.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a98c4eb2542eb4374c02719d281f96069747df12",
+      "size": 61496,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/a98c4eb2542eb4374c02719d281f96069747df12"
+    },
+    {
+      "path": "extras/bitmaps/second200x200.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ed021469c3e9b4cc0f0029b901451a76039016e",
+      "size": 5662,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/5ed021469c3e9b4cc0f0029b901451a76039016e"
+    },
+    {
+      "path": "extras/bitmaps/seventh200x200.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10e1d4acf133c73e4cb6724619c2bec7b561fc95",
+      "size": 5662,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/10e1d4acf133c73e4cb6724619c2bec7b561fc95"
+    },
+    {
+      "path": "extras/bitmaps/sixth200x200.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9a803aabff2bee38f5c42facf9e56ec3e1eaa65",
+      "size": 5662,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/e9a803aabff2bee38f5c42facf9e56ec3e1eaa65"
+    },
+    {
+      "path": "extras/bitmaps/t200x200.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eca3ac66265ef087a6bf3e6b07e28e999e005225",
+      "size": 120054,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/eca3ac66265ef087a6bf3e6b07e28e999e005225"
+    },
+    {
+      "path": "extras/bitmaps/test.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d8e2bc0aa9fc4f6ca1c2e4bb369a0694c9c509f",
+      "size": 230456,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/2d8e2bc0aa9fc4f6ca1c2e4bb369a0694c9c509f"
+    },
+    {
+      "path": "extras/bitmaps/third200x200.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92e35941e44bfe7ea8f1126ac7621e50300fe525",
+      "size": 5662,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/92e35941e44bfe7ea8f1126ac7621e50300fe525"
+    },
+    {
+      "path": "extras/bitmaps/tiger.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fab38449088c582cac6c0085dd0bdef70062cb83",
+      "size": 230456,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/fab38449088c582cac6c0085dd0bdef70062cb83"
+    },
+    {
+      "path": "extras/bitmaps/tiger16T.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9599d780eba808374d71b49641cf802ee9f9731",
+      "size": 153666,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/b9599d780eba808374d71b49641cf802ee9f9731"
+    },
+    {
+      "path": "extras/bitmaps/tiger_178x160x4.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7779be65a3bd52f64d97fccbb291929256c5c527",
+      "size": 14838,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/7779be65a3bd52f64d97fccbb291929256c5c527"
+    },
+    {
+      "path": "extras/bitmaps/tiger_240x317x4.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ac6d90bc9515c5ec44c8cffc78fb8b63a402dde",
+      "size": 38158,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/4ac6d90bc9515c5ec44c8cffc78fb8b63a402dde"
+    },
+    {
+      "path": "extras/bitmaps/tiger_320x200x24.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b43c05748af1c288ac393dc9cadf26c04fa84c7a",
+      "size": 192054,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/b43c05748af1c288ac393dc9cadf26c04fa84c7a"
+    },
+    {
+      "path": "extras/bitmaps/tractor_1.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75effcacc4262add87629753a9015a84cb7d924a",
+      "size": 6698,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/75effcacc4262add87629753a9015a84cb7d924a"
+    },
+    {
+      "path": "extras/bitmaps/tractor_11.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff1a728eef54d96318dc3990a6ea42810865130c",
+      "size": 6614,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/ff1a728eef54d96318dc3990a6ea42810865130c"
+    },
+    {
+      "path": "extras/bitmaps/tractor_4.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc43261b35913904b7eb7154ffc28a55322bee96",
+      "size": 25682,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/bc43261b35913904b7eb7154ffc28a55322bee96"
+    },
+    {
+      "path": "extras/bitmaps/tractor_44.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "410e2446de801f838bab16de9e782e861529754e",
+      "size": 25598,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/410e2446de801f838bab16de9e782e861529754e"
+    },
+    {
+      "path": "extras/bitmaps/tractor_8.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1a91e20057e040ffa2357dcbf6126308eba45ff",
+      "size": 46592,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/d1a91e20057e040ffa2357dcbf6126308eba45ff"
+    },
+    {
+      "path": "extras/bitmaps/tractor_88.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e015ccc025cf28b1980e6da6e0b54d59c68bb85",
+      "size": 51310,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/6e015ccc025cf28b1980e6da6e0b54d59c68bb85"
+    },
+    {
+      "path": "extras/bitmaps/woof.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c461e2124699d930948b7d56f0e548ed84dfa18",
+      "size": 230456,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/8c461e2124699d930948b7d56f0e548ed84dfa18"
+    },
+    {
+      "path": "extras/bitmaps/z0gs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "634f9cfc2f28b879d4c58cdc8cf602c179675108",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/634f9cfc2f28b879d4c58cdc8cf602c179675108"
+    },
+    {
+      "path": "extras/bitmaps/z0gs/screenshot.bmp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44f4624cec86f7076d670c1b96cb28aaf729002b",
+      "size": 1843254,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/44f4624cec86f7076d670c1b96cb28aaf729002b"
+    },
+    {
+      "path": "extras/examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "86591eb9d5a2941845f49ca0e435134a09a69551",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/86591eb9d5a2941845f49ca0e435134a09a69551"
+    },
+    {
+      "path": "extras/examples/GxEPD2_T_MultiDisplayExample",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "55d5946fd98c93e52139691ad9aa850b8b049721",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/55d5946fd98c93e52139691ad9aa850b8b049721"
+    },
+    {
+      "path": "extras/examples/GxEPD2_T_MultiDisplayExample/GxEPD2_T_MultiDisplayExample.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cac5b0abb53254a0f02d13ca5f86aecb9f3107e",
+      "size": 36436,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/4cac5b0abb53254a0f02d13ca5f86aecb9f3107e"
+    },
+    {
+      "path": "extras/sw_spi",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "edd699dcc8b2c95b09fd1f53dac78cd84b0c5d86",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/edd699dcc8b2c95b09fd1f53dac78cd84b0c5d86"
+    },
+    {
+      "path": "extras/sw_spi/README.MD",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b6021627e55f949454ebcd8ad0a9f0e9dd550fc",
+      "size": 1167,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/2b6021627e55f949454ebcd8ad0a9f0e9dd550fc"
+    },
+    {
+      "path": "extras/sw_spi/README.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b6021627e55f949454ebcd8ad0a9f0e9dd550fc",
+      "size": 1167,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/2b6021627e55f949454ebcd8ad0a9f0e9dd550fc"
+    },
+    {
+      "path": "extras/sw_spi/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f85714299d9274414d30dbf0c2acc640d1f40d1a",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/f85714299d9274414d30dbf0c2acc640d1f40d1a"
+    },
+    {
+      "path": "extras/sw_spi/src/GxEPD2_EPD.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1d7817f59f5f73e8044d0adc8a7cb5361393ffc",
+      "size": 8878,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/d1d7817f59f5f73e8044d0adc8a7cb5361393ffc"
+    },
+    {
+      "path": "extras/sw_spi/src/GxEPD2_EPD.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "723b3f7f3ca14a5c5480f51467a516e808b33384",
+      "size": 8496,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/723b3f7f3ca14a5c5480f51467a516e808b33384"
+    },
+    {
+      "path": "extras/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "432a76070269c8c78116a8c7c11e511526292b5a",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/432a76070269c8c78116a8c7c11e511526292b5a"
+    },
+    {
+      "path": "extras/tests/GxEPD2_FastBlackWhiteOnColorRefreshTests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a599e3ba10b6c4a0f1eb65ab69b0c16f3910449d",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/a599e3ba10b6c4a0f1eb65ab69b0c16f3910449d"
+    },
+    {
+      "path": "extras/tests/GxEPD2_FastBlackWhiteOnColorRefreshTests/GxEPD2_FastBlackWhiteOnColorRefreshTests.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67fc451a31345d810792c8a07b2871965efadf68",
+      "size": 11232,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/67fc451a31345d810792c8a07b2871965efadf68"
+    },
+    {
+      "path": "extras/tests/GxEPD2_FastBlackWhiteOnColorRefreshTests/GxEPD2_display_selection.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f471c8ae10ad0c32f89226774f8c30016da5712",
+      "size": 89519,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/2f471c8ae10ad0c32f89226774f8c30016da5712"
+    },
+    {
+      "path": "extras/tests/GxEPD2_FastBlackWhiteOnColorRefreshTests/GxEPD2_display_selection_added.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3a145980e0b95507b00a030899c924c116f22cf",
+      "size": 76586,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/d3a145980e0b95507b00a030899c924c116f22cf"
+    },
+    {
+      "path": "extras/tests/GxEPD2_FastBlackWhiteOnColorRefreshTests/GxEPD2_display_selection_new_style.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "764ef7a77229c2876535fda49bfa3e07ab6e6bd4",
+      "size": 21408,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/764ef7a77229c2876535fda49bfa3e07ab6e6bd4"
+    },
+    {
+      "path": "extras/tests/GxEPD2_FastBlackWhiteOnColorRefreshTests/GxEPD2_selection_check.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dba0e51c735d0339e4ddbea4c4206311cf04f466",
+      "size": 4254,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/dba0e51c735d0339e4ddbea4c4206311cf04f466"
+    },
+    {
+      "path": "extras/tests/GxEPD2_FastBlackWhiteOnColorRefreshTests/GxEPD2_wiring_examples.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e91ce7357e21ade47c4f7fa297ef11049a2f4661",
+      "size": 5080,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/e91ce7357e21ade47c4f7fa297ef11049a2f4661"
+    },
+    {
+      "path": "extras/tests/GxEPD2_FastBlackWhiteOnColorRefreshTests/Open_Sans_ExtraBold_120.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfc32d88ac84b0c283ef68887f01e648ba14cfd1",
+      "size": 291736,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/bfc32d88ac84b0c283ef68887f01e648ba14cfd1"
+    },
+    {
+      "path": "extras/tests/GxEPD2_FastBlackWhiteOnColorRefreshTests/Open_Sans_ExtraBold_60.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2dc4ad2fc79f4b28e6808a503767d47dbeea0257",
+      "size": 77598,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/2dc4ad2fc79f4b28e6808a503767d47dbeea0257"
+    },
+    {
+      "path": "extras/tests/GxEPD2_MinimumExample",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "af4c5ecc266b38157b59b3b653c70d8e7a3ff985",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/af4c5ecc266b38157b59b3b653c70d8e7a3ff985"
+    },
+    {
+      "path": "extras/tests/GxEPD2_MinimumExample/GxEPD2_MinimumExample.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a5e952f373f4573756257042ff0cddd2e3419fd",
+      "size": 1611,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/4a5e952f373f4573756257042ff0cddd2e3419fd"
+    },
+    {
+      "path": "extras/tests/GxEPD2_MinimumExample/GxEPD2_display_selection_new_style.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "764ef7a77229c2876535fda49bfa3e07ab6e6bd4",
+      "size": 21408,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/764ef7a77229c2876535fda49bfa3e07ab6e6bd4"
+    },
+    {
+      "path": "extras/tests/GxEPD2_MinimumExample/GxEPD2_selection_check.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dba0e51c735d0339e4ddbea4c4206311cf04f466",
+      "size": 4254,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/dba0e51c735d0339e4ddbea4c4206311cf04f466"
+    },
+    {
+      "path": "extras/tests/GxEPD2_MinimumExample/GxEPD2_wiring_examples.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e91ce7357e21ade47c4f7fa297ef11049a2f4661",
+      "size": 5080,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/e91ce7357e21ade47c4f7fa297ef11049a2f4661"
+    },
+    {
+      "path": "extras/tests/GxEPD2_OTP",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b3722eb242ac7537f6c92bf4c1fbc09ad32e9054",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/b3722eb242ac7537f6c92bf4c1fbc09ad32e9054"
+    },
+    {
+      "path": "extras/tests/GxEPD2_OTP/GDEW075Z08_OTP.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edb62e8d9571b7d0f5b612fd297938e963a93c0c",
+      "size": 11046,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/edb62e8d9571b7d0f5b612fd297938e963a93c0c"
+    },
+    {
+      "path": "extras/tests/GxEPD2_OTP/GDEW075Z08_OTP.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc2a6b4f19a19942e84280e5fca66130b32e113d",
+      "size": 478,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/fc2a6b4f19a19942e84280e5fca66130b32e113d"
+    },
+    {
+      "path": "extras/tests/GxEPD2_OTP/GDEY075Z08_OTP.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2088ff29c66cdd167b5bae24d7f0a2a243b94eef",
+      "size": 11061,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/2088ff29c66cdd167b5bae24d7f0a2a243b94eef"
+    },
+    {
+      "path": "extras/tests/GxEPD2_OTP/GDEY075Z08_OTP.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29998531d1e4f440c4400a158389322088ae2734",
+      "size": 478,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/29998531d1e4f440c4400a158389322088ae2734"
+    },
+    {
+      "path": "extras/tests/GxEPD2_OTP/GxEPD2_OTP.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdbea6e618200c22ebce49b8ed880409c64e0d51",
+      "size": 15729,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/fdbea6e618200c22ebce49b8ed880409c64e0d51"
+    },
+    {
+      "path": "extras/tests/GxEPD2_RefreshTests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0ee1beb5a9c51eabd9bda557025f09598c192d0c",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/0ee1beb5a9c51eabd9bda557025f09598c192d0c"
+    },
+    {
+      "path": "extras/tests/GxEPD2_RefreshTests/GxEPD2_RefreshTests.ino",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8d104257639c54ac9f2f31ba6607a5d377e5ffd",
+      "size": 8884,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/a8d104257639c54ac9f2f31ba6607a5d377e5ffd"
+    },
+    {
+      "path": "extras/tests/GxEPD2_RefreshTests/GxEPD2_display_selection.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f471c8ae10ad0c32f89226774f8c30016da5712",
+      "size": 89519,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/2f471c8ae10ad0c32f89226774f8c30016da5712"
+    },
+    {
+      "path": "extras/tests/GxEPD2_RefreshTests/GxEPD2_display_selection_added.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3a145980e0b95507b00a030899c924c116f22cf",
+      "size": 76586,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/d3a145980e0b95507b00a030899c924c116f22cf"
+    },
+    {
+      "path": "extras/tests/GxEPD2_RefreshTests/GxEPD2_display_selection_new_style.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "764ef7a77229c2876535fda49bfa3e07ab6e6bd4",
+      "size": 21408,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/764ef7a77229c2876535fda49bfa3e07ab6e6bd4"
+    },
+    {
+      "path": "extras/tests/GxEPD2_RefreshTests/GxEPD2_selection_check.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dba0e51c735d0339e4ddbea4c4206311cf04f466",
+      "size": 4254,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/dba0e51c735d0339e4ddbea4c4206311cf04f466"
+    },
+    {
+      "path": "extras/tests/GxEPD2_RefreshTests/GxEPD2_wiring_examples.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e91ce7357e21ade47c4f7fa297ef11049a2f4661",
+      "size": 5080,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/e91ce7357e21ade47c4f7fa297ef11049a2f4661"
+    },
+    {
+      "path": "extras/tests/GxEPD2_RefreshTests/Open_Sans_ExtraBold_120.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfc32d88ac84b0c283ef68887f01e648ba14cfd1",
+      "size": 291736,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/bfc32d88ac84b0c283ef68887f01e648ba14cfd1"
+    },
+    {
+      "path": "extras/tests/GxEPD2_RefreshTests/Open_Sans_ExtraBold_60.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2dc4ad2fc79f4b28e6808a503767d47dbeea0257",
+      "size": 77598,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/2dc4ad2fc79f4b28e6808a503767d47dbeea0257"
+    },
+    {
+      "path": "library.properties",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27b0f4b3d2cbc31ca985a5480c0a97f997776f26",
+      "size": 388,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/27b0f4b3d2cbc31ca985a5480c0a97f997776f26"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3c6b56aa0f906767f78644d2130305ef43bb2927",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/3c6b56aa0f906767f78644d2130305ef43bb2927"
+    },
+    {
+      "path": "src/GxEPD2.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e34f826b65d6d953276772c8beaf9192a594e67",
+      "size": 4365,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/4e34f826b65d6d953276772c8beaf9192a594e67"
+    },
+    {
+      "path": "src/GxEPD2_3C.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e8716afbe525943cdbec3065177318de2917347",
+      "size": 25791,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/7e8716afbe525943cdbec3065177318de2917347"
+    },
+    {
+      "path": "src/GxEPD2_4C.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d9fdd4fa51e6d7ce7b8c1c5facd9063e27f30a5",
+      "size": 21679,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/5d9fdd4fa51e6d7ce7b8c1c5facd9063e27f30a5"
+    },
+    {
+      "path": "src/GxEPD2_7C.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec3028004545eed7886e266b5eb4f9cd169887d9",
+      "size": 20756,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/ec3028004545eed7886e266b5eb4f9cd169887d9"
+    },
+    {
+      "path": "src/GxEPD2_BW.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dee16159f62823ee87b61c49057584eea24026f4",
+      "size": 29513,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/dee16159f62823ee87b61c49057584eea24026f4"
+    },
+    {
+      "path": "src/GxEPD2_BW_SHM.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "873581a063a063a33517b54cc1e491e7bdb05172",
+      "size": 34898,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/873581a063a063a33517b54cc1e491e7bdb05172"
+    },
+    {
+      "path": "src/GxEPD2_EPD.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94048fc0bdfcb107802f8fee41b673d08d5ac75a",
+      "size": 9266,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/94048fc0bdfcb107802f8fee41b673d08d5ac75a"
+    },
+    {
+      "path": "src/GxEPD2_EPD.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8e3e4fb00aeaf9a66545b3fa2430e6acc79ca71",
+      "size": 9313,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/e8e3e4fb00aeaf9a66545b3fa2430e6acc79ca71"
+    },
+    {
+      "path": "src/GxEPD2_EPD_friends.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b573174254f107297bdf506a25f325e97b8e234",
+      "size": 404,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/8b573174254f107297bdf506a25f325e97b8e234"
+    },
+    {
+      "path": "src/GxEPD2_GFX.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39022025bab708b1f9588877fa7dbe40d86310f8",
+      "size": 7188,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/39022025bab708b1f9588877fa7dbe40d86310f8"
+    },
+    {
+      "path": "src/bitmaps",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8eac76205a33bca812aa1db674acbfc93b9900cb",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/8eac76205a33bca812aa1db674acbfc93b9900cb"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps104x212.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f128f0f048b8d0cdd9214244c852730b5ca631e9",
+      "size": 42217,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/f128f0f048b8d0cdd9214244c852730b5ca631e9"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps128x250.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02dd7ad31d322102363448251c5b9bb3a00c7306",
+      "size": 101866,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/02dd7ad31d322102363448251c5b9bb3a00c7306"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps128x296.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbe07a539fbb5a42a6798304d004275066aebdf7",
+      "size": 120354,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/dbe07a539fbb5a42a6798304d004275066aebdf7"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps1304x984.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81e0110d2a2b126592c3feab45a931210672e927",
+      "size": 982655,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/81e0110d2a2b126592c3feab45a931210672e927"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps1360x480.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d20dd36ea5b3062ddb33ccc7ba692f687d0b30a1",
+      "size": 2048101,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/d20dd36ea5b3062ddb33ccc7ba692f687d0b30a1"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps152x152.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c64699b76c5e4ebbeb7125f686f0bd5d40bfec7e",
+      "size": 53521,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/c64699b76c5e4ebbeb7125f686f0bd5d40bfec7e"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps152x296.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4b4d6caedb70dc18017d64db1f501c00d826980",
+      "size": 103796,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/d4b4d6caedb70dc18017d64db1f501c00d826980"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps168x384.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9e5cd24e7f414521277c3d5067be76243264043",
+      "size": 247686,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/e9e5cd24e7f414521277c3d5067be76243264043"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps176x264.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ddaae3c82788c848e8462638e1649a792ea8d48",
+      "size": 147484,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/0ddaae3c82788c848e8462638e1649a792ea8d48"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps200x200.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d2039d1f136512156def417174837706b7f948b",
+      "size": 235364,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/6d2039d1f136512156def417174837706b7f948b"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps240x360.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c49555852e4966c8f90342efaa2005f312300cd9",
+      "size": 294438,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/c49555852e4966c8f90342efaa2005f312300cd9"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps240x416.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d62182eb4b8c5c63b28ca16d0886c333fa1040cc",
+      "size": 189995,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/d62182eb4b8c5c63b28ca16d0886c333fa1040cc"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps3c104x212.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "545b1ce07fa07e7014aeff5034fd19e799ea30ce",
+      "size": 56261,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/545b1ce07fa07e7014aeff5034fd19e799ea30ce"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps3c128x250.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cacbdbb67e75eddcd836bc71243fb82bbd1eaf5",
+      "size": 98580,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/3cacbdbb67e75eddcd836bc71243fb82bbd1eaf5"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps3c128x296.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c983b5ae38ba2a1a7cfd7f61dd2af8dd383f7381",
+      "size": 96354,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/c983b5ae38ba2a1a7cfd7f61dd2af8dd383f7381"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps3c1304x984.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cb8e94aed0c88f35e4e6c30ee90a2054236f519",
+      "size": 1965096,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/3cb8e94aed0c88f35e4e6c30ee90a2054236f519"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps3c152x296.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c85f76cc76dc4e00fc7c2cfe20f1bed0b0a2e435",
+      "size": 69230,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/c85f76cc76dc4e00fc7c2cfe20f1bed0b0a2e435"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps3c176x264.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9fe12588e99127acb3cb21a780f56347207943f",
+      "size": 71438,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/b9fe12588e99127acb3cb21a780f56347207943f"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps3c200x200.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0568cc49b41c1f0a0292f5785058e57adc15ba5",
+      "size": 76260,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/a0568cc49b41c1f0a0292f5785058e57adc15ba5"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps3c400x300.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "888ab79fe54330feb6b1692441ec8dd2a4e3e222",
+      "size": 608531,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/888ab79fe54330feb6b1692441ec8dd2a4e3e222"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps3c648x480.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc6852c8e739ae3e29e40323c53d0b0696cdb142",
+      "size": 953287,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/dc6852c8e739ae3e29e40323c53d0b0696cdb142"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps3c800x276.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9aa488f4c961f6b3ba076a5dac5d1f609b3c8335",
+      "size": 666976,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/9aa488f4c961f6b3ba076a5dac5d1f609b3c8335"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps3c800x480.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "354c48a2f0e105c5e4967a6efedd7a0a5f6a1439",
+      "size": 588367,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/354c48a2f0e105c5e4967a6efedd7a0a5f6a1439"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps3c880x528.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c9681ce44bacb0f1f8fdb14b476bad030122c86",
+      "size": 711769,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/1c9681ce44bacb0f1f8fdb14b476bad030122c86"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps3c960x640.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fe6d7136b113ed10e48e81b65f5a095356713ae",
+      "size": 941173,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/5fe6d7136b113ed10e48e81b65f5a095356713ae"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps3c960x680.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e659472e2ac398800e6344e5ff27705340ec51ae",
+      "size": 999973,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/e659472e2ac398800e6344e5ff27705340ec51ae"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps400x300.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6c34e85e77e806fcbaabeebe6b16ec18d87b06f",
+      "size": 152111,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/a6c34e85e77e806fcbaabeebe6b16ec18d87b06f"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps4c128x250.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2980025f94f22542a5019b6e82dad814c3e0c16",
+      "size": 49266,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/c2980025f94f22542a5019b6e82dad814c3e0c16"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps4c168x384.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e5c9aeaea762ba4cc5cec5c929fc315ccec13f9",
+      "size": 99050,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/7e5c9aeaea762ba4cc5cec5c929fc315ccec13f9"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps4c184x360.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5746742c18b763c20587e832d231a8eeda6d5fb2",
+      "size": 101696,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/5746742c18b763c20587e832d231a8eeda6d5fb2"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps4c184x384.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "329deeba06f8defb51a969ece76c5840dad6461d",
+      "size": 89690,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/329deeba06f8defb51a969ece76c5840dad6461d"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps4c200x200.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b31f1f054b7dd9db1cdf3762b154f315e776463f",
+      "size": 50893,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/b31f1f054b7dd9db1cdf3762b154f315e776463f"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps4c400x300.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bccd3ab1ac4ea17c23a425f58a1a254d7f3549dd",
+      "size": 184016,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/bccd3ab1ac4ea17c23a425f58a1a254d7f3549dd"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps4c792x272.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a70a17898c2ceb9defa85a20f7bda87cb5408742",
+      "size": 330135,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/a70a17898c2ceb9defa85a20f7bda87cb5408742"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps4c800x480.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a619edd2831effe8e520f08c9c673b604134b2d",
+      "size": 972523,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/3a619edd2831effe8e520f08c9c673b604134b2d"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps4c960x640.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdf3ab26e77e38288c1e4e33c6ecf5fef345c2c7",
+      "size": 941067,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/bdf3ab26e77e38288c1e4e33c6ecf5fef345c2c7"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps640x384.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb53ee4515a4e11aabd33a6133661822bd49e0b4",
+      "size": 311320,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/fb53ee4515a4e11aabd33a6133661822bd49e0b4"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps648x480.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd9e186300a82c4082a7f99742b748bbffb154f9",
+      "size": 714875,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/bd9e186300a82c4082a7f99742b748bbffb154f9"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps7c600x448.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b181e2054665865049c1487ee2c8e832d23bfb1a",
+      "size": 1646669,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/b181e2054665865049c1487ee2c8e832d23bfb1a"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps7c800x480.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "014772215919e9459bdc0025dfc2ba36af45f348",
+      "size": 3888366,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/014772215919e9459bdc0025dfc2ba36af45f348"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps800x276.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66bb95eaf0d714284d4b2c7d521e2d8b605917a9",
+      "size": 500255,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/66bb95eaf0d714284d4b2c7d521e2d8b605917a9"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps800x480.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb554893a5c808dcb266470604b3775cd44e5fc7",
+      "size": 2646860,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/fb554893a5c808dcb266470604b3775cd44e5fc7"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps80x128.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f9fb43cc3a8dec576d21a6c23f98634d3eb0fef",
+      "size": 39861,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/2f9fb43cc3a8dec576d21a6c23f98634d3eb0fef"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps920x680.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9898030f6b3c10256187e885289382398d848dfe",
+      "size": 2375912,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/9898030f6b3c10256187e885289382398d848dfe"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps960x640.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5751646fb6dcf13978eae71503dd04bb221ba104",
+      "size": 1411645,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/5751646fb6dcf13978eae71503dd04bb221ba104"
+    },
+    {
+      "path": "src/bitmaps/Bitmaps960x680.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a78b9a71c7b84e53a7901c3309f4050f1118c0be",
+      "size": 999959,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/a78b9a71c7b84e53a7901c3309f4050f1118c0be"
+    },
+    {
+      "path": "src/bitmaps/WS_Bitmaps104x212.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9a3413651dff055b0e10180713511418441771f",
+      "size": 16118,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/a9a3413651dff055b0e10180713511418441771f"
+    },
+    {
+      "path": "src/bitmaps/WS_Bitmaps176x264.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e8317f2c13fbecc65fddf8ea748fa633ccbf131",
+      "size": 30879,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/4e8317f2c13fbecc65fddf8ea748fa633ccbf131"
+    },
+    {
+      "path": "src/bitmaps/WS_Bitmaps3c104x212.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e14c5c589f09db87877993edd206cbef7692d0d",
+      "size": 29485,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/0e14c5c589f09db87877993edd206cbef7692d0d"
+    },
+    {
+      "path": "src/bitmaps/WS_Bitmaps3c128x296.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18da49f9d8de34abba2ac02fad8a027cf98ec4c3",
+      "size": 49528,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/18da49f9d8de34abba2ac02fad8a027cf98ec4c3"
+    },
+    {
+      "path": "src/bitmaps/WS_Bitmaps3c200x200.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b12a1c1b862040216da57060e22d6ae12b3f7a93",
+      "size": 52205,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/b12a1c1b862040216da57060e22d6ae12b3f7a93"
+    },
+    {
+      "path": "src/bitmaps/WS_Bitmaps3c400x300.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d97c5472fecf07a4bf30fc5887182696cb89f68",
+      "size": 153456,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/7d97c5472fecf07a4bf30fc5887182696cb89f68"
+    },
+    {
+      "path": "src/bitmaps/WS_Bitmaps4c168x168.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da7d4183d281f1683426638a55702f83252745b3",
+      "size": 44674,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/da7d4183d281f1683426638a55702f83252745b3"
+    },
+    {
+      "path": "src/bitmaps/WS_Bitmaps4c168x400.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5a8470840883e78b2a697354fe0dea03c74a47d",
+      "size": 104326,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/a5a8470840883e78b2a697354fe0dea03c74a47d"
+    },
+    {
+      "path": "src/bitmaps/WS_Bitmaps7c192x143.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75573d6f30cffe76ba6122b001b7fe37f099c25b",
+      "size": 84087,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/75573d6f30cffe76ba6122b001b7fe37f099c25b"
+    },
+    {
+      "path": "src/bitmaps/WS_Bitmaps7c300x180.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2f43c1e244493bf3ea9bfc27e065ab76301fc63",
+      "size": 138159,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/b2f43c1e244493bf3ea9bfc27e065ab76301fc63"
+    },
+    {
+      "path": "src/bitmaps/WS_Bitmaps800x600.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b4b3d593571a7a76a81e86512de17597b10dc22",
+      "size": 13791725,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/8b4b3d593571a7a76a81e86512de17597b10dc22"
+    },
+    {
+      "path": "src/bitmaps/WS_Bitmaps80x128.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5eb6bf12d0ff40c60350d8d041ccb2a169d2ef05",
+      "size": 9264,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/5eb6bf12d0ff40c60350d8d041ccb2a169d2ef05"
+    },
+    {
+      "path": "src/epd",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1d431e7a23a9adf96d5daf334375aa1d9920b99c",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/1d431e7a23a9adf96d5daf334375aa1d9920b99c"
+    },
+    {
+      "path": "src/epd/GxEPD2_102.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d48298ed1e88d6bee5006e55ad01569a9350b59",
+      "size": 14999,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/1d48298ed1e88d6bee5006e55ad01569a9350b59"
+    },
+    {
+      "path": "src/epd/GxEPD2_102.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e46c67368d0c1a5f46d077a22a80dbdeaaf7387",
+      "size": 6215,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/4e46c67368d0c1a5f46d077a22a80dbdeaaf7387"
+    },
+    {
+      "path": "src/epd/GxEPD2_1160_T91.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e83b84831c5e7596416bea75b759103fbf7ebb8a",
+      "size": 14642,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/e83b84831c5e7596416bea75b759103fbf7ebb8a"
+    },
+    {
+      "path": "src/epd/GxEPD2_1160_T91.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95a9a3bbb6231c687aced953a596f7d9762f7ef5",
+      "size": 6731,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/95a9a3bbb6231c687aced953a596f7d9762f7ef5"
+    },
+    {
+      "path": "src/epd/GxEPD2_1248.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f425fd9900f0ccca5e945bb1963adae3ac7a820f",
+      "size": 27574,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/f425fd9900f0ccca5e945bb1963adae3ac7a820f"
+    },
+    {
+      "path": "src/epd/GxEPD2_1248.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2ba5b2ceb77f5c78c90031bce6493ef4f996c01",
+      "size": 9563,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/a2ba5b2ceb77f5c78c90031bce6493ef4f996c01"
+    },
+    {
+      "path": "src/epd/GxEPD2_150_BN.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9b91c959281085a71c816dcd589dac591ec279a",
+      "size": 14513,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/a9b91c959281085a71c816dcd589dac591ec279a"
+    },
+    {
+      "path": "src/epd/GxEPD2_150_BN.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aec704066b249f3accc8f2aa3e3720ed05483a4c",
+      "size": 6804,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/aec704066b249f3accc8f2aa3e3720ed05483a4c"
+    },
+    {
+      "path": "src/epd/GxEPD2_154.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b37b80e2c34663838ddb563ba23b4688ac52b9b9",
+      "size": 13626,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/b37b80e2c34663838ddb563ba23b4688ac52b9b9"
+    },
+    {
+      "path": "src/epd/GxEPD2_154.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65f5152fd7ba4d635a7aa641d5f25563f3e104c2",
+      "size": 5798,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/65f5152fd7ba4d635a7aa641d5f25563f3e104c2"
+    },
+    {
+      "path": "src/epd/GxEPD2_154_D67.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7754ddb2b82a77214fc189a6902749e0022dcb76",
+      "size": 13054,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/7754ddb2b82a77214fc189a6902749e0022dcb76"
+    },
+    {
+      "path": "src/epd/GxEPD2_154_D67.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cedff4e55574fc77bc0338232667d93409471797",
+      "size": 6590,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/cedff4e55574fc77bc0338232667d93409471797"
+    },
+    {
+      "path": "src/epd/GxEPD2_154_M09.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0826941dfe221955be054e3119517b6d368ccfc4",
+      "size": 18274,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/0826941dfe221955be054e3119517b6d368ccfc4"
+    },
+    {
+      "path": "src/epd/GxEPD2_154_M09.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8c4a68cbb1ed219e927a1b6da2354ff0ce29842",
+      "size": 6971,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/a8c4a68cbb1ed219e927a1b6da2354ff0ce29842"
+    },
+    {
+      "path": "src/epd/GxEPD2_154_M10.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42444da6a0cbe5fab03159514b6fb8c2b8862a33",
+      "size": 14404,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/42444da6a0cbe5fab03159514b6fb8c2b8862a33"
+    },
+    {
+      "path": "src/epd/GxEPD2_154_M10.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51b13546a31400d003d93489c72f93dec5d32ea8",
+      "size": 6219,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/51b13546a31400d003d93489c72f93dec5d32ea8"
+    },
+    {
+      "path": "src/epd/GxEPD2_154_T8.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38bb5342285b9e2326c9cebda05855972aad23cc",
+      "size": 17267,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/38bb5342285b9e2326c9cebda05855972aad23cc"
+    },
+    {
+      "path": "src/epd/GxEPD2_154_T8.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b152bf963d67445c062a13d33b7860975d84301a",
+      "size": 6257,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/b152bf963d67445c062a13d33b7860975d84301a"
+    },
+    {
+      "path": "src/epd/GxEPD2_213.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7aab80b303072e72585bb2ece3c5fbbf5a33537f",
+      "size": 13681,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/7aab80b303072e72585bb2ece3c5fbbf5a33537f"
+    },
+    {
+      "path": "src/epd/GxEPD2_213.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c52dd07467694c0e85935a636c2e04e4b6fe84ef",
+      "size": 5996,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/c52dd07467694c0e85935a636c2e04e4b6fe84ef"
+    },
+    {
+      "path": "src/epd/GxEPD2_213_B72.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "644e4d14add773fa0576627b9060865e3d741fb3",
+      "size": 14520,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/644e4d14add773fa0576627b9060865e3d741fb3"
+    },
+    {
+      "path": "src/epd/GxEPD2_213_B72.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a41525822aa5ba350edd66c3bafff0a5ed952f6a",
+      "size": 6340,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/a41525822aa5ba350edd66c3bafff0a5ed952f6a"
+    },
+    {
+      "path": "src/epd/GxEPD2_213_B73.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7a62af93d0e1c687c926522c118f16cbd17ac2f",
+      "size": 14630,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/e7a62af93d0e1c687c926522c118f16cbd17ac2f"
+    },
+    {
+      "path": "src/epd/GxEPD2_213_B73.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62da5d356e9ef1140ea8240faf4a0a2870b7fb71",
+      "size": 6487,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/62da5d356e9ef1140ea8240faf4a0a2870b7fb71"
+    },
+    {
+      "path": "src/epd/GxEPD2_213_B74.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9577ea6fa5b0f226393bc321fcc6d37a7da62498",
+      "size": 13132,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/9577ea6fa5b0f226393bc321fcc6d37a7da62498"
+    },
+    {
+      "path": "src/epd/GxEPD2_213_B74.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f0ef02b834eb8a65fa374ed718c95b34cbf20ea",
+      "size": 6550,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/8f0ef02b834eb8a65fa374ed718c95b34cbf20ea"
+    },
+    {
+      "path": "src/epd/GxEPD2_213_BN.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37e33bf636f19a499423d0e47681addac21bb3d9",
+      "size": 14258,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/37e33bf636f19a499423d0e47681addac21bb3d9"
+    },
+    {
+      "path": "src/epd/GxEPD2_213_BN.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e29936cd983ad1b0ac18856d06ddd67ab3ae2582",
+      "size": 6589,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/e29936cd983ad1b0ac18856d06ddd67ab3ae2582"
+    },
+    {
+      "path": "src/epd/GxEPD2_213_M21.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e980fad7f71d78d3c171b973a85b0123956c5ef1",
+      "size": 14655,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/e980fad7f71d78d3c171b973a85b0123956c5ef1"
+    },
+    {
+      "path": "src/epd/GxEPD2_213_M21.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93c0ecd4a0280490bb76bf077823aa5fe470ae9e",
+      "size": 6164,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/93c0ecd4a0280490bb76bf077823aa5fe470ae9e"
+    },
+    {
+      "path": "src/epd/GxEPD2_213_T5D.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47cc42affd4c2598f30fcd148aa44d93060f0175",
+      "size": 15440,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/47cc42affd4c2598f30fcd148aa44d93060f0175"
+    },
+    {
+      "path": "src/epd/GxEPD2_213_T5D.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4ffcf7a8a5daa5cc5ed903e75d529f4561286ed",
+      "size": 6804,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/a4ffcf7a8a5daa5cc5ed903e75d529f4561286ed"
+    },
+    {
+      "path": "src/epd/GxEPD2_213_flex.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7278b140387a4adf14ffc4163c2092847b125727",
+      "size": 17139,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/7278b140387a4adf14ffc4163c2092847b125727"
+    },
+    {
+      "path": "src/epd/GxEPD2_213_flex.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3edc4f519abdd6141114618d8316aecd9f3ec362",
+      "size": 6176,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/3edc4f519abdd6141114618d8316aecd9f3ec362"
+    },
+    {
+      "path": "src/epd/GxEPD2_260.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a51226bd5ed40605877cf05763e15e7f76e43312",
+      "size": 17032,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/a51226bd5ed40605877cf05763e15e7f76e43312"
+    },
+    {
+      "path": "src/epd/GxEPD2_260.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4ecf63b31c4b79ba33773fee5118f30d5f6c83f",
+      "size": 6336,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/a4ecf63b31c4b79ba33773fee5118f30d5f6c83f"
+    },
+    {
+      "path": "src/epd/GxEPD2_260_M01.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e60fcd98732d915a28640eca85ff6075c7ef8e8",
+      "size": 14642,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/9e60fcd98732d915a28640eca85ff6075c7ef8e8"
+    },
+    {
+      "path": "src/epd/GxEPD2_260_M01.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ae7b1bdaba18435950bbbe67c6fe1d0c858de20",
+      "size": 6164,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/2ae7b1bdaba18435950bbbe67c6fe1d0c858de20"
+    },
+    {
+      "path": "src/epd/GxEPD2_266_BN.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f3a8828364de201183930e8a7c6efd12e7b67b6",
+      "size": 14534,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/4f3a8828364de201183930e8a7c6efd12e7b67b6"
+    },
+    {
+      "path": "src/epd/GxEPD2_266_BN.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b8104ddb34bf5533fc77e6c677e3fe08a8c27b5",
+      "size": 6746,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/9b8104ddb34bf5533fc77e6c677e3fe08a8c27b5"
+    },
+    {
+      "path": "src/epd/GxEPD2_270.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f485049714decac68ea3f86b5765d610eeda2c50",
+      "size": 17177,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/f485049714decac68ea3f86b5765d610eeda2c50"
+    },
+    {
+      "path": "src/epd/GxEPD2_270.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "037f380337a1fde8df95dfb05d7dd941f7ee622b",
+      "size": 6885,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/037f380337a1fde8df95dfb05d7dd941f7ee622b"
+    },
+    {
+      "path": "src/epd/GxEPD2_290.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29bc70a10bb5c49be6e8561af18faa78c7dbcbd4",
+      "size": 13531,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/29bc70a10bb5c49be6e8561af18faa78c7dbcbd4"
+    },
+    {
+      "path": "src/epd/GxEPD2_290.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f694745e8b23ecf7bbca4afe4290804dc3822d82",
+      "size": 5797,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/f694745e8b23ecf7bbca4afe4290804dc3822d82"
+    },
+    {
+      "path": "src/epd/GxEPD2_290_BS.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "208dbb22e16e4175cba99e88ce9d6649d6bf9e42",
+      "size": 14553,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/208dbb22e16e4175cba99e88ce9d6649d6bf9e42"
+    },
+    {
+      "path": "src/epd/GxEPD2_290_BS.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c59b1eaaf7def2bbcb46cccf91ac7c7276a6e7c",
+      "size": 6761,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/9c59b1eaaf7def2bbcb46cccf91ac7c7276a6e7c"
+    },
+    {
+      "path": "src/epd/GxEPD2_290_I6FD.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ada0078274eda165e3f9e69c7fac72c165004318",
+      "size": 15620,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/ada0078274eda165e3f9e69c7fac72c165004318"
+    },
+    {
+      "path": "src/epd/GxEPD2_290_I6FD.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fe46b3ef3657558988ac9bdc50e2b671a01c951",
+      "size": 6882,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/5fe46b3ef3657558988ac9bdc50e2b671a01c951"
+    },
+    {
+      "path": "src/epd/GxEPD2_290_M06.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06def5b81431e18730b6aab990accdd33824035b",
+      "size": 14490,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/06def5b81431e18730b6aab990accdd33824035b"
+    },
+    {
+      "path": "src/epd/GxEPD2_290_M06.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ae239b3c8264ce7dfba882bc287a721648c3bb8",
+      "size": 6054,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/8ae239b3c8264ce7dfba882bc287a721648c3bb8"
+    },
+    {
+      "path": "src/epd/GxEPD2_290_T5.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73a0e7657281b5d2d4b7122f562764aff8c8d611",
+      "size": 17180,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/73a0e7657281b5d2d4b7122f562764aff8c8d611"
+    },
+    {
+      "path": "src/epd/GxEPD2_290_T5.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "faff30a8ae17a8166b8c1f35a5ab6222cda7cf69",
+      "size": 6219,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/faff30a8ae17a8166b8c1f35a5ab6222cda7cf69"
+    },
+    {
+      "path": "src/epd/GxEPD2_290_T5D.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1d7015705e8d9f25f53ba640a5e58d4b7b029d8",
+      "size": 15440,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/d1d7015705e8d9f25f53ba640a5e58d4b7b029d8"
+    },
+    {
+      "path": "src/epd/GxEPD2_290_T5D.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dff252d3b7a1062c0b8f7cfc13b2a19033342e21",
+      "size": 6803,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/dff252d3b7a1062c0b8f7cfc13b2a19033342e21"
+    },
+    {
+      "path": "src/epd/GxEPD2_290_T94.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b30e91aab4ecabb713f580cea0eee549a37218b",
+      "size": 13196,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/7b30e91aab4ecabb713f580cea0eee549a37218b"
+    },
+    {
+      "path": "src/epd/GxEPD2_290_T94.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34345fefe3db76c6587dcd9941767bed7ddd209a",
+      "size": 6550,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/34345fefe3db76c6587dcd9941767bed7ddd209a"
+    },
+    {
+      "path": "src/epd/GxEPD2_290_T94_V2.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d75b100baa7e91d9c38ce9c2d8366cdb8ebc118d",
+      "size": 14722,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/d75b100baa7e91d9c38ce9c2d8366cdb8ebc118d"
+    },
+    {
+      "path": "src/epd/GxEPD2_290_T94_V2.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7b828c6cc58343213cc32f974b61f637da7ed93",
+      "size": 6922,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/b7b828c6cc58343213cc32f974b61f637da7ed93"
+    },
+    {
+      "path": "src/epd/GxEPD2_370_TC1.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a137027740e7860e5051fc7f42175065d78d9703",
+      "size": 16892,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/a137027740e7860e5051fc7f42175065d78d9703"
+    },
+    {
+      "path": "src/epd/GxEPD2_370_TC1.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc32a4d0884d4bc7766a9f91d7f7cce882a2c78e",
+      "size": 6809,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/cc32a4d0884d4bc7766a9f91d7f7cce882a2c78e"
+    },
+    {
+      "path": "src/epd/GxEPD2_371.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c19ccfcc3303a7fa6b498390a44e87dd06b47c82",
+      "size": 14672,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/c19ccfcc3303a7fa6b498390a44e87dd06b47c82"
+    },
+    {
+      "path": "src/epd/GxEPD2_371.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f2af95fde2d82e8d77e088c79a8051191d44488",
+      "size": 6799,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/3f2af95fde2d82e8d77e088c79a8051191d44488"
+    },
+    {
+      "path": "src/epd/GxEPD2_420.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08f609fd17141070a09670b2bc2b5b86b1da270b",
+      "size": 17479,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/08f609fd17141070a09670b2bc2b5b86b1da270b"
+    },
+    {
+      "path": "src/epd/GxEPD2_420.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c3a8b42a17bc6df23ebb87e651c4a7a63a1e7af",
+      "size": 6259,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/7c3a8b42a17bc6df23ebb87e651c4a7a63a1e7af"
+    },
+    {
+      "path": "src/epd/GxEPD2_420_M01.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ceb72e14cec06f75af124220e658138832e25c09",
+      "size": 15132,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/ceb72e14cec06f75af124220e658138832e25c09"
+    },
+    {
+      "path": "src/epd/GxEPD2_420_M01.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e803b278210be65f4c4d2abfcb983088a416433",
+      "size": 6288,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/3e803b278210be65f4c4d2abfcb983088a416433"
+    },
+    {
+      "path": "src/epd/GxEPD2_583.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f76f6b86ee7f7235c4d023e733dc939793932d75",
+      "size": 12471,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/f76f6b86ee7f7235c4d023e733dc939793932d75"
+    },
+    {
+      "path": "src/epd/GxEPD2_583.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61cecf85b1834817fdc2821497ae7944304d506c",
+      "size": 4836,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/61cecf85b1834817fdc2821497ae7944304d506c"
+    },
+    {
+      "path": "src/epd/GxEPD2_583_T8.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b524a0db25af41ed55af0e56160c9fd42745962d",
+      "size": 14906,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/b524a0db25af41ed55af0e56160c9fd42745962d"
+    },
+    {
+      "path": "src/epd/GxEPD2_583_T8.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3dc422e46d90ee8faf3b407c401deb82113157a6",
+      "size": 6744,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/3dc422e46d90ee8faf3b407c401deb82113157a6"
+    },
+    {
+      "path": "src/epd/GxEPD2_750.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50e6fbde17023573cb2049333c60a8ba62e169c2",
+      "size": 12790,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/50e6fbde17023573cb2049333c60a8ba62e169c2"
+    },
+    {
+      "path": "src/epd/GxEPD2_750.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f0a715a0cf940fc49457c576e766bf93ecbf10f",
+      "size": 4828,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/1f0a715a0cf940fc49457c576e766bf93ecbf10f"
+    },
+    {
+      "path": "src/epd/GxEPD2_750_T7.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6988987ff31803d3b7096d674cb3866abc68aa4c",
+      "size": 14929,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/6988987ff31803d3b7096d674cb3866abc68aa4c"
+    },
+    {
+      "path": "src/epd/GxEPD2_750_T7.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b10f96587ce0f253daa40284c76db1df71f1e4b",
+      "size": 6742,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/6b10f96587ce0f253daa40284c76db1df71f1e4b"
+    },
+    {
+      "path": "src/epd3c",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "61dc992cecdf1bea26d8a4114ce129b28547cd3f",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/61dc992cecdf1bea26d8a4114ce129b28547cd3f"
+    },
+    {
+      "path": "src/epd3c/GxEPD2_1248c.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "855e38bf103f76414bdd424caee7b0e0d20caf3b",
+      "size": 23442,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/855e38bf103f76414bdd424caee7b0e0d20caf3b"
+    },
+    {
+      "path": "src/epd3c/GxEPD2_1248c.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0235916cb45713cce1702e158e2fcea9553b0b41",
+      "size": 8570,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/0235916cb45713cce1702e158e2fcea9553b0b41"
+    },
+    {
+      "path": "src/epd3c/GxEPD2_154_Z90c.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4fdc3e285d19461a6802748116c275c593fc4b8",
+      "size": 12020,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/d4fdc3e285d19461a6802748116c275c593fc4b8"
+    },
+    {
+      "path": "src/epd3c/GxEPD2_154_Z90c.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e0383c73dbdf1f71e5c3e4e1c1cfd0a84f2c674",
+      "size": 5047,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/8e0383c73dbdf1f71e5c3e4e1c1cfd0a84f2c674"
+    },
+    {
+      "path": "src/epd3c/GxEPD2_154c.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edafbf14dd51df3132fd380509abea531e8e423a",
+      "size": 15161,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/edafbf14dd51df3132fd380509abea531e8e423a"
+    },
+    {
+      "path": "src/epd3c/GxEPD2_154c.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d719139ecd8506ab1c17f50792d2aaf3ed429c5b",
+      "size": 5679,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/d719139ecd8506ab1c17f50792d2aaf3ed429c5b"
+    },
+    {
+      "path": "src/epd3c/GxEPD2_213_Z19c.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8386f0913d43432da30e20f40dcb104b53548eba",
+      "size": 14851,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/8386f0913d43432da30e20f40dcb104b53548eba"
+    },
+    {
+      "path": "src/epd3c/GxEPD2_213_Z19c.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7588b25c2d03935bc347a309a5c555113a348ee6",
+      "size": 6786,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/7588b25c2d03935bc347a309a5c555113a348ee6"
+    },
+    {
+      "path": "src/epd3c/GxEPD2_213_Z98c.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78f3279054e3380554dfbc268d71d7d4d3f76350",
+      "size": 12089,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/78f3279054e3380554dfbc268d71d7d4d3f76350"
+    },
+    {
+      "path": "src/epd3c/GxEPD2_213_Z98c.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42204d7baf86158d5a124047fd1de4083b146cb0",
+      "size": 5152,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/42204d7baf86158d5a124047fd1de4083b146cb0"
+    },
+    {
+      "path": "src/epd3c/GxEPD2_213c.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "136b056a2125911b31968a9a9134c50c37aa3504",
+      "size": 12503,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/136b056a2125911b31968a9a9134c50c37aa3504"
+    },
+    {
+      "path": "src/epd3c/GxEPD2_213c.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aea049556350b873e31167ba8c8f3647b15c8ef4",
+      "size": 5128,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/aea049556350b873e31167ba8c8f3647b15c8ef4"
+    },
+    {
+      "path": "src/epd3c/GxEPD2_266c.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a53241371377a34a96e5875c59716c594bcbf669",
+      "size": 11985,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/a53241371377a34a96e5875c59716c594bcbf669"
+    },
+    {
+      "path": "src/epd3c/GxEPD2_266c.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18e4c816abb8b07ab7cad35164e6251e159fab34",
+      "size": 5144,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/18e4c816abb8b07ab7cad35164e6251e159fab34"
+    },
+    {
+      "path": "src/epd3c/GxEPD2_270c.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89cd39f65e287f65d2850a1b7bb935366bda7b75",
+      "size": 15411,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/89cd39f65e287f65d2850a1b7bb935366bda7b75"
+    },
+    {
+      "path": "src/epd3c/GxEPD2_270c.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdc35f6595ca016425e65b746a958b83f617417b",
+      "size": 5273,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/bdc35f6595ca016425e65b746a958b83f617417b"
+    },
+    {
+      "path": "src/epd3c/GxEPD2_290_C90c.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f79f7ff28cd9b311998ab3f09afeb789b120719",
+      "size": 12025,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/8f79f7ff28cd9b311998ab3f09afeb789b120719"
+    },
+    {
+      "path": "src/epd3c/GxEPD2_290_C90c.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f9d07b635d4f6429927baf3133ca3aeef7add8b",
+      "size": 5083,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/7f9d07b635d4f6429927baf3133ca3aeef7add8b"
+    },
+    {
+      "path": "src/epd3c/GxEPD2_290_Z13c.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5562f38ca98bff10eed747d7ffb03d26d8bea9c",
+      "size": 15107,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/c5562f38ca98bff10eed747d7ffb03d26d8bea9c"
+    },
+    {
+      "path": "src/epd3c/GxEPD2_290_Z13c.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df19b75698647fe0955ed6f64a64bc3d6cf531d8",
+      "size": 6785,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/df19b75698647fe0955ed6f64a64bc3d6cf531d8"
+    },
+    {
+      "path": "src/epd3c/GxEPD2_290c.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e1aeb6b2a8e74ad72b51ec8cbb38e8b8d3b4abd",
+      "size": 12359,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/4e1aeb6b2a8e74ad72b51ec8cbb38e8b8d3b4abd"
+    },
+    {
+      "path": "src/epd3c/GxEPD2_290c.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "168d4c7df419e239b097c8dc21900867624e95ac",
+      "size": 5127,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/168d4c7df419e239b097c8dc21900867624e95ac"
+    },
+    {
+      "path": "src/epd3c/GxEPD2_420c.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17263cdab74610465bbdbd61286446eb90926e94",
+      "size": 12571,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/17263cdab74610465bbdbd61286446eb90926e94"
+    },
+    {
+      "path": "src/epd3c/GxEPD2_420c.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7493a86da379e4854acaf65d50a46d15dc2dab4a",
+      "size": 5124,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/7493a86da379e4854acaf65d50a46d15dc2dab4a"
+    },
+    {
+      "path": "src/epd3c/GxEPD2_420c_Z21.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c4f94d067f9310aef05899daf9d8d529b98ff66",
+      "size": 12593,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/1c4f94d067f9310aef05899daf9d8d529b98ff66"
+    },
+    {
+      "path": "src/epd3c/GxEPD2_420c_Z21.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a41c4fd98d1c496392887756cfd78a6b240eb4c2",
+      "size": 5223,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/a41c4fd98d1c496392887756cfd78a6b240eb4c2"
+    },
+    {
+      "path": "src/epd3c/GxEPD2_583c.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4010ef43fcafbe3f7e41fc45dbfbfa78aac74016",
+      "size": 15155,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/4010ef43fcafbe3f7e41fc45dbfbfa78aac74016"
+    },
+    {
+      "path": "src/epd3c/GxEPD2_583c.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b61701b919d95451cae6071444d30f1dfcb8e8c",
+      "size": 5104,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/6b61701b919d95451cae6071444d30f1dfcb8e8c"
+    },
+    {
+      "path": "src/epd3c/GxEPD2_583c_Z83.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28678e59cd2fe560a6a35260da1800a835d7444f",
+      "size": 12902,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/28678e59cd2fe560a6a35260da1800a835d7444f"
+    },
+    {
+      "path": "src/epd3c/GxEPD2_583c_Z83.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff6dcb30ffe9fd4e6337cb3bfa8cc6ec860f115d",
+      "size": 5240,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/ff6dcb30ffe9fd4e6337cb3bfa8cc6ec860f115d"
+    },
+    {
+      "path": "src/epd3c/GxEPD2_750c.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0111f403bc55efe9238a2072edd93e5b90a03fe",
+      "size": 15483,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/e0111f403bc55efe9238a2072edd93e5b90a03fe"
+    },
+    {
+      "path": "src/epd3c/GxEPD2_750c.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65952efeb41aeb7b0bf0d8747ac355225e6a1f8b",
+      "size": 5103,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/65952efeb41aeb7b0bf0d8747ac355225e6a1f8b"
+    },
+    {
+      "path": "src/epd3c/GxEPD2_750c_GDEW075Z08.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db555aa07bf9835b5d6541dff1becf3713a9ad7b",
+      "size": 17386,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/db555aa07bf9835b5d6541dff1becf3713a9ad7b"
+    },
+    {
+      "path": "src/epd3c/GxEPD2_750c_GDEW075Z08.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5dc30f6dbe7c0fa59145afec1a388392f18e6641",
+      "size": 7088,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/5dc30f6dbe7c0fa59145afec1a388392f18e6641"
+    },
+    {
+      "path": "src/epd3c/GxEPD2_750c_Z08.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90e5989096fb816bc974cdef6a9365c9ac5d07ae",
+      "size": 12903,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/90e5989096fb816bc974cdef6a9365c9ac5d07ae"
+    },
+    {
+      "path": "src/epd3c/GxEPD2_750c_Z08.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ec271e59f352496160c7c8723b4855499d21572",
+      "size": 5240,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/9ec271e59f352496160c7c8723b4855499d21572"
+    },
+    {
+      "path": "src/epd3c/GxEPD2_750c_Z90.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20346f517c02948e66138ed6468298c381fcdb2e",
+      "size": 13434,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/20346f517c02948e66138ed6468298c381fcdb2e"
+    },
+    {
+      "path": "src/epd3c/GxEPD2_750c_Z90.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21c875c1fe8d51c788c998e62956d569c63f7801",
+      "size": 5451,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/21c875c1fe8d51c788c998e62956d569c63f7801"
+    },
+    {
+      "path": "src/epd4c",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c38786f919ec5e64cb7049b39acf0fa9e8e9b8cb",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/c38786f919ec5e64cb7049b39acf0fa9e8e9b8cb"
+    },
+    {
+      "path": "src/epd4c/GxEPD2_1160c_GDEY116F51.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76b0da5908b0fcd8998723761c1b661d739dfa93",
+      "size": 32719,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/76b0da5908b0fcd8998723761c1b661d739dfa93"
+    },
+    {
+      "path": "src/epd4c/GxEPD2_1160c_GDEY116F51.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23722c955683dcb85f9ee1fda1f8a74c46d60557",
+      "size": 5585,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/23722c955683dcb85f9ee1fda1f8a74c46d60557"
+    },
+    {
+      "path": "src/epd4c/GxEPD2_154c_GDEM0154F51H.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96e2f911559e84844c5e5c4bc0909644d82a51a1",
+      "size": 32373,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/96e2f911559e84844c5e5c4bc0909644d82a51a1"
+    },
+    {
+      "path": "src/epd4c/GxEPD2_154c_GDEM0154F51H.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e149b4cf01c2442dd3b96e5209b6cf7848cf0f4",
+      "size": 5756,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/1e149b4cf01c2442dd3b96e5209b6cf7848cf0f4"
+    },
+    {
+      "path": "src/epd4c/GxEPD2_213c_GDEY0213F51.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f87596b0c9aa3b9dcf61a08eb1f6e385686b7fe4",
+      "size": 31749,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/f87596b0c9aa3b9dcf61a08eb1f6e385686b7fe4"
+    },
+    {
+      "path": "src/epd4c/GxEPD2_213c_GDEY0213F51.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02fc859b8fd0b403da7eccb37d9812e0531955f2",
+      "size": 5551,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/02fc859b8fd0b403da7eccb37d9812e0531955f2"
+    },
+    {
+      "path": "src/epd4c/GxEPD2_266c_GDEY0266F51H.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a665552a6b1383d997faf6e7236b744ff157366",
+      "size": 32758,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/4a665552a6b1383d997faf6e7236b744ff157366"
+    },
+    {
+      "path": "src/epd4c/GxEPD2_266c_GDEY0266F51H.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26cb7105ec0604871415b2d96e91537a6dee7ba9",
+      "size": 5603,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/26cb7105ec0604871415b2d96e91537a6dee7ba9"
+    },
+    {
+      "path": "src/epd4c/GxEPD2_290c_GDEY029F51H.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff455c7e22b9ec47f7203852b07f41329cd1f66e",
+      "size": 32663,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/ff455c7e22b9ec47f7203852b07f41329cd1f66e"
+    },
+    {
+      "path": "src/epd4c/GxEPD2_290c_GDEY029F51H.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dab9718d48cb5e506b9b6e284c97d4341877a6a9",
+      "size": 5531,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/dab9718d48cb5e506b9b6e284c97d4341877a6a9"
+    },
+    {
+      "path": "src/epd4c/GxEPD2_300c.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71d8b19d11c29338bfa90e2691d82263e7d3ca9e",
+      "size": 30897,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/71d8b19d11c29338bfa90e2691d82263e7d3ca9e"
+    },
+    {
+      "path": "src/epd4c/GxEPD2_300c.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c7e396d8e5d9f84fb883d15dc4e1686c9f931e8",
+      "size": 5425,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/5c7e396d8e5d9f84fb883d15dc4e1686c9f931e8"
+    },
+    {
+      "path": "src/epd4c/GxEPD2_350c_GDEM035F51.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d4a4b9adbab57fac52ef524aa3c70e0261abe3d",
+      "size": 32995,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/1d4a4b9adbab57fac52ef524aa3c70e0261abe3d"
+    },
+    {
+      "path": "src/epd4c/GxEPD2_350c_GDEM035F51.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19fb455c233be335cf4c8d9762d401377acc92ad",
+      "size": 5757,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/19fb455c233be335cf4c8d9762d401377acc92ad"
+    },
+    {
+      "path": "src/epd4c/GxEPD2_397c_GDEM0397F81.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5821b758778312dd1983f7877d6025665467a421",
+      "size": 33099,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/5821b758778312dd1983f7877d6025665467a421"
+    },
+    {
+      "path": "src/epd4c/GxEPD2_397c_GDEM0397F81.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffe4c8d88eda9c5fb07ac62c5d3712d8dfc25d3a",
+      "size": 5750,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/ffe4c8d88eda9c5fb07ac62c5d3712d8dfc25d3a"
+    },
+    {
+      "path": "src/epd4c/GxEPD2_420c_GDEY0420F51.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69595b05ae025009be1bf15fa2a0275c31eff43a",
+      "size": 32799,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/69595b05ae025009be1bf15fa2a0275c31eff43a"
+    },
+    {
+      "path": "src/epd4c/GxEPD2_420c_GDEY0420F51.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "762f0ed4e4f191161651036e4b874ad35a0b06fe",
+      "size": 5592,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/762f0ed4e4f191161651036e4b874ad35a0b06fe"
+    },
+    {
+      "path": "src/epd4c/GxEPD2_437c.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af81c6839a06d2366bf652f8a8b641d888d70de4",
+      "size": 31703,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/af81c6839a06d2366bf652f8a8b641d888d70de4"
+    },
+    {
+      "path": "src/epd4c/GxEPD2_437c.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "439b6b55350d2ffb97c7c25680a2b8e92505e8c1",
+      "size": 5432,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/439b6b55350d2ffb97c7c25680a2b8e92505e8c1"
+    },
+    {
+      "path": "src/epd4c/GxEPD2_579c_GDEY0579F51.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd553e7a991790c4fc2c86a3003f7b07e79145a5",
+      "size": 35116,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/bd553e7a991790c4fc2c86a3003f7b07e79145a5"
+    },
+    {
+      "path": "src/epd4c/GxEPD2_579c_GDEY0579F51.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04650237653425cda18a2c92db41c51bdd15f9e6",
+      "size": 6659,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/04650237653425cda18a2c92db41c51bdd15f9e6"
+    },
+    {
+      "path": "src/epd4c/GxEPD2_750c_GDEM075F52.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87a9f91260c77c30068733694fb6477cdda546d7",
+      "size": 32907,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/87a9f91260c77c30068733694fb6477cdda546d7"
+    },
+    {
+      "path": "src/epd4c/GxEPD2_750c_GDEM075F52.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c77c285f3378b3258d6ef0843090e4bcaae20cf",
+      "size": 5752,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/8c77c285f3378b3258d6ef0843090e4bcaae20cf"
+    },
+    {
+      "path": "src/epd7c",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b0325bc75dd3247915dbeacf2b09416ed84ec993",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/b0325bc75dd3247915dbeacf2b09416ed84ec993"
+    },
+    {
+      "path": "src/epd7c/GxEPD2_565c.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53a12b81f1388eb0f34b6e6904f1919afeebe1d1",
+      "size": 20797,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/53a12b81f1388eb0f34b6e6904f1919afeebe1d1"
+    },
+    {
+      "path": "src/epd7c/GxEPD2_565c.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d3e2d4c03efea17710a53611145c5bfc5c8d667",
+      "size": 5237,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/9d3e2d4c03efea17710a53611145c5bfc5c8d667"
+    },
+    {
+      "path": "src/epd7c/GxEPD2_565c_GDEP0565D90.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4c34f4085edc65c32cafabeb02177fc3f126bd1",
+      "size": 23797,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/f4c34f4085edc65c32cafabeb02177fc3f126bd1"
+    },
+    {
+      "path": "src/epd7c/GxEPD2_565c_GDEP0565D90.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a88d7885a7970592835b82b794a94c6321699d51",
+      "size": 5812,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/a88d7885a7970592835b82b794a94c6321699d51"
+    },
+    {
+      "path": "src/epd7c/GxEPD2_730c_ACeP_730.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd44617d3a9ad5c16538496fe0f4245ce3fd90bb",
+      "size": 23704,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/bd44617d3a9ad5c16538496fe0f4245ce3fd90bb"
+    },
+    {
+      "path": "src/epd7c/GxEPD2_730c_ACeP_730.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce991e9cba15dfe795b43338fbd7bbdbc9b4f240",
+      "size": 5661,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/ce991e9cba15dfe795b43338fbd7bbdbc9b4f240"
+    },
+    {
+      "path": "src/epd7c/GxEPD2_730c_GDEP073E01.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7eed1f46a304e0214470f2ef8824d1d4875e343",
+      "size": 25552,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/b7eed1f46a304e0214470f2ef8824d1d4875e343"
+    },
+    {
+      "path": "src/epd7c/GxEPD2_730c_GDEP073E01.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44fa785a737e45e5405678ae306582fcae506e9b",
+      "size": 5860,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/44fa785a737e45e5405678ae306582fcae506e9b"
+    },
+    {
+      "path": "src/epd7c/GxEPD2_730c_GDEY073D46.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e86d0d6cf390d58e8bedc0720cbfc64cf41fdd77",
+      "size": 23683,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/e86d0d6cf390d58e8bedc0720cbfc64cf41fdd77"
+    },
+    {
+      "path": "src/epd7c/GxEPD2_730c_GDEY073D46.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c15f6191206624ec5629e3c05237b948d3ee939f",
+      "size": 5692,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/c15f6191206624ec5629e3c05237b948d3ee939f"
+    },
+    {
+      "path": "src/gdeh",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e74f80fa8ecc1d908739ca664365fe17bdcd5e15",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/e74f80fa8ecc1d908739ca664365fe17bdcd5e15"
+    },
+    {
+      "path": "src/gdeh/GxEPD2_576_GDEH0576T81.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6516c6c75b35768e459e9829b3955d665e3b0d62",
+      "size": 19930,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/6516c6c75b35768e459e9829b3955d665e3b0d62"
+    },
+    {
+      "path": "src/gdeh/GxEPD2_576_GDEH0576T81.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59bd096239c62563bf20d1ff77db4d7975476fef",
+      "size": 5801,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/59bd096239c62563bf20d1ff77db4d7975476fef"
+    },
+    {
+      "path": "src/gdem",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ddd444bf96bd2e4c27c7974b91bc849aa9e14b12",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/ddd444bf96bd2e4c27c7974b91bc849aa9e14b12"
+    },
+    {
+      "path": "src/gdem/GxEPD2_1020_GDEM102T91.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91fafa24b7d808aeec41d1cb1c87371eb6241faa",
+      "size": 13576,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/91fafa24b7d808aeec41d1cb1c87371eb6241faa"
+    },
+    {
+      "path": "src/gdem/GxEPD2_1020_GDEM102T91.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9c73ae8b2bebb063416296bbe0304e36eed40bf",
+      "size": 6692,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/d9c73ae8b2bebb063416296bbe0304e36eed40bf"
+    },
+    {
+      "path": "src/gdem/GxEPD2_1085_GDEM1085T51.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "132d2ccf71bc3b78a2c032781858eb80cfce4c8b",
+      "size": 23601,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/132d2ccf71bc3b78a2c032781858eb80cfce4c8b"
+    },
+    {
+      "path": "src/gdem/GxEPD2_1085_GDEM1085T51.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e74d263da91e4b8d7a75394017155b5dccd5be4",
+      "size": 7406,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/3e74d263da91e4b8d7a75394017155b5dccd5be4"
+    },
+    {
+      "path": "src/gdem/GxEPD2_1330_GDEM133T91.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f32adb7cdab81866e153f19af696206ee4e0d6f6",
+      "size": 13559,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/f32adb7cdab81866e153f19af696206ee4e0d6f6"
+    },
+    {
+      "path": "src/gdem/GxEPD2_1330_GDEM133T91.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c3e7094d2daaa4715ff5ed089eb7e8a5795b752",
+      "size": 6692,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/4c3e7094d2daaa4715ff5ed089eb7e8a5795b752"
+    },
+    {
+      "path": "src/gdem/GxEPD2_397_GDEM0397T81.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e9d834be17ab4bbc231527bd2e8166a7e852de4",
+      "size": 14854,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/6e9d834be17ab4bbc231527bd2e8166a7e852de4"
+    },
+    {
+      "path": "src/gdem/GxEPD2_397_GDEM0397T81.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0138bd9b1f1a6e56d7a2836b6121d0ad7da47f5c",
+      "size": 6833,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/0138bd9b1f1a6e56d7a2836b6121d0ad7da47f5c"
+    },
+    {
+      "path": "src/gdem3c",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e6ccad5c31cf615090c065e18f26c4d943151964",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/e6ccad5c31cf615090c065e18f26c4d943151964"
+    },
+    {
+      "path": "src/gdem3c/GxEPD2_1330c_GDEM133Z91.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d168415ff171f9c9ecdd6285489be921d34b8b17",
+      "size": 11062,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/d168415ff171f9c9ecdd6285489be921d34b8b17"
+    },
+    {
+      "path": "src/gdem3c/GxEPD2_1330c_GDEM133Z91.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2001e4e999d87e7aa5f3058110f48affaac2e86",
+      "size": 5605,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/a2001e4e999d87e7aa5f3058110f48affaac2e86"
+    },
+    {
+      "path": "src/gdeq",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cc4d44acae22373c9e9ba75dae7fbe7aac888774",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/cc4d44acae22373c9e9ba75dae7fbe7aac888774"
+    },
+    {
+      "path": "src/gdeq/GxEPD2_310_GDEQ031T10.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "487da2a016b042a8fd3c6f6080b135b872873e7e",
+      "size": 13649,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/487da2a016b042a8fd3c6f6080b135b872873e7e"
+    },
+    {
+      "path": "src/gdeq/GxEPD2_310_GDEQ031T10.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ce65bd7a66c8bb4a8d245e32795a90810161992",
+      "size": 6793,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/6ce65bd7a66c8bb4a8d245e32795a90810161992"
+    },
+    {
+      "path": "src/gdeq/GxEPD2_426_GDEQ0426T82.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e92cfafd3360714fb2473d1a65a9579bc584743",
+      "size": 14322,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/8e92cfafd3360714fb2473d1a65a9579bc584743"
+    },
+    {
+      "path": "src/gdeq/GxEPD2_426_GDEQ0426T82.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df4cb6de51cce2bc88e65a35750b01858ea7211d",
+      "size": 6746,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/df4cb6de51cce2bc88e65a35750b01858ea7211d"
+    },
+    {
+      "path": "src/gdeq/GxEPD2_583_GDEQ0583T31.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26a647cf58f97c8c4d2b53df9d4bdab513ff193b",
+      "size": 12546,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/26a647cf58f97c8c4d2b53df9d4bdab513ff193b"
+    },
+    {
+      "path": "src/gdeq/GxEPD2_583_GDEQ0583T31.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d73912ebed2f7aee4de8641f2b2659e9f78a517d",
+      "size": 6777,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/d73912ebed2f7aee4de8641f2b2659e9f78a517d"
+    },
+    {
+      "path": "src/gdeq3c",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8b840f77f5c3737cb59143b18068aa7bff721ed3",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/8b840f77f5c3737cb59143b18068aa7bff721ed3"
+    },
+    {
+      "path": "src/gdeq3c/GxEPD2_583c_GDEQ0583Z31.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "343426c6fd975316b48e5645ad501a27f978643b",
+      "size": 11807,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/343426c6fd975316b48e5645ad501a27f978643b"
+    },
+    {
+      "path": "src/gdeq3c/GxEPD2_583c_GDEQ0583Z31.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8638559e63ce58bceff62de9ed559aa6c4c57a22",
+      "size": 5696,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/8638559e63ce58bceff62de9ed559aa6c4c57a22"
+    },
+    {
+      "path": "src/gdey",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3a2670f4609c1129673568982d92e6e4a17e905f",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/3a2670f4609c1129673568982d92e6e4a17e905f"
+    },
+    {
+      "path": "src/gdey/GxEPD2_154_GDEY0154D67.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8591469b0760e67520b110ceec105f0c9c024da",
+      "size": 13453,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/f8591469b0760e67520b110ceec105f0c9c024da"
+    },
+    {
+      "path": "src/gdey/GxEPD2_154_GDEY0154D67.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec0fc48b84a548547eee3786163e3cf34293048f",
+      "size": 6667,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/ec0fc48b84a548547eee3786163e3cf34293048f"
+    },
+    {
+      "path": "src/gdey/GxEPD2_213_GDEY0213B74.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12249cb3c357b90a63507034c5e4a9e637f32a73",
+      "size": 13437,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/12249cb3c357b90a63507034c5e4a9e637f32a73"
+    },
+    {
+      "path": "src/gdey/GxEPD2_213_GDEY0213B74.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0db45b16025efeae3bf60c50f7a77a91394385d",
+      "size": 6665,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/d0db45b16025efeae3bf60c50f7a77a91394385d"
+    },
+    {
+      "path": "src/gdey/GxEPD2_266_GDEY0266T90.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4278dad23898400afa421a3626ab108502ee783e",
+      "size": 13358,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/4278dad23898400afa421a3626ab108502ee783e"
+    },
+    {
+      "path": "src/gdey/GxEPD2_266_GDEY0266T90.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0836ec0bdb67c441e15e1f899cc1b94e0f8d9bca",
+      "size": 6667,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/0836ec0bdb67c441e15e1f899cc1b94e0f8d9bca"
+    },
+    {
+      "path": "src/gdey/GxEPD2_270_GDEY027T91.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea296d9e53e86c5539168e09cdb1a4efac6aa5f2",
+      "size": 13208,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/ea296d9e53e86c5539168e09cdb1a4efac6aa5f2"
+    },
+    {
+      "path": "src/gdey/GxEPD2_270_GDEY027T91.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e770cb60c16a432900c5a2f517477a5f42e0174",
+      "size": 6676,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/8e770cb60c16a432900c5a2f517477a5f42e0174"
+    },
+    {
+      "path": "src/gdey/GxEPD2_290_GDEY029T71H.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "394379386dff875cd52a04039701581e6793e888",
+      "size": 14654,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/394379386dff875cd52a04039701581e6793e888"
+    },
+    {
+      "path": "src/gdey/GxEPD2_290_GDEY029T71H.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "614360e00c4c10b906e1520113177f4e67997d54",
+      "size": 6789,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/614360e00c4c10b906e1520113177f4e67997d54"
+    },
+    {
+      "path": "src/gdey/GxEPD2_290_GDEY029T94.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "518c57cb7382ad284958debe51f83a112b59f478",
+      "size": 13422,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/518c57cb7382ad284958debe51f83a112b59f478"
+    },
+    {
+      "path": "src/gdey/GxEPD2_290_GDEY029T94.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9357b512dbfcedd7e2dbd3e581fc84c542fa1215",
+      "size": 6661,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/9357b512dbfcedd7e2dbd3e581fc84c542fa1215"
+    },
+    {
+      "path": "src/gdey/GxEPD2_370_GDEY037T03.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be081bc2e22021e432766d612be3054d5705a037",
+      "size": 13677,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/be081bc2e22021e432766d612be3054d5705a037"
+    },
+    {
+      "path": "src/gdey/GxEPD2_370_GDEY037T03.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a94340d3dc55608c13e7b3d79a14c04fdff03840",
+      "size": 6806,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/a94340d3dc55608c13e7b3d79a14c04fdff03840"
+    },
+    {
+      "path": "src/gdey/GxEPD2_420_GDEY042T81.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84d64c4f3b7f3e6f22e47bee377765baa4aaa189",
+      "size": 13733,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/84d64c4f3b7f3e6f22e47bee377765baa4aaa189"
+    },
+    {
+      "path": "src/gdey/GxEPD2_420_GDEY042T81.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70417b69f8d25b40c9d594303ee63d62fd1f9bf9",
+      "size": 6736,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/70417b69f8d25b40c9d594303ee63d62fd1f9bf9"
+    },
+    {
+      "path": "src/gdey/GxEPD2_579_GDEY0579T93.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b980530a693b1806ad5f69f31b6271a44888d43",
+      "size": 20785,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/7b980530a693b1806ad5f69f31b6271a44888d43"
+    },
+    {
+      "path": "src/gdey/GxEPD2_579_GDEY0579T93.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ebfbbaab0604b7e53c2c2370e4161c167592bb1",
+      "size": 7311,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/9ebfbbaab0604b7e53c2c2370e4161c167592bb1"
+    },
+    {
+      "path": "src/gdey/GxEPD2_750_GDEY075T7.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f94271711a2902c7bc9c438d9f3481c254e974d",
+      "size": 16009,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/9f94271711a2902c7bc9c438d9f3481c254e974d"
+    },
+    {
+      "path": "src/gdey/GxEPD2_750_GDEY075T7.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "582fa1352bd952e6f1ea745e486d396509dcd51f",
+      "size": 7281,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/582fa1352bd952e6f1ea745e486d396509dcd51f"
+    },
+    {
+      "path": "src/gdey3c",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a68fc088c1e3485a5ebc7919a877c35370d6160f",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/a68fc088c1e3485a5ebc7919a877c35370d6160f"
+    },
+    {
+      "path": "src/gdey3c/GxEPD2_1160c_GDEY116Z91.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3de95e72f936594fdf6170987382c08a31ca82b9",
+      "size": 10613,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/3de95e72f936594fdf6170987382c08a31ca82b9"
+    },
+    {
+      "path": "src/gdey3c/GxEPD2_1160c_GDEY116Z91.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbd3554302e8a350feaefe70b4ba5fd9d2b27ab2",
+      "size": 5605,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/fbd3554302e8a350feaefe70b4ba5fd9d2b27ab2"
+    },
+    {
+      "path": "src/gdey3c/GxEPD2_420c_GDEY042Z98.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f59aa6e6c2bc9e597ebaff7100e8183d8b7a978a",
+      "size": 13270,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/f59aa6e6c2bc9e597ebaff7100e8183d8b7a978a"
+    },
+    {
+      "path": "src/gdey3c/GxEPD2_420c_GDEY042Z98.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c29573ff2a489ff438fa8f1a34fc2753064ae7d3",
+      "size": 6795,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/c29573ff2a489ff438fa8f1a34fc2753064ae7d3"
+    },
+    {
+      "path": "src/gdey3c/GxEPD2_579c_GDEY0579Z93.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0580b38b94980a41b483d146ee4f7e47be0192e6",
+      "size": 17564,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/0580b38b94980a41b483d146ee4f7e47be0192e6"
+    },
+    {
+      "path": "src/gdey3c/GxEPD2_579c_GDEY0579Z93.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8dfe94840b7f59e3cb548e9bdd68d28bcbce577",
+      "size": 6210,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/d8dfe94840b7f59e3cb548e9bdd68d28bcbce577"
+    },
+    {
+      "path": "src/gdey3c/GxEPD2_750c_GDEY075Z08.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b114b01a968e1a18bd36f98d828081a6ac027829",
+      "size": 19411,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/b114b01a968e1a18bd36f98d828081a6ac027829"
+    },
+    {
+      "path": "src/gdey3c/GxEPD2_750c_GDEY075Z08.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67d9763b67a43acc3c33c3bc8f9ec75894c0a05d",
+      "size": 7363,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/67d9763b67a43acc3c33c3bc8f9ec75894c0a05d"
+    },
+    {
+      "path": "src/it8951",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "35fd55c996e8aa0fe66a416067ceac7de435aa9c",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/35fd55c996e8aa0fe66a416067ceac7de435aa9c"
+    },
+    {
+      "path": "src/it8951/GxEPD2_it103_1872x1404.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cc7faa68d8b6696bca8579282d4ba7e09caa4ae",
+      "size": 22115,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/3cc7faa68d8b6696bca8579282d4ba7e09caa4ae"
+    },
+    {
+      "path": "src/it8951/GxEPD2_it103_1872x1404.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81ae166111ac340229dac1e404ce6752d2d048a6",
+      "size": 7046,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/81ae166111ac340229dac1e404ce6752d2d048a6"
+    },
+    {
+      "path": "src/it8951/GxEPD2_it60.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95933adaf7ba23c5599765cec197a3de76b3308b",
+      "size": 21495,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/95933adaf7ba23c5599765cec197a3de76b3308b"
+    },
+    {
+      "path": "src/it8951/GxEPD2_it60.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62fcca340e3565dad35a39ec8620e23cce44e1e2",
+      "size": 6972,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/62fcca340e3565dad35a39ec8620e23cce44e1e2"
+    },
+    {
+      "path": "src/it8951/GxEPD2_it60_1448x1072.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f95a25f9e9f969d9b45d2061d34172e40d3d4c73",
+      "size": 21965,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/f95a25f9e9f969d9b45d2061d34172e40d3d4c73"
+    },
+    {
+      "path": "src/it8951/GxEPD2_it60_1448x1072.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d93b9f9acafa2e747be7b03460ad1000bee20959",
+      "size": 7036,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/d93b9f9acafa2e747be7b03460ad1000bee20959"
+    },
+    {
+      "path": "src/it8951/GxEPD2_it78_1872x1404.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d61df1eeeb813fae1be34957cfb8663b60d5457",
+      "size": 21960,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/7d61df1eeeb813fae1be34957cfb8663b60d5457"
+    },
+    {
+      "path": "src/it8951/GxEPD2_it78_1872x1404.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54ac856be405eb8cde22fda6f7c31a0d9a82a59a",
+      "size": 7031,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/54ac856be405eb8cde22fda6f7c31a0d9a82a59a"
+    },
+    {
+      "path": "src/other",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d95eecd2983e397c3c73803baa3664c6f730abc3",
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/trees/d95eecd2983e397c3c73803baa3664c6f730abc3"
+    },
+    {
+      "path": "src/other/GxEPD2_420_GYE042A87.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3aadbcb46f9af87cc9629d3914eee4113e1be36",
+      "size": 13541,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/a3aadbcb46f9af87cc9629d3914eee4113e1be36"
+    },
+    {
+      "path": "src/other/GxEPD2_420_GYE042A87.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2190553cd1db5fa67a3ec418ec3575887bfc984",
+      "size": 6702,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/c2190553cd1db5fa67a3ec418ec3575887bfc984"
+    },
+    {
+      "path": "src/other/GxEPD2_420_SE0420NQ04.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be83f8102c2e20962bf7ad8ad85dfb89731fb715",
+      "size": 19952,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/be83f8102c2e20962bf7ad8ad85dfb89731fb715"
+    },
+    {
+      "path": "src/other/GxEPD2_420_SE0420NQ04.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "deec3fec4232d33b0fb0b01d3be29f1ad1ef9fd6",
+      "size": 6393,
+      "url": "https://api.github.com/repos/ZinggJM/GxEPD2/git/blobs/deec3fec4232d33b0fb0b01d3be29f1ad1ef9fd6"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,21 @@
+{
+  "note": "Planning-stage source snapshot; no hardware verification performed.",
+  "files": {
+    "GDEY075T7-globalsources.pdf": {
+      "bytes": 739881,
+      "sha256": "1d80f795b9c2712b31d31ace359a19ceaaba1594d322bd873a528cce8aa245b9"
+    },
+    "GDEY075T7-mirror.pdf": {
+      "bytes": 11130838,
+      "sha256": "9c161c2cbdb70806875415a6456b0579201a4e1963f4b94edbce3afe7ca933ce"
+    },
+    "XIAO_ESP32_C6_v1.0_SCH_260114.pdf": {
+      "bytes": 614070,
+      "sha256": "510f3f917bcded1201ca5c63374409183457c1ef83a836988517d6802180dad7"
+    }
+  },
+  "tools": {
+    "kicad-happy": "6a91aaaea124152b2923326c1cf77278e0999cd4",
+    "KiCadRoutingTools": "fd59a050e258581d5938c4d9456bbfeb13240e67"
+  }
+}

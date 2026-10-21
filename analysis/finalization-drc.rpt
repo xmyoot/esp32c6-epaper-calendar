@@ -1,0 +1,78 @@
+** Drc report for EPD_C6_RevA.kicad_pcb **
+** Created on 2026-10-20T07:26:55 **
+** Report includes: Errors, Warnings **
+
+** Found 14 DRC violations **
+[shorting_items]: Items shorting two nets (nets GND and EPD_SCK)
+    Local override; error
+    @(136.3500 mm, 101.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(131.0000 mm, 101.0000 mm): Track [EPD_SCK] on B.Cu, length 9.5500 mm
+[shorting_items]: Items shorting two nets (nets 3V3_MODULE and EPD_SCK)
+    Local override; error
+    @(126.2000 mm, 109.6000 mm): Track [3V3_MODULE] on B.Cu, length 3.6770 mm
+    @(129.0000 mm, 115.0000 mm): Track [EPD_SCK] on B.Cu, length 12.0000 mm
+[shorting_items]: Items shorting two nets (nets EPD_SCK and 3V3_MODULE)
+    Local override; error
+    @(129.0000 mm, 115.0000 mm): Via [EPD_SCK] on F.Cu - B.Cu
+    @(128.8000 mm, 112.2000 mm): Track [3V3_MODULE] on B.Cu, length 8.6000 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(129.0000 mm, 115.0000 mm): Track [EPD_SCK] on B.Cu, length 12.0000 mm
+    @(128.5000 mm, 110.6000 mm): Track [EPD_MOSI] on B.Cu, length 2.4250 mm
+[shorting_items]: Items shorting two nets (nets EPD_CS_N and EPD_SCK)
+    Local override; error
+    @(143.9000 mm, 105.8500 mm): Track [EPD_CS_N] on F.Cu, length 0.0750 mm
+    @(143.7500 mm, 106.8500 mm): Track [EPD_SCK] on F.Cu, length 2.6500 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1940 mm)
+    Local override; error
+    @(143.3000 mm, 104.6250 mm): Track [EPD_DC] on F.Cu, length 0.0250 mm
+    @(143.7500 mm, 104.2000 mm): Via [EPD_SCK] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1802 mm)
+    Local override; error
+    @(144.1250 mm, 105.4250 mm): Track [EPD_DC] on F.Cu, length 1.0607 mm
+    @(143.7500 mm, 104.2000 mm): Via [EPD_SCK] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1937 mm)
+    Local override; error
+    @(143.3500 mm, 104.6750 mm): Track [EPD_DC] on F.Cu, length 0.0707 mm
+    @(143.7500 mm, 104.2000 mm): Via [EPD_SCK] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0750 mm)
+    Local override; error
+    @(143.7500 mm, 106.8500 mm): Track [EPD_SCK] on F.Cu, length 2.6500 mm
+    @(144.0500 mm, 105.8750 mm): Track [EPD_CS_N] on F.Cu, length 0.2828 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)
+    Local override; error
+    @(143.3750 mm, 104.6750 mm): Track [EPD_DC] on F.Cu, length 0.0250 mm
+    @(143.7500 mm, 106.8500 mm): Track [EPD_SCK] on F.Cu, length 2.6500 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1000 mm)
+    Local override; error
+    @(128.5000 mm, 110.6000 mm): Via [EPD_MOSI] on F.Cu - B.Cu
+    @(129.0000 mm, 115.0000 mm): Track [EPD_SCK] on B.Cu, length 12.0000 mm
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1000 mm; actual 0.0438 mm)
+    Rule: board setup constraints silk; warning
+    @(130.6400 mm, 108.7113 mm): Segment of C9 on F.Silkscreen
+    @(130.0000 mm, 108.0000 mm): Reference field of C9
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1000 mm; actual 0.0000 mm)
+    Rule: board setup constraints silk; warning
+    @(151.6500 mm, 100.5000 mm): Segment of J3 on F.Silkscreen
+    @(144.0000 mm, 101.0000 mm): Reference field of J3
+[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1000 mm; actual 0.0926 mm)
+    Rule: board setup constraints silk; warning
+    @(139.5000 mm, 111.5000 mm): Reference field of C8
+    @(140.2650 mm, 110.7387 mm): Segment of C6 on F.Silkscreen
+
+** Found 1 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.5000 mm, 100.5000 mm): Zone [GND] on B.Cu, priority 0
+    @(100.5000 mm, 100.5000 mm): Zone [GND] on F.Cu, priority 0
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

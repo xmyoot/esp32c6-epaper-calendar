@@ -1,0 +1,85 @@
+{
+  "query": "SRN4018-100M",
+  "count": 2,
+  "total_matches": 2,
+  "components": [
+    {
+      "lcsc_code": "C722786",
+      "lcsc_id": 722786,
+      "mpn": "PH-6AWDK",
+      "manufacturer": "CAX",
+      "package": "\u5f2f\u63d2,P=2mm",
+      "description": "-25\u2103~+85\u2103 1 14mm 1x6P 250V 2A 2mm 4.6mm 6 6P 7.5mm Brass PA66 Right Angle White \u5f2f\u63d2,P=2mm Wire To Board Connector ROHS",
+      "is_basic": false,
+      "stock": 142,
+      "price_usd": 0.0301,
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/6335e1cd2097dcb98cda662df1af93d9.pdf?productCode=C722786",
+      "attributes": {},
+      "prices": [
+        {
+          "min_qty": 20,
+          "price": 0.0286
+        },
+        {
+          "min_qty": 200,
+          "price": 0.0226
+        },
+        {
+          "min_qty": 600,
+          "price": 0.0193
+        },
+        {
+          "min_qty": 2000,
+          "price": 0.0157
+        },
+        {
+          "min_qty": 10000,
+          "price": 0.014
+        },
+        {
+          "min_qty": 20000,
+          "price": 0.0131
+        }
+      ]
+    },
+    {
+      "lcsc_code": "C347226",
+      "lcsc_id": 347226,
+      "mpn": "LD1117-1.5",
+      "manufacturer": "UMW",
+      "package": "SOT-223",
+      "description": "-40\u2103~+125\u2103 0.003%Vout 1 1.3V@(1A) 1.5V 18V 1A 5mA 60dB@(120Hz) Fixed Over Current Protection Positive SOT-223 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",
+      "is_basic": false,
+      "stock": 73,
+      "price_usd": 0.0432,
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/1a7f277cc1171afc7d6650cbbfc8365b.pdf?productCode=C347226",
+      "attributes": {},
+      "prices": [
+        {
+          "min_qty": 10,
+          "price": 0.0481
+        },
+        {
+          "min_qty": 100,
+          "price": 0.0382
+        },
+        {
+          "min_qty": 300,
+          "price": 0.0333
+        },
+        {
+          "min_qty": 2500,
+          "price": 0.0285
+        },
+        {
+          "min_qty": 5000,
+          "price": 0.0255
+        },
+        {
+          "min_qty": 10000,
+          "price": 0.024
+        }
+      ]
+    }
+  ]
+}

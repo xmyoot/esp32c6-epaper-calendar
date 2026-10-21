@@ -1,0 +1,4502 @@
+(export
+	(version "E")
+	(design
+		(source "/Users/hector/Documents/KiCAD_Projects/ESP32_C6_EPaperDisplayDriver/hardware/EPD_C6_RevA.kicad_sch")
+		(date "2026-10-21T07:16:43")
+		(tool "Eeschema 10.0.7")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title "ESP32-C6 E-paper Calendar Carrier")
+				(company "Hector | Portfolio Engineering")
+				(rev "A")
+				(date "2026-10-20")
+				(source "EPD_C6_RevA.kicad_sch")
+				(comment
+					(number "1")
+					(value "GDEY075T7 / UC8179 | USB-powered socketed XIAO ESP32C6")
+				)
+				(comment
+					(number "2")
+					(value "DESIGN REVISION A - PROTOTYPE NOT YET TESTED")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "C1")
+			(value "4.7u / 50V")
+			(footprint "Carrier:C_1206_3216Metric")
+			(datasheet "https://www.lcsc.com/product-detail/C132170.html")
+			(fields
+				(field
+					(name "MPN") "CC1206KKX7R9BB475")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "LCSC") "C132170")
+				(field
+					(name "BOM Comments")
+				)
+				(field
+					(name "Footprint") "Carrier:C_1206_3216Metric")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/product-detail/C132170.html")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "CC1206KKX7R9BB475")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "LCSC")
+				(value "C132170")
+			)
+			(property
+				(name "BOM Comments")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "EPD_C6_RevA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "EPD_C6_RevA.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bc8af7a1-1671-5fa3-9c2e-5c018a6bdcbd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C2")
+			(value "4.7u / 50V")
+			(footprint "Carrier:C_1206_3216Metric")
+			(datasheet "https://www.lcsc.com/product-detail/C132170.html")
+			(fields
+				(field
+					(name "MPN") "CC1206KKX7R9BB475")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "LCSC") "C132170")
+				(field
+					(name "BOM Comments")
+				)
+				(field
+					(name "Footprint") "Carrier:C_1206_3216Metric")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/product-detail/C132170.html")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "CC1206KKX7R9BB475")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "LCSC")
+				(value "C132170")
+			)
+			(property
+				(name "BOM Comments")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "EPD_C6_RevA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "EPD_C6_RevA.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "64f4d154-5015-5f4e-9017-78ab564dec60")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C3")
+			(value "10u / 50V")
+			(footprint "Carrier:C_1210_3225Metric")
+			(datasheet "https://www.lcsc.com/product-detail/C77102.html")
+			(fields
+				(field
+					(name "MPN") "GRM32ER71H106KA12L")
+				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "LCSC") "C77102")
+				(field
+					(name "BOM Comments")
+				)
+				(field
+					(name "Footprint") "Carrier:C_1210_3225Metric")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/product-detail/C77102.html")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "GRM32ER71H106KA12L")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "LCSC")
+				(value "C77102")
+			)
+			(property
+				(name "BOM Comments")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "EPD_C6_RevA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "EPD_C6_RevA.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0c9b4a4e-8526-5587-adf9-09ec9d98431e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C4")
+			(value "1u / 50V")
+			(footprint "Carrier:C_0805_2012Metric")
+			(datasheet "https://www.lcsc.com/product-detail/C77083.html")
+			(fields
+				(field
+					(name "MPN") "GRM21BR71H105KA12L")
+				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "LCSC") "C77083")
+				(field
+					(name "BOM Comments")
+				)
+				(field
+					(name "Footprint") "Carrier:C_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/product-detail/C77083.html")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "GRM21BR71H105KA12L")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "LCSC")
+				(value "C77083")
+			)
+			(property
+				(name "BOM Comments")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "EPD_C6_RevA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "EPD_C6_RevA.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "edb814a2-661a-5380-8f31-ad2309de5a0d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C5")
+			(value "1u / 50V")
+			(footprint "Carrier:C_0805_2012Metric")
+			(datasheet "https://www.lcsc.com/product-detail/C77083.html")
+			(fields
+				(field
+					(name "MPN") "GRM21BR71H105KA12L")
+				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "LCSC") "C77083")
+				(field
+					(name "BOM Comments")
+				)
+				(field
+					(name "Footprint") "Carrier:C_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/product-detail/C77083.html")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "GRM21BR71H105KA12L")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "LCSC")
+				(value "C77083")
+			)
+			(property
+				(name "BOM Comments")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "EPD_C6_RevA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "EPD_C6_RevA.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b6f47a7c-a010-5445-a8cf-cb6cdcaefb78")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C6")
+			(value "1u / 50V")
+			(footprint "Carrier:C_0805_2012Metric")
+			(datasheet "https://www.lcsc.com/product-detail/C77083.html")
+			(fields
+				(field
+					(name "MPN") "GRM21BR71H105KA12L")
+				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "LCSC") "C77083")
+				(field
+					(name "BOM Comments")
+				)
+				(field
+					(name "Footprint") "Carrier:C_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/product-detail/C77083.html")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "GRM21BR71H105KA12L")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "LCSC")
+				(value "C77083")
+			)
+			(property
+				(name "BOM Comments")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "EPD_C6_RevA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "EPD_C6_RevA.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8d22a90e-2ae3-56c0-8f9e-86041301c179")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C7")
+			(value "10u / 50V")
+			(footprint "Carrier:C_1210_3225Metric")
+			(datasheet "https://www.lcsc.com/product-detail/C77102.html")
+			(fields
+				(field
+					(name "MPN") "GRM32ER71H106KA12L")
+				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "LCSC") "C77102")
+				(field
+					(name "BOM Comments")
+				)
+				(field
+					(name "Footprint") "Carrier:C_1210_3225Metric")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/product-detail/C77102.html")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "GRM32ER71H106KA12L")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "LCSC")
+				(value "C77102")
+			)
+			(property
+				(name "BOM Comments")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "EPD_C6_RevA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "EPD_C6_RevA.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2de5ef71-abcd-5b92-8b21-853bf7f0707b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C8")
+			(value "10u / 50V")
+			(footprint "Carrier:C_1210_3225Metric")
+			(datasheet "https://www.lcsc.com/product-detail/C77102.html")
+			(fields
+				(field
+					(name "MPN") "GRM32ER71H106KA12L")
+				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "LCSC") "C77102")
+				(field
+					(name "BOM Comments")
+				)
+				(field
+					(name "Footprint") "Carrier:C_1210_3225Metric")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/product-detail/C77102.html")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "GRM32ER71H106KA12L")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "LCSC")
+				(value "C77102")
+			)
+			(property
+				(name "BOM Comments")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "EPD_C6_RevA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "EPD_C6_RevA.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6b113e96-d2e0-5776-9177-baae65c7e9b4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C9")
+			(value "10u / 50V")
+			(footprint "Carrier:C_1210_3225Metric")
+			(datasheet "https://www.lcsc.com/product-detail/C77102.html")
+			(fields
+				(field
+					(name "MPN") "GRM32ER71H106KA12L")
+				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "LCSC") "C77102")
+				(field
+					(name "BOM Comments")
+				)
+				(field
+					(name "Footprint") "Carrier:C_1210_3225Metric")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/product-detail/C77102.html")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "GRM32ER71H106KA12L")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "LCSC")
+				(value "C77102")
+			)
+			(property
+				(name "BOM Comments")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "EPD_C6_RevA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "EPD_C6_RevA.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d71d7eff-c069-516d-afac-486bdd728eff")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C10")
+			(value "1u / 50V")
+			(footprint "Carrier:C_0805_2012Metric")
+			(datasheet "https://www.lcsc.com/product-detail/C77083.html")
+			(fields
+				(field
+					(name "MPN") "GRM21BR71H105KA12L")
+				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "LCSC") "C77083")
+				(field
+					(name "BOM Comments")
+				)
+				(field
+					(name "Footprint") "Carrier:C_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/product-detail/C77083.html")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "GRM21BR71H105KA12L")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "LCSC")
+				(value "C77083")
+			)
+			(property
+				(name "BOM Comments")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "EPD_C6_RevA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "EPD_C6_RevA.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "81ac3525-64ea-5cd5-99d6-f221ae230aa3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C11")
+			(value "100n / 16V")
+			(footprint "Carrier:C_0402_1005Metric")
+			(datasheet "https://www.lcsc.com/product-detail/C1525.html")
+			(fields
+				(field
+					(name "MPN") "CL05B104KO5NNNC")
+				(field
+					(name "Manufacturer") "Samsung")
+				(field
+					(name "LCSC") "C1525")
+				(field
+					(name "BOM Comments")
+				)
+				(field
+					(name "Footprint") "Carrier:C_0402_1005Metric")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/product-detail/C1525.html")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "CL05B104KO5NNNC")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Samsung")
+			)
+			(property
+				(name "LCSC")
+				(value "C1525")
+			)
+			(property
+				(name "BOM Comments")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "EPD_C6_RevA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "EPD_C6_RevA.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "dfe1c06b-6419-5fb0-bbef-4c300157a920")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C12")
+			(value "10u / 50V")
+			(footprint "Carrier:C_1210_3225Metric")
+			(datasheet "https://www.lcsc.com/product-detail/C77102.html")
+			(fields
+				(field
+					(name "MPN") "GRM32ER71H106KA12L")
+				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "LCSC") "C77102")
+				(field
+					(name "BOM Comments")
+				)
+				(field
+					(name "Footprint") "Carrier:C_1210_3225Metric")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/product-detail/C77102.html")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "GRM32ER71H106KA12L")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "LCSC")
+				(value "C77102")
+			)
+			(property
+				(name "BOM Comments")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "EPD_C6_RevA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "EPD_C6_RevA.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0a11f9ae-3914-5e7b-9116-1696e4108041")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D1")
+			(value "MBR0530")
+			(footprint "Carrier:D_SOD-123")
+			(datasheet "https://www.lcsc.com/product-detail/C77336.html")
+			(fields
+				(field
+					(name "MPN") "MBR0530")
+				(field
+					(name "Manufacturer") "JSCJ")
+				(field
+					(name "LCSC") "C77336")
+				(field
+					(name "BOM Comments") "Cathode pad1; positive rectifier.")
+				(field
+					(name "Footprint") "Carrier:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/product-detail/C77336.html")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "D_Schottky")
+				(description "Schottky diode")
+			)
+			(property
+				(name "MPN")
+				(value "MBR0530")
+			)
+			(property
+				(name "Manufacturer")
+				(value "JSCJ")
+			)
+			(property
+				(name "LCSC")
+				(value "C77336")
+			)
+			(property
+				(name "BOM Comments")
+				(value "Cathode pad1; positive rectifier.")
+			)
+			(property
+				(name "Sheetname")
+				(value "EPD_C6_RevA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "EPD_C6_RevA.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode Schottky")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TO-???* *_Diode_* *SingleDiode* D_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "cdc33945-187e-5cbe-9919-970cd048606f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D2")
+			(value "MBR0530")
+			(footprint "Carrier:D_SOD-123")
+			(datasheet "https://www.lcsc.com/product-detail/C77336.html")
+			(fields
+				(field
+					(name "MPN") "MBR0530")
+				(field
+					(name "Manufacturer") "JSCJ")
+				(field
+					(name "LCSC") "C77336")
+				(field
+					(name "BOM Comments") "Cathode pad1 to GND; pump clamp.")
+				(field
+					(name "Footprint") "Carrier:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/product-detail/C77336.html")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "D_Schottky")
+				(description "Schottky diode")
+			)
+			(property
+				(name "MPN")
+				(value "MBR0530")
+			)
+			(property
+				(name "Manufacturer")
+				(value "JSCJ")
+			)
+			(property
+				(name "LCSC")
+				(value "C77336")
+			)
+			(property
+				(name "BOM Comments")
+				(value "Cathode pad1 to GND; pump clamp.")
+			)
+			(property
+				(name "Sheetname")
+				(value "EPD_C6_RevA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "EPD_C6_RevA.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode Schottky")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TO-???* *_Diode_* *SingleDiode* D_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4e876d0d-19f6-5c13-b5ef-167192bbaeec")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D3")
+			(value "MBR0530")
+			(footprint "Carrier:D_SOD-123")
+			(datasheet "https://www.lcsc.com/product-detail/C77336.html")
+			(fields
+				(field
+					(name "MPN") "MBR0530")
+				(field
+					(name "Manufacturer") "JSCJ")
+				(field
+					(name "LCSC") "C77336")
+				(field
+					(name "BOM Comments") "Anode pad2 to PREVGL; cathode pad1 to PUMP.")
+				(field
+					(name "Footprint") "Carrier:D_SOD-123")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/product-detail/C77336.html")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "D_Schottky")
+				(description "Schottky diode")
+			)
+			(property
+				(name "MPN")
+				(value "MBR0530")
+			)
+			(property
+				(name "Manufacturer")
+				(value "JSCJ")
+			)
+			(property
+				(name "LCSC")
+				(value "C77336")
+			)
+			(property
+				(name "BOM Comments")
+				(value "Anode pad2 to PREVGL; cathode pad1 to PUMP.")
+			)
+			(property
+				(name "Sheetname")
+				(value "EPD_C6_RevA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "EPD_C6_RevA.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode Schottky")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TO-???* *_Diode_* *SingleDiode* D_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "420c2c0c-5423-56f8-bc55-69fa26dfeb18")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "FID1")
+			(value "1mm FIDUCIAL")
+			(footprint "Carrier:Fiducial_1mm_Mask2mm")
+			(fields
+				(field
+					(name "MPN")
+				)
+				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "BOM Comments") "Optical PCB fiducial, no fitted component.")
+				(field
+					(name "Footprint") "Carrier:Fiducial_1mm_Mask2mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "Fiducial")
+				(description "Fiducial Marker")
+			)
+			(property
+				(name "MPN")
+				(value "")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "BOM Comments")
+				(value "Optical PCB fiducial, no fitted component.")
+			)
+			(property
+				(name "Sheetname")
+				(value "EPD_C6_RevA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "EPD_C6_RevA.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "fiducial marker")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Fiducial*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e58d5623-8cf9-552b-94da-e0eeb56ebdc0")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "FID2")
+			(value "1mm FIDUCIAL")
+			(footprint "Carrier:Fiducial_1mm_Mask2mm")
+			(fields
+				(field
+					(name "MPN")
+				)
+				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "BOM Comments") "Optical PCB fiducial, no fitted component.")
+				(field
+					(name "Footprint") "Carrier:Fiducial_1mm_Mask2mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "Fiducial")
+				(description "Fiducial Marker")
+			)
+			(property
+				(name "MPN")
+				(value "")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "BOM Comments")
+				(value "Optical PCB fiducial, no fitted component.")
+			)
+			(property
+				(name "Sheetname")
+				(value "EPD_C6_RevA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "EPD_C6_RevA.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "fiducial marker")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Fiducial*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5dc5704b-497d-56db-aa22-840063612d55")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "FID3")
+			(value "1mm FIDUCIAL")
+			(footprint "Carrier:Fiducial_1mm_Mask2mm")
+			(fields
+				(field
+					(name "MPN")
+				)
+				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "BOM Comments") "Optical PCB fiducial, no fitted component.")
+				(field
+					(name "Footprint") "Carrier:Fiducial_1mm_Mask2mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "Fiducial")
+				(description "Fiducial Marker")
+			)
+			(property
+				(name "MPN")
+				(value "")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "BOM Comments")
+				(value "Optical PCB fiducial, no fitted component.")
+			)
+			(property
+				(name "Sheetname")
+				(value "EPD_C6_RevA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "EPD_C6_RevA.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "fiducial marker")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Fiducial*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a8063457-5b8d-5795-bf58-6fd49ddf774f")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H1")
+			(value "M2.5 NPTH")
+			(footprint "Carrier:MountingHole_2.7mm_M2.5")
+			(fields
+				(field
+					(name "MPN")
+				)
+				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "BOM Comments") "Mechanical; M2.5 non-plated mounting hole.")
+				(field
+					(name "Footprint") "Carrier:MountingHole_2.7mm_M2.5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "MPN")
+				(value "")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "BOM Comments")
+				(value "Mechanical; M2.5 non-plated mounting hole.")
+			)
+			(property
+				(name "Sheetname")
+				(value "EPD_C6_RevA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "EPD_C6_RevA.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f6e37f1a-e6c7-55a4-a241-d4317e797c67")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H2")
+			(value "M2.5 NPTH")
+			(footprint "Carrier:MountingHole_2.7mm_M2.5")
+			(fields
+				(field
+					(name "MPN")
+				)
+				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "BOM Comments") "Mechanical; M2.5 non-plated mounting hole.")
+				(field
+					(name "Footprint") "Carrier:MountingHole_2.7mm_M2.5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "MPN")
+				(value "")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "BOM Comments")
+				(value "Mechanical; M2.5 non-plated mounting hole.")
+			)
+			(property
+				(name "Sheetname")
+				(value "EPD_C6_RevA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "EPD_C6_RevA.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b3bd33bb-a6ef-5fa9-881f-4cbfd4945438")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H3")
+			(value "M2.5 NPTH")
+			(footprint "Carrier:MountingHole_2.7mm_M2.5")
+			(fields
+				(field
+					(name "MPN")
+				)
+				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "BOM Comments") "Mechanical; M2.5 non-plated mounting hole.")
+				(field
+					(name "Footprint") "Carrier:MountingHole_2.7mm_M2.5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "MPN")
+				(value "")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "BOM Comments")
+				(value "Mechanical; M2.5 non-plated mounting hole.")
+			)
+			(property
+				(name "Sheetname")
+				(value "EPD_C6_RevA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "EPD_C6_RevA.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "268085c0-820e-5789-ba7b-47ba39ac8358")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H4")
+			(value "M2.5 NPTH")
+			(footprint "Carrier:MountingHole_2.7mm_M2.5")
+			(fields
+				(field
+					(name "MPN")
+				)
+				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "BOM Comments") "Mechanical; M2.5 non-plated mounting hole.")
+				(field
+					(name "Footprint") "Carrier:MountingHole_2.7mm_M2.5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "MPN")
+				(value "")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "BOM Comments")
+				(value "Mechanical; M2.5 non-plated mounting hole.")
+			)
+			(property
+				(name "Sheetname")
+				(value "EPD_C6_RevA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "EPD_C6_RevA.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ddcf162f-223f-5dab-ab60-42c88084d39d")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "J1")
+			(value "XIAO LEFT / USB UP")
+			(footprint "Carrier:PinSocket_1x07_P2.54mm_Vertical")
+			(fields
+				(field
+					(name "MPN") "SSW-107-01-G-S")
+				(field
+					(name "Manufacturer") "Samtec")
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "BOM Comments") "Hand solder; pin1=D0, USB toward top edge. Two rows spaced 15.24mm.")
+				(field
+					(name "Footprint") "Carrier:PinSocket_1x07_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Carrier")
+				(part "Socket_Left")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "SSW-107-01-G-S")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Samtec")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "BOM Comments")
+				(value "Hand solder; pin1=D0, USB toward top edge. Two rows spaced 15.24mm.")
+			)
+			(property
+				(name "Sheetname")
+				(value "EPD_C6_RevA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "EPD_C6_RevA.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "616533fc-8ed4-5c17-bdaa-84e6501bd3ae")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J2")
+			(value "XIAO RIGHT / USB UP")
+			(footprint "Carrier:PinSocket_1x07_P2.54mm_Vertical")
+			(fields
+				(field
+					(name "MPN") "SSW-107-01-G-S")
+				(field
+					(name "Manufacturer") "Samtec")
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "BOM Comments") "Hand solder; pin1=5V (unused), pin7=D7. Male headers fitted to XIAO separately.")
+				(field
+					(name "Footprint") "Carrier:PinSocket_1x07_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Carrier")
+				(part "Socket_Right")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "SSW-107-01-G-S")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Samtec")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "BOM Comments")
+				(value "Hand solder; pin1=5V (unused), pin7=D7. Male headers fitted to XIAO separately.")
+			)
+			(property
+				(name "Sheetname")
+				(value "EPD_C6_RevA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "EPD_C6_RevA.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "921d4ca0-88c6-59f9-ad8b-922607ca6fc6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J3")
+			(value "GDEY075T7 / BOTTOM CONTACT")
+			(footprint "Carrier:Hirose_FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal")
+			(datasheet "https://www.lcsc.com/product-detail/C202112.html")
+			(fields
+				(field
+					(name "MPN") "FH12-24S-0.5SH(55)")
+				(field
+					(name "Manufacturer") "Hirose")
+				(field
+					(name "LCSC") "C202112")
+				(field
+					(name "BOM Comments") "24 contacts / 0.5mm / 0.3mm flex; pin4 NC despite reference alias VGL; pin5 VSHR independent of pin21.")
+				(field
+					(name "Footprint") "Carrier:Hirose_FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/product-detail/C202112.html")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Carrier")
+				(part "GDEY075T7_FPC24")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "FH12-24S-0.5SH(55)")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Hirose")
+			)
+			(property
+				(name "LCSC")
+				(value "C202112")
+			)
+			(property
+				(name "BOM Comments")
+				(value "24 contacts / 0.5mm / 0.3mm flex; pin4 NC despite reference alias VGL; pin5 VSHR independent of pin21.")
+			)
+			(property
+				(name "Sheetname")
+				(value "EPD_C6_RevA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "EPD_C6_RevA.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "10e2f6ca-1771-536d-9bc2-ef0483b5c0ad")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "MP")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L1")
+			(value "10uH / 1.3A")
+			(footprint "Carrier:L_Bourns-SRN4018")
+			(datasheet "https://www.lcsc.com/product-detail/C503307.html")
+			(fields
+				(field
+					(name "MPN") "SRN4018-100M")
+				(field
+					(name "Manufacturer") "Bourns")
+				(field
+					(name "LCSC") "C503307")
+				(field
+					(name "BOM Comments") "Isat 1.4A (30% drop), DCR <=180mR; reference specifies 1A.")
+				(field
+					(name "Footprint") "Carrier:L_Bourns-SRN4018")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/product-detail/C503307.html")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "L")
+				(description "Inductor")
+			)
+			(property
+				(name "MPN")
+				(value "SRN4018-100M")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Bourns")
+			)
+			(property
+				(name "LCSC")
+				(value "C503307")
+			)
+			(property
+				(name "BOM Comments")
+				(value "Isat 1.4A (30% drop), DCR <=180mR; reference specifies 1A.")
+			)
+			(property
+				(name "Sheetname")
+				(value "EPD_C6_RevA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "EPD_C6_RevA.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "inductor choke coil reactor magnetic")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Choke_* *Coil* Inductor_* L_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1512be41-f7c1-5725-85c5-2c847f558d4a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q1")
+			(value "Si1308EDL")
+			(footprint "Carrier:SOT-323_SC-70")
+			(datasheet "https://www.lcsc.com/product-detail/C469327.html")
+			(fields
+				(field
+					(name "MPN") "SI1308EDL-T1-GE3")
+				(field
+					(name "Manufacturer") "Vishay")
+				(field
+					(name "LCSC") "C469327")
+				(field
+					(name "BOM Comments") "1=G 2=S 3=D; 30V; 185mR max at Vgs=2.5V.")
+				(field
+					(name "Footprint") "Carrier:SOT-323_SC-70")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/product-detail/C469327.html")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Transistor_FET")
+				(part "Q_NMOS_GSD")
+				(description "N-MOSFET transistor, gate/source/drain")
+			)
+			(property
+				(name "MPN")
+				(value "SI1308EDL-T1-GE3")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Vishay")
+			)
+			(property
+				(name "LCSC")
+				(value "C469327")
+			)
+			(property
+				(name "BOM Comments")
+				(value "1=G 2=S 3=D; 30V; 185mR max at Vgs=2.5V.")
+			)
+			(property
+				(name "Sheetname")
+				(value "EPD_C6_RevA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "EPD_C6_RevA.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "transistor NMOS N-MOS N-MOSFET")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "65546864-8ad7-5913-a3c0-ea923238217b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "0R / ISOLATE")
+			(footprint "Carrier:R_0805_2012Metric")
+			(datasheet "https://www.lcsc.com/product-detail/C17477.html")
+			(fields
+				(field
+					(name "MPN") "0805W8F0000T5E")
+				(field
+					(name "Manufacturer") "UNI-ROYAL")
+				(field
+					(name "LCSC") "C17477")
+				(field
+					(name "BOM Comments") "Remove for current measurement or isolated carrier testing.")
+				(field
+					(name "Footprint") "Carrier:R_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/product-detail/C17477.html")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "0805W8F0000T5E")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL")
+			)
+			(property
+				(name "LCSC")
+				(value "C17477")
+			)
+			(property
+				(name "BOM Comments")
+				(value "Remove for current measurement or isolated carrier testing.")
+			)
+			(property
+				(name "Sheetname")
+				(value "EPD_C6_RevA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "EPD_C6_RevA.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "02ac625e-9271-5a3f-91bd-caf39954d816")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R2")
+			(value "33R")
+			(footprint "Carrier:R_0402_1005Metric")
+			(datasheet "https://www.lcsc.com/product-detail/C25105.html")
+			(fields
+				(field
+					(name "MPN") "0402WGF330JTCE")
+				(field
+					(name "Manufacturer") "UNI-ROYAL")
+				(field
+					(name "LCSC") "C25105")
+				(field
+					(name "BOM Comments")
+				)
+				(field
+					(name "Footprint") "Carrier:R_0402_1005Metric")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/product-detail/C25105.html")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "0402WGF330JTCE")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL")
+			)
+			(property
+				(name "LCSC")
+				(value "C25105")
+			)
+			(property
+				(name "BOM Comments")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "EPD_C6_RevA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "EPD_C6_RevA.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "cd3b569d-cff9-5a3c-9b93-1fc8862839b7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R3")
+			(value "33R")
+			(footprint "Carrier:R_0402_1005Metric")
+			(datasheet "https://www.lcsc.com/product-detail/C25105.html")
+			(fields
+				(field
+					(name "MPN") "0402WGF330JTCE")
+				(field
+					(name "Manufacturer") "UNI-ROYAL")
+				(field
+					(name "LCSC") "C25105")
+				(field
+					(name "BOM Comments")
+				)
+				(field
+					(name "Footprint") "Carrier:R_0402_1005Metric")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/product-detail/C25105.html")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "0402WGF330JTCE")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL")
+			)
+			(property
+				(name "LCSC")
+				(value "C25105")
+			)
+			(property
+				(name "BOM Comments")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "EPD_C6_RevA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "EPD_C6_RevA.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "cc43bf1b-7219-537c-b9c8-4c5c8cbadd48")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R4")
+			(value "100k")
+			(footprint "Carrier:R_0402_1005Metric")
+			(datasheet "https://www.lcsc.com/product-detail/C25741.html")
+			(fields
+				(field
+					(name "MPN") "0402WGF1003TCE")
+				(field
+					(name "Manufacturer") "UNI-ROYAL")
+				(field
+					(name "LCSC") "C25741")
+				(field
+					(name "BOM Comments")
+				)
+				(field
+					(name "Footprint") "Carrier:R_0402_1005Metric")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/product-detail/C25741.html")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "0402WGF1003TCE")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL")
+			)
+			(property
+				(name "LCSC")
+				(value "C25741")
+			)
+			(property
+				(name "BOM Comments")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "EPD_C6_RevA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "EPD_C6_RevA.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0af8a52a-8c49-566b-878a-075cd70613c9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R5")
+			(value "100k")
+			(footprint "Carrier:R_0402_1005Metric")
+			(datasheet "https://www.lcsc.com/product-detail/C25741.html")
+			(fields
+				(field
+					(name "MPN") "0402WGF1003TCE")
+				(field
+					(name "Manufacturer") "UNI-ROYAL")
+				(field
+					(name "LCSC") "C25741")
+				(field
+					(name "BOM Comments")
+				)
+				(field
+					(name "Footprint") "Carrier:R_0402_1005Metric")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/product-detail/C25741.html")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "0402WGF1003TCE")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL")
+			)
+			(property
+				(name "LCSC")
+				(value "C25741")
+			)
+			(property
+				(name "BOM Comments")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "EPD_C6_RevA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "EPD_C6_RevA.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8df1db0c-e2a2-5d89-9eb1-8af10249d687")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R6")
+			(value "1M")
+			(footprint "Carrier:R_0402_1005Metric")
+			(datasheet "https://www.lcsc.com/product-detail/C26083.html")
+			(fields
+				(field
+					(name "MPN") "0402WGF1004TCE")
+				(field
+					(name "Manufacturer") "UNI-ROYAL")
+				(field
+					(name "LCSC") "C26083")
+				(field
+					(name "BOM Comments")
+				)
+				(field
+					(name "Footprint") "Carrier:R_0402_1005Metric")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/product-detail/C26083.html")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "0402WGF1004TCE")
+			)
+			(property
+				(name "Manufacturer")
+				(value "UNI-ROYAL")
+			)
+			(property
+				(name "LCSC")
+				(value "C26083")
+			)
+			(property
+				(name "BOM Comments")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "EPD_C6_RevA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "EPD_C6_RevA.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7835662e-96d3-5a46-8a44-cd6a88b79e11")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R7")
+			(value "0.47R / 0.5W")
+			(footprint "Carrier:R_1206_3216Metric")
+			(datasheet "https://www.lcsc.com/product-detail/C859932.html")
+			(fields
+				(field
+					(name "MPN") "RL1206FR-7W0R47L")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "LCSC") "C859932")
+				(field
+					(name "BOM Comments") "Kelvin RESE takeoff at Q1 source; keep ground return local.")
+				(field
+					(name "Footprint") "Carrier:R_1206_3216Metric")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/product-detail/C859932.html")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RL1206FR-7W0R47L")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "LCSC")
+				(value "C859932")
+			)
+			(property
+				(name "BOM Comments")
+				(value "Kelvin RESE takeoff at Q1 source; keep ground return local.")
+			)
+			(property
+				(name "Sheetname")
+				(value "EPD_C6_RevA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "EPD_C6_RevA.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "dc386b12-3f4f-5fec-a557-866d83901cf4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP1")
+			(value "3V3_EPD")
+			(footprint "Carrier:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "MPN")
+				)
+				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "BOM Comments") "PCB test pad; no fitted component.")
+				(field
+					(name "Footprint") "Carrier:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "MPN")
+				(value "")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "BOM Comments")
+				(value "PCB test pad; no fitted component.")
+			)
+			(property
+				(name "Sheetname")
+				(value "EPD_C6_RevA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "EPD_C6_RevA.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ed64f536-eca4-5d32-8bba-3b913870e53b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP2")
+			(value "GND")
+			(footprint "Carrier:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "MPN")
+				)
+				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "BOM Comments") "PCB test pad; no fitted component.")
+				(field
+					(name "Footprint") "Carrier:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "MPN")
+				(value "")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "BOM Comments")
+				(value "PCB test pad; no fitted component.")
+			)
+			(property
+				(name "Sheetname")
+				(value "EPD_C6_RevA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "EPD_C6_RevA.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3d9e0eb7-cc80-5c16-ab50-54574e1def98")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP3")
+			(value "PREVGH")
+			(footprint "Carrier:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "MPN")
+				)
+				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "BOM Comments") "PCB test pad; no fitted component.")
+				(field
+					(name "Footprint") "Carrier:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "MPN")
+				(value "")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "BOM Comments")
+				(value "PCB test pad; no fitted component.")
+			)
+			(property
+				(name "Sheetname")
+				(value "EPD_C6_RevA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "EPD_C6_RevA.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6046a5a3-9725-5770-93cf-71128913e538")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP4")
+			(value "PREVGL")
+			(footprint "Carrier:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "MPN")
+				)
+				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "BOM Comments") "PCB test pad; no fitted component.")
+				(field
+					(name "Footprint") "Carrier:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "MPN")
+				(value "")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "BOM Comments")
+				(value "PCB test pad; no fitted component.")
+			)
+			(property
+				(name "Sheetname")
+				(value "EPD_C6_RevA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "EPD_C6_RevA.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a8a7b4c0-a722-5290-b881-d640cb234aaf")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP5")
+			(value "EPD_BUSY_N")
+			(footprint "Carrier:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "MPN")
+				)
+				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "BOM Comments") "PCB test pad; no fitted component.")
+				(field
+					(name "Footprint") "Carrier:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "MPN")
+				(value "")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "BOM Comments")
+				(value "PCB test pad; no fitted component.")
+			)
+			(property
+				(name "Sheetname")
+				(value "EPD_C6_RevA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "EPD_C6_RevA.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9ffe0799-2bae-55d1-a526-1aaa2fba1385")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP6")
+			(value "EPD_RST_N")
+			(footprint "Carrier:TestPoint_Pad_D1.0mm")
+			(fields
+				(field
+					(name "MPN")
+				)
+				(field
+					(name "Manufacturer")
+				)
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "BOM Comments") "PCB test pad; no fitted component.")
+				(field
+					(name "Footprint") "Carrier:TestPoint_Pad_D1.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "TestPoint")
+				(description "test point")
+			)
+			(property
+				(name "MPN")
+				(value "")
+			)
+			(property
+				(name "Manufacturer")
+				(value "")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "BOM Comments")
+				(value "PCB test pad; no fitted component.")
+			)
+			(property
+				(name "Sheetname")
+				(value "EPD_C6_RevA")
+			)
+			(property
+				(name "Sheetfile")
+				(value "EPD_C6_RevA.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "test point tp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Pin* Test*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ebe6fed9-9247-557a-91fa-56d570a50771")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "Carrier")
+			(part "GDEY075T7_FPC24")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "GDEY075T7_FPC24")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "NC")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "GDR")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "RESE")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "NC_/_alias_VGL")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "VSHR_/_alias_VGH")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "TSCL_/_unused")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "TSDA_/_unused")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "BS1")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "BUSY_N")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "RST_N")
+					(type "passive")
+				)
+				(pin
+					(num "11")
+					(name "DC")
+					(type "passive")
+				)
+				(pin
+					(num "12")
+					(name "CS_N")
+					(type "passive")
+				)
+				(pin
+					(num "13")
+					(name "SCK")
+					(type "passive")
+				)
+				(pin
+					(num "14")
+					(name "MOSI")
+					(type "passive")
+				)
+				(pin
+					(num "15")
+					(name "VDDIO")
+					(type "passive")
+				)
+				(pin
+					(num "16")
+					(name "VCI")
+					(type "passive")
+				)
+				(pin
+					(num "17")
+					(name "VSS")
+					(type "passive")
+				)
+				(pin
+					(num "18")
+					(name "VDD_INTERNAL")
+					(type "passive")
+				)
+				(pin
+					(num "19")
+					(name "VPP_/_TEST_NC")
+					(type "passive")
+				)
+				(pin
+					(num "20")
+					(name "VSH1")
+					(type "passive")
+				)
+				(pin
+					(num "21")
+					(name "PREVGH")
+					(type "passive")
+				)
+				(pin
+					(num "22")
+					(name "VSL")
+					(type "passive")
+				)
+				(pin
+					(num "23")
+					(name "PREVGL")
+					(type "passive")
+				)
+				(pin
+					(num "24")
+					(name "VCOM")
+					(type "passive")
+				)
+				(pin
+					(num "MP")
+					(name "SHIELD_TABS")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Carrier")
+			(part "Socket_Left")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Socket_Left")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "D0_/_GPIO0")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "D1_/_GPIO1")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "D2_/_GPIO2")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "D3_/_GPIO21")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "D4_/_GPIO22")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "D5_/_GPIO23")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "D6_/_GPIO16")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Carrier")
+			(part "Socket_Right")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Socket_Right")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "5V_/_NC")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3V3_OUT")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "D10_/_GPIO18")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "D9_/_GPIO20")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "D8_/_GPIO19")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "D7_/_GPIO17")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector")
+			(part "TestPoint")
+			(description "test point")
+			(footprints
+				(fp "Pin*")
+				(fp "Test*")
+			)
+			(fields
+				(field
+					(name "Reference") "TP")
+				(field
+					(name "Value") "TestPoint")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "test point")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "C")
+			(description "Unpolarized capacitor")
+			(footprints
+				(fp "C_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "D_Schottky")
+			(description "Schottky diode")
+			(footprints
+				(fp "TO-???*")
+				(fp "*_Diode_*")
+				(fp "*SingleDiode*")
+				(fp "D_*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "D_Schottky")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Schottky diode")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "L")
+			(description "Inductor")
+			(footprints
+				(fp "Choke_*")
+				(fp "*Coil*")
+				(fp "Inductor_*")
+				(fp "L_*")
+			)
+			(fields
+				(field
+					(name "Reference") "L")
+				(field
+					(name "Value") "L")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Inductor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "R")
+			(description "Resistor")
+			(footprints
+				(fp "R_*")
+			)
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "R")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Mechanical")
+			(part "Fiducial")
+			(description "Fiducial Marker")
+			(footprints
+				(fp "Fiducial*")
+			)
+			(fields
+				(field
+					(name "Reference") "FID")
+				(field
+					(name "Value") "Fiducial")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Fiducial Marker")
+			)
+		)
+		(libpart
+			(lib "Mechanical")
+			(part "MountingHole")
+			(description "Mounting Hole without connection")
+			(footprints
+				(fp "MountingHole*")
+			)
+			(fields
+				(field
+					(name "Reference") "H")
+				(field
+					(name "Value") "MountingHole")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+		)
+		(libpart
+			(lib "Transistor_FET")
+			(part "Q_NMOS_GSD")
+			(description "N-MOSFET transistor, gate/source/drain")
+			(fields
+				(field
+					(name "Reference") "Q")
+				(field
+					(name "Value") "Q_NMOS_GSD")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "N-MOSFET transistor, gate/source/drain")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "G")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "S")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "D")
+					(type "passive")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "Carrier")
+			(uri "${KIPRJMOD}/Carrier.kicad_sym")
+		)
+		(library
+			(logical "Connector")
+			(uri "${KIPRJMOD}/Connector.kicad_sym")
+		)
+		(library
+			(logical "Device")
+			(uri "${KIPRJMOD}/Device.kicad_sym")
+		)
+		(library
+			(logical "Mechanical")
+			(uri "${KIPRJMOD}/Mechanical.kicad_sym")
+		)
+		(library
+			(logical "Transistor_FET")
+			(uri "${KIPRJMOD}/Transistor_FET.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "/3V3_EPD")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C11")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C12")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "15")
+				(pinfunction "VDDIO_15")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "16")
+				(pinfunction "VCI_16")
+				(pintype "passive")
+			)
+			(node
+				(ref "L1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "2")
+			(name "/3V3_MODULE")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "3")
+				(pinfunction "3V3_OUT_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "3")
+			(name "/EPD_BUSY_N")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "4")
+				(pinfunction "D3_/_GPIO21_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "9")
+				(pinfunction "BUSY_N_9")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP5")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "4")
+			(name "/EPD_CS_N")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "1")
+				(pinfunction "D0_/_GPIO0_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "12")
+				(pinfunction "CS_N_12")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "5")
+			(name "/EPD_DC")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "2")
+				(pinfunction "D1_/_GPIO1_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "11")
+				(pinfunction "DC_11")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "6")
+			(name "/EPD_MOSI")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "14")
+				(pinfunction "MOSI_14")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "/EPD_RST_N")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "3")
+				(pinfunction "D2_/_GPIO2_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "10")
+				(pinfunction "RST_N_10")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP6")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "/EPD_SCK")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "13")
+				(pinfunction "SCK_13")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "9")
+			(name "/GDR")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "2")
+				(pinfunction "GDR_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q1")
+				(pin "1")
+				(pinfunction "G_1")
+				(pintype "input")
+			)
+			(node
+				(ref "R6")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "10")
+			(name "/GND")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C10")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C11")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C12")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C7")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C8")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C9")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D2")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "17")
+				(pinfunction "VSS_17")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "8")
+				(pinfunction "BS1_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "MP")
+				(pinfunction "SHIELD_TABS_MP")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R7")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "11")
+			(name "/MOSI_SRC")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "4")
+				(pinfunction "D10_/_GPIO18_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "12")
+			(name "/PREVGH")
+			(class "Default")
+			(node
+				(ref "C3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D1")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "21")
+				(pinfunction "PREVGH_21")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "13")
+			(name "/PREVGL")
+			(class "Default")
+			(node
+				(ref "C9")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D3")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "23")
+				(pinfunction "PREVGL_23")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP4")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "14")
+			(name "/PUMP")
+			(class "Default")
+			(node
+				(ref "C2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D2")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D3")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "15")
+			(name "/RESE")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "3")
+				(pinfunction "RESE_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q1")
+				(pin "2")
+				(pinfunction "S_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R7")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "16")
+			(name "/SCK_SRC")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "6")
+				(pinfunction "D8_/_GPIO19_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "17")
+			(name "/SW")
+			(class "Default")
+			(node
+				(ref "C2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D1")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "L1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q1")
+				(pin "3")
+				(pinfunction "D_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "18")
+			(name "/VCOM")
+			(class "Default")
+			(node
+				(ref "C10")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "24")
+				(pinfunction "VCOM_24")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "19")
+			(name "/VDD_INT")
+			(class "Default")
+			(node
+				(ref "C6")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "18")
+				(pinfunction "VDD_INTERNAL_18")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "20")
+			(name "/VSH1")
+			(class "Default")
+			(node
+				(ref "C7")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "20")
+				(pinfunction "VSH1_20")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "21")
+			(name "/VSHR")
+			(class "Default")
+			(node
+				(ref "C4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "5")
+				(pinfunction "VSHR_/_alias_VGH_5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "22")
+			(name "/VSL")
+			(class "Default")
+			(node
+				(ref "C8")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "22")
+				(pinfunction "VSL_22")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "23")
+			(name "unconnected-(J1-D4_{slash}_GPIO22-Pad5)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "5")
+				(pinfunction "D4_/_GPIO22_5")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "24")
+			(name "unconnected-(J1-D5_{slash}_GPIO23-Pad6)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "6")
+				(pinfunction "D5_/_GPIO23_6")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "25")
+			(name "unconnected-(J1-D6_{slash}_GPIO16-Pad7)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "7")
+				(pinfunction "D6_/_GPIO16_7")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "26")
+			(name "unconnected-(J2-5V_{slash}_NC-Pad1)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "1")
+				(pinfunction "5V_/_NC_1")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "27")
+			(name "unconnected-(J2-D7_{slash}_GPIO17-Pad7)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "7")
+				(pinfunction "D7_/_GPIO17_7")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "28")
+			(name "unconnected-(J2-D9_{slash}_GPIO20-Pad5)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "5")
+				(pinfunction "D9_/_GPIO20_5")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "29")
+			(name "unconnected-(J3-NC-Pad1)")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "1")
+				(pinfunction "NC_1")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "30")
+			(name "unconnected-(J3-NC_{slash}_alias_VGL-Pad4)")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "4")
+				(pinfunction "NC_/_alias_VGL_4")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "31")
+			(name "unconnected-(J3-TSCL_{slash}_unused-Pad6)")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "6")
+				(pinfunction "TSCL_/_unused_6")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "32")
+			(name "unconnected-(J3-TSDA_{slash}_unused-Pad7)")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "7")
+				(pinfunction "TSDA_/_unused_7")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "33")
+			(name "unconnected-(J3-VPP_{slash}_TEST_NC-Pad19)")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "19")
+				(pinfunction "VPP_/_TEST_NC_19")
+				(pintype "passive+no_connect")
+			)
+		)
+	)
+)

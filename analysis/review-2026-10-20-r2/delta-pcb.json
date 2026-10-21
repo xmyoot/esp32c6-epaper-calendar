@@ -1,0 +1,15 @@
+{
+  "diff_version": "1.0",
+  "analyzer_type": "pcb",
+  "base_file": "analysis/final/pcb.json",
+  "head_file": "analysis/review-2026-10-20-r2/pcb.json",
+  "has_changes": false,
+  "summary": {
+    "total_changes": 0,
+    "added": 0,
+    "removed": 0,
+    "modified": 0,
+    "severity": "none"
+  },
+  "diff": {}
+}

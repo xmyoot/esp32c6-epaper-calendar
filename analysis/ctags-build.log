@@ -1,0 +1,294 @@
+Cloning into 'tools/ctags-source'...
+Exuberant Ctags, version Development
+Darwin 27.0.0 Darwin Kernel Version 27.0.0: Tue Aug 11 21:05:27 PDT 2026; root:xnu-13432.1.9~1/RELEASE_ARM64_T8103 arm64
+checking whether to install link to etags... no
+checking whether to install readtags object file... no
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether ln -s works... yes
+checking for strip... strip
+checking directory to use for temporary files... /var/folders/x3/7jjj977x3ll3qzl9ypcxmcz80000gn/T/
+checking whether #! works in shell scripts... yes
+checking for case-insensitive filenames... yes
+checking selected sort method... external sort utility
+checking for sort... yes
+checking if sort accepts our command line... yes
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking dirent.h usability... yes
+checking dirent.h presence... yes
+checking for dirent.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking fnmatch.h usability... yes
+checking fnmatch.h presence... yes
+checking for fnmatch.h... yes
+checking stat.h usability... no
+checking stat.h presence... no
+checking for stat.h... no
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking time.h usability... yes
+checking time.h presence... yes
+checking for time.h... yes
+checking types.h usability... no
+checking types.h presence... no
+checking for types.h... no
+checking for unistd.h... (cached) yes
+checking sys/dir.h usability... yes
+checking sys/dir.h presence... yes
+checking for sys/dir.h... yes
+checking for sys/stat.h... (cached) yes
+checking sys/times.h usability... yes
+checking sys/times.h presence... yes
+checking for sys/times.h... yes
+checking for sys/types.h... (cached) yes
+checking if L_tmpnam is defined in stdio.h... yes
+rm: conftest.dSYM: is a directory
+checking if INT_MAX is defined in limits.h... yes
+rm: conftest.dSYM: is a directory
+checking for size_t... yes
+checking for off_t... yes
+checking for fpos_t... yes
+rm: conftest.dSYM: is a directory
+checking for clock_t... yes
+rm: conftest.dSYM: is a directory
+checking for an ANSI C-conforming const... yes
+checking if struct stat contains st_ino... no
+checking for fnmatch... yes
+checking for strstr... yes
+checking for strcasecmp... yes
+checking for strncasecmp... yes
+checking for fgetpos... yes
+checking for mkstemp... yes
+checking for opendir... yes
+checking for strerror... yes
+checking for clock... yes
+checking for remove... yes
+checking for truncate... yes
+checking for setenv... yes
+checking for regcomp... yes
+checking if regcomp works... no
+configure: checking for new missing prototypes...
+rm: conftest.dSYM: is a directory
+rm: conftest.dSYM: is a directory
+rm: conftest.dSYM: is a directory
+rm: conftest.dSYM: is a directory
+rm: conftest.dSYM: is a directory
+rm: conftest.dSYM: is a directory
+rm: conftest.dSYM: is a directory
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating config.h
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c args.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c ant.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c asm.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c asp.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c awk.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c basic.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c beta.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c c.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c cobol.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c dosbatch.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c eiffel.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c entry.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c erlang.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c flex.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c fortran.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c get.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c html.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c jscript.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c keyword.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c lisp.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c lregex.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c lua.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c main.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c make.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c matlab.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c ocaml.c
+In file included from main.c:62:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/dirent.h:80:2: error: use of undeclared identifier 'unused'
+        __unused long   __padding; /* (__dd_rewind space left for bincompat) */
+        ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h:169:40: note: expanded from macro '__unused'
+#define __unused        __attribute__((__unused__))
+                                       ^
+./general.h:60:37: note: expanded from macro '__unused__'
+# define __unused__  __attribute__((unused))
+                                    ^
+1 error generated.
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c options.c
+make: *** [main.o] Error 1
+make: *** Waiting for unfinished jobs....
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c args.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c ant.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c asm.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c asp.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c awk.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c basic.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c beta.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c c.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c cobol.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c dosbatch.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c eiffel.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c entry.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c erlang.c
+eiffel.c:810:71: error: expected ')'
+static void parseGeneric (tokenInfo *const token, boolean declaration __unused__)
+                                                                      ^
+eiffel.c:810:26: note: to match this '('
+static void parseGeneric (tokenInfo *const token, boolean declaration __unused__)
+                         ^
+1 error generated.
+make: *** [eiffel.o] Error 1
+make: *** Waiting for unfinished jobs....
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c args.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c ant.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c asp.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c awk.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c basic.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c c.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c cobol.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c dosbatch.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c eiffel.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c flex.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c fortran.c
+eiffel.c:810:71: error: expected ')'
+static void parseGeneric (tokenInfo *const token, boolean declaration CTAGS_UNUSED_)
+                                                                      ^
+eiffel.c:810:26: note: to match this '('
+static void parseGeneric (tokenInfo *const token, boolean declaration CTAGS_UNUSED_)
+                         ^
+1 error generated.
+make: *** [eiffel.o] Error 1
+make: *** Waiting for unfinished jobs....
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c args.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c ant.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c asm.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c asp.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c awk.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c basic.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c beta.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c c.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c cobol.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c dosbatch.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c eiffel.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c entry.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c erlang.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c flex.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c fortran.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c get.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c html.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c jscript.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c keyword.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c lisp.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c lregex.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c lua.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c main.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c make.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c matlab.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c ocaml.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c options.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c parse.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c pascal.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c perl.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c php.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c python.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c read.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c rexx.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c routines.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c ruby.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c scheme.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c sh.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c slang.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c sml.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c sort.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c sql.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c strlist.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c tcl.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c tex.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c verilog.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c vhdl.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c vim.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c yacc.c
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c vstring.c
+vim.c:276:9: warning: logical not is only applied to the left hand side of this comparison [-Wlogical-not-parentheses]
+                if ( (!strncmp ((const char*) line, "endfo", (size_t) 5) == 0) && 
+                      ^                                                  ~~
+vim.c:276:9: note: add parentheses after the '!' to evaluate the comparison first
+                if ( (!strncmp ((const char*) line, "endfo", (size_t) 5) == 0) && 
+                      ^
+                       (                                                     )
+vim.c:276:9: note: add parentheses around left hand side expression to silence this warning
+                if ( (!strncmp ((const char*) line, "endfo", (size_t) 5) == 0) && 
+                      ^
+                      (                                                 )
+vim.c:353:13: warning: logical not is only applied to the left hand side of this comparison [-Wlogical-not-parentheses]
+        else if ( (!strncmp ((const char*) line, "comp", (size_t) 4) == 0) && 
+                   ^                                                 ~~
+vim.c:353:13: note: add parentheses after the '!' to evaluate the comparison first
+        else if ( (!strncmp ((const char*) line, "comp", (size_t) 4) == 0) && 
+                   ^
+                    (                                                    )
+vim.c:353:13: note: add parentheses around left hand side expression to silence this warning
+        else if ( (!strncmp ((const char*) line, "comp", (size_t) 4) == 0) && 
+                   ^
+                   (                                                )
+vim.c:354:9: warning: logical not is only applied to the left hand side of this comparison [-Wlogical-not-parentheses]
+                     (!strncmp ((const char*) line, "comc", (size_t) 4) == 0) && 
+                      ^                                                 ~~
+vim.c:354:9: note: add parentheses after the '!' to evaluate the comparison first
+                     (!strncmp ((const char*) line, "comc", (size_t) 4) == 0) && 
+                      ^
+                       (                                                    )
+vim.c:354:9: note: add parentheses around left hand side expression to silence this warning
+                     (!strncmp ((const char*) line, "comc", (size_t) 4) == 0) && 
+                      ^
+                      (                                                )
+vim.c:569:8: warning: logical not is only applied to the left hand side of this comparison [-Wlogical-not-parentheses]
+        if ( (!strncmp ((const char*) line, "comp", (size_t) 4) == 0) && 
+              ^                                                 ~~
+vim.c:569:8: note: add parentheses after the '!' to evaluate the comparison first
+        if ( (!strncmp ((const char*) line, "comp", (size_t) 4) == 0) && 
+              ^
+               (                                                    )
+vim.c:569:8: note: add parentheses around left hand side expression to silence this warning
+        if ( (!strncmp ((const char*) line, "comp", (size_t) 4) == 0) && 
+              ^
+              (                                                )
+vim.c:570:5: warning: logical not is only applied to the left hand side of this comparison [-Wlogical-not-parentheses]
+                        (!strncmp ((const char*) line, "comc", (size_t) 4) == 0) && 
+                         ^                                                 ~~
+vim.c:570:5: note: add parentheses after the '!' to evaluate the comparison first
+                        (!strncmp ((const char*) line, "comc", (size_t) 4) == 0) && 
+                         ^
+                          (                                                    )
+vim.c:570:5: note: add parentheses around left hand side expression to silence this warning
+                        (!strncmp ((const char*) line, "comc", (size_t) 4) == 0) && 
+                         ^
+                         (                                                )
+vim.c:620:9: warning: expression which evaluates to zero treated as a null pointer constant of type 'const unsigned char *' [-Wnon-literal-null-conversion]
+        line = '\0';
+               ^~~~
+gcc -I. -I. -DHAVE_CONFIG_H -g -O2 -c readtags.c
+6 warnings generated.
+gcc  -o ctags args.o ant.o asm.o asp.o awk.o basic.o beta.o c.o cobol.o dosbatch.o eiffel.o entry.o erlang.o flex.o fortran.o get.o html.o jscript.o keyword.o lisp.o lregex.o lua.o main.o make.o matlab.o ocaml.o options.o parse.o pascal.o perl.o php.o python.o read.o rexx.o routines.o ruby.o scheme.o sh.o slang.o sml.o sort.o sql.o strlist.o tcl.o tex.o verilog.o vhdl.o vim.o yacc.o vstring.o 

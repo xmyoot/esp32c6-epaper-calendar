@@ -1,0 +1,4890 @@
+{
+  "footprints": {
+    "FID2": {
+      "x": 156.0,
+      "y": 134.0,
+      "rotation": 0.0,
+      "footprint": "Fiducial_1mm_Mask2mm",
+      "path": "/337f7c2c-5e44-51a5-bbfb-1e9f687e66fd/5dc5704b-497d-56db-aa22-840063612d55",
+      "pads": {
+        "": {
+          "net": "",
+          "x": 156.0,
+          "y": 134.0
+        }
+      }
+    },
+    "C4": {
+      "x": 149.0,
+      "y": 111.0,
+      "rotation": -90.0,
+      "footprint": "C_0805_2012Metric",
+      "path": "/337f7c2c-5e44-51a5-bbfb-1e9f687e66fd/edb814a2-661a-5380-8f31-ad2309de5a0d",
+      "pads": {
+        "1": {
+          "net": "/VSHR",
+          "x": 149.0,
+          "y": 110.05
+        },
+        "2": {
+          "net": "/GND",
+          "x": 149.0,
+          "y": 111.95
+        }
+      }
+    },
+    "C3": {
+      "x": 132.0,
+      "y": 115.5,
+      "rotation": 90.0,
+      "footprint": "C_1210_3225Metric",
+      "path": "/337f7c2c-5e44-51a5-bbfb-1e9f687e66fd/0c9b4a4e-8526-5587-adf9-09ec9d98431e",
+      "pads": {
+        "1": {
+          "net": "/PREVGH",
+          "x": 132.0,
+          "y": 116.975
+        },
+        "2": {
+          "net": "/GND",
+          "x": 132.0,
+          "y": 114.025
+        }
+      }
+    },
+    "C6": {
+      "x": 141.0,
+      "y": 111.0,
+      "rotation": -90.0,
+      "footprint": "C_0805_2012Metric",
+      "path": "/337f7c2c-5e44-51a5-bbfb-1e9f687e66fd/8d22a90e-2ae3-56c0-8f9e-86041301c179",
+      "pads": {
+        "1": {
+          "net": "/VDD_INT",
+          "x": 141.0,
+          "y": 110.05
+        },
+        "2": {
+          "net": "/GND",
+          "x": 141.0,
+          "y": 111.95
+        }
+      }
+    },
+    "FID1": {
+      "x": 104.0,
+      "y": 134.0,
+      "rotation": 0.0,
+      "footprint": "Fiducial_1mm_Mask2mm",
+      "path": "/337f7c2c-5e44-51a5-bbfb-1e9f687e66fd/e58d5623-8cf9-552b-94da-e0eeb56ebdc0",
+      "pads": {
+        "": {
+          "net": "",
+          "x": 104.0,
+          "y": 134.0
+        }
+      }
+    },
+    "C5": {
+      "x": 144.0,
+      "y": 111.0,
+      "rotation": -90.0,
+      "footprint": "C_0805_2012Metric",
+      "path": "/337f7c2c-5e44-51a5-bbfb-1e9f687e66fd/b6f47a7c-a010-5445-a8cf-cb6cdcaefb78",
+      "pads": {
+        "1": {
+          "net": "/3V3_EPD",
+          "x": 144.0,
+          "y": 110.05
+        },
+        "2": {
+          "net": "/GND",
+          "x": 144.0,
+          "y": 111.95
+        }
+      }
+    },
+    "TP1": {
+      "x": 131.0,
+      "y": 134.0,
+      "rotation": 0.0,
+      "footprint": "TestPoint_Pad_D1.0mm",
+      "path": "/337f7c2c-5e44-51a5-bbfb-1e9f687e66fd/ed64f536-eca4-5d32-8bba-3b913870e53b",
+      "pads": {
+        "1": {
+          "net": "/3V3_EPD",
+          "x": 131.0,
+          "y": 134.0
+        }
+      }
+    },
+    "R7": {
+      "x": 154.0,
+      "y": 119.0,
+      "rotation": 0.0,
+      "footprint": "R_1206_3216Metric",
+      "path": "/337f7c2c-5e44-51a5-bbfb-1e9f687e66fd/dc386b12-3f4f-5fec-a557-866d83901cf4",
+      "pads": {
+        "1": {
+          "net": "/RESE",
+          "x": 152.5375,
+          "y": 119.0
+        },
+        "2": {
+          "net": "/GND",
+          "x": 155.4625,
+          "y": 119.0
+        }
+      }
+    },
+    "H2": {
+      "x": 156.0,
+      "y": 104.0,
+      "rotation": 0.0,
+      "footprint": "MountingHole_2.7mm_M2.5",
+      "path": "/337f7c2c-5e44-51a5-bbfb-1e9f687e66fd/b3bd33bb-a6ef-5fa9-881f-4cbfd4945438",
+      "pads": {
+        "": {
+          "net": "",
+          "x": 156.0,
+          "y": 104.0
+        }
+      }
+    },
+    "C11": {
+      "x": 146.3,
+      "y": 111.5,
+      "rotation": -90.0,
+      "footprint": "C_0402_1005Metric",
+      "path": "/337f7c2c-5e44-51a5-bbfb-1e9f687e66fd/dfe1c06b-6419-5fb0-bbef-4c300157a920",
+      "pads": {
+        "1": {
+          "net": "/3V3_EPD",
+          "x": 146.3,
+          "y": 111.02
+        },
+        "2": {
+          "net": "/GND",
+          "x": 146.3,
+          "y": 111.98
+        }
+      }
+    },
+    "D2": {
+      "x": 140.0,
+      "y": 124.0,
+      "rotation": 0.0,
+      "footprint": "D_SOD-123",
+      "path": "/337f7c2c-5e44-51a5-bbfb-1e9f687e66fd/4e876d0d-19f6-5c13-b5ef-167192bbaeec",
+      "pads": {
+        "1": {
+          "net": "/GND",
+          "x": 138.35,
+          "y": 124.0
+        },
+        "2": {
+          "net": "/PUMP",
+          "x": 141.65,
+          "y": 124.0
+        }
+      }
+    },
+    "TP3": {
+      "x": 132.0,
+      "y": 119.5,
+      "rotation": 0.0,
+      "footprint": "TestPoint_Pad_D1.0mm",
+      "path": "/337f7c2c-5e44-51a5-bbfb-1e9f687e66fd/6046a5a3-9725-5770-93cf-71128913e538",
+      "pads": {
+        "1": {
+          "net": "/PREVGH",
+          "x": 132.0,
+          "y": 119.5
+        }
+      }
+    },
+    "R3": {
+      "x": 128.0,
+      "y": 111.5,
+      "rotation": 0.0,
+      "footprint": "R_0402_1005Metric",
+      "path": "/337f7c2c-5e44-51a5-bbfb-1e9f687e66fd/cc43bf1b-7219-537c-b9c8-4c5c8cbadd48",
+      "pads": {
+        "1": {
+          "net": "/MOSI_SRC",
+          "x": 127.49,
+          "y": 111.5
+        },
+        "2": {
+          "net": "/EPD_MOSI",
+          "x": 128.51,
+          "y": 111.5
+        }
+      }
+    },
+    "C1": {
+      "x": 153.0,
+      "y": 124.0,
+      "rotation": -90.0,
+      "footprint": "C_1206_3216Metric",
+      "path": "/337f7c2c-5e44-51a5-bbfb-1e9f687e66fd/bc8af7a1-1671-5fa3-9c2e-5c018a6bdcbd",
+      "pads": {
+        "1": {
+          "net": "/3V3_EPD",
+          "x": 153.0,
+          "y": 122.525
+        },
+        "2": {
+          "net": "/GND",
+          "x": 153.0,
+          "y": 125.475
+        }
+      }
+    },
+    "D1": {
+      "x": 144.0,
+      "y": 119.0,
+      "rotation": 0.0,
+      "footprint": "D_SOD-123",
+      "path": "/337f7c2c-5e44-51a5-bbfb-1e9f687e66fd/cdc33945-187e-5cbe-9919-970cd048606f",
+      "pads": {
+        "1": {
+          "net": "/PREVGH",
+          "x": 142.35,
+          "y": 119.0
+        },
+        "2": {
+          "net": "/SW",
+          "x": 145.65,
+          "y": 119.0
+        }
+      }
+    },
+    "J3": {
+      "x": 144.0,
+      "y": 105.0,
+      "rotation": 180.0,
+      "footprint": "Hirose_FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal",
+      "path": "/337f7c2c-5e44-51a5-bbfb-1e9f687e66fd/10e2f6ca-1771-536d-9bc2-ef0483b5c0ad",
+      "pads": {
+        "1": {
+          "net": "",
+          "x": 149.75,
+          "y": 106.85
+        },
+        "2": {
+          "net": "/GDR",
+          "x": 149.25,
+          "y": 106.85
+        },
+        "3": {
+          "net": "/RESE",
+          "x": 148.75,
+          "y": 106.85
+        },
+        "4": {
+          "net": "",
+          "x": 148.25,
+          "y": 106.85
+        },
+        "5": {
+          "net": "/VSHR",
+          "x": 147.75,
+          "y": 106.85
+        },
+        "6": {
+          "net": "",
+          "x": 147.25,
+          "y": 106.85
+        },
+        "7": {
+          "net": "",
+          "x": 146.75,
+          "y": 106.85
+        },
+        "8": {
+          "net": "/GND",
+          "x": 146.25,
+          "y": 106.85
+        },
+        "9": {
+          "net": "/EPD_BUSY_N",
+          "x": 145.75,
+          "y": 106.85
+        },
+        "10": {
+          "net": "/EPD_RST_N",
+          "x": 145.25,
+          "y": 106.85
+        },
+        "11": {
+          "net": "/EPD_DC",
+          "x": 144.75,
+          "y": 106.85
+        },
+        "12": {
+          "net": "/EPD_CS_N",
+          "x": 144.25,
+          "y": 106.85
+        },
+        "13": {
+          "net": "/EPD_SCK",
+          "x": 143.75,
+          "y": 106.85
+        },
+        "14": {
+          "net": "/EPD_MOSI",
+          "x": 143.25,
+          "y": 106.85
+        },
+        "15": {
+          "net": "/3V3_EPD",
+          "x": 142.75,
+          "y": 106.85
+        },
+        "16": {
+          "net": "/3V3_EPD",
+          "x": 142.25,
+          "y": 106.85
+        },
+        "17": {
+          "net": "/GND",
+          "x": 141.75,
+          "y": 106.85
+        },
+        "18": {
+          "net": "/VDD_INT",
+          "x": 141.25,
+          "y": 106.85
+        },
+        "19": {
+          "net": "",
+          "x": 140.75,
+          "y": 106.85
+        },
+        "20": {
+          "net": "/VSH1",
+          "x": 140.25,
+          "y": 106.85
+        },
+        "21": {
+          "net": "/PREVGH",
+          "x": 139.75,
+          "y": 106.85
+        },
+        "22": {
+          "net": "/VSL",
+          "x": 139.25,
+          "y": 106.85
+        },
+        "23": {
+          "net": "/PREVGL",
+          "x": 138.75,
+          "y": 106.85
+        },
+        "24": {
+          "net": "/VCOM",
+          "x": 138.25,
+          "y": 106.85
+        },
+        "MP": {
+          "net": "/GND",
+          "x": 136.35,
+          "y": 103.6
+        }
+      }
+    },
+    "FID3": {
+      "x": 148.0,
+      "y": 146.0,
+      "rotation": 0.0,
+      "footprint": "Fiducial_1mm_Mask2mm",
+      "path": "/337f7c2c-5e44-51a5-bbfb-1e9f687e66fd/a8063457-5b8d-5795-bf58-6fd49ddf774f",
+      "pads": {
+        "": {
+          "net": "",
+          "x": 148.0,
+          "y": 146.0
+        }
+      }
+    },
+    "R2": {
+      "x": 128.0,
+      "y": 116.0,
+      "rotation": 0.0,
+      "footprint": "R_0402_1005Metric",
+      "path": "/337f7c2c-5e44-51a5-bbfb-1e9f687e66fd/cd3b569d-cff9-5a3c-9b93-1fc8862839b7",
+      "pads": {
+        "1": {
+          "net": "/SCK_SRC",
+          "x": 127.49,
+          "y": 116.0
+        },
+        "2": {
+          "net": "/EPD_SCK",
+          "x": 128.51,
+          "y": 116.0
+        }
+      }
+    },
+    "C9": {
+      "x": 132.0,
+      "y": 108.0,
+      "rotation": 90.0,
+      "footprint": "C_1210_3225Metric",
+      "path": "/337f7c2c-5e44-51a5-bbfb-1e9f687e66fd/d71d7eff-c069-516d-afac-486bdd728eff",
+      "pads": {
+        "1": {
+          "net": "/PREVGL",
+          "x": 132.0,
+          "y": 109.475
+        },
+        "2": {
+          "net": "/GND",
+          "x": 132.0,
+          "y": 106.525
+        }
+      }
+    },
+    "C7": {
+      "x": 137.0,
+      "y": 116.5,
+      "rotation": 90.0,
+      "footprint": "C_1210_3225Metric",
+      "path": "/337f7c2c-5e44-51a5-bbfb-1e9f687e66fd/2de5ef71-abcd-5b92-8b21-853bf7f0707b",
+      "pads": {
+        "1": {
+          "net": "/VSH1",
+          "x": 137.0,
+          "y": 117.975
+        },
+        "2": {
+          "net": "/GND",
+          "x": 137.0,
+          "y": 115.025
+        }
+      }
+    },
+    "J1": {
+      "x": 110.0,
+      "y": 104.0,
+      "rotation": 0.0,
+      "footprint": "PinSocket_1x07_P2.54mm_Vertical",
+      "path": "/337f7c2c-5e44-51a5-bbfb-1e9f687e66fd/616533fc-8ed4-5c17-bdaa-84e6501bd3ae",
+      "pads": {
+        "1": {
+          "net": "/EPD_CS_N",
+          "x": 110.0,
+          "y": 104.0
+        },
+        "2": {
+          "net": "/EPD_DC",
+          "x": 110.0,
+          "y": 106.54
+        },
+        "3": {
+          "net": "/EPD_RST_N",
+          "x": 110.0,
+          "y": 109.08
+        },
+        "4": {
+          "net": "/EPD_BUSY_N",
+          "x": 110.0,
+          "y": 111.62
+        },
+        "5": {
+          "net": "",
+          "x": 110.0,
+          "y": 114.16
+        },
+        "6": {
+          "net": "",
+          "x": 110.0,
+          "y": 116.7
+        },
+        "7": {
+          "net": "",
+          "x": 110.0,
+          "y": 119.24
+        }
+      }
+    },
+    "TP5": {
+      "x": 128.0,
+      "y": 131.0,
+      "rotation": 0.0,
+      "footprint": "TestPoint_Pad_D1.0mm",
+      "path": "/337f7c2c-5e44-51a5-bbfb-1e9f687e66fd/9ffe0799-2bae-55d1-a526-1aaa2fba1385",
+      "pads": {
+        "1": {
+          "net": "/EPD_BUSY_N",
+          "x": 128.0,
+          "y": 131.0
+        }
+      }
+    },
+    "C8": {
+      "x": 137.0,
+      "y": 111.0,
+      "rotation": 90.0,
+      "footprint": "C_1210_3225Metric",
+      "path": "/337f7c2c-5e44-51a5-bbfb-1e9f687e66fd/6b113e96-d2e0-5776-9177-baae65c7e9b4",
+      "pads": {
+        "1": {
+          "net": "/VSL",
+          "x": 137.0,
+          "y": 112.475
+        },
+        "2": {
+          "net": "/GND",
+          "x": 137.0,
+          "y": 109.525
+        }
+      }
+    },
+    "C12": {
+      "x": 154.0,
+      "y": 130.0,
+      "rotation": -90.0,
+      "footprint": "C_1210_3225Metric",
+      "path": "/337f7c2c-5e44-51a5-bbfb-1e9f687e66fd/0a11f9ae-3914-5e7b-9116-1696e4108041",
+      "pads": {
+        "1": {
+          "net": "/3V3_EPD",
+          "x": 154.0,
+          "y": 128.525
+        },
+        "2": {
+          "net": "/GND",
+          "x": 154.0,
+          "y": 131.475
+        }
+      }
+    },
+    "TP4": {
+      "x": 134.0,
+      "y": 131.0,
+      "rotation": 0.0,
+      "footprint": "TestPoint_Pad_D1.0mm",
+      "path": "/337f7c2c-5e44-51a5-bbfb-1e9f687e66fd/a8a7b4c0-a722-5290-b881-d640cb234aaf",
+      "pads": {
+        "1": {
+          "net": "/PREVGL",
+          "x": 134.0,
+          "y": 131.0
+        }
+      }
+    },
+    "R6": {
+      "x": 152.0,
+      "y": 115.0,
+      "rotation": 90.0,
+      "footprint": "R_0402_1005Metric",
+      "path": "/337f7c2c-5e44-51a5-bbfb-1e9f687e66fd/7835662e-96d3-5a46-8a44-cd6a88b79e11",
+      "pads": {
+        "1": {
+          "net": "/GDR",
+          "x": 152.0,
+          "y": 115.51
+        },
+        "2": {
+          "net": "/GND",
+          "x": 152.0,
+          "y": 114.49
+        }
+      }
+    },
+    "C10": {
+      "x": 135.5,
+      "y": 121.5,
+      "rotation": 90.0,
+      "footprint": "C_0805_2012Metric",
+      "path": "/337f7c2c-5e44-51a5-bbfb-1e9f687e66fd/81ac3525-64ea-5cd5-99d6-f221ae230aa3",
+      "pads": {
+        "1": {
+          "net": "/VCOM",
+          "x": 135.5,
+          "y": 122.45
+        },
+        "2": {
+          "net": "/GND",
+          "x": 135.5,
+          "y": 120.55
+        }
+      }
+    },
+    "C2": {
+      "x": 144.0,
+      "y": 124.0,
+      "rotation": -90.0,
+      "footprint": "C_1206_3216Metric",
+      "path": "/337f7c2c-5e44-51a5-bbfb-1e9f687e66fd/64f4d154-5015-5f4e-9017-78ab564dec60",
+      "pads": {
+        "1": {
+          "net": "/SW",
+          "x": 144.0,
+          "y": 122.525
+        },
+        "2": {
+          "net": "/PUMP",
+          "x": 144.0,
+          "y": 125.475
+        }
+      }
+    },
+    "H4": {
+      "x": 156.0,
+      "y": 146.0,
+      "rotation": 0.0,
+      "footprint": "MountingHole_2.7mm_M2.5",
+      "path": "/337f7c2c-5e44-51a5-bbfb-1e9f687e66fd/ddcf162f-223f-5dab-ab60-42c88084d39d",
+      "pads": {
+        "": {
+          "net": "",
+          "x": 156.0,
+          "y": 146.0
+        }
+      }
+    },
+    "H1": {
+      "x": 104.0,
+      "y": 104.0,
+      "rotation": 0.0,
+      "footprint": "MountingHole_2.7mm_M2.5",
+      "path": "/337f7c2c-5e44-51a5-bbfb-1e9f687e66fd/f6e37f1a-e6c7-55a4-a241-d4317e797c67",
+      "pads": {
+        "": {
+          "net": "",
+          "x": 104.0,
+          "y": 104.0
+        }
+      }
+    },
+    "D3": {
+      "x": 140.0,
+      "y": 129.0,
+      "rotation": 0.0,
+      "footprint": "D_SOD-123",
+      "path": "/337f7c2c-5e44-51a5-bbfb-1e9f687e66fd/420c2c0c-5423-56f8-bc55-69fa26dfeb18",
+      "pads": {
+        "1": {
+          "net": "/PUMP",
+          "x": 138.35,
+          "y": 129.0
+        },
+        "2": {
+          "net": "/PREVGL",
+          "x": 141.65,
+          "y": 129.0
+        }
+      }
+    },
+    "R5": {
+      "x": 132.0,
+      "y": 127.0,
+      "rotation": 90.0,
+      "footprint": "R_0402_1005Metric",
+      "path": "/337f7c2c-5e44-51a5-bbfb-1e9f687e66fd/8df1db0c-e2a2-5d89-9eb1-8af10249d687",
+      "pads": {
+        "1": {
+          "net": "/EPD_RST_N",
+          "x": 132.0,
+          "y": 127.51
+        },
+        "2": {
+          "net": "/GND",
+          "x": 132.0,
+          "y": 126.49
+        }
+      }
+    },
+    "J2": {
+      "x": 125.24,
+      "y": 104.0,
+      "rotation": 0.0,
+      "footprint": "PinSocket_1x07_P2.54mm_Vertical",
+      "path": "/337f7c2c-5e44-51a5-bbfb-1e9f687e66fd/921d4ca0-88c6-59f9-ad8b-922607ca6fc6",
+      "pads": {
+        "1": {
+          "net": "",
+          "x": 125.24,
+          "y": 104.0
+        },
+        "2": {
+          "net": "/GND",
+          "x": 125.24,
+          "y": 106.54
+        },
+        "3": {
+          "net": "/3V3_MODULE",
+          "x": 125.24,
+          "y": 109.08
+        },
+        "4": {
+          "net": "/MOSI_SRC",
+          "x": 125.24,
+          "y": 111.62
+        },
+        "5": {
+          "net": "",
+          "x": 125.24,
+          "y": 114.16
+        },
+        "6": {
+          "net": "/SCK_SRC",
+          "x": 125.24,
+          "y": 116.7
+        },
+        "7": {
+          "net": "",
+          "x": 125.24,
+          "y": 119.24
+        }
+      }
+    },
+    "R4": {
+      "x": 131.0,
+      "y": 124.0,
+      "rotation": 90.0,
+      "footprint": "R_0402_1005Metric",
+      "path": "/337f7c2c-5e44-51a5-bbfb-1e9f687e66fd/0af8a52a-8c49-566b-878a-075cd70613c9",
+      "pads": {
+        "1": {
+          "net": "/3V3_EPD",
+          "x": 131.0,
+          "y": 124.51
+        },
+        "2": {
+          "net": "/EPD_CS_N",
+          "x": 131.0,
+          "y": 123.49
+        }
+      }
+    },
+    "Q1": {
+      "x": 149.0,
+      "y": 119.0,
+      "rotation": 180.0,
+      "footprint": "SOT-323_SC-70",
+      "path": "/337f7c2c-5e44-51a5-bbfb-1e9f687e66fd/65546864-8ad7-5913-a3c0-ea923238217b",
+      "pads": {
+        "1": {
+          "net": "/GDR",
+          "x": 149.8875,
+          "y": 119.65
+        },
+        "2": {
+          "net": "/RESE",
+          "x": 149.8875,
+          "y": 118.35
+        },
+        "3": {
+          "net": "/SW",
+          "x": 148.1125,
+          "y": 119.0
+        }
+      }
+    },
+    "TP2": {
+      "x": 137.0,
+      "y": 134.0,
+      "rotation": 0.0,
+      "footprint": "TestPoint_Pad_D1.0mm",
+      "path": "/337f7c2c-5e44-51a5-bbfb-1e9f687e66fd/3d9e0eb7-cc80-5c16-ab50-54574e1def98",
+      "pads": {
+        "1": {
+          "net": "/GND",
+          "x": 137.0,
+          "y": 134.0
+        }
+      }
+    },
+    "TP6": {
+      "x": 131.0,
+      "y": 131.0,
+      "rotation": 0.0,
+      "footprint": "TestPoint_Pad_D1.0mm",
+      "path": "/337f7c2c-5e44-51a5-bbfb-1e9f687e66fd/ebe6fed9-9247-557a-91fa-56d570a50771",
+      "pads": {
+        "1": {
+          "net": "/EPD_RST_N",
+          "x": 131.0,
+          "y": 131.0
+        }
+      }
+    },
+    "H3": {
+      "x": 104.0,
+      "y": 146.0,
+      "rotation": 0.0,
+      "footprint": "MountingHole_2.7mm_M2.5",
+      "path": "/337f7c2c-5e44-51a5-bbfb-1e9f687e66fd/268085c0-820e-5789-ba7b-47ba39ac8358",
+      "pads": {
+        "": {
+          "net": "",
+          "x": 104.0,
+          "y": 146.0
+        }
+      }
+    },
+    "R1": {
+      "x": 129.0,
+      "y": 122.0,
+      "rotation": 0.0,
+      "footprint": "R_0805_2012Metric",
+      "path": "/337f7c2c-5e44-51a5-bbfb-1e9f687e66fd/02ac625e-9271-5a3f-91bd-caf39954d816",
+      "pads": {
+        "1": {
+          "net": "/3V3_MODULE",
+          "x": 128.0875,
+          "y": 122.0
+        },
+        "2": {
+          "net": "/3V3_EPD",
+          "x": 129.9125,
+          "y": 122.0
+        }
+      }
+    },
+    "L1": {
+      "x": 148.0,
+      "y": 123.0,
+      "rotation": 180.0,
+      "footprint": "L_Bourns-SRN4018",
+      "path": "/337f7c2c-5e44-51a5-bbfb-1e9f687e66fd/1512be41-f7c1-5725-85c5-2c847f558d4a",
+      "pads": {
+        "1": {
+          "net": "/3V3_EPD",
+          "x": 149.525,
+          "y": 123.0
+        },
+        "2": {
+          "net": "/SW",
+          "x": 146.475,
+          "y": 123.0
+        }
+      }
+    }
+  },
+  "tracks": [
+    {
+      "net": "/VSHR",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        147.75,
+        107.5
+      ],
+      "end": [
+        147.75,
+        108.55
+      ]
+    },
+    {
+      "net": "/VSHR",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        147.75,
+        108.55
+      ],
+      "end": [
+        149.0,
+        109.8
+      ]
+    },
+    {
+      "net": "/GND",
+      "width": 0.3,
+      "via": false,
+      "locked": false,
+      "start": [
+        138.0,
+        123.0
+      ],
+      "end": [
+        138.35,
+        124.0
+      ]
+    },
+    {
+      "net": "/GND",
+      "width": 0.3,
+      "via": false,
+      "locked": false,
+      "start": [
+        138.0,
+        123.0
+      ],
+      "end": [
+        138.0,
+        123.4
+      ]
+    },
+    {
+      "net": "/GND",
+      "width": 0.3,
+      "via": false,
+      "locked": false,
+      "start": [
+        142.0,
+        112.5
+      ],
+      "end": [
+        141.725,
+        112.45
+      ]
+    },
+    {
+      "net": "/GND",
+      "width": 0.3,
+      "via": false,
+      "locked": false,
+      "start": [
+        142.0,
+        112.5
+      ],
+      "end": [
+        141.0,
+        111.95
+      ]
+    },
+    {
+      "net": "/GND",
+      "width": 0.3,
+      "via": false,
+      "locked": false,
+      "start": [
+        154.0,
+        126.5
+      ],
+      "end": [
+        153.0,
+        125.475
+      ]
+    },
+    {
+      "net": "/GND",
+      "width": 0.6,
+      "via": true,
+      "locked": true,
+      "start": [
+        155.5,
+        120.5
+      ],
+      "end": [
+        155.5,
+        120.5
+      ]
+    },
+    {
+      "net": "/GND",
+      "width": 0.6,
+      "via": true,
+      "locked": true,
+      "start": [
+        150.0,
+        126.5
+      ],
+      "end": [
+        150.0,
+        126.5
+      ]
+    },
+    {
+      "net": "/GND",
+      "width": 0.6,
+      "via": true,
+      "locked": true,
+      "start": [
+        134.0,
+        127.0
+      ],
+      "end": [
+        134.0,
+        127.0
+      ]
+    },
+    {
+      "net": "/GND",
+      "width": 0.6,
+      "via": true,
+      "locked": true,
+      "start": [
+        139.3125,
+        113.2455
+      ],
+      "end": [
+        139.3125,
+        113.2455
+      ]
+    },
+    {
+      "net": "/GND",
+      "width": 0.6,
+      "via": true,
+      "locked": true,
+      "start": [
+        138.0,
+        123.0
+      ],
+      "end": [
+        138.0,
+        123.0
+      ]
+    },
+    {
+      "net": "/GND",
+      "width": 0.6,
+      "via": true,
+      "locked": true,
+      "start": [
+        155.0,
+        139.0
+      ],
+      "end": [
+        155.0,
+        139.0
+      ]
+    },
+    {
+      "net": "/GND",
+      "width": 0.6,
+      "via": true,
+      "locked": true,
+      "start": [
+        105.0,
+        110.0
+      ],
+      "end": [
+        105.0,
+        110.0
+      ]
+    },
+    {
+      "net": "/GND",
+      "width": 0.6,
+      "via": true,
+      "locked": true,
+      "start": [
+        148.5,
+        113.0
+      ],
+      "end": [
+        148.5,
+        113.0
+      ]
+    },
+    {
+      "net": "/GND",
+      "width": 0.6,
+      "via": true,
+      "locked": true,
+      "start": [
+        134.5,
+        112.6
+      ],
+      "end": [
+        134.5,
+        112.6
+      ]
+    },
+    {
+      "net": "/GND",
+      "width": 0.6,
+      "via": true,
+      "locked": true,
+      "start": [
+        151.65,
+        101.0
+      ],
+      "end": [
+        151.65,
+        101.0
+      ]
+    },
+    {
+      "net": "/GND",
+      "width": 0.6,
+      "via": true,
+      "locked": true,
+      "start": [
+        136.7043,
+        126.0338
+      ],
+      "end": [
+        136.7043,
+        126.0338
+      ]
+    },
+    {
+      "net": "/GND",
+      "width": 0.6,
+      "via": true,
+      "locked": true,
+      "start": [
+        105.0,
+        139.0
+      ],
+      "end": [
+        105.0,
+        139.0
+      ]
+    },
+    {
+      "net": "/GND",
+      "width": 0.6,
+      "via": true,
+      "locked": true,
+      "start": [
+        134.0,
+        106.0
+      ],
+      "end": [
+        134.0,
+        106.0
+      ]
+    },
+    {
+      "net": "/GND",
+      "width": 0.6,
+      "via": true,
+      "locked": true,
+      "start": [
+        139.653,
+        104.3442
+      ],
+      "end": [
+        139.653,
+        104.3442
+      ]
+    },
+    {
+      "net": "/GND",
+      "width": 0.6,
+      "via": true,
+      "locked": true,
+      "start": [
+        154.0,
+        126.5
+      ],
+      "end": [
+        154.0,
+        126.5
+      ]
+    },
+    {
+      "net": "/GND",
+      "width": 0.6,
+      "via": true,
+      "locked": true,
+      "start": [
+        114.8436,
+        111.3696
+      ],
+      "end": [
+        114.8436,
+        111.3696
+      ]
+    },
+    {
+      "net": "/GND",
+      "width": 0.6,
+      "via": true,
+      "locked": true,
+      "start": [
+        142.0,
+        112.5
+      ],
+      "end": [
+        142.0,
+        112.5
+      ]
+    },
+    {
+      "net": "/GND",
+      "width": 0.6,
+      "via": true,
+      "locked": true,
+      "start": [
+        139.0,
+        114.2
+      ],
+      "end": [
+        139.0,
+        114.2
+      ]
+    },
+    {
+      "net": "/GND",
+      "width": 0.6,
+      "via": true,
+      "locked": true,
+      "start": [
+        120.634,
+        108.3649
+      ],
+      "end": [
+        120.634,
+        108.3649
+      ]
+    },
+    {
+      "net": "/GND",
+      "width": 0.6,
+      "via": true,
+      "locked": true,
+      "start": [
+        153.0,
+        113.0
+      ],
+      "end": [
+        153.0,
+        113.0
+      ]
+    },
+    {
+      "net": "/GND",
+      "width": 0.6,
+      "via": true,
+      "locked": true,
+      "start": [
+        144.0,
+        113.0
+      ],
+      "end": [
+        144.0,
+        113.0
+      ]
+    },
+    {
+      "net": "/GND",
+      "width": 0.6,
+      "via": true,
+      "locked": true,
+      "start": [
+        134.6259,
+        109.3995
+      ],
+      "end": [
+        134.6259,
+        109.3995
+      ]
+    },
+    {
+      "net": "/GND",
+      "width": 0.6,
+      "via": true,
+      "locked": true,
+      "start": [
+        144.181,
+        130.7203
+      ],
+      "end": [
+        144.181,
+        130.7203
+      ]
+    },
+    {
+      "net": "/PREVGH",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        142.35,
+        119.0
+      ],
+      "end": [
+        139.75,
+        121.6
+      ]
+    },
+    {
+      "net": "/PREVGH",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        140.15,
+        105.65
+      ],
+      "end": [
+        139.75,
+        106.05
+      ]
+    },
+    {
+      "net": "/PREVGH",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        132.0,
+        119.65
+      ],
+      "end": [
+        132.0,
+        116.975
+      ]
+    },
+    {
+      "net": "/PREVGH",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        139.75,
+        106.05
+      ],
+      "end": [
+        139.75,
+        106.85
+      ]
+    },
+    {
+      "net": "/PREVGH",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        143.25,
+        118.05
+      ],
+      "end": [
+        142.35,
+        118.95
+      ]
+    },
+    {
+      "net": "/PREVGH",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        131.3,
+        120.35
+      ],
+      "end": [
+        132.0,
+        119.65
+      ]
+    },
+    {
+      "net": "/PREVGH",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        139.75,
+        121.6
+      ],
+      "end": [
+        139.75,
+        122.15
+      ]
+    },
+    {
+      "net": "/PREVGH",
+      "width": 0.6,
+      "via": true,
+      "locked": false,
+      "start": [
+        139.65,
+        122.25
+      ],
+      "end": [
+        139.65,
+        122.25
+      ]
+    },
+    {
+      "net": "/PREVGH",
+      "width": 0.6,
+      "via": true,
+      "locked": false,
+      "start": [
+        143.25,
+        118.05
+      ],
+      "end": [
+        143.25,
+        118.05
+      ]
+    },
+    {
+      "net": "/PREVGH",
+      "width": 0.6,
+      "via": true,
+      "locked": false,
+      "start": [
+        140.15,
+        105.65
+      ],
+      "end": [
+        140.15,
+        105.65
+      ]
+    },
+    {
+      "net": "/PREVGH",
+      "width": 0.6,
+      "via": true,
+      "locked": false,
+      "start": [
+        131.3,
+        120.35
+      ],
+      "end": [
+        131.3,
+        120.35
+      ]
+    },
+    {
+      "net": "/PREVGH",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        143.25,
+        118.05
+      ],
+      "end": [
+        143.25,
+        108.75
+      ]
+    },
+    {
+      "net": "/PREVGH",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        143.25,
+        108.75
+      ],
+      "end": [
+        140.15,
+        105.65
+      ]
+    },
+    {
+      "net": "/PREVGH",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        133.2,
+        122.25
+      ],
+      "end": [
+        131.3,
+        120.35
+      ]
+    },
+    {
+      "net": "/PREVGH",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        139.65,
+        122.25
+      ],
+      "end": [
+        133.2,
+        122.25
+      ]
+    },
+    {
+      "net": "/VDD_INT",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        141.0,
+        109.0
+      ],
+      "end": [
+        141.0,
+        110.05
+      ]
+    },
+    {
+      "net": "/VDD_INT",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        141.8,
+        108.2
+      ],
+      "end": [
+        141.0,
+        109.0
+      ]
+    },
+    {
+      "net": "/VDD_INT",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        141.25,
+        107.5
+      ],
+      "end": [
+        141.25,
+        107.65
+      ]
+    },
+    {
+      "net": "/VDD_INT",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        141.25,
+        107.65
+      ],
+      "end": [
+        141.8,
+        108.2
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        129.0,
+        123.55
+      ],
+      "end": [
+        129.0,
+        124.1
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        130.55,
+        136.65
+      ],
+      "end": [
+        130.6,
+        136.65
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        130.1,
+        134.85
+      ],
+      "end": [
+        130.95,
+        134.0
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        147.15,
+        111.45
+      ],
+      "end": [
+        146.7,
+        111.0
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        129.4,
+        135.5
+      ],
+      "end": [
+        130.05,
+        134.85
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        130.65,
+        136.7
+      ],
+      "end": [
+        141.3,
+        136.7
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        148.0,
+        130.0
+      ],
+      "end": [
+        151.65,
+        130.0
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        151.475,
+        122.525
+      ],
+      "end": [
+        151.5,
+        122.5
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        129.35,
+        123.2
+      ],
+      "end": [
+        130.0,
+        123.85
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        145.1,
+        110.6
+      ],
+      "end": [
+        144.55,
+        110.05
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        146.7,
+        111.0
+      ],
+      "end": [
+        146.3,
+        111.0
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        129.9,
+        122.65
+      ],
+      "end": [
+        129.0,
+        123.55
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        125.2,
+        130.7
+      ],
+      "end": [
+        125.2,
+        131.3
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        130.05,
+        134.85
+      ],
+      "end": [
+        130.1,
+        134.85
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        145.95,
+        110.65
+      ],
+      "end": [
+        145.9,
+        110.65
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": true,
+      "start": [
+        156.0,
+        122.525
+      ],
+      "end": [
+        156.0,
+        126.525
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        151.5,
+        122.5
+      ],
+      "end": [
+        151.15,
+        122.15
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        130.6,
+        136.65
+      ],
+      "end": [
+        130.65,
+        136.7
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        125.2,
+        131.3
+      ],
+      "end": [
+        130.55,
+        136.65
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        143.1,
+        109.15
+      ],
+      "end": [
+        143.1,
+        109.1
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        130.6,
+        124.5
+      ],
+      "end": [
+        131.0,
+        124.5
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        145.55,
+        110.6
+      ],
+      "end": [
+        145.1,
+        110.6
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        128.6,
+        127.3
+      ],
+      "end": [
+        125.2,
+        130.7
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        141.3,
+        136.7
+      ],
+      "end": [
+        148.0,
+        130.0
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        142.75,
+        105.75
+      ],
+      "end": [
+        142.75,
+        106.15
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        130.0,
+        123.9
+      ],
+      "end": [
+        130.6,
+        124.5
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        130.0,
+        123.85
+      ],
+      "end": [
+        130.0,
+        123.9
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": true,
+      "start": [
+        151.0,
+        123.0
+      ],
+      "end": [
+        151.475,
+        122.525
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        142.75,
+        106.85
+      ],
+      "end": [
+        142.25,
+        106.85
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        151.65,
+        130.0
+      ],
+      "end": [
+        153.15,
+        128.5
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        146.3,
+        111.0
+      ],
+      "end": [
+        145.95,
+        110.65
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        128.6,
+        124.65
+      ],
+      "end": [
+        128.6,
+        127.3
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        145.9,
+        110.65
+      ],
+      "end": [
+        145.75,
+        110.8
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        128.8,
+        124.3
+      ],
+      "end": [
+        128.8,
+        124.45
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        142.75,
+        106.15
+      ],
+      "end": [
+        142.7,
+        106.2
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        129.0,
+        124.1
+      ],
+      "end": [
+        128.8,
+        124.3
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        145.75,
+        110.8
+      ],
+      "end": [
+        145.55,
+        110.6
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        144.0,
+        110.05
+      ],
+      "end": [
+        143.1,
+        109.15
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": true,
+      "start": [
+        156.0,
+        126.525
+      ],
+      "end": [
+        154.0,
+        128.525
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        143.1,
+        109.1
+      ],
+      "end": [
+        144.05,
+        108.15
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": true,
+      "start": [
+        149.525,
+        123.0
+      ],
+      "end": [
+        151.0,
+        123.0
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": true,
+      "start": [
+        153.0,
+        122.525
+      ],
+      "end": [
+        156.0,
+        122.525
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": true,
+      "start": [
+        151.475,
+        122.525
+      ],
+      "end": [
+        153.0,
+        122.525
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        128.8,
+        124.45
+      ],
+      "end": [
+        128.6,
+        124.65
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": true,
+      "locked": false,
+      "start": [
+        147.15,
+        111.5
+      ],
+      "end": [
+        147.15,
+        111.5
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": true,
+      "locked": false,
+      "start": [
+        144.05,
+        108.125
+      ],
+      "end": [
+        144.05,
+        108.125
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": true,
+      "locked": false,
+      "start": [
+        151.15,
+        122.1
+      ],
+      "end": [
+        151.15,
+        122.1
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": true,
+      "locked": false,
+      "start": [
+        142.75,
+        105.6
+      ],
+      "end": [
+        142.75,
+        105.6
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        144.05,
+        108.125
+      ],
+      "end": [
+        144.05,
+        106.9
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        151.15,
+        120.9
+      ],
+      "end": [
+        147.15,
+        116.9
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        144.05,
+        106.9
+      ],
+      "end": [
+        142.75,
+        105.6
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        147.15,
+        116.9
+      ],
+      "end": [
+        147.15,
+        111.5
+      ]
+    },
+    {
+      "net": "/3V3_EPD",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        151.15,
+        122.1
+      ],
+      "end": [
+        151.15,
+        120.9
+      ]
+    },
+    {
+      "net": "/RESE",
+      "width": 0.4,
+      "via": false,
+      "locked": true,
+      "start": [
+        149.8875,
+        118.35
+      ],
+      "end": [
+        151.8875,
+        118.35
+      ]
+    },
+    {
+      "net": "/RESE",
+      "width": 0.4,
+      "via": false,
+      "locked": true,
+      "start": [
+        151.8875,
+        118.35
+      ],
+      "end": [
+        152.5375,
+        119.0
+      ]
+    },
+    {
+      "net": "/RESE",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        148.75,
+        108.0
+      ],
+      "end": [
+        148.75,
+        106.85
+      ]
+    },
+    {
+      "net": "/RESE",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        150.35,
+        117.9
+      ],
+      "end": [
+        150.9,
+        117.9
+      ]
+    },
+    {
+      "net": "/RESE",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        149.9,
+        118.35
+      ],
+      "end": [
+        150.35,
+        117.9
+      ]
+    },
+    {
+      "net": "/RESE",
+      "width": 0.6,
+      "via": true,
+      "locked": false,
+      "start": [
+        150.9,
+        117.9
+      ],
+      "end": [
+        150.9,
+        117.9
+      ]
+    },
+    {
+      "net": "/RESE",
+      "width": 0.6,
+      "via": true,
+      "locked": false,
+      "start": [
+        148.85,
+        108.1
+      ],
+      "end": [
+        148.85,
+        108.1
+      ]
+    },
+    {
+      "net": "/RESE",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        150.9,
+        110.15
+      ],
+      "end": [
+        148.85,
+        108.1
+      ]
+    },
+    {
+      "net": "/RESE",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        150.9,
+        117.9
+      ],
+      "end": [
+        150.9,
+        110.15
+      ]
+    },
+    {
+      "net": "/PUMP",
+      "width": 0.45,
+      "via": false,
+      "locked": true,
+      "start": [
+        144.0,
+        125.475
+      ],
+      "end": [
+        142.525,
+        125.475
+      ]
+    },
+    {
+      "net": "/PUMP",
+      "width": 0.4,
+      "via": false,
+      "locked": true,
+      "start": [
+        138.35,
+        127.3
+      ],
+      "end": [
+        138.35,
+        129.0
+      ]
+    },
+    {
+      "net": "/PUMP",
+      "width": 0.4,
+      "via": false,
+      "locked": true,
+      "start": [
+        141.65,
+        124.0
+      ],
+      "end": [
+        138.35,
+        127.3
+      ]
+    },
+    {
+      "net": "/PUMP",
+      "width": 0.45,
+      "via": false,
+      "locked": true,
+      "start": [
+        142.525,
+        125.475
+      ],
+      "end": [
+        141.65,
+        124.0
+      ]
+    },
+    {
+      "net": "/MOSI_SRC",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        127.4,
+        111.6
+      ],
+      "end": [
+        125.25,
+        111.6
+      ]
+    },
+    {
+      "net": "/EPD_MOSI",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        138.575,
+        110.875
+      ],
+      "end": [
+        138.35,
+        111.1
+      ]
+    },
+    {
+      "net": "/EPD_MOSI",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        141.725,
+        110.875
+      ],
+      "end": [
+        138.575,
+        110.875
+      ]
+    },
+    {
+      "net": "/EPD_MOSI",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        142.475,
+        110.125
+      ],
+      "end": [
+        141.725,
+        110.875
+      ]
+    },
+    {
+      "net": "/EPD_MOSI",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        128.5,
+        111.5
+      ],
+      "end": [
+        128.5,
+        110.75
+      ]
+    },
+    {
+      "net": "/EPD_MOSI",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        131.425,
+        111.1
+      ],
+      "end": [
+        130.925,
+        110.6
+      ]
+    },
+    {
+      "net": "/EPD_MOSI",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        142.475,
+        108.825
+      ],
+      "end": [
+        142.475,
+        110.125
+      ]
+    },
+    {
+      "net": "/EPD_MOSI",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        143.25,
+        108.05
+      ],
+      "end": [
+        142.475,
+        108.825
+      ]
+    },
+    {
+      "net": "/EPD_MOSI",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        138.35,
+        111.1
+      ],
+      "end": [
+        131.425,
+        111.1
+      ]
+    },
+    {
+      "net": "/EPD_MOSI",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        143.25,
+        106.85
+      ],
+      "end": [
+        143.25,
+        108.05
+      ]
+    },
+    {
+      "net": "/EPD_MOSI",
+      "width": 0.6,
+      "via": true,
+      "locked": false,
+      "start": [
+        128.5,
+        110.6
+      ],
+      "end": [
+        128.5,
+        110.6
+      ]
+    },
+    {
+      "net": "/EPD_MOSI",
+      "width": 0.6,
+      "via": true,
+      "locked": false,
+      "start": [
+        130.925,
+        110.6
+      ],
+      "end": [
+        130.925,
+        110.6
+      ]
+    },
+    {
+      "net": "/EPD_MOSI",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        128.5,
+        110.6
+      ],
+      "end": [
+        130.925,
+        110.6
+      ]
+    },
+    {
+      "net": "/SW",
+      "width": 0.5,
+      "via": false,
+      "locked": true,
+      "start": [
+        146.475,
+        123.0
+      ],
+      "end": [
+        145.7,
+        122.525
+      ]
+    },
+    {
+      "net": "/SW",
+      "width": 0.5,
+      "via": false,
+      "locked": true,
+      "start": [
+        145.7,
+        122.525
+      ],
+      "end": [
+        144.0,
+        122.525
+      ]
+    },
+    {
+      "net": "/SW",
+      "width": 0.45,
+      "via": false,
+      "locked": true,
+      "start": [
+        148.1125,
+        119.0
+      ],
+      "end": [
+        147.3,
+        119.0
+      ]
+    },
+    {
+      "net": "/SW",
+      "width": 0.45,
+      "via": false,
+      "locked": true,
+      "start": [
+        147.3,
+        119.0
+      ],
+      "end": [
+        145.65,
+        119.0
+      ]
+    },
+    {
+      "net": "/SW",
+      "width": 0.5,
+      "via": false,
+      "locked": true,
+      "start": [
+        148.1125,
+        119.0
+      ],
+      "end": [
+        148.1125,
+        121.3625
+      ]
+    },
+    {
+      "net": "/SW",
+      "width": 0.5,
+      "via": false,
+      "locked": true,
+      "start": [
+        148.1125,
+        121.3625
+      ],
+      "end": [
+        146.475,
+        123.0
+      ]
+    },
+    {
+      "net": "/GDR",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        153.8,
+        116.05
+      ],
+      "end": [
+        153.25,
+        116.6
+      ]
+    },
+    {
+      "net": "/GDR",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        153.25,
+        116.6
+      ],
+      "end": [
+        152.15,
+        115.5
+      ]
+    },
+    {
+      "net": "/GDR",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        151.05,
+        119.35
+      ],
+      "end": [
+        150.75,
+        119.35
+      ]
+    },
+    {
+      "net": "/GDR",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        153.4,
+        116.6
+      ],
+      "end": [
+        153.4,
+        116.9
+      ]
+    },
+    {
+      "net": "/GDR",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        149.3,
+        107.45
+      ],
+      "end": [
+        149.25,
+        107.5
+      ]
+    },
+    {
+      "net": "/GDR",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        149.25,
+        107.5
+      ],
+      "end": [
+        149.25,
+        107.6
+      ]
+    },
+    {
+      "net": "/GDR",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        150.45,
+        119.65
+      ],
+      "end": [
+        149.9,
+        119.65
+      ]
+    },
+    {
+      "net": "/GDR",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        149.3,
+        106.9
+      ],
+      "end": [
+        149.3,
+        107.45
+      ]
+    },
+    {
+      "net": "/GDR",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        150.75,
+        119.35
+      ],
+      "end": [
+        150.45,
+        119.65
+      ]
+    },
+    {
+      "net": "/GDR",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        152.15,
+        115.5
+      ],
+      "end": [
+        152.0,
+        115.5
+      ]
+    },
+    {
+      "net": "/GDR",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        149.25,
+        107.6
+      ],
+      "end": [
+        153.8,
+        112.15
+      ]
+    },
+    {
+      "net": "/GDR",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        153.8,
+        112.15
+      ],
+      "end": [
+        153.8,
+        116.05
+      ]
+    },
+    {
+      "net": "/GDR",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        149.25,
+        106.85
+      ],
+      "end": [
+        149.3,
+        106.9
+      ]
+    },
+    {
+      "net": "/GDR",
+      "width": 0.6,
+      "via": true,
+      "locked": false,
+      "start": [
+        153.4,
+        116.9
+      ],
+      "end": [
+        153.4,
+        116.9
+      ]
+    },
+    {
+      "net": "/GDR",
+      "width": 0.6,
+      "via": true,
+      "locked": false,
+      "start": [
+        151.15,
+        119.25
+      ],
+      "end": [
+        151.15,
+        119.25
+      ]
+    },
+    {
+      "net": "/GDR",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        151.15,
+        119.15
+      ],
+      "end": [
+        151.15,
+        119.25
+      ]
+    },
+    {
+      "net": "/GDR",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        153.4,
+        116.9
+      ],
+      "end": [
+        151.15,
+        119.15
+      ]
+    },
+    {
+      "net": "/EPD_BUSY_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        147.775,
+        111.175
+      ],
+      "end": [
+        145.75,
+        109.15
+      ]
+    },
+    {
+      "net": "/EPD_BUSY_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        133.025,
+        119.675
+      ],
+      "end": [
+        136.75,
+        115.95
+      ]
+    },
+    {
+      "net": "/EPD_BUSY_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        108.05,
+        113.55
+      ],
+      "end": [
+        108.05,
+        131.0
+      ]
+    },
+    {
+      "net": "/EPD_BUSY_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        145.75,
+        109.15
+      ],
+      "end": [
+        145.75,
+        106.85
+      ]
+    },
+    {
+      "net": "/EPD_BUSY_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        140.525,
+        113.75
+      ],
+      "end": [
+        140.525,
+        113.675
+      ]
+    },
+    {
+      "net": "/EPD_BUSY_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        128.0,
+        129.1
+      ],
+      "end": [
+        133.025,
+        124.075
+      ]
+    },
+    {
+      "net": "/EPD_BUSY_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        147.775,
+        111.775
+      ],
+      "end": [
+        147.775,
+        111.175
+      ]
+    },
+    {
+      "net": "/EPD_BUSY_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        140.525,
+        113.675
+      ],
+      "end": [
+        140.85,
+        113.35
+      ]
+    },
+    {
+      "net": "/EPD_BUSY_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        140.85,
+        113.35
+      ],
+      "end": [
+        143.45,
+        113.35
+      ]
+    },
+    {
+      "net": "/EPD_BUSY_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        145.9,
+        113.65
+      ],
+      "end": [
+        147.775,
+        111.775
+      ]
+    },
+    {
+      "net": "/EPD_BUSY_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        143.45,
+        113.35
+      ],
+      "end": [
+        143.75,
+        113.65
+      ]
+    },
+    {
+      "net": "/EPD_BUSY_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        127.1,
+        131.75
+      ],
+      "end": [
+        127.85,
+        131.0
+      ]
+    },
+    {
+      "net": "/EPD_BUSY_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        110.0,
+        111.6
+      ],
+      "end": [
+        108.05,
+        113.55
+      ]
+    },
+    {
+      "net": "/EPD_BUSY_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        128.0,
+        131.0
+      ],
+      "end": [
+        128.0,
+        129.1
+      ]
+    },
+    {
+      "net": "/EPD_BUSY_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        110.9,
+        133.85
+      ],
+      "end": [
+        125.15,
+        133.85
+      ]
+    },
+    {
+      "net": "/EPD_BUSY_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        133.025,
+        124.075
+      ],
+      "end": [
+        133.025,
+        119.675
+      ]
+    },
+    {
+      "net": "/EPD_BUSY_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        143.75,
+        113.65
+      ],
+      "end": [
+        145.9,
+        113.65
+      ]
+    },
+    {
+      "net": "/EPD_BUSY_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        108.05,
+        131.0
+      ],
+      "end": [
+        110.9,
+        133.85
+      ]
+    },
+    {
+      "net": "/EPD_BUSY_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        138.325,
+        115.95
+      ],
+      "end": [
+        140.525,
+        113.75
+      ]
+    },
+    {
+      "net": "/EPD_BUSY_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        136.75,
+        115.95
+      ],
+      "end": [
+        138.325,
+        115.95
+      ]
+    },
+    {
+      "net": "/EPD_BUSY_N",
+      "width": 0.6,
+      "via": true,
+      "locked": false,
+      "start": [
+        125.15,
+        133.85
+      ],
+      "end": [
+        125.15,
+        133.85
+      ]
+    },
+    {
+      "net": "/EPD_BUSY_N",
+      "width": 0.6,
+      "via": true,
+      "locked": false,
+      "start": [
+        127.1,
+        131.8
+      ],
+      "end": [
+        127.1,
+        131.8
+      ]
+    },
+    {
+      "net": "/EPD_BUSY_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        125.15,
+        133.85
+      ],
+      "end": [
+        127.1,
+        131.9
+      ]
+    },
+    {
+      "net": "/EPD_RST_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        154.225,
+        111.95
+      ],
+      "end": [
+        150.25,
+        107.975
+      ]
+    },
+    {
+      "net": "/EPD_RST_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        142.775,
+        120.475
+      ],
+      "end": [
+        146.0,
+        117.25
+      ]
+    },
+    {
+      "net": "/EPD_RST_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        150.25,
+        107.975
+      ],
+      "end": [
+        150.25,
+        106.05
+      ]
+    },
+    {
+      "net": "/EPD_RST_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        145.25,
+        106.075
+      ],
+      "end": [
+        145.25,
+        106.85
+      ]
+    },
+    {
+      "net": "/EPD_RST_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        131.825,
+        131.825
+      ],
+      "end": [
+        140.225,
+        131.825
+      ]
+    },
+    {
+      "net": "/EPD_RST_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        153.65,
+        117.55
+      ],
+      "end": [
+        154.125,
+        117.075
+      ]
+    },
+    {
+      "net": "/EPD_RST_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        131.0,
+        131.0
+      ],
+      "end": [
+        131.825,
+        131.825
+      ]
+    },
+    {
+      "net": "/EPD_RST_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        153.15,
+        117.55
+      ],
+      "end": [
+        153.65,
+        117.55
+      ]
+    },
+    {
+      "net": "/EPD_RST_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        145.25,
+        124.9
+      ],
+      "end": [
+        143.8,
+        123.45
+      ]
+    },
+    {
+      "net": "/EPD_RST_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        154.125,
+        117.075
+      ],
+      "end": [
+        154.125,
+        116.35
+      ]
+    },
+    {
+      "net": "/EPD_RST_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        126.4,
+        135.35
+      ],
+      "end": [
+        109.95,
+        135.35
+      ]
+    },
+    {
+      "net": "/EPD_RST_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        152.85,
+        117.25
+      ],
+      "end": [
+        153.15,
+        117.55
+      ]
+    },
+    {
+      "net": "/EPD_RST_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        150.075,
+        105.875
+      ],
+      "end": [
+        145.45,
+        105.875
+      ]
+    },
+    {
+      "net": "/EPD_RST_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        105.8,
+        131.2
+      ],
+      "end": [
+        105.8,
+        113.05
+      ]
+    },
+    {
+      "net": "/EPD_RST_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        105.8,
+        113.05
+      ],
+      "end": [
+        109.75,
+        109.1
+      ]
+    },
+    {
+      "net": "/EPD_RST_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        145.25,
+        126.8
+      ],
+      "end": [
+        145.25,
+        124.9
+      ]
+    },
+    {
+      "net": "/EPD_RST_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        146.0,
+        117.25
+      ],
+      "end": [
+        152.85,
+        117.25
+      ]
+    },
+    {
+      "net": "/EPD_RST_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        143.125,
+        123.45
+      ],
+      "end": [
+        142.775,
+        123.1
+      ]
+    },
+    {
+      "net": "/EPD_RST_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        142.775,
+        123.1
+      ],
+      "end": [
+        142.775,
+        120.475
+      ]
+    },
+    {
+      "net": "/EPD_RST_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        145.45,
+        105.875
+      ],
+      "end": [
+        145.25,
+        106.075
+      ]
+    },
+    {
+      "net": "/EPD_RST_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        132.0,
+        127.5
+      ],
+      "end": [
+        130.05,
+        129.45
+      ]
+    },
+    {
+      "net": "/EPD_RST_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        143.8,
+        123.45
+      ],
+      "end": [
+        143.125,
+        123.45
+      ]
+    },
+    {
+      "net": "/EPD_RST_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        154.125,
+        116.35
+      ],
+      "end": [
+        154.225,
+        116.25
+      ]
+    },
+    {
+      "net": "/EPD_RST_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        129.6,
+        129.45
+      ],
+      "end": [
+        131.0,
+        130.85
+      ]
+    },
+    {
+      "net": "/EPD_RST_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        140.225,
+        131.825
+      ],
+      "end": [
+        145.25,
+        126.8
+      ]
+    },
+    {
+      "net": "/EPD_RST_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        150.25,
+        106.05
+      ],
+      "end": [
+        150.075,
+        105.875
+      ]
+    },
+    {
+      "net": "/EPD_RST_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        154.225,
+        116.25
+      ],
+      "end": [
+        154.225,
+        111.95
+      ]
+    },
+    {
+      "net": "/EPD_RST_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        130.05,
+        129.45
+      ],
+      "end": [
+        129.6,
+        129.45
+      ]
+    },
+    {
+      "net": "/EPD_RST_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        109.95,
+        135.35
+      ],
+      "end": [
+        105.8,
+        131.2
+      ]
+    },
+    {
+      "net": "/EPD_RST_N",
+      "width": 0.6,
+      "via": true,
+      "locked": false,
+      "start": [
+        130.1,
+        130.35
+      ],
+      "end": [
+        130.1,
+        130.35
+      ]
+    },
+    {
+      "net": "/EPD_RST_N",
+      "width": 0.6,
+      "via": true,
+      "locked": false,
+      "start": [
+        126.45,
+        135.35
+      ],
+      "end": [
+        126.45,
+        135.35
+      ]
+    },
+    {
+      "net": "/EPD_RST_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        130.1,
+        131.7
+      ],
+      "end": [
+        126.45,
+        135.35
+      ]
+    },
+    {
+      "net": "/EPD_RST_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        130.1,
+        130.35
+      ],
+      "end": [
+        130.1,
+        131.7
+      ]
+    },
+    {
+      "net": "/EPD_DC",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        110.725,
+        101.1
+      ],
+      "end": [
+        108.825,
+        103.0
+      ]
+    },
+    {
+      "net": "/EPD_DC",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        144.75,
+        105.4
+      ],
+      "end": [
+        140.45,
+        101.1
+      ]
+    },
+    {
+      "net": "/EPD_DC",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        135.55,
+        101.1
+      ],
+      "end": [
+        110.725,
+        101.1
+      ]
+    },
+    {
+      "net": "/EPD_DC",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        108.825,
+        105.025
+      ],
+      "end": [
+        110.0,
+        106.2
+      ]
+    },
+    {
+      "net": "/EPD_DC",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        108.825,
+        103.0
+      ],
+      "end": [
+        108.825,
+        105.025
+      ]
+    },
+    {
+      "net": "/EPD_DC",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        144.75,
+        106.85
+      ],
+      "end": [
+        144.75,
+        105.4
+      ]
+    },
+    {
+      "net": "/EPD_DC",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        140.45,
+        101.1
+      ],
+      "end": [
+        137.15,
+        101.1
+      ]
+    },
+    {
+      "net": "/EPD_DC",
+      "width": 0.6,
+      "via": true,
+      "locked": false,
+      "start": [
+        135.55,
+        101.1
+      ],
+      "end": [
+        135.55,
+        101.1
+      ]
+    },
+    {
+      "net": "/EPD_DC",
+      "width": 0.6,
+      "via": true,
+      "locked": false,
+      "start": [
+        137.15,
+        101.1
+      ],
+      "end": [
+        137.15,
+        101.1
+      ]
+    },
+    {
+      "net": "/EPD_DC",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        136.1,
+        101.65
+      ],
+      "end": [
+        135.55,
+        101.1
+      ]
+    },
+    {
+      "net": "/EPD_DC",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        137.15,
+        101.1
+      ],
+      "end": [
+        136.6,
+        101.65
+      ]
+    },
+    {
+      "net": "/EPD_DC",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        136.6,
+        101.65
+      ],
+      "end": [
+        136.1,
+        101.65
+      ]
+    },
+    {
+      "net": "/EPD_CS_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        129.85,
+        105.775
+      ],
+      "end": [
+        129.85,
+        112.75
+      ]
+    },
+    {
+      "net": "/EPD_CS_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        124.925,
+        115.35
+      ],
+      "end": [
+        124.15,
+        116.125
+      ]
+    },
+    {
+      "net": "/EPD_CS_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        127.25,
+        115.35
+      ],
+      "end": [
+        124.925,
+        115.35
+      ]
+    },
+    {
+      "net": "/EPD_CS_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        124.05,
+        117.2
+      ],
+      "end": [
+        124.05,
+        116.275
+      ]
+    },
+    {
+      "net": "/EPD_CS_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        129.85,
+        112.75
+      ],
+      "end": [
+        127.25,
+        115.35
+      ]
+    },
+    {
+      "net": "/EPD_CS_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        144.25,
+        106.85
+      ],
+      "end": [
+        144.25,
+        105.55
+      ]
+    },
+    {
+      "net": "/EPD_CS_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        131.0,
+        121.525
+      ],
+      "end": [
+        127.375,
+        117.9
+      ]
+    },
+    {
+      "net": "/EPD_CS_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        133.9,
+        101.725
+      ],
+      "end": [
+        129.85,
+        105.775
+      ]
+    },
+    {
+      "net": "/EPD_CS_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        111.975,
+        104.0
+      ],
+      "end": [
+        110.0,
+        104.0
+      ]
+    },
+    {
+      "net": "/EPD_CS_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        124.75,
+        117.9
+      ],
+      "end": [
+        124.05,
+        117.2
+      ]
+    },
+    {
+      "net": "/EPD_CS_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        124.15,
+        116.175
+      ],
+      "end": [
+        111.975,
+        104.0
+      ]
+    },
+    {
+      "net": "/EPD_CS_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        127.375,
+        117.9
+      ],
+      "end": [
+        124.75,
+        117.9
+      ]
+    },
+    {
+      "net": "/EPD_CS_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        124.05,
+        116.275
+      ],
+      "end": [
+        124.15,
+        116.175
+      ]
+    },
+    {
+      "net": "/EPD_CS_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        140.425,
+        101.725
+      ],
+      "end": [
+        133.9,
+        101.725
+      ]
+    },
+    {
+      "net": "/EPD_CS_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        131.0,
+        123.5
+      ],
+      "end": [
+        131.0,
+        121.525
+      ]
+    },
+    {
+      "net": "/EPD_CS_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        144.25,
+        105.55
+      ],
+      "end": [
+        140.425,
+        101.725
+      ]
+    },
+    {
+      "net": "/EPD_CS_N",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        124.15,
+        116.125
+      ],
+      "end": [
+        124.15,
+        116.175
+      ]
+    },
+    {
+      "net": "/EPD_SCK",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        130.3,
+        113.95
+      ],
+      "end": [
+        130.3,
+        105.975
+      ]
+    },
+    {
+      "net": "/EPD_SCK",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        140.225,
+        102.175
+      ],
+      "end": [
+        143.75,
+        105.7
+      ]
+    },
+    {
+      "net": "/EPD_SCK",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        130.3,
+        105.975
+      ],
+      "end": [
+        134.1,
+        102.175
+      ]
+    },
+    {
+      "net": "/EPD_SCK",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        128.5,
+        115.75
+      ],
+      "end": [
+        130.3,
+        113.95
+      ]
+    },
+    {
+      "net": "/EPD_SCK",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        134.1,
+        102.175
+      ],
+      "end": [
+        140.225,
+        102.175
+      ]
+    },
+    {
+      "net": "/EPD_SCK",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        143.75,
+        105.7
+      ],
+      "end": [
+        143.75,
+        106.85
+      ]
+    },
+    {
+      "net": "/VSH1",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        137.85,
+        117.25
+      ],
+      "end": [
+        137.85,
+        118.0
+      ]
+    },
+    {
+      "net": "/VSH1",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        140.25,
+        107.65
+      ],
+      "end": [
+        140.7,
+        108.1
+      ]
+    },
+    {
+      "net": "/VSH1",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        140.25,
+        107.5
+      ],
+      "end": [
+        140.25,
+        107.65
+      ]
+    },
+    {
+      "net": "/VSH1",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        141.0,
+        114.1
+      ],
+      "end": [
+        137.85,
+        117.25
+      ]
+    },
+    {
+      "net": "/VSH1",
+      "width": 0.6,
+      "via": true,
+      "locked": false,
+      "start": [
+        141.1,
+        114.0
+      ],
+      "end": [
+        141.1,
+        114.0
+      ]
+    },
+    {
+      "net": "/VSH1",
+      "width": 0.6,
+      "via": true,
+      "locked": false,
+      "start": [
+        140.7,
+        108.1
+      ],
+      "end": [
+        140.7,
+        108.1
+      ]
+    },
+    {
+      "net": "/VSH1",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        140.7,
+        108.1
+      ],
+      "end": [
+        141.1,
+        108.5
+      ]
+    },
+    {
+      "net": "/VSH1",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        141.1,
+        108.5
+      ],
+      "end": [
+        141.1,
+        114.0
+      ]
+    },
+    {
+      "net": "/VSL",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        139.25,
+        107.5
+      ],
+      "end": [
+        139.25,
+        107.6
+      ]
+    },
+    {
+      "net": "/VSL",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        138.75,
+        111.6
+      ],
+      "end": [
+        137.85,
+        112.5
+      ]
+    },
+    {
+      "net": "/VSL",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        139.25,
+        107.6
+      ],
+      "end": [
+        138.85,
+        108.0
+      ]
+    },
+    {
+      "net": "/VSL",
+      "width": 0.6,
+      "via": true,
+      "locked": false,
+      "start": [
+        138.85,
+        108.05
+      ],
+      "end": [
+        138.85,
+        108.05
+      ]
+    },
+    {
+      "net": "/VSL",
+      "width": 0.6,
+      "via": true,
+      "locked": false,
+      "start": [
+        138.75,
+        111.6
+      ],
+      "end": [
+        138.75,
+        111.6
+      ]
+    },
+    {
+      "net": "/VSL",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        138.85,
+        108.05
+      ],
+      "end": [
+        138.85,
+        111.5
+      ]
+    },
+    {
+      "net": "/PREVGL",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        133.5,
+        110.3
+      ],
+      "end": [
+        133.5,
+        108.85
+      ]
+    },
+    {
+      "net": "/PREVGL",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        138.75,
+        106.05
+      ],
+      "end": [
+        138.75,
+        106.85
+      ]
+    },
+    {
+      "net": "/PREVGL",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        135.35,
+        127.45
+      ],
+      "end": [
+        135.35,
+        129.5
+      ]
+    },
+    {
+      "net": "/PREVGL",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        133.5,
+        108.85
+      ],
+      "end": [
+        137.05,
+        105.3
+      ]
+    },
+    {
+      "net": "/PREVGL",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        135.35,
+        129.5
+      ],
+      "end": [
+        134.0,
+        130.85
+      ]
+    },
+    {
+      "net": "/PREVGL",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        133.65,
+        121.2
+      ],
+      "end": [
+        133.65,
+        125.75
+      ]
+    },
+    {
+      "net": "/PREVGL",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        133.65,
+        125.75
+      ],
+      "end": [
+        135.35,
+        127.45
+      ]
+    },
+    {
+      "net": "/PREVGL",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        136.65,
+        130.7
+      ],
+      "end": [
+        140.1,
+        130.7
+      ]
+    },
+    {
+      "net": "/PREVGL",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        132.7,
+        110.2
+      ],
+      "end": [
+        133.4,
+        110.2
+      ]
+    },
+    {
+      "net": "/PREVGL",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        137.05,
+        105.3
+      ],
+      "end": [
+        138.0,
+        105.3
+      ]
+    },
+    {
+      "net": "/PREVGL",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        133.4,
+        110.2
+      ],
+      "end": [
+        133.65,
+        110.45
+      ]
+    },
+    {
+      "net": "/PREVGL",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        138.0,
+        105.3
+      ],
+      "end": [
+        138.75,
+        106.05
+      ]
+    },
+    {
+      "net": "/PREVGL",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        135.35,
+        129.4
+      ],
+      "end": [
+        136.65,
+        130.7
+      ]
+    },
+    {
+      "net": "/PREVGL",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        132.0,
+        109.5
+      ],
+      "end": [
+        132.7,
+        110.2
+      ]
+    },
+    {
+      "net": "/PREVGL",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        140.1,
+        130.7
+      ],
+      "end": [
+        141.65,
+        129.15
+      ]
+    },
+    {
+      "net": "/PREVGL",
+      "width": 0.6,
+      "via": true,
+      "locked": false,
+      "start": [
+        133.65,
+        110.45
+      ],
+      "end": [
+        133.65,
+        110.45
+      ]
+    },
+    {
+      "net": "/PREVGL",
+      "width": 0.6,
+      "via": true,
+      "locked": false,
+      "start": [
+        133.65,
+        121.2
+      ],
+      "end": [
+        133.65,
+        121.2
+      ]
+    },
+    {
+      "net": "/PREVGL",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        133.65,
+        110.45
+      ],
+      "end": [
+        133.65,
+        121.2
+      ]
+    },
+    {
+      "net": "/VCOM",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        138.25,
+        106.85
+      ],
+      "end": [
+        137.7,
+        106.85
+      ]
+    },
+    {
+      "net": "/VCOM",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        136.5,
+        121.45
+      ],
+      "end": [
+        135.5,
+        122.45
+      ]
+    },
+    {
+      "net": "/VCOM",
+      "width": 0.6,
+      "via": true,
+      "locked": false,
+      "start": [
+        136.5,
+        121.45
+      ],
+      "end": [
+        136.5,
+        121.45
+      ]
+    },
+    {
+      "net": "/VCOM",
+      "width": 0.6,
+      "via": true,
+      "locked": false,
+      "start": [
+        137.5,
+        106.65
+      ],
+      "end": [
+        137.5,
+        106.65
+      ]
+    },
+    {
+      "net": "/VCOM",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        136.5,
+        107.65
+      ],
+      "end": [
+        136.5,
+        121.45
+      ]
+    },
+    {
+      "net": "/VCOM",
+      "width": 0.2,
+      "via": false,
+      "locked": false,
+      "start": [
+        137.5,
+        106.65
+      ],
+      "end": [
+        136.5,
+        107.65
+      ]
+    },
+    {
+      "net": "/SCK_SRC",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        127.5,
+        116.0
+      ],
+      "end": [
+        126.8,
+        116.7
+      ]
+    },
+    {
+      "net": "/SCK_SRC",
+      "width": 0.25,
+      "via": false,
+      "locked": false,
+      "start": [
+        126.8,
+        116.7
+      ],
+      "end": [
+        125.25,
+        116.7
+      ]
+    },
+    {
+      "net": "/3V3_MODULE",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        128.8,
+        120.85
+      ],
+      "end": [
+        128.1,
+        121.55
+      ]
+    },
+    {
+      "net": "/3V3_MODULE",
+      "width": 0.6,
+      "via": true,
+      "locked": false,
+      "start": [
+        128.8,
+        120.8
+      ],
+      "end": [
+        128.8,
+        120.8
+      ]
+    },
+    {
+      "net": "/3V3_MODULE",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        126.2,
+        109.6
+      ],
+      "end": [
+        128.8,
+        112.2
+      ]
+    },
+    {
+      "net": "/3V3_MODULE",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        125.75,
+        109.6
+      ],
+      "end": [
+        126.2,
+        109.6
+      ]
+    },
+    {
+      "net": "/3V3_MODULE",
+      "width": 0.6,
+      "via": false,
+      "locked": false,
+      "start": [
+        128.8,
+        112.2
+      ],
+      "end": [
+        128.8,
+        120.8
+      ]
+    }
+  ],
+  "nets": {}
+}

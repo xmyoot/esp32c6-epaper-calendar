@@ -1,0 +1,46 @@
+{
+  "query": "C327076",
+  "count": 1,
+  "total_matches": 1,
+  "components": [
+    {
+      "lcsc_code": "C327076",
+      "lcsc_id": 327076,
+      "mpn": "RL1206FR-070R47L",
+      "manufacturer": "YAGEO",
+      "package": "-",
+      "description": "",
+      "is_basic": false,
+      "stock": 3300,
+      "price_usd": 0.0194,
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/f316da7603efa89af4107c5c2edb5390.pdf?productCode=C327076",
+      "attributes": {},
+      "prices": [
+        {
+          "min_qty": 50,
+          "price": 0.0194
+        },
+        {
+          "min_qty": 500,
+          "price": 0.0159
+        },
+        {
+          "min_qty": 1500,
+          "price": 0.0139
+        },
+        {
+          "min_qty": 5000,
+          "price": 0.0125
+        },
+        {
+          "min_qty": 25000,
+          "price": 0.0115
+        },
+        {
+          "min_qty": 50000,
+          "price": 0.011
+        }
+      ]
+    }
+  ]
+}

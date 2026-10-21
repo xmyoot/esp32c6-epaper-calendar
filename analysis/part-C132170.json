@@ -1,0 +1,46 @@
+{
+  "query": "C132170",
+  "count": 1,
+  "total_matches": 1,
+  "components": [
+    {
+      "lcsc_code": "C132170",
+      "lcsc_id": 132170,
+      "mpn": "CC1206KKX7R9BB475",
+      "manufacturer": "YAGEO",
+      "package": "-",
+      "description": "4.7uF \u00b110% 50V Ceramic Capacitor X7R 1206",
+      "is_basic": false,
+      "stock": 45270,
+      "price_usd": 0.1196,
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/23ccee80ee542e7cf156a772bb589942.pdf?productCode=C132170",
+      "attributes": {},
+      "prices": [
+        {
+          "min_qty": 10,
+          "price": 0.1196
+        },
+        {
+          "min_qty": 100,
+          "price": 0.1071
+        },
+        {
+          "min_qty": 300,
+          "price": 0.1009
+        },
+        {
+          "min_qty": 2000,
+          "price": 0.0956
+        },
+        {
+          "min_qty": 4000,
+          "price": 0.0918
+        },
+        {
+          "min_qty": 10000,
+          "price": 0.09
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "assumptions": {
+    "carrier_allocation_A": 0.15,
+    "radio_module_allocation_A": 0.5,
+    "conservative_shared_budget_A": 0.7,
+    "switch_rms_target_A": 0.5,
+    "switch_peak_target_A": 1,
+    "switch_rds_at_2V5_ohm": 0.185,
+    "inductor_dcr_max_ohm": 0.18,
+    "shunt_ohm": 0.47,
+    "shunt_rating_W": 0.5
+  },
+  "shared_budget_margin_A": 0.04999999999999996,
+  "shunt_loss_at_RMS_target_W": 0.1175,
+  "MOSFET_conduction_only_W": 0.04625,
+  "inductor_copper_loss_W": 0.045,
+  "VDS_rating_to_nominal_rail_ratio": 1.5,
+  "capacitor_rating_to_max_nominal_rail_ratio": 2.5,
+  "shunt_voltage_at_peak_target_V": 0.47,
+  "local_3V3_nominal_uF": 15.799999999999999
+}

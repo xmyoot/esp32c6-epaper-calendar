@@ -1,0 +1,38 @@
+{
+  "query": "C5708265",
+  "count": 1,
+  "total_matches": 1,
+  "components": [
+    {
+      "lcsc_code": "C5708265",
+      "lcsc_id": 5708265,
+      "mpn": "PE1206FRF7W0R47L",
+      "manufacturer": "YAGEO",
+      "package": "-",
+      "description": "",
+      "is_basic": false,
+      "stock": 0,
+      "price_usd": 0.3729,
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/1da2c0fd96816df29c1b030ca2b76d00.pdf?productCode=C5708265",
+      "attributes": {},
+      "prices": [
+        {
+          "min_qty": 1,
+          "price": 0.3729
+        },
+        {
+          "min_qty": 200,
+          "price": 0.1488
+        },
+        {
+          "min_qty": 500,
+          "price": 0.1439
+        },
+        {
+          "min_qty": 1000,
+          "price": 0.1414
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "footprints": 40,
+  "critical_pin_checks": 37,
+  "all_design_pin_checks": 94,
+  "errors": [],
+  "basis": "Native KiCad exported netlist and pcbnew pad data; physical tables transcribed from source documents. Not a bench test."
+}
+Release exported: 13 SMT BOM lines
+{
+  "status": "PASS",
+  "native_pin_audit": "PASS",
+  "smts": 25,
+  "bom_groups": 13,
+  "hashed_files": 16,
+  "errors": []
+}

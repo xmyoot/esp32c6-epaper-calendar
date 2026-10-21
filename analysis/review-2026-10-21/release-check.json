@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "native_pin_audit": "PASS",
+  "smts": 25,
+  "bom_groups": 13,
+  "hashed_files": 16,
+  "errors": []
+}

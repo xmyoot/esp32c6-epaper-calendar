@@ -1,0 +1,141 @@
+{
+  "analyzer_type": "cross_analysis",
+  "schema_version": "1.4.0",
+  "inputs": {
+    "source_files": [
+      "analysis/review-2026-10-20-r2/schematic.json",
+      "analysis/review-2026-10-20-r2/pcb.json"
+    ],
+    "source_hashes": {
+      "analysis/review-2026-10-20-r2/schematic.json": "cd3b072f7328974058e46b93a9c430091fdb14b975f30c382c0c2663bd7a2ee4",
+      "analysis/review-2026-10-20-r2/pcb.json": "3500f15def478ce6606e537eca80d43f8def3126fcd38c17791ce0f05975ff59"
+    },
+    "run_id": "20261020T151240Z-7c0b81",
+    "config_hash": null,
+    "upstream_artifacts": {
+      "schematic": {
+        "path": "analysis/review-2026-10-20-r2/schematic.json",
+        "sha256": "cd3b072f7328974058e46b93a9c430091fdb14b975f30c382c0c2663bd7a2ee4",
+        "schema_version": "1.4.0",
+        "run_id": "20261020T151240Z-7c0b81"
+      },
+      "pcb": {
+        "path": "analysis/review-2026-10-20-r2/pcb.json",
+        "sha256": "3500f15def478ce6606e537eca80d43f8def3126fcd38c17791ce0f05975ff59",
+        "schema_version": "1.4.0",
+        "run_id": "20261020T151240Z-7c0b81"
+      }
+    }
+  },
+  "compat": {
+    "minimum_consumer_version": "1.4.0",
+    "deprecated_fields": [],
+    "experimental_fields": []
+  },
+  "elapsed_s": 0.007,
+  "summary": {
+    "total_findings": 0,
+    "by_severity": {
+      "error": 0,
+      "warning": 0,
+      "info": 0
+    }
+  },
+  "findings": [],
+  "assessments": [],
+  "checks_run": [
+    {
+      "check": "CC-001",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 3,
+      "findings": 0
+    },
+    {
+      "check": "EG-001",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 3,
+      "findings": 0
+    },
+    {
+      "check": "DA-001",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 0,
+      "findings": 0
+    },
+    {
+      "check": "XV-001..003",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 40,
+      "findings": 0
+    },
+    {
+      "check": "NR-001",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 235,
+      "findings": 0
+    },
+    {
+      "check": "RP-002",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 235,
+      "findings": 0
+    },
+    {
+      "check": "TW-001",
+      "ran": false,
+      "reason_skipped": "no power regulator current estimates in schematic analysis",
+      "items_examined": 0,
+      "findings": 0
+    },
+    {
+      "check": "PS-002",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 22,
+      "findings": 0
+    },
+    {
+      "check": "VS-002",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 52,
+      "findings": 0
+    },
+    {
+      "check": "DP-005",
+      "ran": false,
+      "reason_skipped": "no differential pairs classified in schematic net_classifications",
+      "items_examined": 0,
+      "findings": 0
+    }
+  ],
+  "trust_summary": {
+    "total_findings": 0,
+    "trust_level": "high",
+    "by_confidence": {
+      "deterministic": 0,
+      "heuristic": 0,
+      "datasheet_backed": 0
+    },
+    "by_evidence_source": {
+      "datasheet": 0,
+      "topology": 0,
+      "heuristic_rule": 0,
+      "symbol_footprint": 0,
+      "bom": 0,
+      "geometry": 0,
+      "api_lookup": 0
+    },
+    "provenance_coverage_pct": null
+  },
+  "capability_mode_ref": {
+    "source": "analysis/capability_mode.json",
+    "run_id": "20261020T151240Z-7c0b81"
+  }
+}

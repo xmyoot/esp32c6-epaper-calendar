@@ -1,0 +1,89 @@
+{
+  "critical_nets": [
+    {
+      "net": "/EPD_SCK",
+      "total_length_mm": 28.155,
+      "via_count": 0
+    },
+    {
+      "net": "/EPD_MOSI",
+      "total_length_mm": 18.932,
+      "via_count": 2
+    },
+    {
+      "net": "/GDR",
+      "total_length_mm": 18.466,
+      "via_count": 2
+    },
+    {
+      "net": "/RESE",
+      "total_length_mm": 15.905,
+      "via_count": 2
+    },
+    {
+      "net": "/SW",
+      "total_length_mm": 9.75,
+      "via_count": 0
+    },
+    {
+      "net": "/PUMP",
+      "total_length_mm": 9.557,
+      "via_count": 0
+    },
+    {
+      "net": "/SCK_SRC",
+      "total_length_mm": 2.54,
+      "via_count": 0
+    },
+    {
+      "net": "/MOSI_SRC",
+      "total_length_mm": 2.15,
+      "via_count": 0
+    }
+  ],
+  "keepout_zones": [
+    {
+      "name": "XIAO antenna: copper / component exclusion",
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "restrictions": {
+        "tracks": "not_allowed",
+        "vias": "not_allowed",
+        "pads": "not_allowed",
+        "copperpour": "not_allowed",
+        "footprints": "not_allowed"
+      },
+      "bounding_box": [
+        112.0,
+        118.0,
+        123.0,
+        133.0
+      ],
+      "area_mm2": 165.0,
+      "net": 0,
+      "net_name": "",
+      "nearby_components": [
+        "R2",
+        "TP5"
+      ]
+    }
+  ],
+  "ground_fills": [
+    {
+      "layers": [
+        "F.Cu"
+      ],
+      "filled": true,
+      "fill_ratio": 0.722
+    },
+    {
+      "layers": [
+        "B.Cu"
+      ],
+      "filled": true,
+      "fill_ratio": 0.875
+    }
+  ]
+}

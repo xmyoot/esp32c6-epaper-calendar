@@ -1,0 +1,19 @@
+[1/14] 0402WGF1003TCE
+[2/14] 0402WGF1004TCE
+[3/14] 0402WGF330JTCE
+[4/14] 0805W8F0000T5E
+[5/14] CC1206KKX7R9BB475
+[6/14] CL05B104KO5NNNC
+[7/14] FH12-24S-0.5SH(55)
+[8/14] GRM21BR71H105KA12L
+[9/14] GRM32ER71H106KA12L
+[10/14] MBR0530
+[11/14] RL1206FR-7W0R47L
+[12/14] SI1308EDL-T1-GE3
+[13/14] SRN4018-100M
+[14/14] SSW-107-01-G-S
+Audit written to analysis/review-2026-10-20-r2/lifecycle.json
+
+Lifecycle audit: 14 components checked
+  unknown: 14
+  ! LCSC-only audit: lifecycle status unavailable from this source (all statuses 'unknown' by construction)

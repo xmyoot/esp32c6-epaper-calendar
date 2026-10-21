@@ -1,0 +1,18 @@
+{
+  "hardware/EPD_C6_RevA.kicad_pcb": "318926201febc73b826ef8caa661e73f9d008e74ac25e1013d33bfdd07a59848",
+  "hardware/EPD_C6_RevA.kicad_sch": "96976af0dc1bf7893c48405002bb7e619597738c1d6c43ff6ae7654f4120fe83",
+  "hardware/EPD_C6_RevA.kicad_pro": "964099d8d5f602334a456484f2865032cf77843972b9005b6da4dd06e74577e4",
+  "manufacturing/gerbers/EPD_C6_RevA-B_Mask.gbs": "1556a53976612601be05e61ba600a4ea98982bef152b75f86747c91bcc034311",
+  "manufacturing/gerbers/EPD_C6_RevA-B_Cu.gbl": "8f336b4a933b2edd174aa00503fba7001c2b59fd59589a565ab75e4218f0fb8b",
+  "manufacturing/gerbers/EPD_C6_RevA-NPTH.drl": "65301e647d2340bec62d44552d5d95543edbc860d080b158019760a37215dbdc",
+  "manufacturing/gerbers/EPD_C6_RevA-F_Cu.gtl": "25d495050ebe0211d10e3d40b1932e2a41667a68a9335a18c494c9e46d2556d3",
+  "manufacturing/gerbers/EPD_C6_RevA-Edge_Cuts.gm1": "ca3ce3304529eae8f3b746c652f19398624e36d1c303e5ce1541be6803bda044",
+  "manufacturing/gerbers/EPD_C6_RevA-F_Mask.gts": "ef9e25b8d4b3d86c73a21d16dd4cf8106d4c490fe9bdd17879dee3f5dc807771",
+  "manufacturing/gerbers/EPD_C6_RevA-F_Paste.gtp": "7940766b69617259562f8fe83f10aa17d22e81f1285c41b92c96d45513815c8e",
+  "manufacturing/gerbers/EPD_C6_RevA-PTH.drl": "7d174f28457421cb133e958614f4d02ef0070e4663d7abec49b4cb7864fdcedc",
+  "manufacturing/gerbers/EPD_C6_RevA-job.gbrjob": "cf883a904c6e31ecd6ea48be981ba4391821aedd1d17ad8d8ff34c941d8d07bf",
+  "manufacturing/gerbers/EPD_C6_RevA-B_Silkscreen.gbo": "7decda91807c20680366db4550efcb9609009e6a070248191cf49c6c52bcd0f7",
+  "manufacturing/gerbers/EPD_C6_RevA-F_Silkscreen.gto": "be5a936c67dd933eb1262665a2cbda338578f1f61e679e3cf126c3ca85c73010",
+  "manufacturing/BOM-JLCPCB.csv": "0b756eae4729cc3d00d2d8f17ba88addd79d541b92d5e4047c2297f790add28c",
+  "manufacturing/CPL-JLCPCB.csv": "43576350bfcd77809e6a3007fb5478d97fa8894d6801e7e5bc475c246ca45d2b"
+}

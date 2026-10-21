@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.0",
+  "produced_for_run_id": "review-2026-10-20-r2",
+  "produced_at": "2026-10-20T15:14:11.901656+00:00",
+  "findings": [
+    {
+      "detector": "deep_review",
+      "category": "hardware",
+      "severity": "info",
+      "confidence": "high",
+      "summary": "All declared connector and component pin mappings agree with native files",
+      "description": "Independent critical source table, exported native schematic netlist, and native PCB pad data compared. Physical flex mating still requires dry-fit.",
+      "evidence": {
+        "components": [
+          "J1",
+          "J2",
+          "J3",
+          "Q1",
+          "D1",
+          "D2",
+          "D3"
+        ],
+        "computation": {
+          "description": "Independent critical source table, exported native schematic netlist, and native PCB pad data compared. Physical flex mating still requires dry-fit.",
+          "script": "analysis/review-2026-10-20-r2/recheck_native.py",
+          "result": "PASS: 37 critical pin checks; 94 declared pin checks; 40 footprints."
+        }
+      },
+      "evidence_checked": "full",
+      "components": [
+        "J1",
+        "J2",
+        "J3",
+        "Q1",
+        "D1",
+        "D2",
+        "D3"
+      ],
+      "finding_id": "deep_review:27a55f752a95"
+    },
+    {
+      "detector": "deep_review",
+      "category": "hardware",
+      "severity": "info",
+      "confidence": "high",
+      "summary": "Q1 source package pin order matches the native physical table",
+      "evidence": {
+        "components": [
+          "Q1"
+        ],
+        "pins": [
+          "Q1.1",
+          "Q1.2",
+          "Q1.3"
+        ],
+        "datasheet": [
+          {
+            "mpn": "Si1308EDL",
+            "page": 1,
+            "quote": "N-Channel 30 V (D-S) MOSFET"
+          }
+        ],
+        "computation": {
+          "description": "PDF page 1 top-view pin diagram manually read: 1 gate, 2 source, 3 drain. Native schematic and PCB assignments pass independently transcribed table.",
+          "script": "analysis/review-2026-10-20-r2/recheck_native.py",
+          "result": "Q1: 1=GDR, 2=RESE, 3=SW; native pin audit PASS."
+        }
+      },
+      "evidence_checked": "full",
+      "components": [
+        "Q1"
+      ],
+      "pins": [
+        "Q1.1",
+        "Q1.2",
+        "Q1.3"
+      ],
+      "finding_id": "deep_review:348fb78e1b40"
+    },
+    {
+      "detector": "deep_review",
+      "category": "hardware",
+      "severity": "warning",
+      "confidence": "high",
+      "summary": "Switching losses require measured RMS current",
+      "description": "At the 0.5A RMS bring-up target, calculate resistive losses using 0.185R MOSFET, 0.47R shunt and 0.18R inductor. Switching loss and actual thermal resistance excluded.",
+      "evidence": {
+        "components": [
+          "Q1",
+          "R7",
+          "L1"
+        ],
+        "computation": {
+          "description": "At the 0.5A RMS bring-up target, calculate resistive losses using 0.185R MOSFET, 0.47R shunt and 0.18R inductor. Switching loss and actual thermal resistance excluded.",
+          "script": "analysis/helpers/power_budget.py",
+          "result": "Q1 conduction 0.04625W; R7 0.1175W; L1 copper 0.045W."
+        }
+      },
+      "evidence_checked": "full",
+      "components": [
+        "Q1",
+        "R7",
+        "L1"
+      ],
+      "finding_id": "deep_review:5860e7363033"
+    },
+    {
+      "detector": "deep_review",
+      "category": "hardware",
+      "severity": "warning",
+      "confidence": "medium",
+      "summary": "GDR and RESE switching-control routes require edge and sense-integrity checks",
+      "description": "GDR is not a slow static bias rail. Its 18.466mm route has two vias; the RESE net has 15.905mm total branched copper and two vias. The short local source-to-shunt path does not eliminate inductive pickup along the controller sense branch. Geometry alone does not demonstrate malfunction. Check gate-source ringing and compare sense voltage at the panel and shunt; consider shorter same-layer routes in a later revision if measurements show trouble.",
+      "evidence": {
+        "components": [
+          "J3",
+          "Q1",
+          "R7"
+        ],
+        "nets": [
+          "/GDR",
+          "/RESE"
+        ],
+        "computation": {
+          "description": "Full analyzer routed-length and layer-transition extraction; net totals include branches and are not point-to-point electrical lengths.",
+          "script": "analysis/review-2026-10-20-r2/review_geometry.py",
+          "result": "GDR 18.466mm / 2 vias; RESE total 15.905mm / 2 vias."
+        }
+      },
+      "evidence_checked": "full",
+      "components": [
+        "J3",
+        "Q1",
+        "R7"
+      ],
+      "nets": [
+        "/GDR",
+        "/RESE"
+      ],
+      "finding_id": "deep_review:b8b77f631244"
+    },
+    {
+      "detector": "deep_review",
+      "category": "hardware",
+      "severity": "warning",
+      "confidence": "high",
+      "summary": "Shared supply budget retains 50mA planned margin",
+      "description": "Planning allocations 0.50A module + 0.15A carrier against 0.70A conservative shared budget; actual peaks not measured.",
+      "evidence": {
+        "components": [
+          "J2",
+          "R1",
+          "C1",
+          "C12"
+        ],
+        "computation": {
+          "description": "Planning allocations 0.50A module + 0.15A carrier against 0.70A conservative shared budget; actual peaks not measured.",
+          "script": "analysis/helpers/power_budget.py",
+          "result": "0.05A margin; 15.8uF nominal local 3V3 capacitance."
+        }
+      },
+      "evidence_checked": "full",
+      "components": [
+        "J2",
+        "R1",
+        "C1",
+        "C12"
+      ],
+      "finding_id": "deep_review:dc615afcb9ec"
+    }
+  ],
+  "quarantined": []
+}

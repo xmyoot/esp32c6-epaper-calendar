@@ -1,0 +1,38 @@
+{
+  "query": "C25105",
+  "count": 1,
+  "total_matches": 1,
+  "components": [
+    {
+      "lcsc_code": "C25105",
+      "lcsc_id": 25105,
+      "mpn": "0402WGF330JTCE",
+      "manufacturer": "UNI-ROYAL",
+      "package": "-",
+      "description": "33\u03a9 \u00b11% 62.5mW 0402 Thick Film Resistor",
+      "is_basic": false,
+      "stock": 0,
+      "price_usd": 0.0011,
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C25105",
+      "attributes": {},
+      "prices": [
+        {
+          "min_qty": 100,
+          "price": 0.0011
+        },
+        {
+          "min_qty": 1000,
+          "price": 0.0009
+        },
+        {
+          "min_qty": 3000,
+          "price": 0.0007
+        },
+        {
+          "min_qty": 50000,
+          "price": 0.0006
+        }
+      ]
+    }
+  ]
+}

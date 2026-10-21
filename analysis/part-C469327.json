@@ -1,0 +1,46 @@
+{
+  "query": "C469327",
+  "count": 1,
+  "total_matches": 1,
+  "components": [
+    {
+      "lcsc_code": "C469327",
+      "lcsc_id": 469327,
+      "mpn": "SI1308EDL-T1-GE3",
+      "manufacturer": "VISHAY",
+      "package": "-",
+      "description": "N-Channel 30V 1.5A 0.4W Surface Mount SOT-323",
+      "is_basic": false,
+      "stock": 39215,
+      "price_usd": 0.2757,
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/a865757ba512c18824d75705c123f47e.pdf?productCode=C469327",
+      "attributes": {},
+      "prices": [
+        {
+          "min_qty": 5,
+          "price": 0.2757
+        },
+        {
+          "min_qty": 50,
+          "price": 0.2194
+        },
+        {
+          "min_qty": 150,
+          "price": 0.1952
+        },
+        {
+          "min_qty": 500,
+          "price": 0.1651
+        },
+        {
+          "min_qty": 3000,
+          "price": 0.1332
+        },
+        {
+          "min_qty": 6000,
+          "price": 0.1252
+        }
+      ]
+    }
+  ]
+}

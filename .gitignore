@@ -1,0 +1,27 @@
+.DS_Store
+.venv/
+tools/
+__pycache__/
+*.pyc
+*.kicad_prl
+*.kicad_pcb.lck
+*.kicad_sch.lck
+*-backups/
+firmware/build/
+analysis/routing/
+analysis/*preview.png
+analysis/*datasheet.png
+analysis/*search*.json
+analysis/search-*.json
+analysis/board-svg/
+references/seeed/
+
+# Private supplied brief; requirements are transcribed in docs/ARCHITECTURE.md
+client_request/
+# Local credentials and host state
+.env
+.env.*
+firmware/EPDCalendar/secrets.h
+.bundle/
+# Arduino IDE can create a second nested build directory
+firmware/**/build/

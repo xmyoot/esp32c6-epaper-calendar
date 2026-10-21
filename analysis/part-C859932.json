@@ -1,0 +1,46 @@
+{
+  "query": "C859932",
+  "count": 1,
+  "total_matches": 1,
+  "components": [
+    {
+      "lcsc_code": "C859932",
+      "lcsc_id": 859932,
+      "mpn": "RL1206FR-7W0R47L",
+      "manufacturer": "YAGEO",
+      "package": "-",
+      "description": "",
+      "is_basic": false,
+      "stock": 11000,
+      "price_usd": 0.0242,
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/80b92acc9f2e5a3a000f506227797306.pdf?productCode=C859932",
+      "attributes": {},
+      "prices": [
+        {
+          "min_qty": 50,
+          "price": 0.0242
+        },
+        {
+          "min_qty": 500,
+          "price": 0.0204
+        },
+        {
+          "min_qty": 1500,
+          "price": 0.0183
+        },
+        {
+          "min_qty": 5000,
+          "price": 0.0171
+        },
+        {
+          "min_qty": 25000,
+          "price": 0.016
+        },
+        {
+          "min_qty": 50000,
+          "price": 0.0154
+        }
+      ]
+    }
+  ]
+}

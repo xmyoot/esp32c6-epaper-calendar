@@ -1,0 +1,447 @@
+    1   2                                        3   4                                          5         6                                              7     8
+
+
+
+
+A                                                                                                                                                                          A
+
+
+
+
+B                                                                                                                                                                          B
+
+
+            01 Descriptions                              02 Block    Diagram                                     03 Power
+
+
+
+
+            File:    01 Descriptions.kicad_sch           File:   02 Block   Diagram.kicad_sch                    File:   03 Power.kicad_sch
+
+
+
+
+C                                                                                                                                                                          C
+
+
+
+
+             04 ESP32 C6
+
+
+
+
+             File:    04 ESP32 C6.kicad_sch
+D                                                                                                                                                                          D
+
+
+
+
+E                                                                                                                                                                          E
+
+
+
+
+                                                                                                                         Seeed Studio
+                                                                                                                         Sheet: /
+                                                                                                                         File: XIAO ESP32 C6.kicad_sch
+
+                                                                                                                         Title:    XIAO ESP32-C6
+                                                                                                    CCBY-SA4.0           Size: A3
+                                                                                                                         KiCad E.D.A. 9.0.6
+                                                                                                                                            Date: 2026-01-14   Rev: V1.0
+                                                                                                                                                               Id: 1/5
+F                                                                                                                                                                          F
+    1   2                                        3   4                                          5         6                                              7     8
+    1   2                            3                   4   5               6                                     7   8
+
+
+
+
+A                                                                                                                                  A
+
+
+
+
+            Version                       Descriptions              Date           Name
+
+             v1.0     Initial   version                          2024/3/28       Linus.Liao
+
+B                                                                                                                                  B
+
+
+
+
+C                                                                                                                                  C
+
+
+
+
+D                                                                                                                                  D
+
+
+
+
+E                                                                                                                                  E
+
+
+
+
+                                                                                 Seeed Studio
+                                                                                 Sheet: /01 Descriptions/
+                                                                                 File: 01 Descriptions.kicad_sch
+
+                                                                                 Title:   XIAO ESP32-C6
+                                                                 CCBY-SA4.0      Size: A3
+                                                                                 KiCad E.D.A. 9.0.6
+                                                                                                    Date: 2026-01-14   Rev: V1.0
+                                                                                                                       Id: 1/5
+F                                                                                                                                  F
+    1   2                            3                   4   5               6                                     7   8
+    1   2   3   4   5         6                                    7       8
+
+
+
+
+A                                                                                      A
+
+
+
+
+B                                                                                      B
+
+
+
+
+C                                                                                      C
+
+
+
+
+D                                                                                      D
+
+
+
+
+E                                                                                      E
+
+
+
+
+                                     Seeed Studio
+                                     Sheet: /02 Block Diagram/
+                                     File: 02 Block Diagram.kicad_sch
+
+                                     Title:   XIAO ESP32-C6
+                        CCBY-SA4.0   Size: A3
+                                     KiCad E.D.A. 9.0.6
+                                                        Date: 2026-01-14   Rev: V1.0
+                                                                           Id: 2/5
+F                                                                                      F
+    1   2   3   4   5         6                                    7       8
+    1                                                                 2                                                                             3                                                              4                               5                         6                                                              7                                                            8
+
+
+
+
+A                                                                                                                                                                                                                                                                                                                                                                                                                    A
+
+
+                                                                                                                                                                                     VBUS
+                                                                                     USB1
+                                                                                 USB2.0 Type C
+                                                                                                                                                                                   D2
+                                                                                                                                                                                                                                                                                                                                     +3V3
+                                                                                                                                                                                   ESDPSA0402V05
+                                                                                              A1/B12/GND                                  GND
+
+                                                                                              A4/B9/VBUS                                                                                                                                                                                                                                                     TP1        3V3
+                                                                                                                                                                             GND
+                                                                                                  B8/SBU2
+                                                                                                                                         USB_DN                                     R7 1        2 22R                                                                                                                           BOOT                         TP2        BOOT
+                                                                                                   B7/DN2                                                                                                                             ESP_USB_DN
+                                                                                                                                         USB_DP                                            5%
+                                                                                                   B6/DP2                                                                           R8 1        2 22R
+                                                                                                                                                                                                                                                                                                                                GND                          TP3        GND
+                                                                                                                                  R6 1     2 5.1K
+                         R3 1              2 5.1K                                                  B5/CC2                                                       GND                                                                   ESP_USB_DP
+          GND                                                    A5/CC1                                                           1%                                                       5%                                                                                                                         GPIO4/MTMS                             TP4        MTMS
+                        1%                 USB_DP                                             B4/A9/VBUS
+                                                                 A6/DP1                                                                                                                                     C6            C7
+                                           USB_DN                                                                                                                                                           10pF          10pF                                                                                         GPIO5/MTDI                            TP5        MTDI
+                                                                 A7/DN1
+                                                                                              B1/A12/GND                                                                                                    þÿ50VÿNPO     þÿ50VÿNPO
+                                                                 A8/SBU1                                                                                                                                                                                                                                              GPIO6/MTCK                             TP6        MTCK
+
+                                                                                                                                                                                                                                                                                                                      GPIO7/MTDO                             TP7        MTDO
+                                                                                                             S1
+                                                                                                             S2                                                                                                                                                                                                                      EN                      TP8        EN
+                                                                                                                                                                                                          GND           GND
+B                                                                                                            S3                                                                                                                                                                                                                                                                                                      B
+                                                                                                             S4                                                                                                                                                                  Layout note:
+                                                                                                             S5                                                                                                                                                                  The position of the test         points       need to be the same as XIAO ESP32 S3
+                                                                                                             S6
+
+
+
+                                                                                                                                   GND
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                   U2
+                                                                                                                                                                                                                                                                                                                             XIAO ESP32-C6
+                                                                                                                                                                                                                                                                                                                                                                                            +3V3
+                                                                                                                                                                                                                                                                                                                  1                                          14
+                                                                                                                                                                                                                                                                          GPIO0/XTAL_32K_P/ADC1_CH0                   D0                          VBUS                       VBUS
+C                                                                                                                                                                                                                                                                                                                                                                                                                    C
+                                                                                                                                                                                                                                                                                                                  2                                          13
+                                                                                                                                                                                                                                                                          GPIO1/XTAL_32K_N/ADC1_CH1                   D1                          GND                          GND
+                                                                                                                                                                                                                                                                                                                  3                                          12
+                                                                 U3                                                                                                                                                                                                                      GPIO2/ADC1_CH2               D2                    3V3_OUT
+                                                         SGM40567-4.2XG/TR                                                                              TP9                                                                                                                                                       4                                          11
+                                                                                                                                                                                                                                                                                         GPIO21/SDIO_D1               D3                              D10                     GPIO18/SDIO_CMD
+                                                                                                                                                        Test Point
+                                                    A2                            A1                                                                                                                                                                                                                              5                                          10
+        VBUS                                               VIN             BAT                                                                           VBAT                                                                                                                            GPIO22/SDIO_D2               D4                               D9                     GPIO20/SDIO_D0
+                                                    C1                            B2   CHG1      Red                                                                                                                                                                                                              6                                          9
+                                                           IREF        NCHG                                                                                                                                                                                                              GPIO23/SDIO_D3               D5                               D8                     GPIO19/SDIO_CLK
+
+                             2 200K
+                                                    B1                            C2                   R11                  10K                                                                                                                                                                                   7                                          8
+                                                           F               GND                               1          2                                                                                                                                                                          D6/TX              D6                               D7                     D7/RX
+                                                                                                                                    VBUS            C9
+                  C8                                                                                             1%                                 1uF
+                  1uF                 1%
+                                                                                                                                                    6.3V,X5R
+                  6.3V,X5R
+                             R10 1
+                                                                                                                                                               TP10
+                                                                                                                                                               Test Point
+                                                                                         GND
+                                                                                                                                             GND
+                                                    ICharge=24000/200K=120mA
+                GND
+                                                                                                                                                                                                                                                                                                                                                                                                   +5V
+                                                                                                                                                                                                                                                                                                                                                                  Q1
+                                                                                                                                                                                                                                                                                                                                                        LP0404N3T5G
+
+D                                                                                                                                                                                                                                                                                           VBAT                                                              D         S                                            D
+                                                                                                                                                                                                                                                                                                                                                                   G
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                  2
+                                                                                                                                                                                                                                                                                                                                                         R20                        D1
+                                                                                                                                                                                                                                                                                                                                                                       1%     LMBR4010BST5G
+                                                                                                                                                                                                                                                                                                                                                        100R
+                                                                                                                                                                                                                                                                                                                                                                  1          40V 1A 600mV@1A
+
+                                                                                                                                                                                                                                                                                                                                                                                    1   2
+                                                                                                                                                                                                                                                                                           VBUS
+                                                                                                                                                                                                                                                                                                    2     D3                                      2
+                                                                                                                                                                                                                                                                                                                                                      R9               C2
+                                                                                                                                                                                                                                                                                                          LNZ8F5V6T5G
+                                                                                                                                                                                       +3V3                                                                                                                                                           100K             100nF
+                                                                                                                                                                                                                                                                                                    1     Zener 5.6V 200mW                            1%               10V,X5R
+                                                                                                                                                                                                                                                                                                                                                  1
+                                                                                                                                                                                                                                                                                                                                D
+                                                                                                                                                                                                                                                                                                                                     Q2
+                                                           +5V                                                   U1                                                                                                                                                                                                        G         LN237N3T5G
+                                                                                                  SGM6029CYG/TR                                                                                                                                                                                                                 S
+                                                                                                                                                                                                                                                                                                                                     30V 1.5A
+                                                                                                                                                                                                                                                                                                    2
+                                                                                                                                                        2.6A                                                                                                                                            R19
+                                                                                               B1                                 B2        L1      1           2   0.47uH                                                                                                                              2.2K
+                                                                                                       VIN               SW                                                                                                                                                                                                                                      GND
+                                                                                                                                  A2                                                                                                                                                                1   1%
+                                                                                                                        VOS
+
+                                                                                               C2                                 C1
+                                                                                                       EN             MODE
+                                                                 C1                                                                                                                             C4                                                                                                 GND                         GND
+                                                                                                                  GND
+                                                                 10uF                                                                                                                           10uF
+E                                                                10V,X5R                                                                    2    R1                                             10V,X5R
+                                                                                                                                                                                                                                                                                                                                                                                                                     E
+                                                                                                                                                 249K
+                                                                                                                 A1                         1    1%
+
+
+
+                                                                                                                                                                                                                                                       PWR_FLAG     +5V           +3V3
+
+
+
+
+                                                                                                                                            GND
+
+
+
+
+                                                                                                                                                                                                                                                         GND      PWR_FLAG       PWR_FLAG
+                                                                                                                                                                                                                                                                                               Seeed Studio
+                                                                                                                                                                                                                                                                                               Sheet: /03 Power/
+                                                                                                                                                                                                                                                                                               File: 03 Power.kicad_sch
+
+                                                                                                                                                                                                                                                                                               Title:      XIAO ESP32-C6
+                                                                                                                                                                                                                                                            CCBY-SA4.0                         Size: A3
+                                                                                                                                                                                                                                                                                               KiCad E.D.A. 9.0.6
+                                                                                                                                                                                                                                                                                                                  Date: 2026-01-14                                                                       Rev: V1.0
+                                                                                                                                                                                                                                                                                                                                                                                                         Id: 3/5
+F                                                                                                                                                                                                                                                                                                                                                                                                                    F
+    1                                                                 2                                                                             3                                                              4                               5                         6                                                              7                                                            8
+    1                                        2                                                                        3                                                                                 4                                                                   5                                                                        6                                                               7   8
+
+
+
+
+A                                                                                                                                                                                                                                                                                                                                                                                                                                    A
+
+
+
+                                                                                                                                                                                                                                                                                    X1
+                                                                                                                                                                                                                                                                                    40MHz        10ppm
+                                                                                                                                                                                                                                                                                  4                   2
+                                                                                                                                                                                                                                                                  GND               GND2         GND1                            GND
+                                                                                                                                                                                                                                                                                  3                   1
+                                                                                                                                                      +3V3                                                                                                                          X2             X1
+
+                                                                                                                                                                                                        600mA                                                             C10        15pF                 C11                 15pF
+                                                                                                                                                                                            L2      1               2    2.0nH
+                                                                                                                                                                                                                                                                      þÿ50VÿNPO                     þÿ50VÿNPO
+
+                                                                                                                                        +3V3                 C13             C14             C15                           C16
+                                                                                                                                                             10uF            1uF             100nF                         100nF                                                              GND
+                                                                                                                                                             10V,X5R         6.3V,X5R        10V,X5R                       10V,X5R     +3V3
+
+                                                                                                                                            2
+                                                                                                                                                R23                                                                                                                                     0R
+                                            ANT2                                                                                                10K                                                                                                                                       2
+                                      U.FL-R-SMT-1                                                                                          1   1%                                                                                         C5                 C12                       1%                                           Layout þÿnoteÿ
+                                                                                                                                                                                   Close     to the chip's               VDDA3P3                              10nF
+                                                                                                             C19                 10pF                  GND                                                                                 1uF                                            1                                          SDIO wiring of equal     length   needs   to be controlled   within      3mil
+                                                                                                                                                                                                                                           6.3V,X5R           16V,X7R
+                                                                                                         þÿ50VÿNPO
+                                                     1      L3     1 2.7nH      2                                                                                                                                                                                                       R12
+                            GND               D
+                                                                                                             R24 1              2 5.1K                                                                                                                                                                                                 GPIO23/SDIO_D3
+B                                                                                          C24                                                                                                                                                                                                                                                                                                                                       B
+                                                                 C23                                             1%                                                                                                                                                                                                                    GPIO22/SDIO_D2
+                                                                 3.3pF                     1.5pF
+                                                                                           10V,X5R       GND                                                                                                                            GND                                                                                            GPIO21/SDIO_D1
+                                                                 10V,X5R
+                                                                                                                                                                                                                                                       GND                                                                             GPIO20/SDIO_D0
+                                                                                                                                                 RF Switch    Port     þÿSelectionÿ
+                                                                                                                    U5                           0: RF1                                                                                                                                  GND 33                                                                           Layout note:
+                                                                                                                 FM8625H                         1: RF2                                                                                                                                VDDA2 32                                          U4                               R15 close to U4
+                                                                                                         1                          6                                                                                                                                                 XWAL_P 31
+                                                                                                                                                                                                                                                                                                                                         ESP32-C6FH4
+                                                         GND                             GND                 RF2 VCTL                            GPIO14                                                                                                                               XTAL_N 30
+                                                                                                                                                                                                                                                                                       VDDA1 29
+                                                                                                         2                          5                                                                                                                                                        28
+                                                                                               GND           GND ANT                                                                                                                                                              SDIO_DATA3 27
+                                                                                                                                                                                                                                                                                  SDIO_DATA2
+                                                                                                                                                                                   TBD
+                                                                                                         3                          4                                                                                                                             1               SDIO_DATA1 26                                       24      R15 1 1% 2 0R
+                                                                                                          RF1 VDD                                                                                                                                                       ANT       SDIO_DATA0 25                              SDIO_CLK                                  GPIO19/SDIO_CLK
+                                                                                                                                                                                                                                                                  2                                                                   23
+                                      ANT1                                                               RF Switch                                            C18
+                                                                                                                                                                                   2
+                                                                                                                                                                                                            +3V3                                                        VDDA3P3_1                                            SDIO_CMD                                  GPIO18/SDIO_CMD       +3V3
+                                                                                                                                                                                                                                                                  3                                                                   22
+                                  KH5220-A36                                                                                                                  100pF                                                                                                     VDDA3P3_2                                               U0RXD                                  D7/RX
+                                                                                                                                                                                                                                                                  4                                                                   21    R14    1 1% 2   499R
+                                                                                                                                                              50V,NPO                                                                             EN                    CHIP_PU                                                 U0TXD                                  D6/TX
+                                  2                  1       L5      1               2     3nH                                                                                                                                                                    5                                                                   20
+                                                                                                                                                                                                                                                                        VDDPST1                                               VDDPST2
+                                      2          1                                                                                                                                 L4 1
+                                                                                                                                                                                                            100nF
+                                                                                                                                                                                                                                                                  6                                                                   19                               R18 1      2 1.5K
+                                                                                                                                                                                                                        GPIO0/XTAL_32K_P/ADC1_CH0                       XTAL_32K_P                                             GPIO15
+                                                                 C27                           C28                                                                                                                                                                7                                                                   18                                            1%              C20
+                                                                                               2.2pF     +3V3                   Q3                                                                                      GPIO1/XTAL_32K_N/ADC1_CH1                       XTAL_32K_N                                             GPIO14             GPIO14                                            100nF
+                                                                 2.4pF                                                                                                                                                                                            8                                                                   17
+                                                                                               50V,C0G                                                  GND                               C25                                       GPIO2/ADC1_CH2                      GPIO2                                                  GPIO13             ESP_USB_DP               GPIO15                   10V,X5R
+                                                                 50V,C0G                                                  LP0404N3T5G
+                                                                                                                                                                                          TBD
+                                                                                                                                                                                          10V,X5R           C17                                                                      9 GPIO3
+                                                                                                                            S           D                                                                                                                                           10 MTMS
+                                                                                                                                                                                                                                                                                    11 MTDI
+                                                                                                                                    G                                                                                                                                               12 MTCK
+                                                                                                             2
+                                                                                                                  R21
+                                                                                                                                                                                                                                                                                    13 MTDO                                                                                                   GND
+                                                         GND                             GND                                                    RF Switch þÿPowerÿ
+                                                                                                                                                                                                                                                                                    14
+                                                                                                                                                                                                                                                                                    15 GPIO8
+                                                                                                                  10K                                                                                                                                                                  GPIO9
+C                                                                                                                 1%                            0: ON                                                       GND                                                                     16 GPIO12                                                                                                                                        C
+                                                                                                             1
+                                                                                                                                                1: OFF                            GND
+                                                                                                                                                GPIO3/ADC1_CH3
+
+                                                                                                                                                                                                                                                                                                                      BOOT
+                                                                                                                                2                                                                                                                                                       GPIO3/ADC1_CH3
+                                                                                                                                     R22
+                                                                                                                                     10K                                                                                                                                                    GPIO4/MTMS
+                                                                                                                                1    1%
+                                                                                                                                                                                                                                                                                             GPIO5/MTDI
+                                                                                                                                                                                                                                                                                                                ESP_USB_DN
+                                                                                                                                                                                                                                                                                            GPIO6/MTCK
+
+                                                                                                                             GND                                                                                                                                                            GPIO7/MTDO
+                                                                                                                                                                                                                                         +3V3
+                                                                                                                                                                                   MTCK: LP_I2C_SDA
+                                                                                                                                                                                   MTDO: LP_I2C_SCA
+                                                                                                                                                                                   Avoid using þÿGPIO4050809015                                       R13 1      2 5.1K         GPIO8
+                                                                                                                                                                                                                                                      1%
+
+
+
+
+D                                                                                                                                                                                                                                                                                                                                                                                                                                    D
+
+
+                +3V3                                                     +3V3
+                                                                                                                                                             +3V3
+
+                  2                                                        2
+                      R16                                                      R17
+                      10K                                                      10K                                                                            2
+                                                                                                                                                                  R25
+                  1   1%                                                   1   1%                                                                                 1.5K
+                                                                                                                                                                  1%
+        EN                                  BOOT                                                                                                              1
+
+                       C21                                                      C22
+             K1       1uF                                                       15pF
+                                                 K2                                                                                                                      D4
+             TS-1001S 6.3V,X5R                                                  þÿ50VÿNPO
+                                                 TS-1001S                                                                                                                Yellow
+
+
+                                                                                                                                                                            GPIO15
+
+                 GND                                                     GND
+
+
+
+
+E                                                                                                                                                                                                                                                                                                                                                                                                                                    E
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                         Seeed Studio
+                                                                                                                                                                                                                                                                                                                                                                         Sheet: /04 ESP32 C6/
+                                                                                                                                                                                                                                                                                                                                                                         File: 04 ESP32 C6.kicad_sch
+
+                                                                                                                                                                                                                                                                                                                                                                         Title:      XIAO ESP32-C6
+                                                                                                                                                                                                                                                                                                                                 CCBY-SA4.0                              Size: A3
+                                                                                                                                                                                                                                                                                                                                                                         KiCad E.D.A. 9.0.6
+                                                                                                                                                                                                                                                                                                                                                                                            Date: 2026-01-14             Rev: V1.0
+                                                                                                                                                                                                                                                                                                                                                                                                                         Id: 4/5
+F                                                                                                                                                                                                                                                                                                                                                                                                                                    F
+    1                                        2                                                                        3                                                                                 4                                                                   5                                                                        6                                                               7   8
+

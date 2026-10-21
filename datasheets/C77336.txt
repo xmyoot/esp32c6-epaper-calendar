@@ -1,0 +1,199 @@
+                             JIANGSU CHANGJIANG ELECTRONICS TECHNOLOGY CO., LTD
+
+
+                                  SOD-123 Plastic-Encapsulate Diodes
+
+     MBR0520-MBR0580 Schottky Barrier Diode                                     SOD-123
+
+
+  FEATURES
+  z  Lead Free Finish/RoHS Compliant
+  z  Extremely Low Thermal Resistance
+  z  For Surface Mount Application and High Current Capability
+
+
+
+
+ MARKING:
+      MBR0520:R2          MBR0530:R3            MBR0540:R4             MBR0560:R6         MBR0580:R8
+
+
+
+
+ The marking bar indicates the cathode
+ Solid dot = Green molding compound device,if none,
+            the normal device.
+
+
+
+
+     Maximum Ratings @Ta=25℃
+
+                                                                  MBR    MBR    MBR    MBR    MBR
+                          Parameter                    Symbol                                        Unit
+                                                                  0520   0530   0540   0560   0580
+
+      Maximum recurrent peak reverse voltage            VRRM      20     30      40      60   80
+      Maximum RMS voltage                               VRMS      14     21      28      42   56      V
+                                                                  0      3       4
+      Mean rectifying current                              IO                    0.5                  A
+      Non-repetitive Peak forward surge current                                                       A
+      @t= 8.3ms                                            IFSM                  5.5
+      Power Dissipation                                    Pd                    410                 mW
+     Thermal Resistance Junction to Ambient                RθJA                  244                 ℃/W
+      Junction temperature                                 Tj                   125                   ℃
+      Storage temperature                                  Tstg               -55~+150                ℃
+
+
+
+
+www.cj-elec.com                                        1                                               E,Mar,2015
+ELECTRICAL CHARACTERISTICS
+
+Ta =25 ℃ unless otherwise specified
+
+              Parameter            Symbol   Min.   Typ.   Max.   Unit    Conditions
+   Forward voltage
+   MBR0520                                                0.45
+   MBR0530                                                0.55
+                                      VF                          V       IF=500mA
+   MBR0540                                                0.55
+   MBR0560                                                0.70
+   MBR0580                                                0.80
+   Reverse current
+   MBR0520                                                                 VR=20V
+   MBR0530                                                                 VR=30V
+                                      IR                         μA
+   MBR0540                                                 80              VR=40V
+   MBR0560                                                                 VR=60V
+   MBR0580                                                                 VR=80V
+   Capacitance between terminals      CT           30            pF     VR=4V, f=1MHZ
+
+
+
+
+www.cj-elec.com                                2                                      E,Mar,2015
+ Typical Characteristics                                                                                                                                                   MBR0520
+                                          Forward       Characteristics                                                          Reverse   Characteristics
+                         500                                                                                      10000
+
+
+
+
+                         100                                                                                      1000
+
+       (mA)                                                                                  (uA)
+       IF                                                                                                                                  Ta=100℃
+
+
+
+
+                                                                                             REVERSE CURRENT IR
+                                                                                                                   100
+
+
+
+
+       FORWARD CURRENT
+                          10
+                                          =1
+                                            00          25
+                                              ℃           ℃
+                                                                                                                    10
+                                         T a
+                                                        T=
+                                                         a
+
+
+
+                                                                                                                                           Ta=25℃
+                           1
+
+                                                                                                                     1
+
+
+
+
+                         0.1                                                                                        0.1
+                               0   100            200         300            400   500                                 0.1   4         8             12              16      20
+
+
+                                         FORWARD VOLTAGE        VF   (mV)                                                          REVERSE VOLTAGE        VR   (V)
+
+
+
+
+                                             Power Derating Curve
+                         450
+
+
+                         410
+
+
+                         360
+
+     (mW)
+
+     PD
+                         270
+
+
+
+
+     POWER DISSIPATION
+                         180
+
+
+
+
+                          90
+
+
+
+
+                           0
+                               0   25             50           75            100   125
+
+
+                                         AMBIENT TEMPERATURE         Ta   (℃ )
+
+
+
+
+www.cj-elec.com                                                                          3                                                                                E,Mar,2015
+ SOD-123 Package Outline Dimensions
+
+
+
+
+                                                   Dimensions In Millimeters   Dimensions In Inches
+                                      Symbol
+                                                      Min             Max       Min             Max
+                                       A             1.050           1.250     0.041           0.049
+                                       A1            0.000           0.100     0.000           0.004
+                                       A2            1.050           1.150     0.041           0.045
+                                        b            0.450           0.650     0.018           0.026
+                                        c            0.080           0.150     0.003           0.006
+                                       D             1.500           1.700     0.059           0.067
+                                       E             2.600           2.800     0.102           0.110
+                                       E1            3.550           3.850     0.140           0.152
+                                        L                  0.500 REF                 0.020 REF
+                                       L1            0.250           0.450     0.010           0.018
+                                        θ              0°              8°        0°              8°
+
+
+
+
+ SOD-123 Suggested Pad Layout
+
+
+
+
+www.cj-elec.com                                4                                                E,Mar,2015
+SOD-123 Tape and Reel
+
+
+
+
+www.cj-elec.com         5   E,Mar,2015
+

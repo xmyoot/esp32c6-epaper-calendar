@@ -1,0 +1,560 @@
+             AY
+        PL
+    IS
+    D
+    D
+O
+O                 7.5 inch
+G   E-paper Display Series
+
+
+               GDEY075T7
+             Dalian Good Display Co., Ltd.
+                                                                    GDEY075T7
+
+
+
+
+             Product Specifications
+
+
+
+
+                                                       AY
+                                         PL
+Customer
+                               IS
+                         Standard
+Description
+Model Name
+                       D 7.5” E-PAPER DISPLAY
+                         GDEY075T7
+Date
+Revision
+            D            2021/03/10
+                         1.0
+      O
+O                                   Approval
+                                               Design Engineering
+
+                                                       Check        Design
+
+
+G
+    Zhongnan Building, No.18, Zhonghua West ST,Ganjingzi DST,Dalian,CHINA
+                          Tel: +86-411-84619565
+                        Email: info@good-display.com
+                       Website: www.good-display.com
+
+
+
+www.good-display.com               2／45                        7.5 inch Series
+                                                                                 GDEY075T7
+
+
+
+1.Over View
+
+GDEY075T7 is an Active Matrix Electrophoretic Display (AMEPD), with interface and a
+reference system design. The7.5” active area contains 800×480 pixels, and has 1-bit B/W
+full display capabilities. An integrated circuit contains gate buffer, source buffer, interface,
+timing control logic, oscillator, DC-DC, SRAM, LUT, VCOM and border are supplied with each
+panel.
+
+
+
+2.Features
+
+● 800×480 pixels display
+● High contrast
+● High reflectance
+                                                               AY
+● Ultra wide viewing angle
+● Ultra low power consumption
+● Pure reflective mode
+● Bi-stable display
+● Commercial temperature range
+                                                    PL
+● Landscape, portrait modes
+● Hard-coat antiglare display surface
+● Ultra Low current deep sleep mode
+● On chip display RAM
+                                       IS
+                               D
+● Waveform stored in flash memory
+● Serial peripheral interface available
+● On-chip oscillator
+● On-chip booster and regulator control for generating VCOM,Gate and
+
+                   D
+● Source driving voltage
+● I2C Signal Master Interface to read external temperature sensor/ built-in temperature
+sensor
+
+          O
+● Available in COG package IC thickness 300um
+
+
+
+  O
+ 3. Mechanical Specifications
+
+
+G   Parameter
+ Screen Size
+ Display Resolution
+                             7.5
+                                   Specifications
+
+
+                             800 (H)×480(V)
+                                                                        Unit
+                                                                        Inch
+                                                                        Pixel
+                                                                                    Remark
+
+
+                                                                                     Dpi:124
+ Active Area                 163.20(H)×97.92(V)                         mm
+ Pixel Pitch                 0.204×0.204                                mm
+ Pixel Configuration         Square
+ Outline Dimension           170.20(H)×111.20 (V) ×1.25 (D)             mm
+ Weight                      44±0.5                                       g
+
+
+
+
+  www.good-display.com                      6／45                              7.5 inch Series
+                                                GDEY075T7
+
+ 4. Mechanical Drawing of EPD module
+
+
+
+
+                                             AY
+                                         PL
+                                      IS
+                                      D
+                                 D
+      O
+          DALIAN GOOD DISPLAY.,LTD.
+O
+G
+
+www.good-display.com                  7／45   7.5 inch Series
+                                                                                 GDEY075T7
+
+
+5. Input /Output Pin Assignment
+
+  No.   Name    I/O                            Description                         Remark
+   1     NC           Do not connect with other NC pins                           Keep Open
+   2    GDR     O     N-Channel MOSFET Gate Drive Control
+   3    RESE     I    Current Sense Input for the Control Loop
+   4     NC     NC Do not connect with other NC pins                              Keep Open
+   5    VSHR    C     Positive Source driving voltage(Red)
+   6
+   7
+   8
+        TSCL
+        TSDA
+         BS1
+                O
+                                                              AY
+                      I2C Interface to digital temperature sensor Clock pin
+                I/O I2C Interface to digital temperature sensor Data pin
+                 I    Bus Interface selection pin                                  Note 5-5
+   9
+  10
+  11
+        BUSY
+         RES
+         D/C
+                O
+                 I
+                 I
+                      Busy state output pin
+                                                    PL
+                      Reset signal input. Active Low.
+                      Data /Command control pin
+                                                                                   Note 5-4
+
+                                                                                   Note 5-3
+
+
+
+  12
+  13
+         CS
+         SCL
+                 I
+                 I
+                                    IS
+                      Chip select input pin
+                      Serial Clock pin (SPI)
+                                                                                   Note 5-2
+
+                                                                                   Note 5-1
+
+
+
+  14
+
+  15
+
+  16
+        SDA
+
+        VDDIO
+
+         VCI
+                           D
+                I/O Serial Data pin (SPI)
+
+                P
+
+                P
+                      Power Supply for interface logic pins It should be
+                      connected with VCI
+                      Power Supply for the chip
+  17     VSS    D
+                P     Ground
+                      Core logic power pin VDD can be regulated
+  18
+
+  19
+        O
+        VDD
+
+         VPP
+                C
+
+                P
+                      internally from VCI. A capacitor should be
+                      connected between VDD and VSS
+                      FOR TEST
+
+O 20    VSH1    C     Positive Source driving voltage
+                      Power Supply pin for Positive Gate driving voltage
+
+G 21
+
+  22
+
+  23
+        VGH
+
+         VSL
+
+        VGL
+                C
+
+                C
+
+                C
+                      and VSH1
+                      Negative Source driving voltage
+                      Power Supply pin for Negative Gate driving voltage
+                      VCOM and VSL
+  24    VCOM    C     VCOM driving voltage
+
+
+
+
+www.good-display.com                      8／45                                7.5 inch Series
+                                                                                         GDEY075T7
+
+
+
+
+ I = Input Pin, O =Output Pin, I/O = Bi-directional Pin (Input/output), P = Power
+ Pin, C =Capacitor Pin
+ Note 5-1: This pin (CSB) is the chip select input connecting to the MCU. The chip is
+ enabled for MCU communication only when CSB is pulled Low.
+ Note 5-2: This pin (DC) is Data/Command control pin connecting to the MCU.
+ When the pin is pulled HIGH, the data will be interpreted as data. When the pin is
+ pulled Low, the data will be interpreted as command.
+ Note 5-3: This pin (RST) is reset signal input. The Reset is active Low
+
+
+                                                                    AY
+ Note 5-4: This pin (BUSY) is BUSY state output pin. When BUSY is low, the
+ operation of chip should not be interrupted and any commands should not be
+ issued to the module. The driver IC will put BUSY pin low when the driver IC is
+ working such as:
+ Outputting display waveform; or
+ Programming with OTP
+ Communicating with digital temperature sensor
+                                                     PL
+                 BS1 State
+                    L
+                    H                 IS     MCU Interface
+                                4-lines serial peripheral interface(SPI)
+                                3- lines serial peripheral interface(SPI) - 9 bits SPI
+                                   Table: Bus interface selection
+
+
+
+ 6.Electrical Characteristics
+ 6.1 Absolute Maximum Rating
+                             D
+               D
+           Parameter
+       Logic supply voltage
+                                       Symbol
+                                         VCI
+                                                               Rating
+                                                             -0.3 to +6.0
+                                                                                         Unit
+                                                                                          V
+
+
+      O Logic Input voltage
+      Operating Temp range
+       Storage Temp range
+                                         VIN
+                                        TOPR
+                                        TSTG
+                                                          -0.3 to VCI +0.3
+                                                               0 to +50
+                                                              -25 to+70
+                                                                                          V
+                                                                                          ºC
+                                                                                          ºC
+
+
+O     Optimal Storage Temp
+     Optimal Storage Humidity
+                                       TSTGo
+                                       HSTGo
+                                                                 23±2
+                                                                55±10
+                                                                                          ºC
+                                                                                         %RH
+
+
+
+GNote:
+ Maximum ratings are those values beyond which damages to the device may occur.
+ Functional operation should be restricted to the limits in the Panel DC Characteristics
+ tables
+
+
+
+
+www.good-display.com                         9／45                                   7.5 inch Series
+                                                                                          GDEY075T7
+
+
+6.2 DC Characteristics
+The following specifications apply for: VSS=0V, VCI=3.0V, TOPR =23ºC
+                                                              Applica
+Parameter                   Symbol          Conditions        ble pin    Min.     Typ.      Max      Units
+Single ground                 VSS                -                         -       0          -       V
+Logic supply voltage          VCI                -             VCI        2.5     3.3       3.6       V
+Core logic voltage            VDD                             VDD         2.5     3.3       3.6       V
+High level input voltage      VIH                -               -      0.7 VCI    -          -       V
+Low level input voltage       VIL                -               -         -       -       0.3 VCI    V
+High level output voltage
+Low level output voltage
+Typical operating current
+Image update time
+                              VOH
+                              VOL
+                            Iopr_VCI
+                                -
+                                          IOH = -400uA
+                                           IOL = 400uA
+                                             VCI =3.3V
+                                              25 ºC
+                                                                 -
+                                                                 -
+                                                                 -
+                                                                 -
+                                                                        AY
+                                                                        VCI-0.4
+                                                                          0
+                                                                           -
+                                                                           -
+                                                                                   -
+                                                                                   -
+                                                                                   8
+                                                                                   3
+                                                                                              -
+                                                                                            0.4
+                                                                                             12
+                                                                                              -
+                                                                                                      V
+                                                                                                      V
+                                                                                                     mA
+                                                                                                      sec
+
+
+Sleep mode current          Islp_VCI
+                                           DC/DC off
+                                             No clock
+                                          No input load
+                                        Ram data retain
+                                           DC/DC off
+                                                         PL      -         -      25                  uA
+
+
+
+Deep sleep mode current
+
+
+
+Notes:
+                            Idslp_VCI
+                                           ISNo clock
+                                          No input load
+                                        Ram data not retain
+                                                                 -         -       2         5        uA
+
+
+
+
+                                    D
+1. The typical power is measured with following transition from horizontal 2 scale
+pattern to
+vertical 2 scale pattern.
+
+
+                     D
+2.The deep sleep power is the consumed power when the panel controller is in deep
+sleep mode.
+3.The listed electrical/optical characteristics are only guaranteed under the controller &
+
+          O
+waveform provided by GOOD DISPLAY
+
+
+
+
+ O
+G
+
+ www.good-display.com                           10／45                                  7.5 inch Series
+                                                                          GDEY075T7
+
+
+6.3 AC Characteristics
+6.3.1 MCU Interface Selection
+Provides 3-wire/4-wire serial interface for command and display data transferred from the
+MCU. The serial interface supports 8-bit mode. Data can be input/output by clocks while the
+chip is active (CSB =LOW). While input, data are written in order from MSB at the clock
+rising edge. When too many parameters are input, the chip accepts only defined
+parameters, and ignores undefined ones.
+
+
+
+
+6.3.2 3 wire SPI format.
+                                                          AY
+Data / Command is recognized with the first bit transferred. Data are transferred in the unit
+
+                                              PL
+of 9 bits. To prevent malfunction due to noise, it is recommended to set the CSB signal to
+HIGH every 9 bits. (The serial counter is reset at the rising edge of the CSB signal.)
+
+
+
+
+                                   IS
+                           D
+               D
+       O
+The MSB bit of data will be output at SDA pin after the 1st SCL falling edge, if the 1st
+input data at SDA is high.
+
+
+
+O
+G
+
+www.good-display.com                   11／45                           7.5 inch Series
+                                                                         GDEY075T7
+
+
+
+
+  6.3.3 4 wire SPI format
+  Data / Command is recognized with DC pin. Data are transferred in the unit of 8
+  bits. To prevent malfunction due to noise, it is recommended to set the CSB
+  signal to HIGH every 8 bits. (The serial counter is reset at the rising edge of the
+  CSB signal.)
+
+
+
+
+                                                         AY
+                                             PL
+                                  IS
+  The MSB bit of data will be output at SDA pin after the CSB falling edge, if DC pin is
+  High.
+
+                          D
+              D
+      O
+O
+G
+
+www.good-display.com                  12／45                           7.5 inch Series
+                                                                      GDEY075T7
+
+
+
+ 6.3.4 3 wire dual SPI format.
+  Data / Command is recognized with the first bit transferred at SDA. Data are
+  transferred in the unit of 5 SPI clocks. To prevent malfunction due to noise, it
+  is recommended to set the CSB signal to HIGH every 5 SPI clocks. (The serial
+  counter is reset at the rising edge of the CSB signal.) In 3-wire dual SPI
+  mode, SDA and SDA1 are only input mode for data write transmission.
+
+
+
+
+                                                       AY
+                                            PL
+  6.3.5 4 wire dual SPI format.
+                                 IS
+                         D
+  Data / Command is recognized with DC pin. Data are transferred in the unit of
+  4 SPI clocks. To prevent malfunction due to noise, it is recommended to set
+  the CSB signal to HIGH every 4 SPI clocks. (The serial counter is reset at the
+  rising edge of the CSB signal.) In 4-wire dual SPI mode, SDA and SDA1 are only
+
+
+              D
+  input mode for data write transmission.
+
+
+
+
+      O
+O
+G
+
+www.good-display.com                 13／45                         7.5 inch Series
+                                   GDEY075T7
+
+
+
+
+11. Reference Circuit
+
+
+
+
+                                AY
+                            PL
+                        IS
+                       D
+            D
+      O
+O
+G
+
+www.good-display.com    40／45   7.5 inch Series
+

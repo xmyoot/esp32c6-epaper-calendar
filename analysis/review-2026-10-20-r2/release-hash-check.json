@@ -1,0 +1,18 @@
+{
+  "hardware/EPD_C6_RevA.kicad_pcb": true,
+  "hardware/EPD_C6_RevA.kicad_sch": true,
+  "hardware/EPD_C6_RevA.kicad_pro": true,
+  "manufacturing/gerbers/EPD_C6_RevA-B_Mask.gbs": true,
+  "manufacturing/gerbers/EPD_C6_RevA-B_Cu.gbl": true,
+  "manufacturing/gerbers/EPD_C6_RevA-NPTH.drl": true,
+  "manufacturing/gerbers/EPD_C6_RevA-F_Cu.gtl": true,
+  "manufacturing/gerbers/EPD_C6_RevA-Edge_Cuts.gm1": true,
+  "manufacturing/gerbers/EPD_C6_RevA-F_Mask.gts": true,
+  "manufacturing/gerbers/EPD_C6_RevA-F_Paste.gtp": true,
+  "manufacturing/gerbers/EPD_C6_RevA-PTH.drl": true,
+  "manufacturing/gerbers/EPD_C6_RevA-job.gbrjob": true,
+  "manufacturing/gerbers/EPD_C6_RevA-B_Silkscreen.gbo": true,
+  "manufacturing/gerbers/EPD_C6_RevA-F_Silkscreen.gto": true,
+  "manufacturing/BOM-JLCPCB.csv": true,
+  "manufacturing/CPL-JLCPCB.csv": true
+}

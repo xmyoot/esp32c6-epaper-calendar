@@ -1,0 +1,76 @@
+                             JIANGSU CHANGJIANG ELECTRONICS TECHNOLOGY CO., LTD
+
+
+                                  SOD-123 Plastic-Encapsulate Diodes
+
+     MBR0520-MBR0580 Schottky Barrier Diode                                     SOD-123
+
+
+  FEATURES
+  z  Lead Free Finish/RoHS Compliant
+  z  Extremely Low Thermal Resistance
+  z  For Surface Mount Application and High Current Capability
+
+
+
+
+ MARKING:
+      MBR0520:R2          MBR0530:R3            MBR0540:R4             MBR0560:R6         MBR0580:R8
+
+
+
+
+ The marking bar indicates the cathode
+ Solid dot = Green molding compound device,if none,
+            the normal device.
+
+
+
+
+     Maximum Ratings @Ta=25℃
+
+                                                                  MBR    MBR    MBR    MBR    MBR
+                          Parameter                    Symbol                                        Unit
+                                                                  0520   0530   0540   0560   0580
+
+      Maximum recurrent peak reverse voltage            VRRM      20     30      40      60   80
+      Maximum RMS voltage                               VRMS      14     21      28      42   56      V
+                                                                  0      3       4
+      Mean rectifying current                              IO                    0.5                  A
+      Non-repetitive Peak forward surge current                                                       A
+      @t= 8.3ms                                            IFSM                  5.5
+      Power Dissipation                                    Pd                    410                 mW
+     Thermal Resistance Junction to Ambient                RθJA                  244                 ℃/W
+      Junction temperature                                 Tj                   125                   ℃
+      Storage temperature                                  Tstg               -55~+150                ℃
+
+
+
+
+www.cj-elec.com                                        1                                               E,Mar,2015
+ELECTRICAL CHARACTERISTICS
+
+Ta =25 ℃ unless otherwise specified
+
+              Parameter            Symbol   Min.   Typ.   Max.   Unit    Conditions
+   Forward voltage
+   MBR0520                                                0.45
+   MBR0530                                                0.55
+                                      VF                          V       IF=500mA
+   MBR0540                                                0.55
+   MBR0560                                                0.70
+   MBR0580                                                0.80
+   Reverse current
+   MBR0520                                                                 VR=20V
+   MBR0530                                                                 VR=30V
+                                      IR                         μA
+   MBR0540                                                 80              VR=40V
+   MBR0560                                                                 VR=60V
+   MBR0580                                                                 VR=80V
+   Capacitance between terminals      CT           30            pF     VR=4V, f=1MHZ
+
+
+
+
+www.cj-elec.com                                2                                      E,Mar,2015
+

@@ -1,0 +1,5 @@
+CMD: Python tools/KiCadRoutingTools/py_tools/render_placement.py hardware/EPD_C6_RevA.kicad_pcb -o analysis/strict-preview.png --size 1800 --no-ratsnest --no-legality --quiet
+ENV KNOBS: none
+render_placement.py: this board carries 253 segment(s) and 45 via(s). Placement moves FOOTPRINTS and does not move copper -- every track would be left behind, detached from its pad. Run placement on the UNROUTED board and re-route from there. Override with --allow-routed.
+Copper-to-hole 0.25mm for NPTH holes (from the board's own min_hole_clearance, above the 0.2mm fab floor); plated holes and vias: copper clearance
+EXIT=0

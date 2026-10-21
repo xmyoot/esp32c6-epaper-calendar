@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "footprints": 40,
+  "critical_pin_checks": 37,
+  "all_design_pin_checks": 94,
+  "errors": [],
+  "basis": "Native KiCad exported netlist and pcbnew pad data; physical tables transcribed from source documents. Not a bench test."
+}

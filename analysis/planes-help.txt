@@ -1,0 +1,275 @@
+CMD: Python tools/KiCadRoutingTools/py_router/route_planes.py --help
+ENV KNOBS: none
+usage: route_planes.py [-h]
+                       [--ripup-blocker-select {count,near-target,bidir,mincut,cost}]
+                       [--output FILE] [--overwrite] --nets NETS [NETS ...]
+                       --plane-layers PLANE_LAYERS [PLANE_LAYERS ...]
+                       [--via-size VIA_SIZE] [--via-drill VIA_DRILL]
+                       [--track-width TRACK_WIDTH] [--clearance CLEARANCE]
+                       [--net-clearances JSON]
+                       [--zone-clearance ZONE_CLEARANCE]
+                       [--min-thickness MIN_THICKNESS]
+                       [--thermal-vias | --no-thermal-vias] [--thermal-relief]
+                       [--grid-step GRID_STEP]
+                       [--hole-to-hole-clearance HOLE_TO_HOLE_CLEARANCE]
+                       [--layers LAYERS [LAYERS ...]]
+                       [--layer-costs LAYER_COSTS [LAYER_COSTS ...]]
+                       [--no-bga-zone]
+                       [--power-nets POWER_NETS [POWER_NETS ...]]
+                       [--power-nets-widths POWER_NETS_WIDTHS [POWER_NETS_WIDTHS ...]]
+                       [--voronoi-seed-interval VORONOI_SEED_INTERVAL]
+                       [--plane-max-iterations PLANE_MAX_ITERATIONS]
+                       [--board-edge-clearance BOARD_EDGE_CLEARANCE]
+                       [--no-fix-drc-settings] [--relax-drc-severities]
+                       [--keep-thermal] [--enable-used-layers]
+                       [--same-net-pad-clearance SAME_NET_PAD_CLEARANCE]
+                       [--dry-run] [--skip-existing-zones] [--verbose]
+                       [--debug-lines] [--add-teardrops] [--stitch-vias]
+                       [--stitch-pitch STITCH_PITCH]
+                       [--stitch-max-freq STITCH_MAX_FREQ]
+                       [--stitch-edge-fence]
+                       [--stitch-fence-pitch STITCH_FENCE_PITCH]
+                       [--stitch-inset STITCH_INSET] [--add-gnd-vias]
+                       [--gnd-via-net GND_VIA_NET]
+                       [--gnd-via-distance GND_VIA_DISTANCE]
+                       [--fab-tier {standard,advanced,auto}]
+                       [--fab-overrides FILE] [--escalation {off,board,fab}]
+                       [--clearance-ceiling MM] [--strict-sizes]
+                       input_file [output_file]
+
+Create copper pour zones (#562 bare pour: no per-pad taps -- pads are welded by the route step). Optional thermal via arrays, area via stitching, and board-edge via fence.
+
+positional arguments:
+  input_file            Input KiCad PCB file
+  output_file           Output KiCad PCB file (default:
+                        input_routed.kicad_pcb)
+
+options:
+  -h, --help            show this help message and exit
+  --ripup-blocker-select {count,near-target,bidir,mincut,cost}
+                        Blocker SELECTION algorithm for the rip-up ladder (see
+                        route.py --help / docs/rip-up-reroute.md)
+  --output FILE         Output KiCad PCB file (flag alternative to the
+                        positional output)
+  --overwrite, -O       Overwrite input file instead of creating _routed copy
+  --nets NETS [NETS ...], -n NETS [NETS ...]
+                        Net name(s) for the plane(s) (e.g., GND VCC)
+  --plane-layers PLANE_LAYERS [PLANE_LAYERS ...], -p PLANE_LAYERS [PLANE_LAYERS ...]
+                        BARE copper layer name(s) for the zone(s), one per
+                        net, positionally matched to --nets (e.g., In1.Cu
+                        In2.Cu). NOT net:layer pairs -- 'GND:B.Cu' is not a
+                        layer name and is refused against the board's own
+                        copper layers.
+  --via-size VIA_SIZE   Via outer diameter in mm (default: the board Default
+                        net-class via, else 0.5). NOT a hard floor: a tap into
+                        a fine-pitch pad field can escalate to the --fab-tier
+                        via and print a per-via warning, because a 0.5mm via
+                        does not fit a 0.5mm-pitch TQFP. Pass --fab-overrides
+                        to forbid the escalation -- at the cost of the taps
+                        that then cannot be made
+  --via-drill VIA_DRILL
+                        Via drill size in mm (default: the board Default net-
+                        class via drill, else 0.3)
+  --track-width TRACK_WIDTH
+                        Track width for via-to-pad connections in mm (default:
+                        the board Default net-class width, else 0.3)
+  --clearance CLEARANCE
+                        Copper clearance of the DEFAULT net class for this
+                        run, in mm; other classes are honoured at their own
+                        clearance (pairwise max). When OMITTED, the board's
+                        Default class, else 0.25. --clearance-ceiling caps
+                        every class (the old #439 behaviour) and the writeback
+                        clamps.
+  --net-clearances JSON
+                        JSON file mapping net NAME -> clearance mm (the file
+                        route.py and route_diff.py take): replaces the auto-
+                        read netclass map for plane taps, the pour's fill
+                        model and GND return vias, used as given -- never
+                        capped by --clearance-ceiling. A net it does not name
+                        routes at the run's clearance.
+  --zone-clearance ZONE_CLEARANCE
+                        Zone (pour) clearance from other copper in mm.
+                        Default: follow --clearance, auto-stepping down to the
+                        fab floor if the pour cannot thread the densest BGA
+                        via lattice
+  --min-thickness MIN_THICKNESS
+                        Minimum zone copper thickness in mm (default: 0.1)
+  --thermal-vias, --no-thermal-vias
+                        Via ARRAY over exposed/thermal pads (SMD plane-net
+                        pads wider than 2.0mm both axes) instead of one shared
+                        via (#487). ON by default; --no-thermal-vias disables
+  --thermal-relief      Connect pads to the pour with thermal-relief spokes
+                        instead of solid copper (#487: the writer always
+                        supported it; nothing could ask)
+  --grid-step GRID_STEP
+                        Grid resolution in mm (default: 0.1)
+  --hole-to-hole-clearance HOLE_TO_HOLE_CLEARANCE
+                        Minimum clearance between drill holes in mm (default:
+                        the board min_hole_to_hole, else 0.2)
+  --layers LAYERS [LAYERS ...], -l LAYERS [LAYERS ...]
+                        All copper layers for routing and via span (default:
+                        F.Cu + plane-layers + B.Cu)
+  --layer-costs LAYER_COSTS [LAYER_COSTS ...]
+                        Per-layer routing cost multipliers (1.0-1000, or any
+                        negative value e.g. -1 = forbidden: the layer stays an
+                        obstacle / via span but gets no routed copper). One
+                        value per --layers entry, in that order (another count
+                        is refused). Example: --layer-costs 1.0 -1 -1 3.0
+  --no-bga-zone, --no-bga-zones
+                        Disable BGA auto-exclusion zones when re-routing
+                        ripped nets (issue #88.2). Use when the original
+                        signal routing used --no-bga-zones, so the reroute
+                        uses compatible parameters.
+  --power-nets POWER_NETS [POWER_NETS ...]
+                        Glob patterns for power nets to route with wider
+                        tracks (e.g., '*GND*' '*VCC*')
+  --power-nets-widths POWER_NETS_WIDTHS [POWER_NETS_WIDTHS ...]
+                        Track widths in mm for each power-net pattern (must
+                        match --power-nets length)
+  --voronoi-seed-interval VORONOI_SEED_INTERVAL
+                        Longest gap between a spine's Voronoi seeds on a layer
+                        several nets share (mm, default: 2.0)
+  --plane-max-iterations PLANE_MAX_ITERATIONS
+                        Max A* iterations for routing a shared layer's spines
+                        (default: 200000)
+  --board-edge-clearance BOARD_EDGE_CLEARANCE
+                        Clearance from board edge for zones in mm (default:
+                        the board min_copper_edge_clearance, else 0.5)
+  --same-net-pad-clearance SAME_NET_PAD_CLEARANCE
+                        Edge-to-edge clearance (mm) between placed vias and
+                        same-net pads. > 0 keeps ALL of this step's vias
+                        (stitching, taps, joins) off same-net pads and the
+                        net's solder-paste openings (#962) and is recorded in
+                        the sibling .kicad_pro so later chain steps
+                        (route/route_diff/fanout/repair) inherit it (#581); 0
+                        keeps its legacy stitching-only meaning; -1 explicitly
+                        allows via-in-pad. Default: the project's recorded
+                        value, else -1.
+  --dry-run             Analyze without writing output
+  --skip-existing-zones
+                        Keep an existing same-net zone (don't recreate);
+                        tolerate other-net zones on the same layer (e.g. a GND
+                        island under an RF feed). Optional via features
+                        (--stitch-vias, thermal arrays) still run
+  --verbose, -v         Print detailed DEBUG messages
+  --debug-lines         Output MST routes on User.1, User.2, etc. per net
+  --add-teardrops       Add teardrop settings to all pads and vias in output
+                        file
+  --stitch-vias         Area via stitching: bond each plane net's pours across
+                        layers with a periodic via lattice. Applies to the
+                        --nets that own >= 2 of the --plane-layers (no
+                        separate net selection). Every site is gated by the
+                        predicted zone fill (no pour necking, no island taps),
+                        validated against KiCad's own exact fill (one pcbnew
+                        refill; a site off the net's main filled cluster is
+                        rejected rather than anchoring an isolated island),
+                        and the same obstacle/hole-to-hole/edge checks as any
+                        routed via.
+  --stitch-pitch STITCH_PITCH
+                        Lattice pitch for --stitch-vias in mm (default: 20.0)
+  --stitch-max-freq STITCH_MAX_FREQ
+                        Maximum frequency of interest in MHz: derives the
+                        stitching pitch as lambda/20 using the largest
+                        dielectric epsilon_r in the board's stackup (FR-4 4.5
+                        if the board has none), overriding --stitch-pitch. The
+                        fence pitch follows unless --stitch-fence-pitch is
+                        given.
+  --stitch-edge-fence   Board-edge via fence: a row of stitching vias tracking
+                        the board outline(s) (EMI guard ring). Same net rule
+                        and site gates as --stitch-vias; works with or without
+                        it.
+  --stitch-fence-pitch STITCH_FENCE_PITCH
+                        Via spacing along the edge fence in mm (default: the
+                        stitch pitch)
+  --stitch-inset STITCH_INSET
+                        Fence distance from the board edge to the via centers
+                        in mm (default: auto -- the board edge clearance plus
+                        the fill-margin ring, i.e. as close to the edge as a
+                        via can sit and keep the pour intact)
+  --add-gnd-vias        Add GND vias near signal vias for return current path
+  --gnd-via-net GND_VIA_NET
+                        Pin GND return vias to this net (default: auto --
+                        match each signal's own ground domain, which is plain
+                        GND on a board with one ground)
+  --gnd-via-distance GND_VIA_DISTANCE
+                        Maximum distance from signal via to place GND via in
+                        mm (default: 2.0)
+  --fab-tier {standard,advanced,auto}
+                        JLC fab capability floor (default auto). 'auto' = the
+                        cheap standard floor, escalating to advanced
+                        (0.25/0.15 via etc., more costly; warned and counted
+                        in the run summary) when a fine-pitch fan-out, plane
+                        tap or last-resort via cannot fit at the standard
+                        floor; 'standard' and 'advanced' are HARD floors that
+                        never escalate.
+  --fab-overrides FILE  Path to a fab-floor override file (key=value lines,
+                        e.g. 'via_drill = 0.15') overlaying the selected
+                        --fab-tier; only the listed values are replaced.
+                        Supplying it disables escalation (the floor becomes
+                        exactly the file + base tier). See the template
+                        fab_overrides.example.txt for the format and every
+                        key.
+  --escalation {off,board,fab}
+                        How far below a REQUESTED size a failing net may be
+                        retried (default fab). 'off': never -- sizes and
+                        clearances are exact, a net that cannot complete at
+                        them fails and is reported (a wide power/impedance net
+                        may still neck for at most 2 mm of path at a pad
+                        entry). 'board': down to the board's own declared
+                        floors (Board Setup rules.min_*; an unset key falls
+                        back to the fab tier floor, an unset min_clearance to
+                        the Default class). That is what KiCad's DRC accepts
+                        once the output project's Default class is lowered to
+                        the clearance used, which the DRC-settings writeback
+                        does; with --no-fix-drc-settings the project is left
+                        as it was, so descents stop at what KiCad grades it
+                        at: a rule it leaves out at KiCad's factory value
+                        (#1287), clearance at the Default class floored at
+                        min_clearance (#1262). 'fab': down to the fab tier
+                        floor, below the board's own minimums. Every descent
+                        is counted in JSON_SUMMARY design_rules.
+  --clearance-ceiling MM
+                        Cap EVERY net class (Default included) at this copper
+                        clearance for the run and clamp the output project's
+                        classes down to it -- the 'stock net classes are
+                        aspirational' workflow. This is what --clearance used
+                        to do implicitly (#439); --clearance now sets only the
+                        Default class for the run and honours the other
+                        classes, as KiCad does.
+  --strict-sizes        Exit non-zero (3) when any feature was delivered below
+                        its requested size or a fab-tier escalation fired, so
+                        a harness needs no grep.
+
+DRC settings (post-route, issue #160):
+  --no-fix-drc-settings
+                        Do not adjust the output's .kicad_pro DRC constraints
+                        to match the routed clearances/sizes afterwards. By
+                        default the written project's Board Setup floors are
+                        loosened to the routed values so KiCad's DRC only
+                        flags genuine problems.
+  --relax-drc-severities
+                        ALSO lower the project's DRC severities for the non-
+                        routing categories (courtyard shapes, solder-mask
+                        bridges, footprint/library issues incl. annular_width
+                        -> ignore; starved_thermal -> warning;
+                        courtyards_overlap -> warning). OFF by default (#856):
+                        a routing step never changes what the project counts
+                        as a violation unless asked. Each change is logged and
+                        the previous value is kept under
+                        kicad_routing_tools.saved_severities.
+  --keep-thermal        Deprecated no-op. Routing steps no longer touch DRC
+                        severities unless --relax-drc-severities is given;
+                        with it, this leaves starved_thermal untouched.
+  --enable-used-layers  Add any layer the board uses but that is missing from
+                        its (layers) table back into the .kicad_pcb, so KiCad
+                        shows it as selectable and stops flagging
+                        item_on_disabled_layer. OFF by default (it edits the
+                        board, not just DRC settings).
+
+Examples:
+    # Single net:
+    python py_router/route_planes.py input.kicad_pcb output.kicad_pcb --nets GND --plane-layers B.Cu
+
+    # Multiple nets (each net paired with corresponding plane layer):
+    python py_router/route_planes.py input.kicad_pcb output.kicad_pcb --nets GND +3.3V --plane-layers In1.Cu In2.Cu
+EXIT=0

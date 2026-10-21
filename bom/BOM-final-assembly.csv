@@ -1,0 +1,7 @@
+Item,Quantity,Manufacturer,Part,Notes
+J1/J2 female sockets,2,Samtec,SSW-107-01-G-S,2.54mm pitch 1x7; hand solder after SMT; 15.24mm row spacing
+MCU module,1,Seeed Studio,XIAO ESP32C6,USB-C programming/power; removable through male headers
+MCU male header strips,2,Samtec or equivalent,TSW compatible 1x7 2.54mm,Fit to XIAO; confirm engagement and clearance with SSW sockets
+Display,1,Good Display,GDEY075T7,7.5-inch 800x480 monochrome bare panel; exact 24-pin flex only
+Mounting screws/standoffs,4 sets,Generic,M2.5,Nonconductive standoffs preferred; no antenna metal shadow
+USB supply and cable,1,Generic,Regulated 5V >=1A USB-C,Good quality cable; no battery or second carrier supply

@@ -1,0 +1,1013 @@
+{
+  "name": "EPD_C6_RevA",
+  "root_uuid": "337f7c2c-5e44-51a5-bbfb-1e9f687e66fd",
+  "parts": [
+    {
+      "ref": "J1",
+      "value": "XIAO LEFT / USB UP",
+      "symbol": "Carrier:Socket_Left",
+      "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical",
+      "nets": {
+        "1": "EPD_CS_N",
+        "2": "EPD_DC",
+        "3": "EPD_RST_N",
+        "4": "EPD_BUSY_N",
+        "5": null,
+        "6": null,
+        "7": null
+      },
+      "sch": [
+        45.72,
+        60.96,
+        0
+      ],
+      "pcb": [
+        110,
+        104,
+        0
+      ],
+      "lcsc": "",
+      "mpn": "SSW-107-01-G-S",
+      "manufacturer": "Samtec",
+      "notes": "Hand solder; pin1=D0, USB toward top edge. Two rows spaced 15.24mm.",
+      "uuid": "616533fc-8ed4-5c17-bdaa-84e6501bd3ae"
+    },
+    {
+      "ref": "J2",
+      "value": "XIAO RIGHT / USB UP",
+      "symbol": "Carrier:Socket_Right",
+      "footprint": "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical",
+      "nets": {
+        "1": null,
+        "2": "GND",
+        "3": "3V3_MODULE",
+        "4": "MOSI_SRC",
+        "5": null,
+        "6": "SCK_SRC",
+        "7": null
+      },
+      "sch": [
+        114.3,
+        60.96,
+        0
+      ],
+      "pcb": [
+        125.24,
+        104,
+        0
+      ],
+      "lcsc": "",
+      "mpn": "SSW-107-01-G-S",
+      "manufacturer": "Samtec",
+      "notes": "Hand solder; pin1=5V (unused), pin7=D7. Male headers fitted to XIAO separately.",
+      "uuid": "921d4ca0-88c6-59f9-ad8b-922607ca6fc6"
+    },
+    {
+      "ref": "J3",
+      "value": "GDEY075T7 / BOTTOM CONTACT",
+      "symbol": "Carrier:GDEY075T7_FPC24",
+      "footprint": "Connector_FFC-FPC:Hirose_FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal",
+      "nets": {
+        "1": null,
+        "2": "GDR",
+        "3": "RESE",
+        "4": null,
+        "5": "VSHR",
+        "6": null,
+        "7": null,
+        "8": "GND",
+        "9": "EPD_BUSY_N",
+        "10": "EPD_RST_N",
+        "11": "EPD_DC",
+        "12": "EPD_CS_N",
+        "13": "EPD_SCK",
+        "14": "EPD_MOSI",
+        "15": "3V3_EPD",
+        "16": "3V3_EPD",
+        "17": "GND",
+        "18": "VDD_INT",
+        "19": null,
+        "20": "VSH1",
+        "21": "PREVGH",
+        "22": "VSL",
+        "23": "PREVGL",
+        "24": "VCOM",
+        "MP": "GND"
+      },
+      "sch": [
+        340.36,
+        68.58,
+        0
+      ],
+      "pcb": [
+        144,
+        105,
+        180
+      ],
+      "lcsc": "C202112",
+      "mpn": "FH12-24S-0.5SH(55)",
+      "manufacturer": "Hirose",
+      "notes": "24 contacts / 0.5mm / 0.3mm flex; pin4 NC despite reference alias VGL; pin5 VSHR independent of pin21.",
+      "uuid": "10e2f6ca-1771-536d-9bc2-ef0483b5c0ad"
+    },
+    {
+      "ref": "R1",
+      "value": "0R / ISOLATE",
+      "symbol": "Device:R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "nets": {
+        "1": "3V3_MODULE",
+        "2": "3V3_EPD"
+      },
+      "sch": [
+        55.88,
+        104.14,
+        90
+      ],
+      "pcb": [
+        129,
+        122,
+        0
+      ],
+      "lcsc": "C17477",
+      "mpn": "0805W8F0000T5E",
+      "manufacturer": "UNI-ROYAL",
+      "notes": "Remove for current measurement or isolated carrier testing.",
+      "uuid": "02ac625e-9271-5a3f-91bd-caf39954d816"
+    },
+    {
+      "ref": "R2",
+      "value": "33R",
+      "symbol": "Device:R",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "nets": {
+        "1": "SCK_SRC",
+        "2": "EPD_SCK"
+      },
+      "sch": [
+        55.88,
+        124.46,
+        90
+      ],
+      "pcb": [
+        128,
+        116,
+        0
+      ],
+      "lcsc": "C25105",
+      "mpn": "0402WGF330JTCE",
+      "manufacturer": "UNI-ROYAL",
+      "notes": "",
+      "uuid": "cd3b569d-cff9-5a3c-9b93-1fc8862839b7"
+    },
+    {
+      "ref": "R3",
+      "value": "33R",
+      "symbol": "Device:R",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "nets": {
+        "1": "MOSI_SRC",
+        "2": "EPD_MOSI"
+      },
+      "sch": [
+        55.88,
+        139.7,
+        90
+      ],
+      "pcb": [
+        128,
+        111.5,
+        0
+      ],
+      "lcsc": "C25105",
+      "mpn": "0402WGF330JTCE",
+      "manufacturer": "UNI-ROYAL",
+      "notes": "",
+      "uuid": "cc43bf1b-7219-537c-b9c8-4c5c8cbadd48"
+    },
+    {
+      "ref": "R4",
+      "value": "100k",
+      "symbol": "Device:R",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "nets": {
+        "1": "3V3_EPD",
+        "2": "EPD_CS_N"
+      },
+      "sch": [
+        109.22,
+        109.22,
+        0
+      ],
+      "pcb": [
+        131,
+        124,
+        90
+      ],
+      "lcsc": "C25741",
+      "mpn": "0402WGF1003TCE",
+      "manufacturer": "UNI-ROYAL",
+      "notes": "",
+      "uuid": "0af8a52a-8c49-566b-878a-075cd70613c9"
+    },
+    {
+      "ref": "R5",
+      "value": "100k",
+      "symbol": "Device:R",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "nets": {
+        "1": "EPD_RST_N",
+        "2": "GND"
+      },
+      "sch": [
+        109.22,
+        139.7,
+        0
+      ],
+      "pcb": [
+        132,
+        127,
+        90
+      ],
+      "lcsc": "C25741",
+      "mpn": "0402WGF1003TCE",
+      "manufacturer": "UNI-ROYAL",
+      "notes": "",
+      "uuid": "8df1db0c-e2a2-5d89-9eb1-8af10249d687"
+    },
+    {
+      "ref": "L1",
+      "value": "10uH / 1.3A",
+      "symbol": "Device:L",
+      "footprint": "Inductor_SMD:L_Bourns-SRN4018",
+      "nets": {
+        "1": "3V3_EPD",
+        "2": "SW"
+      },
+      "sch": [
+        193.04,
+        129.54,
+        90
+      ],
+      "pcb": [
+        148,
+        123,
+        180
+      ],
+      "lcsc": "C503307",
+      "mpn": "SRN4018-100M",
+      "manufacturer": "Bourns",
+      "notes": "Isat 1.4A (30% drop), DCR <=180mR; reference specifies 1A.",
+      "uuid": "1512be41-f7c1-5725-85c5-2c847f558d4a"
+    },
+    {
+      "ref": "Q1",
+      "value": "Si1308EDL",
+      "symbol": "Transistor_FET:Q_NMOS_GSD",
+      "footprint": "Package_TO_SOT_SMD:SOT-323_SC-70",
+      "nets": {
+        "1": "GDR",
+        "2": "RESE",
+        "3": "SW"
+      },
+      "sch": [
+        210.82,
+        154.94,
+        0
+      ],
+      "pcb": [
+        149,
+        119,
+        180
+      ],
+      "lcsc": "C469327",
+      "mpn": "SI1308EDL-T1-GE3",
+      "manufacturer": "Vishay",
+      "notes": "1=G 2=S 3=D; 30V; 185mR max at Vgs=2.5V.",
+      "uuid": "65546864-8ad7-5913-a3c0-ea923238217b"
+    },
+    {
+      "ref": "R6",
+      "value": "1M",
+      "symbol": "Device:R",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "nets": {
+        "1": "GDR",
+        "2": "GND"
+      },
+      "sch": [
+        187.96,
+        180.34,
+        0
+      ],
+      "pcb": [
+        152,
+        115,
+        90
+      ],
+      "lcsc": "C26083",
+      "mpn": "0402WGF1004TCE",
+      "manufacturer": "UNI-ROYAL",
+      "notes": "",
+      "uuid": "7835662e-96d3-5a46-8a44-cd6a88b79e11"
+    },
+    {
+      "ref": "R7",
+      "value": "0.47R / 0.5W",
+      "symbol": "Device:R",
+      "footprint": "Resistor_SMD:R_1206_3216Metric",
+      "nets": {
+        "1": "RESE",
+        "2": "GND"
+      },
+      "sch": [
+        215.9,
+        180.34,
+        0
+      ],
+      "pcb": [
+        154,
+        119,
+        0
+      ],
+      "lcsc": "C859932",
+      "mpn": "RL1206FR-7W0R47L",
+      "manufacturer": "Yageo",
+      "notes": "Kelvin RESE takeoff at Q1 source; keep ground return local.",
+      "uuid": "dc386b12-3f4f-5fec-a557-866d83901cf4"
+    },
+    {
+      "ref": "D1",
+      "value": "MBR0530",
+      "symbol": "Device:D_Schottky",
+      "footprint": "Diode_SMD:D_SOD-123",
+      "nets": {
+        "1": "PREVGH",
+        "2": "SW"
+      },
+      "sch": [
+        246.38,
+        129.54,
+        180
+      ],
+      "pcb": [
+        144,
+        119,
+        0
+      ],
+      "lcsc": "C77336",
+      "mpn": "MBR0530",
+      "manufacturer": "JSCJ",
+      "notes": "Cathode pad1; positive rectifier.",
+      "uuid": "cdc33945-187e-5cbe-9919-970cd048606f"
+    },
+    {
+      "ref": "D2",
+      "value": "MBR0530",
+      "symbol": "Device:D_Schottky",
+      "footprint": "Diode_SMD:D_SOD-123",
+      "nets": {
+        "1": "GND",
+        "2": "PUMP"
+      },
+      "sch": [
+        246.38,
+        104.14,
+        180
+      ],
+      "pcb": [
+        140,
+        124,
+        0
+      ],
+      "lcsc": "C77336",
+      "mpn": "MBR0530",
+      "manufacturer": "JSCJ",
+      "notes": "Cathode pad1 to GND; pump clamp.",
+      "uuid": "4e876d0d-19f6-5c13-b5ef-167192bbaeec"
+    },
+    {
+      "ref": "D3",
+      "value": "MBR0530",
+      "symbol": "Device:D_Schottky",
+      "footprint": "Diode_SMD:D_SOD-123",
+      "nets": {
+        "1": "PUMP",
+        "2": "PREVGL"
+      },
+      "sch": [
+        246.38,
+        78.74,
+        0
+      ],
+      "pcb": [
+        140,
+        129,
+        0
+      ],
+      "lcsc": "C77336",
+      "mpn": "MBR0530",
+      "manufacturer": "JSCJ",
+      "notes": "Anode pad2 to PREVGL; cathode pad1 to PUMP.",
+      "uuid": "420c2c0c-5423-56f8-bc55-69fa26dfeb18"
+    },
+    {
+      "ref": "C1",
+      "value": "4.7u / 50V",
+      "symbol": "Device:C",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "nets": {
+        "1": "3V3_EPD",
+        "2": "GND"
+      },
+      "sch": [
+        162.56,
+        157.48,
+        0
+      ],
+      "pcb": [
+        153,
+        124,
+        270
+      ],
+      "lcsc": "C132170",
+      "mpn": "CC1206KKX7R9BB475",
+      "manufacturer": "Yageo",
+      "notes": "",
+      "uuid": "bc8af7a1-1671-5fa3-9c2e-5c018a6bdcbd"
+    },
+    {
+      "ref": "C2",
+      "value": "4.7u / 50V",
+      "symbol": "Device:C",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "nets": {
+        "1": "SW",
+        "2": "PUMP"
+      },
+      "sch": [
+        215.9,
+        116.84,
+        180
+      ],
+      "pcb": [
+        144,
+        124,
+        270
+      ],
+      "lcsc": "C132170",
+      "mpn": "CC1206KKX7R9BB475",
+      "manufacturer": "Yageo",
+      "notes": "",
+      "uuid": "64f4d154-5015-5f4e-9017-78ab564dec60"
+    },
+    {
+      "ref": "C3",
+      "value": "10u / 50V",
+      "symbol": "Device:C",
+      "footprint": "Capacitor_SMD:C_1210_3225Metric",
+      "nets": {
+        "1": "PREVGH",
+        "2": "GND"
+      },
+      "sch": [
+        271.78,
+        157.48,
+        0
+      ],
+      "pcb": [
+        132,
+        115.5,
+        90
+      ],
+      "lcsc": "C77102",
+      "mpn": "GRM32ER71H106KA12L",
+      "manufacturer": "Murata",
+      "notes": "",
+      "uuid": "0c9b4a4e-8526-5587-adf9-09ec9d98431e"
+    },
+    {
+      "ref": "C4",
+      "value": "1u / 50V",
+      "symbol": "Device:C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "nets": {
+        "1": "VSHR",
+        "2": "GND"
+      },
+      "sch": [
+        43.18,
+        223.52,
+        0
+      ],
+      "pcb": [
+        149,
+        111,
+        270
+      ],
+      "lcsc": "C77083",
+      "mpn": "GRM21BR71H105KA12L",
+      "manufacturer": "Murata",
+      "notes": "",
+      "uuid": "edb814a2-661a-5380-8f31-ad2309de5a0d"
+    },
+    {
+      "ref": "C5",
+      "value": "1u / 50V",
+      "symbol": "Device:C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "nets": {
+        "1": "3V3_EPD",
+        "2": "GND"
+      },
+      "sch": [
+        81.28,
+        223.52,
+        0
+      ],
+      "pcb": [
+        144,
+        111,
+        270
+      ],
+      "lcsc": "C77083",
+      "mpn": "GRM21BR71H105KA12L",
+      "manufacturer": "Murata",
+      "notes": "",
+      "uuid": "b6f47a7c-a010-5445-a8cf-cb6cdcaefb78"
+    },
+    {
+      "ref": "C6",
+      "value": "1u / 50V",
+      "symbol": "Device:C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "nets": {
+        "1": "VDD_INT",
+        "2": "GND"
+      },
+      "sch": [
+        119.38,
+        223.52,
+        0
+      ],
+      "pcb": [
+        141,
+        111,
+        270
+      ],
+      "lcsc": "C77083",
+      "mpn": "GRM21BR71H105KA12L",
+      "manufacturer": "Murata",
+      "notes": "",
+      "uuid": "8d22a90e-2ae3-56c0-8f9e-86041301c179"
+    },
+    {
+      "ref": "C7",
+      "value": "10u / 50V",
+      "symbol": "Device:C",
+      "footprint": "Capacitor_SMD:C_1210_3225Metric",
+      "nets": {
+        "1": "VSH1",
+        "2": "GND"
+      },
+      "sch": [
+        157.48,
+        223.52,
+        0
+      ],
+      "pcb": [
+        137,
+        116.5,
+        90
+      ],
+      "lcsc": "C77102",
+      "mpn": "GRM32ER71H106KA12L",
+      "manufacturer": "Murata",
+      "notes": "",
+      "uuid": "2de5ef71-abcd-5b92-8b21-853bf7f0707b"
+    },
+    {
+      "ref": "C8",
+      "value": "10u / 50V",
+      "symbol": "Device:C",
+      "footprint": "Capacitor_SMD:C_1210_3225Metric",
+      "nets": {
+        "1": "VSL",
+        "2": "GND"
+      },
+      "sch": [
+        195.58,
+        223.52,
+        0
+      ],
+      "pcb": [
+        137,
+        111,
+        90
+      ],
+      "lcsc": "C77102",
+      "mpn": "GRM32ER71H106KA12L",
+      "manufacturer": "Murata",
+      "notes": "",
+      "uuid": "6b113e96-d2e0-5776-9177-baae65c7e9b4"
+    },
+    {
+      "ref": "C9",
+      "value": "10u / 50V",
+      "symbol": "Device:C",
+      "footprint": "Capacitor_SMD:C_1210_3225Metric",
+      "nets": {
+        "1": "PREVGL",
+        "2": "GND"
+      },
+      "sch": [
+        233.68,
+        223.52,
+        0
+      ],
+      "pcb": [
+        132,
+        108,
+        90
+      ],
+      "lcsc": "C77102",
+      "mpn": "GRM32ER71H106KA12L",
+      "manufacturer": "Murata",
+      "notes": "",
+      "uuid": "d71d7eff-c069-516d-afac-486bdd728eff"
+    },
+    {
+      "ref": "C10",
+      "value": "1u / 50V",
+      "symbol": "Device:C",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "nets": {
+        "1": "VCOM",
+        "2": "GND"
+      },
+      "sch": [
+        271.78,
+        223.52,
+        0
+      ],
+      "pcb": [
+        135.5,
+        121.5,
+        90
+      ],
+      "lcsc": "C77083",
+      "mpn": "GRM21BR71H105KA12L",
+      "manufacturer": "Murata",
+      "notes": "",
+      "uuid": "81ac3525-64ea-5cd5-99d6-f221ae230aa3"
+    },
+    {
+      "ref": "C11",
+      "value": "100n / 16V",
+      "symbol": "Device:C",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "nets": {
+        "1": "3V3_EPD",
+        "2": "GND"
+      },
+      "sch": [
+        139.7,
+        109.22,
+        0
+      ],
+      "pcb": [
+        146.3,
+        111.5,
+        270
+      ],
+      "lcsc": "C1525",
+      "mpn": "CL05B104KO5NNNC",
+      "manufacturer": "Samsung",
+      "notes": "",
+      "uuid": "dfe1c06b-6419-5fb0-bbef-4c300157a920"
+    },
+    {
+      "ref": "C12",
+      "value": "10u / 50V",
+      "symbol": "Device:C",
+      "footprint": "Capacitor_SMD:C_1210_3225Metric",
+      "nets": {
+        "1": "3V3_EPD",
+        "2": "GND"
+      },
+      "sch": [
+        139.7,
+        139.7,
+        0
+      ],
+      "pcb": [
+        154,
+        130,
+        270
+      ],
+      "lcsc": "C77102",
+      "mpn": "GRM32ER71H106KA12L",
+      "manufacturer": "Murata",
+      "notes": "",
+      "uuid": "0a11f9ae-3914-5e7b-9116-1696e4108041"
+    },
+    {
+      "ref": "TP1",
+      "value": "3V3_EPD",
+      "symbol": "Connector:TestPoint",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "nets": {
+        "1": "3V3_EPD"
+      },
+      "sch": [
+        317.5,
+        203.2,
+        0
+      ],
+      "pcb": [
+        131,
+        134,
+        0
+      ],
+      "lcsc": "",
+      "mpn": "",
+      "manufacturer": "",
+      "notes": "PCB test pad; no fitted component.",
+      "uuid": "ed64f536-eca4-5d32-8bba-3b913870e53b"
+    },
+    {
+      "ref": "TP2",
+      "value": "GND",
+      "symbol": "Connector:TestPoint",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "nets": {
+        "1": "GND"
+      },
+      "sch": [
+        345.44,
+        203.2,
+        0
+      ],
+      "pcb": [
+        137,
+        134,
+        0
+      ],
+      "lcsc": "",
+      "mpn": "",
+      "manufacturer": "",
+      "notes": "PCB test pad; no fitted component.",
+      "uuid": "3d9e0eb7-cc80-5c16-ab50-54574e1def98"
+    },
+    {
+      "ref": "TP3",
+      "value": "PREVGH",
+      "symbol": "Connector:TestPoint",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "nets": {
+        "1": "PREVGH"
+      },
+      "sch": [
+        373.38,
+        203.2,
+        0
+      ],
+      "pcb": [
+        132,
+        119.5,
+        0
+      ],
+      "lcsc": "",
+      "mpn": "",
+      "manufacturer": "",
+      "notes": "PCB test pad; no fitted component.",
+      "uuid": "6046a5a3-9725-5770-93cf-71128913e538"
+    },
+    {
+      "ref": "TP4",
+      "value": "PREVGL",
+      "symbol": "Connector:TestPoint",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "nets": {
+        "1": "PREVGL"
+      },
+      "sch": [
+        317.5,
+        228.6,
+        0
+      ],
+      "pcb": [
+        134,
+        131,
+        0
+      ],
+      "lcsc": "",
+      "mpn": "",
+      "manufacturer": "",
+      "notes": "PCB test pad; no fitted component.",
+      "uuid": "a8a7b4c0-a722-5290-b881-d640cb234aaf"
+    },
+    {
+      "ref": "TP5",
+      "value": "EPD_BUSY_N",
+      "symbol": "Connector:TestPoint",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "nets": {
+        "1": "EPD_BUSY_N"
+      },
+      "sch": [
+        345.44,
+        228.6,
+        0
+      ],
+      "pcb": [
+        128,
+        131,
+        0
+      ],
+      "lcsc": "",
+      "mpn": "",
+      "manufacturer": "",
+      "notes": "PCB test pad; no fitted component.",
+      "uuid": "9ffe0799-2bae-55d1-a526-1aaa2fba1385"
+    },
+    {
+      "ref": "TP6",
+      "value": "EPD_RST_N",
+      "symbol": "Connector:TestPoint",
+      "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "nets": {
+        "1": "EPD_RST_N"
+      },
+      "sch": [
+        373.38,
+        228.6,
+        0
+      ],
+      "pcb": [
+        131,
+        131,
+        0
+      ],
+      "lcsc": "",
+      "mpn": "",
+      "manufacturer": "",
+      "notes": "PCB test pad; no fitted component.",
+      "uuid": "ebe6fed9-9247-557a-91fa-56d570a50771"
+    },
+    {
+      "ref": "H1",
+      "value": "M2.5 NPTH",
+      "symbol": "Mechanical:MountingHole",
+      "footprint": "MountingHole:MountingHole_2.7mm_M2.5",
+      "nets": {},
+      "sch": [
+        322.58,
+        247.65,
+        0
+      ],
+      "pcb": [
+        104,
+        104,
+        0
+      ],
+      "lcsc": "",
+      "mpn": "",
+      "manufacturer": "",
+      "notes": "Mechanical; M2.5 non-plated mounting hole.",
+      "uuid": "f6e37f1a-e6c7-55a4-a241-d4317e797c67"
+    },
+    {
+      "ref": "H2",
+      "value": "M2.5 NPTH",
+      "symbol": "Mechanical:MountingHole",
+      "footprint": "MountingHole:MountingHole_2.7mm_M2.5",
+      "nets": {},
+      "sch": [
+        342.9,
+        247.65,
+        0
+      ],
+      "pcb": [
+        156,
+        104,
+        0
+      ],
+      "lcsc": "",
+      "mpn": "",
+      "manufacturer": "",
+      "notes": "Mechanical; M2.5 non-plated mounting hole.",
+      "uuid": "b3bd33bb-a6ef-5fa9-881f-4cbfd4945438"
+    },
+    {
+      "ref": "H3",
+      "value": "M2.5 NPTH",
+      "symbol": "Mechanical:MountingHole",
+      "footprint": "MountingHole:MountingHole_2.7mm_M2.5",
+      "nets": {},
+      "sch": [
+        363.21999999999997,
+        247.65,
+        0
+      ],
+      "pcb": [
+        104,
+        146,
+        0
+      ],
+      "lcsc": "",
+      "mpn": "",
+      "manufacturer": "",
+      "notes": "Mechanical; M2.5 non-plated mounting hole.",
+      "uuid": "268085c0-820e-5789-ba7b-47ba39ac8358"
+    },
+    {
+      "ref": "H4",
+      "value": "M2.5 NPTH",
+      "symbol": "Mechanical:MountingHole",
+      "footprint": "MountingHole:MountingHole_2.7mm_M2.5",
+      "nets": {},
+      "sch": [
+        383.53999999999996,
+        247.65,
+        0
+      ],
+      "pcb": [
+        156,
+        146,
+        0
+      ],
+      "lcsc": "",
+      "mpn": "",
+      "manufacturer": "",
+      "notes": "Mechanical; M2.5 non-plated mounting hole.",
+      "uuid": "ddcf162f-223f-5dab-ab60-42c88084d39d"
+    },
+    {
+      "ref": "FID1",
+      "value": "1mm FIDUCIAL",
+      "symbol": "Mechanical:Fiducial",
+      "footprint": "Fiducial:Fiducial_1mm_Mask2mm",
+      "nets": {},
+      "sch": [
+        43.18,
+        279.4,
+        0
+      ],
+      "pcb": [
+        104,
+        134,
+        0
+      ],
+      "lcsc": "",
+      "mpn": "",
+      "manufacturer": "",
+      "notes": "Optical PCB fiducial, no fitted component.",
+      "uuid": "e58d5623-8cf9-552b-94da-e0eeb56ebdc0"
+    },
+    {
+      "ref": "FID2",
+      "value": "1mm FIDUCIAL",
+      "symbol": "Mechanical:Fiducial",
+      "footprint": "Fiducial:Fiducial_1mm_Mask2mm",
+      "nets": {},
+      "sch": [
+        81.28,
+        279.4,
+        0
+      ],
+      "pcb": [
+        156,
+        134,
+        0
+      ],
+      "lcsc": "",
+      "mpn": "",
+      "manufacturer": "",
+      "notes": "Optical PCB fiducial, no fitted component.",
+      "uuid": "5dc5704b-497d-56db-aa22-840063612d55"
+    },
+    {
+      "ref": "FID3",
+      "value": "1mm FIDUCIAL",
+      "symbol": "Mechanical:Fiducial",
+      "footprint": "Fiducial:Fiducial_1mm_Mask2mm",
+      "nets": {},
+      "sch": [
+        119.38,
+        279.4,
+        0
+      ],
+      "pcb": [
+        148,
+        146,
+        0
+      ],
+      "lcsc": "",
+      "mpn": "",
+      "manufacturer": "",
+      "notes": "Optical PCB fiducial, no fitted component.",
+      "uuid": "a8063457-5b8d-5795-bf58-6fd49ddf774f"
+    }
+  ]
+}

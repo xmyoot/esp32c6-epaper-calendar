@@ -1,0 +1,42 @@
+{
+  "query": "C26083",
+  "count": 1,
+  "total_matches": 1,
+  "components": [
+    {
+      "lcsc_code": "C26083",
+      "lcsc_id": 26083,
+      "mpn": "0402WGF1004TCE",
+      "manufacturer": "UNI-ROYAL",
+      "package": "-",
+      "description": "1M\u03a9 \u00b11% 62.5mW 0402 Thick Film Resistor",
+      "is_basic": false,
+      "stock": 997900,
+      "price_usd": 0.0024,
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C26083",
+      "attributes": {},
+      "prices": [
+        {
+          "min_qty": 100,
+          "price": 0.0024
+        },
+        {
+          "min_qty": 1000,
+          "price": 0.0019
+        },
+        {
+          "min_qty": 3000,
+          "price": 0.0016
+        },
+        {
+          "min_qty": 10000,
+          "price": 0.0015
+        },
+        {
+          "min_qty": 50000,
+          "price": 0.0011
+        }
+      ]
+    }
+  ]
+}

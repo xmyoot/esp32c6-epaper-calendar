@@ -1,0 +1,41 @@
+Reference,Value,Footprint,MPN,Manufacturer,LCSC,Assembly,Notes
+J1,XIAO LEFT / USB UP,Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical,SSW-107-01-G-S,Samtec,,Hand fit,"Hand solder; pin1=D0, USB toward top edge. Two rows spaced 15.24mm."
+J2,XIAO RIGHT / USB UP,Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical,SSW-107-01-G-S,Samtec,,Hand fit,"Hand solder; pin1=5V (unused), pin7=D7. Male headers fitted to XIAO separately."
+J3,GDEY075T7 / BOTTOM CONTACT,Connector_FFC-FPC:Hirose_FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal,FH12-24S-0.5SH(55),Hirose,C202112,SMT,24 contacts / 0.5mm / 0.3mm flex; pin4 NC despite reference alias VGL; pin5 VSHR independent of pin21.
+R1,0R / ISOLATE,Resistor_SMD:R_0805_2012Metric,0805W8F0000T5E,UNI-ROYAL,C17477,SMT,Remove for current measurement or isolated carrier testing.
+R2,33R,Resistor_SMD:R_0402_1005Metric,0402WGF330JTCE,UNI-ROYAL,C25105,SMT,
+R3,33R,Resistor_SMD:R_0402_1005Metric,0402WGF330JTCE,UNI-ROYAL,C25105,SMT,
+R4,100k,Resistor_SMD:R_0402_1005Metric,0402WGF1003TCE,UNI-ROYAL,C25741,SMT,
+R5,100k,Resistor_SMD:R_0402_1005Metric,0402WGF1003TCE,UNI-ROYAL,C25741,SMT,
+L1,10uH / 1.3A,Inductor_SMD:L_Bourns-SRN4018,SRN4018-100M,Bourns,C503307,SMT,"Isat 1.4A (30% drop), DCR <=180mR; reference specifies 1A."
+Q1,Si1308EDL,Package_TO_SOT_SMD:SOT-323_SC-70,SI1308EDL-T1-GE3,Vishay,C469327,SMT,1=G 2=S 3=D; 30V; 185mR max at Vgs=2.5V.
+R6,1M,Resistor_SMD:R_0402_1005Metric,0402WGF1004TCE,UNI-ROYAL,C26083,SMT,
+R7,0.47R / 0.5W,Resistor_SMD:R_1206_3216Metric,RL1206FR-7W0R47L,Yageo,C859932,SMT,Kelvin RESE takeoff at Q1 source; keep ground return local.
+D1,MBR0530,Diode_SMD:D_SOD-123,MBR0530,JSCJ,C77336,SMT,Cathode pad1; positive rectifier.
+D2,MBR0530,Diode_SMD:D_SOD-123,MBR0530,JSCJ,C77336,SMT,Cathode pad1 to GND; pump clamp.
+D3,MBR0530,Diode_SMD:D_SOD-123,MBR0530,JSCJ,C77336,SMT,Anode pad2 to PREVGL; cathode pad1 to PUMP.
+C1,4.7u / 50V,Capacitor_SMD:C_1206_3216Metric,CC1206KKX7R9BB475,Yageo,C132170,SMT,
+C2,4.7u / 50V,Capacitor_SMD:C_1206_3216Metric,CC1206KKX7R9BB475,Yageo,C132170,SMT,
+C3,10u / 50V,Capacitor_SMD:C_1210_3225Metric,GRM32ER71H106KA12L,Murata,C77102,SMT,
+C4,1u / 50V,Capacitor_SMD:C_0805_2012Metric,GRM21BR71H105KA12L,Murata,C77083,SMT,
+C5,1u / 50V,Capacitor_SMD:C_0805_2012Metric,GRM21BR71H105KA12L,Murata,C77083,SMT,
+C6,1u / 50V,Capacitor_SMD:C_0805_2012Metric,GRM21BR71H105KA12L,Murata,C77083,SMT,
+C7,10u / 50V,Capacitor_SMD:C_1210_3225Metric,GRM32ER71H106KA12L,Murata,C77102,SMT,
+C8,10u / 50V,Capacitor_SMD:C_1210_3225Metric,GRM32ER71H106KA12L,Murata,C77102,SMT,
+C9,10u / 50V,Capacitor_SMD:C_1210_3225Metric,GRM32ER71H106KA12L,Murata,C77102,SMT,
+C10,1u / 50V,Capacitor_SMD:C_0805_2012Metric,GRM21BR71H105KA12L,Murata,C77083,SMT,
+C11,100n / 16V,Capacitor_SMD:C_0402_1005Metric,CL05B104KO5NNNC,Samsung,C1525,SMT,
+C12,10u / 50V,Capacitor_SMD:C_1210_3225Metric,GRM32ER71H106KA12L,Murata,C77102,SMT,
+TP1,3V3_EPD,TestPoint:TestPoint_Pad_D1.0mm,,,,PCB feature,PCB test pad; no fitted component.
+TP2,GND,TestPoint:TestPoint_Pad_D1.0mm,,,,PCB feature,PCB test pad; no fitted component.
+TP3,PREVGH,TestPoint:TestPoint_Pad_D1.0mm,,,,PCB feature,PCB test pad; no fitted component.
+TP4,PREVGL,TestPoint:TestPoint_Pad_D1.0mm,,,,PCB feature,PCB test pad; no fitted component.
+TP5,EPD_BUSY_N,TestPoint:TestPoint_Pad_D1.0mm,,,,PCB feature,PCB test pad; no fitted component.
+TP6,EPD_RST_N,TestPoint:TestPoint_Pad_D1.0mm,,,,PCB feature,PCB test pad; no fitted component.
+H1,M2.5 NPTH,MountingHole:MountingHole_2.7mm_M2.5,,,,PCB feature,Mechanical; M2.5 non-plated mounting hole.
+H2,M2.5 NPTH,MountingHole:MountingHole_2.7mm_M2.5,,,,PCB feature,Mechanical; M2.5 non-plated mounting hole.
+H3,M2.5 NPTH,MountingHole:MountingHole_2.7mm_M2.5,,,,PCB feature,Mechanical; M2.5 non-plated mounting hole.
+H4,M2.5 NPTH,MountingHole:MountingHole_2.7mm_M2.5,,,,PCB feature,Mechanical; M2.5 non-plated mounting hole.
+FID1,1mm FIDUCIAL,Fiducial:Fiducial_1mm_Mask2mm,,,,PCB feature,"Optical PCB fiducial, no fitted component."
+FID2,1mm FIDUCIAL,Fiducial:Fiducial_1mm_Mask2mm,,,,PCB feature,"Optical PCB fiducial, no fitted component."
+FID3,1mm FIDUCIAL,Fiducial:Fiducial_1mm_Mask2mm,,,,PCB feature,"Optical PCB fiducial, no fitted component."

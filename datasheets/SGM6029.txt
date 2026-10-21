@@ -1,0 +1,1497 @@
+                                                                                                         SGM6029
+                                                                                       Ultra-Low Quiescent Current,
+                                                                                       Synchronous Buck Converter
+GENERAL DESCRIPTION                                                                     FEATURES
+The SGM6029 family is a low voltage, efficient and                                      ● 1.95V to 5.5V Input Voltage Range
+miniature synchronous Buck converter with ultra-low                                     ● 2.3μA (TYP) Quiescent Current
+quiescent      current.            Operating         at     high       switching        ● Selectable Switching Frequency of 4.0MHz or
+frequency (4.0MHz, TYP), miniature inductors and                                           1.5MHz
+capacitors can be used to achieve minimal solution size.                                ● 0.4V Internal Reference Voltage
+The rated load current is from 0.6A to 1A depending on                                  ● 0.6A to 1A Peak Output Current
+the input voltage and operating frequency. For high                                     ● 2% Output Voltage Regulation Accuracy Full
+light-load efficiency, the operating mode can smoothly                                     Temperature Range
+and automatically change between power-save mode                                        ● Programmable Light Load PSM or FPWM
+and PWM.                                                                                ● Simple Output Voltage Programming with
+                                                                                           Integrated R2D Converter
+The dual-role VSEL/MODE pin sets the output voltage
+                                                                                        ● 16 Selectable + 1 Fixed Output Voltage Levels:
+to one of the 16 preset values by sensing an external
+                                                                                          SGM6029A (4.0MHz): 0.4V to 0.775V
+resistor during startup using an integrated resistor to
+                                                                                          SGM6029B (4.0MHz): 0.8V to 1.55V
+digital (R2D) converter. After startup, this pin acts as
+                                                                                          SGM6029C (4.0MHz): 1.8V to 3.3V
+MODE input and applying a logic high on it will force the
+                                                                                          SGM6029D (1.5MHz): 0.4V to 0.775V
+device in the pulse width modulation (PWM) mode. This
+                                                                                          SGM6029E (1.5MHz): 0.8V to 1.55V
+will allow using the same part for a wide range of
+                                                                                        ● Enable Pin with Auto Pull-Down during Startup
+voltage rails in different applications and offer a better
+                                                                                        ● Miniature 0201 Optimized Pinout
+output accuracy compared to the conventional external
+                                                                                        ● Output Discharge Feature (When Disabled)
+feedback resistor divider. In the forced-PWM (FPWM),
+                                                                                        ● 100% Duty Cycle Operation Capability
+the device switches at 4.0MHz (A, B and C versions) or
+                                                                                        ● Available in a Green WLCSP-0.74×1.09-6B Package
+1.5MHz (D and E versions). High switching frequency
+reduces the output ripple, but at lighter loads, sacrifices
+the efficiency a little bit.
+                                                                                        APPLICATIONS
+The SGM6029 is available in a Green WLCSP-                                              Wearable Electronics
+0.74×1.09-6B package.                                                                   IoT Applications
+                                                                                        2 × 1.5V Battery Powered Applications
+                                                                                        Smart Phones
+
+TYPICAL APPLICATION
+             VIN                                             L1            VOUT              VIN                                     L1
+        1.95V to 5.5V                                     0.47μH       0.8V to 1.55V    1.95V to 5.5V                             0.47μH   1.2V fixed VOUT
+                                   VIN         SW                                                               VIN         SW
+                                    SGM6029B                                                                     SGM6029B
+                                               VOS                                                                          VOS
+                        CIN                                              COUT                           CIN                                   COUT
+                                                     PWM
+                        4.7μF              VSEL/                         10μF                           4.7μF           VSEL/                 10μF
+                                                            PFM
+                                           MODE                                                                         MODE
+                                   EN                                                                           EN
+                              ON                           RVSEL*                                          ON
+                        OFF              GND                                                        OFF               GND
+
+
+                                                          * 16 selectable VOUT
+
+                                                             Figure 1. Typical Application Circuits
+
+
+
+           SG Micro Corp                                                                                                              NOVEMBER 2022 – REV. A.1
+           www.sg-micro.com
+                                                                    Ultra-Low Quiescent Current,
+SGM6029                                                             Synchronous Buck Converter
+
+PACKAGE/ORDERING INFORMATION
+                                            SPECIFIED
+                        PACKAGE                                  ORDERING            PACKAGE         PACKING
+    MODEL                                 TEMPERATURE
+                       DESCRIPTION                                NUMBER             MARKING          OPTION
+                                             RANGE
+             (1)                                                                      XXXX
+ SGM6029A           WLCSP-0.74×1.09-6B     -40℃ to +85℃       SGM6029AYG/TR                     Tape and Reel, 3000
+                                                                                      SVQ
+                                                                                      XXXX
+ SGM6029B           WLCSP-0.74×1.09-6B     -40℃ to +85℃       SGM6029BYG/TR                     Tape and Reel, 3000
+                                                                                      SVR
+                                                                                      XXXX
+ SGM6029C           WLCSP-0.74×1.09-6B     -40℃ to +85℃       SGM6029CYG/TR                     Tape and Reel, 3000
+                                                                                      SVS
+             (1)                                                                      XXXX
+ SGM6029D           WLCSP-0.74×1.09-6B     -40℃ to +85℃       SGM6029DYG/TR                     Tape and Reel, 3000
+                                                                                       SVT
+             (1)                                                                      XXXX
+ SGM6029E           WLCSP-0.74×1.09-6B     -40℃ to +85℃       SGM6029EYG/TR                     Tape and Reel, 3000
+                                                                                      SVU
+
+NOTE: 1. Product Preview.
+
+MARKING INFORMATION
+NOTE: XXXX = Date Code, Trace Code and Vendor Code.
+ XXXX
+             Vendor Code
+             Trace Code
+             Date Code - Year
+
+Green (RoHS & HSF): SG Micro Corp defines "Green" to mean Pb-Free (RoHS compatible) and free of halogen substances. If
+you have additional comments or questions, please contact your SGMICRO representative directly.
+
+
+
+
+DEVICE DESCRIPTION
+                                                               Selectable
+                    Function                                                   IOUT      fSW    Soft-Start Output
+    Device                           Fixed VOUT (V)        Output Voltages
+                   VSEL/MODE                                                    (A)     (MHz)    tSS (µs) Discharge
+                                                               with RVSEL
+                                         0.7                 0.4V ~ 0.775V
+ SGM6029A          VSEL + MODE                                                  1        4.0       200         Yes
+                                  (VSEL/MODE = GND)          in 25mV steps
+                                         1.2                  0.8V ~ 1.55V
+ SGM6029B          VSEL + MODE                                                  1        4.0       200         Yes
+                                  (VSEL/MODE = GND)          in 50mV steps
+                                         1.8                   1.8V ~ 3.3V
+ SGM6029C          VSEL + MODE                                                  1        4.0       400         Yes
+                                  (VSEL/MODE = GND)         in 100mV steps
+                                         0.7                 0.4V ~ 0.775V
+ SGM6029D          VSEL + MODE                                                 0.6       1.5       200         Yes
+                                  (VSEL/MODE = GND)          in 25mV steps
+                                         1.2                  0.8V ~ 1.55V
+ SGM6029E          VSEL + MODE                                                 0.6       1.5       200         Yes
+                                  (VSEL/MODE = GND)          in 50mV steps
+
+
+
+
+         SG Micro Corp                                                                                   NOVEMBER 2022
+         www.sg-micro.com
+                                                                                                                      2
+                                                                                                        Ultra-Low Quiescent Current,
+SGM6029                                                                                                 Synchronous Buck Converter
+ABSOLUTE MAXIMUM RATINGS                                                                     RECOMMENDED OPERATING CONDITIONS
+VIN Voltage.......................................................... -0.3V to 6V            Input Voltage Range, VIN .................................. 1.95V to 5.5V
+SW Voltage ...............................................-0.3V to VIN + 0.3V                Output Current, IOUT (MAX)
+SW (AC), Less than 10ns, while Switching Voltage                                                SGM6029A/SGM6029B/SGM6029C, VIN ≥ 2.3V ............ 1A
+................................................................................ -1V to 8V      SGM6029A/SGM6029B/SGM6029C, VIN < 2.3V......... 0.7A
+EN, VSEL/MODE Voltages .......................-0.3V to VIN + 0.3V                               SGM6029D/SGM6029E .............................................. 0.6A
+VOS Voltage ........................................................ -0.3V to 5V             Effective Inductance, L
+Package Thermal Resistance                                                                      SGM6029A/B/C .................... 0.33µH to 1µH, 0.47µH (TYP)
+WLCSP-0.74×1.09-6B, θJA....................................... 214℃/W                           SGM6029D/SGM6029E ........0.7µH to 1.2µH, 1.0µH (TYP)
+Junction Temperature .................................................+150℃                  Effective Output Capacitance, COUT
+Storage Temperature Range ....................... -65℃ to +150℃                                 SGM6029A/SGM6029B/SGM6029C ............... 5µF to 10µF
+Lead Temperature (Soldering, 10s) ............................+260℃                             SGM6029D/SGM6029E .................................. 5µF to 10µF
+ESD Susceptibility                                                                           Effective Input Capacitance, CIN ........... 2.2µF to 4.7µF (TYP)
+HBM ............................................................................. 4000V      External Parasitic Capacitance at VSEL/MODE Pin, CVSEL/MODE
+CDM ............................................................................ 1000V        ........................................................................... 30pF (MAX)
+                                                                                             Resistance Range for External Resistor at VSEL/MODE Pin
+OVERSTRESS CAUTION                                                                           (E96 1% Resistor Values), RVSEL .................... 10kΩ to 249kΩ
+Stresses beyond the limits listed in Absolute Maximum                                        External Resistor Tolerance E96 Series at VSEL/MODE Pin
+Ratings may cause permanent damage to the device.                                             .............................................................................. 1% (MAX)
+Exposure to absolute maximum rating conditions for extended                                  E96 Resistor Series Temperature Coefficient (TC)
+periods may affect device reliability. Functional operation of                                ...................................................-200ppm/℃ to +200ppm/℃
+the device at any conditions beyond those indicated in the                                   Operating Junction Temperature Range ..... -40℃ to +125℃
+Recommended Operating Conditions section is not implied.
+
+ESD SENSITIVITY CAUTION
+This integrated circuit can be damaged if ESD protections are
+not considered carefully. SGMICRO recommends that all
+integrated circuits be handled with appropriate precautions.
+Failure to observe proper handling and installation procedures
+can cause damage. ESD damage can range from subtle
+performance degradation to complete device failure. Precision
+integrated circuits may be more susceptible to damage
+because even small parametric changes could cause the
+device not to meet the published specifications.
+
+DISCLAIMER
+SG Micro Corp reserves the right to make any change in
+circuit design, or specifications without prior notice.
+
+
+
+
+               SG Micro Corp                                                                                                                                 NOVEMBER 2022
+               www.sg-micro.com
+                                                                                                                                                                                   3
+                                                                               Ultra-Low Quiescent Current,
+SGM6029                                                                        Synchronous Buck Converter
+
+PIN CONFIGURATION
+                                                            (TOP VIEW)
+                                                              1         2
+
+
+                                                      A     GND       VOS
+
+
+
+
+                                                      B      VIN       SW
+
+
+
+                                                           VSEL/
+                                                      C                EN
+                                                           MODE
+
+
+                                                      WLCSP-0.74×1.09-6B
+
+
+
+
+PIN DESCRIPTION
+   PIN         NAME           I/O                                               DESCRIPTION
+
+    A1          GND            G     Ground Pin. Connect the CIN and COUT ground terminals close to this pin.
+
+                                     Output Voltage Sense Input. This pin is internally connected to the feedback loop and a MOSFET to
+    A2          VOS            I     discharge the output (VOUT) when the device is disabled. Connect it with a short trace to the output
+                                     capacitor.
+
+    B1          VIN            P     Power Supply Input. Connect a ceramic capacitor (CIN) close to this pin and GND.
+
+    B2          SW             O     Switching Node Output. Connect it to the filter inductor.
+
+                                     Connect an accurate resistor between this pin and GND to select one of the 16 preset output voltage
+                                     values. An R2D converter is only enabled during startup to read this resistor. After startup, this pin
+    C1      VSEL/MODE          I
+                                     acts as MODE input. A logic high sets the device in the FPWM mode and a logic low selects the
+                                     power-save mode operation.
+                                     Active High Enable Input. Apply a logic high voltage to enable the device or a logic low to disable it.
+                                     During the initial phase of startup, an internal 570kΩ pull-down resistor is temporarily connected to
+    C2           EN            I
+                                     the EN input. The pull-down resistor is removed after all internal circuits are powered up and
+                                     functional.
+
+NOTE: I = input, O = output, P = power, G = ground.
+
+
+
+
+         SG Micro Corp                                                                                                    NOVEMBER 2022
+         www.sg-micro.com
+                                                                                                                                           4
+                                                                                   Ultra-Low Quiescent Current,
+SGM6029                                                                            Synchronous Buck Converter
+
+ELECTRICAL CHARACTERISTICS
+(VIN = 3.6V, TJ = +-40℃ to +125℃, typical values are at TJ = +25℃, unless otherwise noted.)
+             PARAMETER                     SYMBOL                     CONDITIONS                     MIN    TYP    MAX     UNITS
+Power Supplies
+Input Voltage Range                          VIN                                                     1.95           5.5     V
+                                                      VEN = VIN, IOUT = 0µA, VOUT = 1.2V,
+                                                                                                            2.3     5.5
+                                                      device not switching
+Quiescent Current (Power-Save Mode)                                                                                         µA
+                                                      VEN = VIN, IOUT = 0µA, VOUT = 1.2V,
+                                                                                                            2.8
+                                              IQ      device switching
+                                                      VEN = VIN, IOUT = 0mA, VOUT = 1.2V,
+Quiescent Current (PWM Mode)                          VSEL/MODE = VIN (after power-up),                     8.5             mA
+                                                      device switching
+                                                      EN = GND, shutdown current into VIN,
+Shutdown Current                              ISD                                                           120    250      nA
+                                                      VSEL/MODE = GND, TJ = -40℃ to +85℃
+Under-Voltage Lockout Threshold             VUVLO     VIN rising                                            1.76   1.95     V
+Input EN
+High Level Input Voltage                     VIH                                                     0.85                   V
+Low Level Input Voltage                       VIL                                                                  0.40     V
+Input Bias Current                            IIN     EN = high, TJ = -40℃ to +85℃                          10     100      nA
+Internal Pull-Down Resistance                RPD      EN = low                                              570             kΩ
+Input VSEL/MODE
+High Level Input Voltage (Digital Input)     VIH                                                     0.89                   V
+Low Level Input Voltage (Digital Input)       VIL                                                                  0.40     V
+Input Bias Current                            IIN     EN = high                                             10     130      nA
+Power Switches
+Leakage Current into SW Pin                 ILKG_SW   VSW = 1.2V, TJ = -40℃ to +85℃                          1      50      nA
+High-side MOSFET On-Resistance                        IOUT = 100mA                                          185    310
+                                            RDSON                                                                           mΩ
+Low-side MOSFET On-Resistance                         IOUT = 100mA                                          125    230
+High-side MOSFET Switch Current Limit                 TJ = +25℃                                      1.58   1.78   1.98
+                                             ILIMF                                                                          A
+Low-side MOSFET Switch Current Limit                  TJ = +25℃                                      0.90   1.20   1.50
+                                                      EN = GND, ISW = -10mA into SW pin,
+MOSFET On-Resistance                       RDSCH_SW                                                          4      11      Ω
+                                                      TJ = -40℃ to +85℃
+                                                      EN = VIN, VOUT = 1.2V (internal 7MΩ resistor
+Bias Current into VOS Pin                   IIN_VOS                                                         250    450      nA
+                                                      divider), TJ = -40℃ to +85℃
+Thermal Protection
+Thermal Shutdown Temperature                 TSD      Rising junction temperature, PWM mode                 160             ℃
+Thermal Shutdown Hysteresis                  THYS                                                           20              ℃
+Output
+                                                      SGM6029A/SGM6029D, 25mV steps                  0.4           0.775
+Output Voltage Range                         VOUT     SGM6029B/SGM6029E, 50mV steps                  0.8           1.55     V
+                                                      SGM6029C, 100mV steps                          1.8            3.3
+                                                      Power-Save mode                                       0.5
+Output Voltage Accuracy                                                                                                     %
+                                                      PWM mode, IOUT = 0mA                            -2     0      2
+
+
+
+
+           SG Micro Corp                                                                                           NOVEMBER 2022
+           www.sg-micro.com
+                                                                                                                                   5
+                                                                                      Ultra-Low Quiescent Current,
+SGM6029                                                                               Synchronous Buck Converter
+
+ELECTRICAL CHARACTERISTICS (continued)
+(VIN = 3.6V, TJ = +-40℃ to +125℃, typical values are at TJ = +25℃, unless otherwise noted.)
+             PARAMETER                    SYMBOL                         CONDITIONS                      MIN       TYP       MAX    UNITS
+                                                           SGM6029A/SGM6029B/SGM6029C                                   4
+Switching Frequency                           fSW                                                                                   MHz
+                                                           SGM6029D/SGM6029E                                        1.5
+                                                           Delay from EN low to high transition until
+Regulator Startup Delay Time              tSTARTUP_DELAY                                                            700      1170       µs
+                                                           device starts switching, VSEL = 16
+                                                           SGM6029A/SGM6029B/SGM6029D/SGM6029E,
+                                                                                                                    200      500
+                                                           VOUT rising from 0V to 0.95% × VOUT nominal
+Soft-Start Time                                 tSS                                                                                     µs
+                                                           SGM6029C,
+                                                                                                                    410      785
+                                                           VOUT rising from 0V to 0.95% × VOUT nominal
+
+
+
+
+OUTPUT VOLTAGE SETTING
+Table 1. Selecting the Programming Resistor (RVSEL) for Output Voltage Setting (VSEL/MODE Pin)
+                               Output Voltage Setting VOUT (V)
+  VSEL            SGM6029A/           SGM6029B/                                            RVSEL Resistance (E96, 1%, TC ≤ ±200ppm/℃)
+                                                                   SGM6029C
+                  SGM6029D            SGM6029E
+    0               0.700                 1.2                          1.8                                Short to GND
+    1               0.400                 0.8                          1.8                                     10.0kΩ
+    2               0.425                 0.85                         1.9                                     12.1kΩ
+    3               0.450                 0.9                          2.0                                     15.4kΩ
+    4               0.475                 0.95                         2.1                                     18.7kΩ
+    5               0.500                 1.0                          2.2                                     23.7kΩ
+    6               0.525                 1.05                         2.3                                     28.7kΩ
+    7               0.550                 1.1                          2.4                                     36.5kΩ
+    8               0.575                 1.15                         2.5                                     44.2kΩ
+    9               0.600                 1.2                          2.6                                     56.2kΩ
+   10               0.625                 1.25                         2.7                                     68.1kΩ
+   11               0.650                 1.3                          2.8                                     86.6kΩ
+   12               0.675                 1.35                         2.9                                   105.0kΩ
+   13               0.700                 1.4                          3.0                                   133.0kΩ
+   14               0.725                 1.45                         3.1                                   162.0kΩ
+   15               0.750                 1.5                          3.2                                   205.0kΩ
+   16               0.775                 1.55                         3.3                               249.0kΩ or larger
+
+
+
+
+          SG Micro Corp                                                                                                      NOVEMBER 2022
+          www.sg-micro.com
+                                                                                                                                             6
+                                                                                               Ultra-Low Quiescent Current,
+SGM6029                                                                                        Synchronous Buck Converter
+
+TYPICAL PERFORMANCE CHARACTERISTICS
+TA = +25℃, L = 0.47μH for SGM6029A/SGM6029B/SGM6029C, L = 1μH for SGM6029D/SGM6029E, unless otherwise noted.
+
+                         SGM6029B PSM Efficiency vs. Load Current                                   SGM6029B PSM Efficiency vs. Load Current
+                  90                                                                         90
+                        VOUT = 0.8V                                                                VOUT = 1.2V
+                  85                                                                         85
+
+                  80                                                                         80
+
+
+
+
+ Efficiency (%)                                                             Efficiency (%)
+                  75                                                                         75
+
+                  70                                                                         70
+                                                           VIN = 2.5V                                                                 VIN = 2.5V
+                  65                                       VIN = 3.3V                        65                                       VIN = 3.3V
+                                                           VIN = 3.7V                                                                 VIN = 3.7V
+                  60                                       VIN = 4.3V                        60                                       VIN = 4.3V
+                                                           VIN = 4.7V                                                                 VIN = 4.7V
+                  55                                       VIN = 5.1V                        55                                       VIN = 5.1V
+                                                           VIN = 5.5V                                                                 VIN = 5.5V
+                  50                                                                         50
+                   0.001              0.01           0.1                1                     0.001              0.01           0.1                1
+                                       Load Current (A)                                                           Load Current (A)
+
+                         SGM6029B PSM Efficiency vs. Load Current                                  SGM6029B PWM Efficiency vs. Load Current
+                  90                                                                          90
+                        VOUT = 1.5V                                                                VOUT = 1.2V
+                  85                                                                          80
+
+                  80                                                                          70
+                                                                                              60
+
+
+ Efficiency (%)                                                             Efficiency (%)
+                  75
+                                                                                              50
+                  70
+                                                           VIN = 2.5V                         40
+                  65                                       VIN = 3.3V
+                                                           VIN = 3.7V                         30                                      VIN = 2.5V
+                  60                                       VIN = 4.3V                         20                                      VIN = 3.3V
+                                                           VIN = 4.7V                                                                 VIN = 3.6V
+                  55                                       VIN = 5.1V                         10                                      VIN = 4.2V
+                                                           VIN = 5.5V                                                                 VIN = 5V
+                  50                                                                          0
+                   0.001              0.01           0.1                1                     0.001              0.01           0.1                1
+                                       Load Current (A)                                                           Load Current (A)
+
+                         SGM6029C PSM Efficiency vs. Load Current                                   SGM6029C PSM Efficiency vs. Load Current
+                  100                                                                        100
+                        VOUT = 1.8V                                                                VOUT = 2.5V
+                  95                                                                         95
+
+                  90                                                                         90
+
+
+
+
+ Efficiency (%)                                                             Efficiency (%)
+                  85                                                                         85
+
+                  80                                                                         80
+
+                  75                                                                         75
+                                                           VIN = 2.5V                                                                 VIN = 3V
+                  70                                       VIN = 3.3V                        70                                       VIN = 3.3V
+                                                           VIN = 3.6V                                                                 VIN = 3.6V
+                  65                                       VIN = 4.2V                        65                                       VIN = 4.2V
+                                                           VIN = 5V                                                                   VIN = 5V
+                  60                                                                         60
+                   0.001              0.01           0.1                1                     0.001              0.01           0.1                1
+                                       Load Current (A)                                                           Load Current (A)
+
+
+
+
+                    SG Micro Corp                                                                                                        NOVEMBER 2022
+                    www.sg-micro.com
+                                                                                                                                                       7
+                                                                                                                        Ultra-Low Quiescent Current,
+SGM6029                                                                                                                 Synchronous Buck Converter
+
+TYPICAL PERFORMANCE CHARACTERISTICS (continued)
+TA = +25℃, L = 0.47μH for SGM6029A/SGM6029B/SGM6029C, L = 1μH for SGM6029D/SGM6029E, unless otherwise noted.
+
+                                     SGM6029C PSM Efficiency vs. Load Current                                                  SGM6029C PWM Efficiency vs. Load Current
+                           100                                                                                       100
+                                    VOUT = 3.3V                                                                               VOUT = 2.5V
+                            95                                                                                        90
+                                                                                                                      80
+                            90
+                                                                                                                      70
+
+
+
+ Efficiency (%)                                                                             Efficiency (%)
+                            85                                                                                        60
+                            80                                                                                        50
+
+                            75                                                                                        40
+                                                                                                                      30                                             VIN = 3V
+                            70                                             VIN = 3.6V                                                                                VIN = 3.3V
+                                                                           VIN = 3.8V                                 20                                             VIN = 3.6V
+                            65                                             VIN = 4.2V                                 10                                             VIN = 4.2V
+                                                                           VIN = 5V                                                                                  VIN = 5V
+                            60                                                                                         0
+                             0.001                    0.01           0.1                1                              0.001                    0.01           0.1                1
+                                                       Load Current (A)                                                                          Load Current (A)
+
+                                   SGM6029C PSM Output Voltage vs. Load Current                                             SGM6029C PWM Output Voltage vs. Load Current
+                          1.817                                                                                     1.817
+                                    VOUT = 1.8V                            VIN = 2.5V                                         VOUT = 1.8V                            VIN = 2.5V
+                          1.812                                            VIN = 3.3V                               1.812                                            VIN = 3.3V
+                                                                           VIN = 3.6V                                                                                VIN = 3.6V
+                          1.807                                            VIN = 4.2V                               1.807                                            VIN = 4.2V
+                                                                           VIN = 5V                                                                                  VIN = 5V
+
+
+
+
+ Output Voltage (V)                                                                         Output Voltage (V)
+                          1.802                                                                                     1.802
+
+                          1.797                                                                                     1.797
+
+                          1.792                                                                                     1.792
+
+                          1.787                                                                                     1.787
+
+                          1.782                                                                                     1.782
+                                  0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0                                               0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0
+                                                       Load Current (A)                                                                          Load Current (A)
+
+                                         Quiescent Current vs. Temperature                                                         Shutdown Current vs. Temperature
+                           4.0                                                                                       450
+                                    VIN = 3.6V                                                                                VIN = 3.6V
+                           3.5                                                                                       400
+
+                           3.0                                                                                       350
+                                                                                                                     300
+
+
+
+
+ Quiescent Current (µA)                                                                     Shutdown Current (nA)
+                           2.5
+                                                                                                                     250
+                           2.0
+                                                                                                                     200
+                           1.5
+                                                                                                                     150
+                           1.0                                                                                       100
+                           0.5                                                                                        50
+                           0.0                                                                                         0
+                                  -40 -25 -10     5     20 35 50 65 80 95 110 125                                           -40 -25 -10     5     20 35 50 65 80 95 110 125
+                                                       Temperature (℃)                                                                           Temperature (℃)
+
+
+
+
+                              SG Micro Corp                                                                                                                             NOVEMBER 2022
+                              www.sg-micro.com
+                                                                                                                                                                                      8
+                                                                                      Ultra-Low Quiescent Current,
+SGM6029                                                                               Synchronous Buck Converter
+
+TYPICAL PERFORMANCE CHARACTERISTICS (continued)
+TA = +25℃, L = 0.47μH for SGM6029A/SGM6029B/SGM6029C, L = 1μH for SGM6029D/SGM6029E, unless otherwise noted.
+
+                      High-side MOSFET On-Resistance vs. Temperature                      Low-side MOSFET On-Resistance vs. Temperature
+                300                                                                 200
+                        VIN = 3.6V                                                          VIN = 3.6V
+                                                                                    180
+                250
+                                                                                    160
+                                                                                    140
+                200
+                                                                                    120
+
+ RDSON (mΩ)                                                            RDSON (mΩ)
+                150                                                                 100
+                                                                                    80
+                100
+                                                                                    60
+                                                                                    40
+                50
+                                                                                    20
+                 0                                                                   0
+                      -40 -25 -10    5   20 35 50 65 80 95 110 125                        -40 -25 -10    5   20 35 50 65 80 95 110 125
+                                         Temperature (℃)                                                     Temperature (℃)
+
+                          MOSFET On-Resistance vs. Temperature
+                 9
+                        VIN = 3.6V
+                 8
+                 7
+                 6
+
+
+ RDSCH_SW (Ω)
+                 5
+                 4
+                 3
+                 2
+                 1
+                 0
+                      -40 -25 -10    5   20 35 50 65 80 95 110 125
+                                         Temperature (℃)
+
+
+
+
+                  SG Micro Corp                                                                                                NOVEMBER 2022
+                  www.sg-micro.com
+                                                                                                                                           9
+                                                                            Ultra-Low Quiescent Current,
+SGM6029                                                                     Synchronous Buck Converter
+
+TYPICAL PERFORMANCE CHARACTERISTICS (continued)
+TA = +25℃, L = 0.47μH for SGM6029A/SGM6029B/SGM6029C, L = 1μH for SGM6029D/SGM6029E, unless otherwise noted.
+
+                      SGM6029C Output Voltage Ripple                                    SGM6029C Output Voltage Ripple
+
+
+
+                                                          5V/div                                                                     5V/div
+      VSW                                                               VSW
+
+
+                AC Coupled, BW = 20MHz
+                                                                                  AC Coupled, BW = 20MHz
+
+
+                                                          10mV/div                                                                   10mV/div
+    VRIPPLE                                                           VRIPPLE
+
+
+
+
+         IL                                               200mA/div        IL                                                        200mA/div
+              VIN = 3.6V, VOUT = 1.8V, ILOAD = 5mA, PSM                         VIN = 3.6V, VOUT = 1.8V, ILOAD = 50mA, PSM
+
+
+                                 Time (10μs/div)                                                    Time (2μs/div)
+
+
+
+                      SGM6029C Output Voltage Ripple                                    SGM6029C Output Voltage Ripple
+
+
+
+                                                                                                                                     5V/div
+                                                          5V/div
+      VSW                                                               VSW
+
+
+
+
+                                                                                                                                     10mV/div 200mA/div
+                                                                                   AC Coupled, BW = 20MHz
+
+                                                                      VRIPPLE
+
+                                                          10mV/div
+                AC Coupled, BW = 20MHz
+    VRIPPLE
+
+                                                                           IL
+
+
+                                                          200mA/div
+         IL
+
+              VIN = 3.6V, VOUT = 1.8V, ILOAD = 0A, PWM                          VIN = 3.6V, VOUT = 1.8V, ILOAD = 500mA, PWM/PSM
+
+
+                                  Time (1μs/div)                                                    Time (1μs/div)
+
+
+
+                          SGM6029C Load Transition                                          SGM6029C Load Transition
+
+
+
+      VSW                                                 5V/div        VSW                                                          5V/div
+
+                     AC Coupled, BW = 20MHz                                        AC Coupled, BW = 20MHz
+
+
+                                                          20mV/div                                                                   20mV/div
+    VRIPPLE                                                           VRIPPLE
+
+
+
+
+      ILOAD                  VIN = 3.6V, VOUT = 1.8V,     50mA/div      ILOAD                  VIN = 3.6V, VOUT = 1.8V,              25mA/div
+                             ILOAD = 0mA to 100mA, PSM                                         ILOAD = 0mA to 50mA, PSM
+
+
+                                 Time (25μs/div)                                                   Time (25μs/div)
+
+
+
+
+          SG Micro Corp                                                                                                      NOVEMBER 2022
+          www.sg-micro.com
+                                                                                                                                                          10
+                                                                                                    Ultra-Low Quiescent Current,
+SGM6029                                                                                             Synchronous Buck Converter
+
+TYPICAL PERFORMANCE CHARACTERISTICS (continued)
+TA = +25℃, L = 0.47μH for SGM6029A/SGM6029B/SGM6029C, L = 1μH for SGM6029D/SGM6029E, unless otherwise noted.
+
+                          SGM6029C Load Transition                                                                    SGM6029C Load Sweep
+
+
+
+      VSW                                                           5V/div                      VSW                                                               5V/div
+
+
+
+
+                                                                    20mV/div                                                                                      20mV/div
+               AC Coupled, BW = 20MHz                                                                        AC Coupled, BW = 20MHz
+    VRIPPLE                                                                                   VRIPPLE
+
+
+
+
+      ILOAD                                                         200mA/div                   ILOAD                                                             500mA/div
+               VIN = 3.6V, VOUT = 1.8V, ILOAD = 1mA to 500mA, PWM                                       VIN = 3.6V, VOUT = 1.8V, ILOAD = 0mA to 1000mA, PSM/PWM
+
+
+                                  Time (50μs/div)                                                                           Time (5ms/div)
+
+
+
+                          SGM6029C Line Transition                                                                   SGM6029C Line Transition
+
+
+
+
+                                                                    50mV/div 5V/div                                                                               50mV/div 5V/div
+                AC Coupled, BW = 20MHz                                                                    AC Coupled, BW = 20MHz
+    VRIPPLE                                                                                   VRIPPLE
+
+                                                                                                VSW
+      VSW
+
+
+
+                                                                                                                                                                  2V/div
+
+
+
+                                                                    2V/div 50mV/div
+       VIN                                                                                       VIN
+
+
+
+
+                                                                                                                                                                  50mV/div
+         IL                                                                                        IL
+              VIN = 3.2V to 4.2V, VOUT = 1.8V, ILOAD = 500mA, PSM                                       VIN = 3.2V to 4.2V, VOUT = 2.5V, ILOAD = 5mA, PSM
+
+                                 Time (100μs/div)                                                                          Time (100μs/div)
+
+
+
+                        SGM6029C Startup Delay Time                                                               SGM6029C Startup Delay Time
+
+
+
+                                                                    2V/div                                                                                        2V/div
+      VOUT                                                                                      VOUT
+
+
+
+
+                                                                    500mV/div 1V/div 5V/div                                                                       20mV/div 1V/div 5V/div
+      VSEL                                                                                      VSEL
+
+
+       VEN                                                                                       VEN
+
+      VSW                                                                                       VSW
+              VSEL = 0, ILOAD = 0mA                                                                     VSEL = 1, ILOAD = 0mA
+
+
+                                 Time (150μs/div)                                                                          Time (150μs/div)
+
+
+
+
+          SG Micro Corp                                                                                                                                NOVEMBER 2022
+          www.sg-micro.com
+                                                                                                                                                                                           11
+                                                                                        Ultra-Low Quiescent Current,
+SGM6029                                                                                 Synchronous Buck Converter
+
+TYPICAL PERFORMANCE CHARACTERISTICS (continued)
+TA = +25℃, L = 0.47μH for SGM6029A/SGM6029B/SGM6029C, L = 1μH for SGM6029D/SGM6029E, unless otherwise noted.
+
+                        SGM6029C Startup Delay Time                                                   SGM6029C Startup Delay Time
+
+
+
+
+                                                           2V/div                                                                         2V/div
+     VOUT                                                                            VOUT
+
+
+
+
+                                                           50mV/div 1V/div 5V/div                                                         200mV/div 1V/div 5V/div
+      VSEL                                                                           VSEL
+
+
+      VEN                                                                            VEN
+
+      VSW                                                                            VSW
+              VSEL = 8, ILOAD = 0mA                                                         VSEL = 16, ILOAD = 0mA
+
+
+                                 Time (150μs/div)                                                              Time (150μs/div)
+
+
+
+                         SGM6029C Output Discharge
+
+
+
+
+                                                           5V/div 500mA/div 2V/div
+      VSW
+
+        IIN
+      VEN
+
+     VOUT
+
+
+
+
+                                                           1V/div
+               VIN = 3.6V, VOUT = 3.3V, ILOAD = 0mA, PSM
+
+
+                                  Time (50μs/div)
+
+
+
+
+          SG Micro Corp                                                                                                           NOVEMBER 2022
+          www.sg-micro.com
+                                                                                                                                                                    12
+                                                                               Ultra-Low Quiescent Current,
+SGM6029                                                                        Synchronous Buck Converter
+
+FUNCTIONAL BLOCK DIAGRAM
+                                                                                                       VIN
+
+   ON                                                                         HS Current
+        EN                                                                      Limit
+                     EN and           Digital Control                                                                        CIN
+ OFF
+                    VIN UVLO          Mode control
+                                                                                                       SW    L
+                                        On-Timer                 PWM and
+                    Pulldown                                                      Gate
+                                                                PFM Control
+                     Control                                                      Drive
+                                       100% Duty
+                                                                                                                             COUT
+               570kΩ                    Protection
+
+
+                                                                              LS Current
+                                      OTP      HS & LS                           Limit
+                                              Current Limit
+
+                               VOUT                           COT                   Discharge
+                    R2D                Feedback
+VSEL/MODE                                                   Comparator               Control
+                  Converter             Network
+                                                      VFB       +                                 4Ω
+                                        VFB
+                                                     Soft-      +                   EN UVLO
+                   PSM or
+                                                     Start      -
+                   FPWM
+                  Operation                          VREF
+                                                                                                       VOS
+                                                                                           VOUT
+
+
+                                  GND
+
+
+                                                   Figure 2. Block Diagram
+
+
+
+
+        SG Micro Corp                                                                                            NOVEMBER 2022
+        www.sg-micro.com
+                                                                                                                            13
+                                                                    Ultra-Low Quiescent Current,
+SGM6029                                                             Synchronous Buck Converter
+
+DETAILED DESCRIPTION
+Overview                                                     Enable Control and Shutdown Mode (EN
+The SGM6029 family is a low quiescent current and            Pin)
+high frequency synchronous Buck converter. It offers         A logic low on the EN input will disable (shut down) the
+high efficiency over a wide load range including very        device and a high logic turns it on. To avoid problems
+low output currents in the power-save mode. It can be        caused by insufficient EN pull-down or floating during
+set to forced-PWM mode or automatic power-save               startup, such as weak pull-down at low voltage startup
+mode/PWM mode. It features seamless and automatic            conditions, an internal 570kΩ resistor pulls this pin to
+transitions between power-save mode and PWM mode             GND during startup. This pull-down resistor is removed
+based on the inductor current continuity (CCM or DCM).       when the internal circuit and the reference have been
+The controllers have combined benefits of the                powered up and stabilized. If the EN pin goes low, the
+hysteretic and voltage mode control and provide very         SGM6029 is disabled and the internal pull-down
+low output ripple, outstanding DC and AC regulation          resistor will connect.
+and excellent transient response. Other than the
+accurate DC voltage feedback loop, the AC deviations
+                                                             Internal Soft-Start
+                                                             If VIN voltage is in the operating range, when the EN is
+of the output are also sensed by the VOS pin and are
+                                                             pulled high, the device is powered up and initialized
+fed back to a second loop that controls the ramp signal
+                                                             within the startup delay time (tSTARTUP_DELAY). Then the
+of the comparator in the modulator stage. This
+                                                             converter starts to switch and the output voltage ramps
+arrangement provides fixed operation frequency in
+                                                             up during the soft-start time (tSS) as shown in Figure 3.
+steady state but quickly changes the frequency upon a
+                                                             The tSTARTUP_DELAY duration depends on the selected
+dynamic load change for instant response. The
+                                                             output voltage (VSEL). It is the shortest when VSEL = 0
+controller is internally compensated and is stable with
+                                                             and the longest when VSEL = 16.
+low ESR output ceramic capacitors. These converters
+are perfect for the applications that require high
+efficiency at very light loads like small battery operated
+systems.
+                                                                   EN
+VIN Under-Voltage Lockout Protection                                           Device starts switching
+(UVLO)                                                                         and ramps VOUT
+To avoid device malfunctioning when the VIN voltage is
+                                                                  VOUT
+insufficient and for proper powering of the whole
+                                                                                 tSTARTUP_DELAY          tSS
+internal circuit, the input supply is constantly monitored
+to make sure it is above the under-voltage lockout                       Figure 3. SGM6029 Startup Timings
+(UVLO) threshold. When the device re-enters operation
+from UVLO status (VIN rising), it will act like being
+enabled. Every time the device is disabled and enabled,
+a startup sequence with VSEL R2D converter will
+occur.
+
+
+
+
+         SG Micro Corp                                                                                         NOVEMBER 2022
+         www.sg-micro.com
+                                                                                                                          14
+                                                                    Ultra-Low Quiescent Current,
+SGM6029                                                             Synchronous Buck Converter
+
+DETAILED DESCRIPTION (continued)
+The VSEL/MODE Pin                                           device is disabled, a resistor (4Ω, TYP) is connected
+VSEL/MODE is a dual-role pin. During startup, this pin      between the converter output and GND through the
+acts as VSEL input and senses the connected resistor        VOS pin as soon as the device is disabled. The output
+value for output voltage selection. After startup, it       voltage discharge feature is present only after enabling
+functions as MODE selection input to set the device         the device for the first time after the input supply is
+operating mode in the forced-PWM (high) or                  applied. It is not active if the device is disabled and then
+power-save mode (low). See the Device Comparison            power supply is applied. To keep this feature active, the
+Table and the VSEL resistor values (Table 1) for details.   supply voltage must remain above the UVLO falling
+                                                            threshold (VIN > VTH_UVLO-).
+Resistor to Digital (R2D) Converter and Selection of
+                                    the Output Voltage      Power-Save Mode Operation
+An external resistor (RVSEL) placed between the             The SGM6029 controller has power-save mode
+VSEL/MODE pin and GND determines the output                 operation capability. With power-save mode, the
+voltage. After enabling the device and when the internal    modulator can enter the pulse frequency modulation
+reference is stable, the resistor to digital (R2D)          (PFM) rather than the fixed-frequency PWM switching
+converter starts sensing the RVSEL before the               at light loads. One switching pulse is applied to the LC
+tSTARTUP_DELAY ends. A current is injected in the RVSEL     filter to charge the output capacitor and keep the output
+and an ADC reads the resulting voltage. Based on the        regulated and then the device enters a long sleep
+sensed voltage, one of the preset internal feedback         period while the output capacitor supplies the small
+resistor dividers is chosen to set the output voltage.      load current. During the sleep period between
+After completing R2D conversion, current injection is       successive pulses, almost all internal circuits of the
+stopped and no current flows out of the VSEL/MODE           SGM6029 are turned off to minimize the quiescent
+pin. The output voltage is selected and fixed once and      current. The length of the sleep period is longer when
+during startup only. Make sure there is no other            the load is lighter. A higher inductor peak-current
+external current leakage or capacitance (>30pF)             setting can also extend the off-time duration. For the
+present on this pin during VSEL detection or UVLO           SGM6029, the quiescent current can be reduced to the
+events to avoid wrong VOUT setting. Use the E96             ultra-low levels in the order of 2.3μA (TYP). Such low
+resistor values with maximum 1% tolerance and good          quiescent current levels are achieved by integrating
+thermal stability (TC < 200ppm/℃) to set the output         high impedance feedback divider inside the device,
+voltage as suggested in Table 1. Note that the RVSEL        using a very low power voltage reference and improved
+does not affect the output accuracy.                        power-save mode operation. The switching frequency
+                                                            is almost proportional to the load current in PFM mode.
+Shorting VSEL to GND sets the default output voltage        When the load is increased, the inductor current
+(SGM6029A/SGM6029D        =     0.7V,     SGM6029B/         becomes continuous (CCM mode) and the device
+SGM6029E = 1.2V, SGM6029C = 1.8V) and saves                 automatically enters the fixed-frequency PWM.
+more space by reducing one external resistor.
+                                                            The nominal PWM switching frequency for SGM6029A/
+         Power-Save Mode and Forced-PWM (FPWM)              SGM6029B/SGM6029C is fSW = 4.0MHz and for
+                            Operation Mode Selection        SGM6029D/SGM6029E is fSW = 1.5MHz. However, the
+After the power-up period, the VSEL/MODE pin acts as        exact frequency depends on VIN and VOUT. The change
+mode select input. A logic low applied to this input        between PFM and PWM occurs when the inductor
+selects the power-save mode and a logic high selects        current becomes marginally discontinued (valley
+FPWM operation. Changing the mode during operation          current reaches zero). Using a unified controller to
+(after completing VSEL function) is allowed.                manage PFM and PWM operations, this device can
+Output Voltage Discharge                                    seamlessly change mode with minimum output voltage
+To ensure that the output voltage drops to 0V in a          ripple due to the mode change.
+controlled manner and remains close to 0V while the
+
+
+
+
+         SG Micro Corp                                                                                  NOVEMBER 2022
+         www.sg-micro.com
+                                                                                                                     15
+                                                                    Ultra-Low Quiescent Current,
+SGM6029                                                             Synchronous Buck Converter
+
+DETAILED DESCRIPTION (continued)
+Forced-PWM Mode (FPWM) Operation                             and low-side MOSFET switch currents are monitored
+If the FPWM mode is selected (MODE = high), the              and limited in a cycle-by-cycle basis. If the high-side
+device runs at the fixed-frequency PWM in the entire         switch current exceeds its limit, it will be turned off and
+load range. The FPWM mode reduces the light load             the low-side switch will be turned on to decrease the
+efficiency due to the circulating currents, but the high     inductor current until it falls below the low-side current
+frequency interference is significantly reduced due to       limit. At this time the low-side switch will be turned off
+the wider soft switching range of the converter at light     and the high-side switch will be turned on again.
+loads and the relatively fixed-frequency spectrum of the
+                                                             Thermal Shutdown Protection
+noise.
+                                                             To protect the device from overheating damage,
+100% Duty Cycle Operation Mode                               thermal protection is included in the device. If the
+When the voltage of the input source, such as battery,       junction temperature (TJ) exceeds the thermal
+falls and its value is close to the output voltage, the      shutdown threshold (TSD = 160℃, TYP), both switches
+PWM duty cycle (D = VOUT/VIN) increases to near 100%.        will be turned off. When the die cools down and TJ falls
+Eventually the high-side switch remains continuously         below hysteresis window (20℃, TYP), the switching
+on to keep the output regulated. Even when the input         resumes automatically after a soft-start. There is no
+voltage falls below the output, the high-side switch is      R2D conversion after thermal shutdown and VOUT sets
+turned on to minimize the error.                             to the previous value. Also please note that there is no
+                                                             thermal protection in the power-save mode.
+Short Circuit and Switch Current Limit
+Protections
+To prevent damage to the SGM6029 or load when an
+output short circuit or over-current occurs, the high-side
+
+
+
+
+         SG Micro Corp                                                                                  NOVEMBER 2022
+         www.sg-micro.com
+                                                                                                                     16
+                                                                                       Ultra-Low Quiescent Current,
+SGM6029                                                                                Synchronous Buck Converter
+
+APPLICATION INFORMATION
+A few power supply design examples for some typical application with different input and output voltage
+requirements will be discussed in this section that can be used as reference. See Figure 4 and also other circuits
+provided in Figure 5 to Figure 10.
+
+Typical Application
+                                        VIN                                         L1             VOUT
+                                   1.95V to 5.5V                                 0.47μH        0.8V to 1.55V
+                                                              VIN         SW
+                                                               SGM6029B
+                                                                          VOS
+                                                   CIN                                           COUT
+                                                                                PWM
+                                                   4.7μF              VSEL/                      10μF
+                                                                                      PFM
+                                                                      MODE
+                                                              EN
+                                                         ON                       RVSEL*
+                                                   OFF              GND
+
+
+                                                                                 * 16 selectable VOUT
+
+
+                                         Figure 4. SGM6029B with Adjustable VOUT
+
+Design Requirements
+The components designed for this application are listed in Table 2.
+Table 2. Components for Application Characteristic Curves
+  Designed
+                  Description/Part Number           Value/Main Parameters                   Size (L × W × T) (mm3 MAX)              Manufacturer
+ Component
+     CIN           GRT155R61A475ME13D               4.7µF, X5R, 10V, ±20%                       0402 (1 × 0.5 × 0.5)                   Murata
+    COUT           GRM155R61A106ME44D               10µF, X5R, 10V, ±20%                        0402 (1 × 0.5 × 0.5)                   Murata
+                                                             0.47µH,
+                                                    54mΩ (DCRmax @20℃),
+                         Inductor
+     L1                                              2.6A (Imax, 40℃ rise),                    0603 (1.6 × 0.8 × 1.0)                  Murata
+                    DFE18SANR47MG0L
+                                                     3.3A (Isat, 30% L drop)
+                                                    ±20% (Initial Tolerance)
+
+
+Design Procedure                                                                                                          1-
+                                                                                                                            VOUT
+1. The VIN, VOUT and IOUT requirements must be known                                                                         VIN                   (1)
+                                                                                                               ΔI
+                                                                                                               = L VOUT ×
+to start the design.                                                                                                      L × fSW
+
+2. For each application, the design can be optimized for                    In steady state, the maximum inductor current can be
+efficiency, solution size or other factors.                                 calculated from Equation 2.
+                                                                                                                       ΔI          (2)
+3. Compare your design with solutions provided by                                                   = IL_MAX IOUT_MAX + L
+                                                                                                                        2
+SGMICRO.
+                                                                            Where, f is switching frequency, L is inductance value,
+                                     Inductor Selection                     ΔIL is the inductor peak-to-peak ripple current and IL_MAX
+The inductance of the output filter (L) determines the                      is the peak inductor current. The maximum current
+peak-to-peak ripple current and indirectly affects the                      should never reach the inductor saturation level. This
+converter efficiency and output voltage ripple. It also                     situation can happen after a large load step. A common
+determines the current at which the PWM-to-PFM                              conservative option is to choose an inductor with a
+transition occurs (CCM to DCM). The ripple current (ΔIL)                    saturation current equal to or higher than the high-side
+can be estimated from Equation 1. It shows that ΔIL                         switch current limit (ILIMF).
+decreases with larger inductance values and increases
+                                                                            Some of the inductor part numbers that satisfy these
+at higher voltage levels (VIN or VOUT).
+                                                                            conditions are listed in Table 3.
+
+
+
+
+           SG Micro Corp                                                                                                            NOVEMBER 2022
+           www.sg-micro.com
+                                                                                                                                                   17
+                                                                             Ultra-Low Quiescent Current,
+SGM6029                                                                      Synchronous Buck Converter
+
+APPLICATION INFORMATION (continued)
+Table 3. A List of Inductors Suitable for this Application
+   Inductance (µH)           Part Number/Series         Size Imperial (Metric)     Size (L × W × T) (mm3 MAX)            Manufacturer
+         0.47                DFE18SANR47ME0                  0603(1608)                   1.6 × 0.8 × 1.0                   Murata
+         0.47               DFE18SANR47MG0L                  0603(1608)                   1.6 × 0.8 × 1.0                   Murata
+         0.47                DFE201210U-R47M                 0805(2012)                   2.0 × 1.2 × 1.0                   Murata
+         1.0                 DFE201210U-1R0M                 0805(2012)                   2.0 × 1.2 × 1.1                   Murata
+         0.47               HTEK12100F-R47MSR                0504(1210)                   1.2 × 1.0 × 0.6                   Cyntec
+         0.47               HTEL1412FE-R47MSR                0505(1412)                   1.4 × 1.2 × 0.65                  Cyntec
+       0.47/1.0                 HTEL16080H                   0603(1608)                   1.6 × 0.8 × 0.8                   Cyntec
+         1.0                HTEG20120G-1R0MDR                0805(2012)                   2.0 × 1.2 × 0.7                   Cyntec
+       0.47/1.0                 HTEP20120H                   0805(2013)                   1.6 × 0.8 × 0.8                   Cyntec
+
+
+                                                                                                 Input Capacitor (CIN)
+A low ESR ceramic capacitor must be connected close to the VIN and GND pins to provide the pulsating input
+current of the converter and minimize switching noise and ringings. A 4.7μF ceramic capacitor is satisfactory for
+most applications, however, if a high impedance source such as a coin cell-battery is used, larger input capacitance
+(CIN ≥ 10μF) is preferred to prevent voltage drops during startup or load steps. There is no high limit for the input
+capacitance, however, note that the higher leakage current of a large input capacitor will increase the total quiescent
+current of the power supply.
+Some applicable input capacitors are listed in Table 4.
+Table 4. Some Potential Part Numbers for the Input Capacitor
+
+   Capacitance (μF)     Capacitor Part Number       Size Imperial (Metric)         Size (L × W × T) (mm3 MAX)            Manufacturer
+          10              GRM155R60J106ME                0402(1005)                       1.0 × 0.5 × 0.5                   Murata
+          10              GRM188R61A106M                 0603(1608)                       1.6 × 0.8 × 0.8                   Murata
+          10             GRM188B30J106ME47               0603(1609)                       1.6 × 0.8 × 0.9                   Murata
+
+
+                                Output Capacitor (COUT)           Table 5. Proper Output Capacitor and Inductor Combination
+Table 5 can be used to select the proper LC filter
+                                                                                 Device                         L1             COUT
+components for most design requirements. The
+inductor initial tolerance can be as high as -30% to +20%          SGM6029A/SGM6029B/SGM6029C               0.47µH/1µH        10µF
+of the nominal value and proper current derating is                       SGM6029D/SGM6029E                    1µH            10µF
+usually required. Bias voltage can cause significant
+capacitance drops in the ceramic capacitors. The
+effective deviation of a ceramic capacitor can be as
+high as -50% to +20% of the nominal value.
+L1 = 0.47µH or 1µH and COUT = 10µF are the
+recommended values for the typical application of
+SGM6029A/SGM6029B/SGM6029C. L1 = 1µH and
+COUT = 10µF are the recommended values for the
+typical application of SGM6029D/SGM6029E.
+
+
+
+
+         SG Micro Corp                                                                                               NOVEMBER 2022
+         www.sg-micro.com
+                                                                                                                                      18
+                                                                        Ultra-Low Quiescent Current,
+SGM6029                                                                 Synchronous Buck Converter
+
+APPLICATION INFORMATION (continued)
+
+                             VIN                                         L1             VOUT
+                        1.95V to 5.5V                                 0.47μH        0.8V to 1.55V
+                                                   VIN         SW
+                                                    SGM6029B
+                                                               VOS
+                                        CIN                                           COUT
+                                                                     PWM
+                                        4.7μF              VSEL/                      10μF
+                                                                           PFM
+                                                           MODE
+                                                   EN
+                                              ON                       RVSEL*
+                                        OFF              GND
+
+
+                                                                      * 16 selectable VOUT
+
+                        Figure 5. RVSEL Selectable VOUT (0.8V to 1.55V) with SGM6029B
+
+
+
+                            VIN                                          L1
+                       1.95V to 5.5V                                  0.47μH       1.2V fixed VOUT
+                                                   VIN         SW
+                                                    SGM6029B
+                                                               VOS
+                                        CIN                                           COUT
+                                        4.7μF              VSEL/                      10μF
+                                                           MODE
+                                                   EN
+                                              ON
+                                       OFF               GND
+
+
+
+
+                       Figure 6. Fixed 1.2V Output with SGM6029B (VSEL is Grounded)
+
+
+
+                             VIN                                         L1
+                         up to 5.5V                                   0.47μH        VOUT = 3.3V
+                                                   VIN          SW
+                                                     SGM6029C
+                                                               VOS
+                                        CIN                                            COUT
+                                                                      PWM
+                                        4.7μF              VSEL/                       10μF
+                                                                             PFM
+                                                           MODE
+                                                   EN                  RVSEL
+                                              ON
+                                        OFF                            249kΩ
+                                                         GND
+
+
+
+
+                           Figure 7. Adjustable Output Set to 3.3V with SGM6029C
+
+
+
+
+    SG Micro Corp                                                                                    NOVEMBER 2022
+    www.sg-micro.com
+                                                                                                                19
+                                                                      Ultra-Low Quiescent Current,
+SGM6029                                                               Synchronous Buck Converter
+
+APPLICATION INFORMATION (continued)
+
+                            VIN                                        L1
+                       1.95V to 5.5V                                0.47μH        1.8V fixed VOUT
+                                                  VIN          SW
+                                                    SGM6029C
+                                                              VOS
+                                       CIN                                           COUT
+                                       4.7μF              VSEL/                      10μF
+                                                          MODE
+                                                  EN
+                                             ON
+                                       OFF              GND
+
+
+
+
+                       Figure 8. Fixed 1.8V Output with SGM6029C (VSEL is Grounded)
+
+
+
+                                                                                       VOUT
+                            VIN                                      L1           0.4V to 0.775V
+                       1.95V to 5.5V                                1μH         IOUT up to 600mA
+                                                  VIN          SW
+                                                    SGM6029D
+                                                              VOS
+                                       CIN                                          COUT
+                                                                    PWM
+                                       4.7μF              VSEL/                     10μF
+                                                                          PFM
+                                                          MODE
+                                                  EN
+                                             ON                     RVSEL*
+                                       OFF              GND
+
+
+                                                                    * 16 selectable VOUT
+
+                       Figure 9. RVSEL Selectable VOUT (0.4V to 0.775V) with SGM6029D
+
+
+
+                            VIN                                      L1          0.7V fixed VOUT
+                       1.95V to 5.5V                                1μH         IOUT up to 600mA
+                                                  VIN         SW
+                                                   SGM6029D
+                                                              VOS
+                                       CIN                                          COUT
+                                       4.7μF              VSEL/                     10μF
+                                                          MODE
+                                                  EN
+                                             ON
+                                   OFF                  GND
+
+
+
+
+                       Figure 10. Fixed 0.7V Output with SGM6029D (VSEL Grounded)
+
+
+
+
+    SG Micro Corp                                                                                   NOVEMBER 2022
+    www.sg-micro.com
+                                                                                                               20
+                                                                                                                 Ultra-Low Quiescent Current,
+SGM6029                                                                                                          Synchronous Buck Converter
+
+APPLICATION INFORMATION (continued)
+Layout Guidelines
+A good printed-circuit-board (PCB) layout is a critical element of any high performance design. Follow the guidelines
+below for designing a good layout for the SGM6029.
+• Place the input capacitor close to the device with the shortest possible connection traces.
+• Share the same GND return point for the input and output capacitors and locate it as close as possible to the
+  device GND pin to minimize the AC current loops. Place the inductor close to the switching node and connect it
+  with a short trace to minimize the parasitic capacitances coupled to the SW node.
+• Keep the signal traces like the VOS sense line away from SW or other noisy sources.
+Refer to Figure 11 for a recommended PCB layout.
+                                                          VOUT                                           SW
+
+                                                                                             L
+
+
+
+
+                                                COUT
+                                                                                 VOS         SW           EN        2
+
+
+
+
+                                                                                                         VSEL/
+                                                                                 GND         VIN
+                                                                                                         MODE       1
+
+
+                                                                                 A            B           C
+
+
+
+
+                                                                                CIN                                     RVSEL
+                                                         GND                                 VIN                                   GND
+
+
+                                                                              Figure 11. PCB Layout
+
+
+
+
+REVISION HISTORY
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version.
+
+Changes from REV.A to REV.A.1                                                                                                                                                            Page
+Changed PACKAGE OUTLINE DEMENSIONS ................................................................................................................................................. 22
+
+
+Changes from Original (SEPTEMBER 2022) to REV.A                                                                                                                                          Page
+Changed from product preview to production data ............................................................................................................................................. All
+
+
+
+
+               SG Micro Corp                                                                                                                                             NOVEMBER 2022
+               www.sg-micro.com
+                                                                                                                                                                                              21
+                                                                                           PACKAGE INFORMATION
+
+PACKAGE OUTLINE DIMENSIONS
+WLCSP-0.74×1.09-6B
+
+                                                                                                                         0.19
+                                        D                                                                          6 × Φ 0.17
+                A1 CORNER
+
+
+
+
+                                                    E
+                                                                              0.35
+
+
+
+
+                                                                                                0.35
+
+
+                                  TOP VIEW                          RECOMMENDED LAND PATTERN (Unit: mm)
+
+                                                                                                                   6 × Φd
+                                                                                            2          1
+
+                                                                                                            A
+                                                           C                         e
+                                                                                                            B
+
+                      A
+                                                                  SEATING PLANE                             C
+                          A1
+                                            ccc C
+                                                                                                 e
+
+
+                                 SIDE VIEW                                               BOTTOM VIEW
+
+
+
+
+                                                                    Dimensions In Millimeters
+                               Symbol
+                                                          MIN                 MOD                          MAX
+                                  A                       0.362              0.400                         0.438
+                                 A1                       0.131              0.151                         0.171
+                                  D                       0.715              0.745                         0.775
+                                  E                       1.065              1.095                         1.125
+                                  d                       0.187              0.217                         0.247
+                                  e                                        0.350 BSC
+                                 ccc                                         0.050
+
+NOTE: This drawing is subject to change without notice.
+
+
+
+
+           SG Micro Corp                                                                                                        TX00255.002
+           www.sg-micro.com
+                                                                                            PACKAGE INFORMATION
+
+TAPE AND REEL INFORMATION
+
+        REEL DIMENSIONS
+
+                                                                                    TAPE DIMENSIONS
+
+                                                                             P2                  P0
+
+
+
+
+                                                            W
+                                                                       Q1    Q2             Q1        Q2            Q1        Q2
+                                                                                                                                         B0
+                                                                       Q3   Q4              Q3        Q4            Q3        Q4
+
+
+
+                 Reel Diameter
+
+
+
+
+                                                                                   P1                                    A0                     K0
+
+                                    Reel Width (W1)
+
+
+                                                                                          DIRECTION OF FEED
+
+
+
+NOTE: The picture is only for reference. Please make the object as the standard.
+
+
+KEY PARAMETER LIST OF TAPE AND REEL
+                                                  Reel Width
+                                   Reel                          A0          B0     K0       P0             P1     P2          W           Pin1
+      Package Type                                   W1
+                                 Diameter                       (mm)        (mm)   (mm)     (mm)           (mm)   (mm)        (mm)       Quadrant
+                                                    (mm)
+
+  WLCSP-0.74×1.09-6B                7″                9.5       0.81        1.21   0.50      4.0           4.0    2.0              8.0        Q1       DD0001
+
+
+
+
+          SG Micro Corp                                                                                                                  TX10000.000
+          www.sg-micro.com
+                                                                                   PACKAGE INFORMATION
+CARTON BOX DIMENSIONS
+
+
+
+
+NOTE: The picture is only for reference. Please make the object as the standard.
+
+
+
+
+KEY PARAMETER LIST OF CARTON BOX
+
+                             Length        Width          Height
+      Reel Type                                                        Pizza/Carton
+                              (mm)         (mm)           (mm)
+
+      7″ (Option)             368           227            224               8
+
+          7″                  442           410            224              18        DD0002
+
+
+
+
+          SG Micro Corp                                                                          TX20000.000
+          www.sg-micro.com
+
