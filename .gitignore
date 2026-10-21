@@ -25,3 +25,5 @@ firmware/EPDCalendar/secrets.h
 .bundle/
 # Arduino IDE can create a second nested build directory
 firmware/**/build/
+
+analysis/arduino-setup.log
