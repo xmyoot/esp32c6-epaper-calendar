@@ -9,7 +9,7 @@ A minimal USB-powered, socketed XIAO ESP32C6 carrier driving a bare Good Display
 ## Deliverables
 
 - [Editable KiCad project](hardware/EPD_C6_RevA.kicad_pro), [schematic](hardware/EPD_C6_RevA.kicad_sch), [PCB](hardware/EPD_C6_RevA.kicad_pcb); project-local symbols and footprint subset.
-- [Schematic PDF](docs/EPD_C6_RevA-schematic.pdf), [assembly PDF](docs/EPD_C6_RevA-assembly.pdf).
+- [Schematic PDF](docs/EPD_C6_RevA-schematic.pdf), [assembly PDF](docs/EPD_C6_RevA-assembly.pdf), [copper layout SVG](docs/EPD_C6_RevA-layout.svg).
 - [Fabrication ZIP](manufacturing/EPD_C6_RevA-fabrication.zip), [SMT BOM](manufacturing/BOM-JLCPCB.csv), [CPL](manufacturing/CPL-JLCPCB.csv), [manufacturing notes](manufacturing/README.md).
 - [Architecture](docs/ARCHITECTURE.md), [publication review](docs/PUBLICATION_REVIEW.md), [detailed engineering review](docs/DESIGN_REVIEW_R2.md), [assembly/bring-up](docs/BRING_UP.md), [portfolio explanation](docs/PORTFOLIO.md).
 - [Firmware](firmware/EPDCalendar/EPDCalendar.ino), [build instructions](firmware/README.md), [pinned versions](firmware/versions.txt). Defaults to a labeled offline calendar; optional Wi-Fi NTP.

@@ -9,6 +9,7 @@ This review supplements [the detailed R2 review](DESIGN_REVIEW_R2.md), whose pin
 ## Corrections made
 
 - The verification/export script now invokes both native ERC and DRC with `--exit-code-violations`. Previously those commands could return success after reporting violations, allowing exports to proceed. With `set -e`, the first failing check now stops the release sequence. The selected `KICAD_CLI` is exported so the subsequent exporter uses the same executable.
+- Gave the exported board-layout SVG an explicit `.svg` filename and linked it from the README so public viewers can recognize it.
 - Added the missing Python dependency declaration and replaced firmware instructions that depended on absent local tool binaries with pinned dependency/setup commands.
 - Added original-work licensing and the upstream KiCad library license/exception for redistributed library assets. Tool and AI assistance attribution are explicit.
 - Excluded supplied client screenshots and local credentials/tooling from publication. Public requirements remain transcribed in ARCHITECTURE.md. Updated the main README to link the latest reviews.
@@ -56,3 +57,7 @@ The R2 five-record deep-review evidence gate is retained as historical evidence;
 Portfolio wording: **“Designed, routed, and digitally checked; prototype hardware testing pending.”** Renderings are labeled as renderings. The public entry explains module tradeoffs, panel substitution, critical-copper routing, verification coverage, and outstanding measurements. It attributes AI assistance and automation.
 
 Sources: [Seeed RF-switch guidance](https://wiki.seeedstudio.com/xiao_esp32c6_getting_started/), [panel specification](https://www.laskakit.cz/user/related_files/gdey075t7.pdf), [Vishay MOSFET](https://www.vishay.com/docs/63399/si1308edl.pdf), and the cached Hirose drawing. See [ATTRIBUTION.md](ATTRIBUTION.md) for tool commits and reference provenance.
+
+## Publication validation
+
+The verification script was exercised with a simulated ERC process returning exit code 5; the release stopped after that first command, before DRC or export. Normal fresh ERC and release checks then passed again. The original fabrication hashes remain unchanged. The portfolio entry was built locally with Jekyll strict front matter, visually inspected, and checked for its homepage link, image asset and explicit untested-hardware status. GitHub Actions adds future release-consistency and pinned firmware builds; hosted runner results must be read independently from the local results above.

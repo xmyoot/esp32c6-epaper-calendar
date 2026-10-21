@@ -8,7 +8,7 @@ run('pcb','export','gerbers',hw,'--output',m/'gerbers','--layers','F.Cu,B.Cu,F.P
 run('pcb','export','drill',hw,'--output',m/'gerbers','--drill-origin','plot','--excellon-units','mm','--excellon-separate-th','--generate-report','--report-path',m/'drill-report.txt')
 run('sch','export','pdf',sch,'--output',P/'docs/EPD_C6_RevA-schematic.pdf')
 run('pcb','export','pdf',hw,'--output',P/'docs/EPD_C6_RevA-assembly.pdf','--layers','F.Fab,F.Silkscreen','--common-layers','Edge.Cuts','--mode-multipage','--black-and-white','--scale','0','--sketch-pads-on-fab-layers')
-run('pcb','export','svg',hw,'--output',P/'docs/board-svg','--layers','F.Cu,B.Cu,F.Silkscreen,Edge.Cuts')
+run('pcb','export','svg',hw,'--output',P/'docs/EPD_C6_RevA-layout.svg','--layers','F.Cu,B.Cu,F.Silkscreen,Edge.Cuts')
 parts=json.loads((P/'hardware/design.json').read_text())['parts'];groups=collections.defaultdict(list)
 for p in parts:
  if p['lcsc']:groups[(p['value'],p['footprint'].split(':')[1],p['lcsc'],p['mpn'],p['manufacturer'])].append(p['ref'])
